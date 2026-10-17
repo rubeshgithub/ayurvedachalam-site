@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" rx="0" fill="#143329"/>
+  <text x="200" y="196" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-weight="600" font-size="74" letter-spacing="-1" fill="#FFFFFF">Ayurveda</text>
+  <text x="200" y="246" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-weight="300" font-style="italic" font-size="50" fill="#F4E1D6">chalam</text>
+  <path d="M200 268c7 9.5 10.5 14.5 10.5 19.5a10.5 10.5 0 0 1-21 0c0-5 3.5-10 10.5-19.5z" fill="#E0A526"/>
+</svg>

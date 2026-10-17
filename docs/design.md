@@ -26,8 +26,13 @@ wallpaper, purple gradients, gold-on-black "luxury", or a medical clinic in blue
 ## 2. Brand basics
 
 - **Name in text:** Ayurvedachalam (one word, capital A only).
-- **Wordmark:** the name set in Fraunces, weight 500, neem green, with a small copper drop
-  after the final "m". No symbol needed for launch. A favicon uses the drop on a neem square.
+- **Wordmark (approved 2026-10-17, D-20):** one word, two voices. "Ayurveda" in Fraunces 600,
+  Neem; "chalam" in Fraunces 300 italic, Copper (Copper wash on dark grounds). No space, no
+  hyphen, no capital C: the DOM text is "Ayurvedachalam". Header 26px, mobile 22px, footer 26px.
+- **Mark:** a Fraunces "A" in white on a Neem rounded square with the copper drop at its foot
+  (`app/icon.svg`, `app/apple-icon.svg`). Social avatar: the stacked lock-up on Deep Neem
+  (`public/brand/avatar-social.svg`). Nothing new in the tokens; the italic axis is already in
+  the self-hosted Fraunces variable font.
 - **Descriptor line** (under the wordmark in the header and footer):
   "Ayurveda · Therapies · Spiritual Healing — Calgary".
 - **Tagline options** for the owner to choose (Q-10):

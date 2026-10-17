@@ -129,10 +129,13 @@ export function Disclaimer({ text }: { text: string }) {
   return <p className="small border-t border-line pt-6 mt-12 measure">{text}</p>;
 }
 
-export function Wordmark({ dark = false }: { dark?: boolean }) {
+export function Wordmark({ dark = false, size = 26 }: { dark?: boolean; size?: number }) {
+  // Wordmark B (design.md §2): "Ayurveda" Fraunces 600, "chalam" Fraunces light italic in Copper.
+  // One word in the DOM so screen readers and search read "Ayurvedachalam".
   return (
-    <span className={`font-display text-[26px] font-medium tracking-tight leading-none ${dark ? "text-white" : "text-neem"}`}>
-      Ayurvedachalam<span className="dhara-drop" aria-hidden />
+    <span className="font-display leading-none tracking-tight whitespace-nowrap" style={{ fontSize: size }} aria-label="Ayurvedachalam">
+      <span aria-hidden className={`font-semibold ${dark ? "text-white" : "text-neem"}`} style={{ fontVariationSettings: "'opsz' 48, 'SOFT' 20" }}>Ayurveda</span>
+      <span aria-hidden className={`font-light italic ${dark ? "text-copper-soft" : "text-copper"}`} style={{ fontVariationSettings: "'opsz' 48, 'SOFT' 60" }}>chalam</span>
     </span>
   );
 }
