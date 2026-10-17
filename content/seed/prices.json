@@ -1,0 +1,58 @@
+{
+  "_source": "product.md §5 — approved by the owner 2026-10-15 (D-18). CAD before GST. Change product.md first.",
+  "groups": [
+    {
+      "heading": "Consultations",
+      "section": "consultations",
+      "rows": [
+        { "slug": "/book/", "service": "Free discovery call", "detail": "15 min · phone or video", "price": "$0", "duration": "15 min", "price_from": "$0" },
+        { "slug": "/consultations/online-ayurvedic-consultation-canada/", "service": "Initial Ayurvedic consultation", "detail": "75 min · online across Canada or in Calgary", "price": "$135", "duration": "75 min", "price_from": "$135" },
+        { "slug": "/consultations/ayurvedic-consultation-calgary/", "service": "Initial Ayurvedic consultation (Calgary, in person)", "detail": "75 min", "price": "$135", "duration": "75 min", "price_from": "$135" },
+        { "slug": "", "service": "Follow-up consultation", "detail": "30 min", "price": "$75", "duration": "30 min", "price_from": "$75" },
+        { "slug": "", "service": "Extended follow-up", "detail": "45 min", "price": "$95", "duration": "45 min", "price_from": "$95" }
+      ]
+    },
+    {
+      "heading": "Therapies (Calgary, in person)",
+      "section": "therapies",
+      "rows": [
+        { "slug": "/therapies/abhyanga/", "service": "Abhyanga (warm oil massage)", "detail": "60 min · 90 min $165", "price": "$120", "duration": "60 or 90 min", "price_from": "$120" },
+        { "slug": "/therapies/shirodhara/", "service": "Shirodhara", "detail": "60 min", "price": "$130", "duration": "60 min", "price_from": "$130" },
+        { "slug": "", "service": "Abhyanga + Shirodhara", "detail": "105 min", "price": "$230", "duration": "105 min", "price_from": "$230" },
+        { "slug": "/therapies/kati-vasti/", "service": "Kati Vasti (lower back)", "detail": "45 min", "price": "$95", "duration": "45 min", "price_from": "$95" },
+        { "slug": "/therapies/janu-vasti/", "service": "Janu Vasti (knees)", "detail": "45 min", "price": "$90", "duration": "45 min", "price_from": "$90" },
+        { "slug": "/therapies/greeva-vasti/", "service": "Greeva Vasti (neck)", "detail": "45 min", "price": "$90", "duration": "45 min", "price_from": "$90" },
+        { "slug": "/therapies/indian-head-massage/", "service": "Shiro Abhyanga (Indian head massage)", "detail": "30 min", "price": "$65", "duration": "30 min", "price_from": "$65" },
+        { "slug": "/therapies/ayurvedic-foot-massage/", "service": "Pada Abhyanga (foot massage)", "detail": "30 min", "price": "$65", "duration": "30 min", "price_from": "$65" },
+        { "slug": "/therapies/udvartana/", "service": "Udvartana (herbal powder massage)", "detail": "60 min", "price": "$125", "duration": "60 min", "price_from": "$125" },
+        { "slug": "/therapies/kizhi-potli-massage/", "service": "Kizhi / Potli (herbal poultice)", "detail": "60 min", "price": "$125", "duration": "60 min", "price_from": "$125" },
+        { "slug": "/therapies/pizhichil/", "service": "Pizhichil (warm oil bath)", "detail": "75 min", "price": "$160", "duration": "75 min", "price_from": "$160" },
+        { "slug": "/therapies/swedana-herbal-steam/", "service": "Swedana (herbal steam)", "detail": "add-on to any therapy", "price": "$25", "duration": "15 min", "price_from": "$25" },
+        { "slug": "/therapies/ayurvedic-facial/", "service": "Mukha Lepam (Ayurvedic facial)", "detail": "45 min", "price": "$85", "duration": "45 min", "price_from": "$85" },
+        { "slug": "/therapies/ayurvedic-hair-scalp-therapy/", "service": "Hair and scalp therapy", "detail": "45 min", "price": "$80", "duration": "45 min", "price_from": "$80" },
+        { "slug": "/therapies/postnatal-ayurvedic-massage/", "service": "Postnatal Ayurvedic massage", "detail": "75 min", "price": "$140", "duration": "75 min", "price_from": "$140" },
+        { "slug": "/therapies/panchakarma/", "service": "Panchakarma program", "detail": "5 days · external therapies, diet and routine", "price": "$695", "duration": "5 days", "price_from": "$695" },
+        { "slug": "/therapies/nasya/", "service": "Nasya (home guidance)", "detail": "covered in a consultation; not performed at the clinic", "price": "$0", "duration": "", "price_from": "$0" }
+      ]
+    },
+    {
+      "heading": "Spiritual healing",
+      "section": "spiritual-healing",
+      "rows": [
+        { "slug": "/spiritual-healing/energy-healing-session/", "service": "Energy healing session", "detail": "60 min · Calgary", "price": "$90", "duration": "60 min", "price_from": "$90" },
+        { "slug": "/spiritual-healing/distance-healing/", "service": "Distance healing", "detail": "45 min · online", "price": "$70", "duration": "45 min", "price_from": "$70" },
+        { "slug": "/spiritual-healing/ayurveda-and-spiritual-healing/", "service": "Ayurveda + spiritual healing", "detail": "90 min combined session", "price": "$150", "duration": "90 min", "price_from": "$150" }
+      ]
+    }
+  ],
+  "packages": [
+    { "service": "Shirodhara × 3", "detail": "about 10% saving", "price": "$350" },
+    { "service": "Vasti (any) × 5", "detail": "about 15% saving", "price": "$400" },
+    { "service": "Abhyanga 60 × 6", "detail": "about 10% saving", "price": "$650" },
+    { "service": "Initial consultation + Abhyanga 60", "detail": "save $25", "price": "$230" },
+    { "service": "Panchakarma 5-day program", "detail": "vs. $845 booked separately", "price": "$695" },
+    { "service": "Energy healing × 3", "detail": "about 11% saving", "price": "$240" },
+    { "service": "Introductory offer: first Abhyanga 60", "detail": "first 60 days after launch", "price": "$99" }
+  ],
+  "package_terms": "Packages are prepaid, valid for 6 months and non-transferable."
+}

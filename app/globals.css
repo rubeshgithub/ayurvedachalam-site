@@ -1,26 +1,231 @@
 @import "tailwindcss";
 
+/* ------------------------------------------------------------------ */
+/* Design tokens — design.md §3, §4, §5. "The copper vessel."           */
+/* Change design.md first, then this file.                              */
+/* ------------------------------------------------------------------ */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --ink: #1e2a25;
+  --stone: #5e6b64;
+  --neem: #1f4d3f;
+  --neem-deep: #143329;
+  --neem-soft: #dce8e1;
+  --copper: #a9502a;
+  --copper-deep: #8a3f1f;
+  --copper-soft: #f4e1d6;
+  --turmeric: #e0a526;
+  --turmeric-soft: #fbf0d2;
+  --dusk: #3f3d6b;
+  --dusk-soft: #e6e5f1;
+  --sesame: #faf6ee;
+  --sandal: #f1e7d6;
+  --white: #ffffff;
+  --line: #d9d0bf;
+  --success: #2e6b4a;
+  --error: #a32d2d;
+
+  --font-display: "Fraunces Variable", Georgia, "Times New Roman", serif;
+  --font-body: "Figtree Variable", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --radius-sm: 6px;
+  --radius: 10px;
+  --radius-lg: 16px;
+  --shadow-card: 0 1px 2px rgba(30, 42, 37, 0.06), 0 8px 24px -12px rgba(30, 42, 37, 0.18);
+  --measure: 68ch;
+  --container: 1200px;
+
+  /* section accent, overridden per section wrapper */
+  --accent: var(--neem);
+  --accent-soft: var(--sandal);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-ink: var(--ink);
+  --color-stone: var(--stone);
+  --color-neem: var(--neem);
+  --color-neem-deep: var(--neem-deep);
+  --color-neem-soft: var(--neem-soft);
+  --color-copper: var(--copper);
+  --color-copper-deep: var(--copper-deep);
+  --color-copper-soft: var(--copper-soft);
+  --color-turmeric: var(--turmeric);
+  --color-turmeric-soft: var(--turmeric-soft);
+  --color-dusk: var(--dusk);
+  --color-dusk-soft: var(--dusk-soft);
+  --color-sesame: var(--sesame);
+  --color-sandal: var(--sandal);
+  --color-line: var(--line);
+  --color-success: var(--success);
+  --color-error: var(--error);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --radius-sm: var(--radius-sm);
+  --radius-md: var(--radius);
+  --radius-lg: var(--radius-lg);
+  --shadow-card: var(--shadow-card);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Section accents — design.md §3.3 */
+[data-section="consultations"] { --accent: var(--neem); --accent-soft: var(--neem-soft); }
+[data-section="therapies"], [data-section="massage-therapy"] { --accent: var(--copper); --accent-soft: var(--copper-soft); }
+[data-section="spiritual-healing"] { --accent: var(--dusk); --accent-soft: var(--dusk-soft); }
+
+/* ------------------------------------------------------------------ */
+/* Base                                                                */
+/* ------------------------------------------------------------------ */
+@layer base {
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--sesame);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "tnum" 0;
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-display);
+  font-variation-settings: "opsz" 144, "SOFT" 30, "WONK" 0;
+  color: var(--ink);
+  text-wrap: balance;
+}
+h1 { font-size: 32px; line-height: 1.1; font-weight: 500; letter-spacing: -0.015em; }
+h2 { font-size: 26px; line-height: 1.2; font-weight: 500; }
+h3 { font-size: 20px; line-height: 1.3; font-weight: 600; }
+h4 { font-family: var(--font-body); font-size: 18px; line-height: 1.35; font-weight: 600; }
+@media (min-width: 768px) {
+  h1 { font-size: 46px; }
+  h2 { font-size: 32px; }
+  h3 { font-size: 22px; }
+}
+.display { font-family: var(--font-display); font-size: 38px; line-height: 1.05; font-weight: 500; letter-spacing: -0.02em; }
+@media (min-width: 768px) { .display { font-size: 60px; } }
+
+.lead { font-size: 18px; line-height: 1.55; color: var(--stone); }
+@media (min-width: 768px) { .lead { font-size: 20px; } }
+.small { font-size: 14px; line-height: 1.5; font-weight: 500; color: var(--stone); }
+.eyebrow {
+  font-size: 13px; line-height: 1.2; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.12em; color: var(--accent);
+}
+.tabular { font-variant-numeric: tabular-nums; }
+.measure { max-width: var(--measure); }
+.container { width: 100%; max-width: var(--container); margin-inline: auto; padding-inline: 20px; }
+@media (min-width: 768px) { .container { padding-inline: 32px; } }
+
+a { color: var(--neem); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:hover { color: var(--neem-deep); }
+:focus-visible { outline: 3px solid var(--copper); outline-offset: 3px; border-radius: 3px; }
+
+::selection { background: var(--copper-soft); color: var(--ink); }
+
+}
+
+/* ------------------------------------------------------------------ */
+/* Components used by templates (kept here so server HTML is complete) */
+/* ------------------------------------------------------------------ */
+@layer components {
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  font-family: var(--font-body); font-weight: 600; font-size: 16px; line-height: 1;
+  padding: 14px 22px; border-radius: 999px; text-decoration: none; border: 1.5px solid transparent;
+  transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease, transform 160ms ease;
+  min-height: 48px;
+}
+.btn:active { transform: translateY(1px); }
+.btn-primary { background: var(--copper); color: #fff; }
+.btn-primary:hover { background: var(--copper-deep); color: #fff; }
+.btn-secondary { background: transparent; color: var(--neem); border-color: var(--neem); }
+.btn-secondary:hover { background: var(--neem); color: #fff; }
+.btn-ghost { background: transparent; color: var(--copper-deep); padding-inline: 8px; }
+.btn-ghost:hover { color: var(--copper); }
+.btn-on-dark { background: #fff; color: var(--neem-deep); }
+.btn-on-dark:hover { background: var(--sandal); color: var(--neem-deep); }
+
+.card {
+  background: #fff; border: 1px solid var(--line); border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card); overflow: hidden;
+}
+.card-accent { border-top: 3px solid var(--accent); }
+a.card, a.card * { text-decoration: none; }
+
+.dhara { position: relative; }
+.dhara::before { display: none; }
+@media (min-width: 768px) { .dhara::before { display: block; } }
+.dhara::before {
+  content: ""; position: absolute; left: 50%; top: 0; bottom: 0; width: 1px;
+  background: linear-gradient(to bottom, transparent, var(--copper) 12%, var(--copper) 88%, transparent);
+  opacity: 0.55; pointer-events: none;
+}
+.dhara-drop {
+  display: inline-block; width: 10px; height: 14px; background: var(--copper);
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; transform: rotate(0deg);
+  vertical-align: baseline; margin-left: 3px;
+}
+
+.notice {
+  border-left: 3px solid var(--accent); background: var(--accent-soft);
+  padding: 14px 18px; border-radius: 0 var(--radius) var(--radius) 0; font-size: 15px; line-height: 1.55;
+}
+.notice-turmeric { --accent: var(--turmeric); --accent-soft: var(--turmeric-soft); }
+.notice-copper { --accent: var(--copper); --accent-soft: var(--copper-soft); }
+
+.prose { max-width: var(--measure); }
+.prose > * + * { margin-top: 1.1em; }
+.prose h2 { margin-top: 2.2em; }
+.prose h3 { margin-top: 1.6em; }
+.prose ul, .prose ol { padding-left: 1.35em; }
+.prose ul { list-style: disc; }
+.prose ol { list-style: decimal; }
+.prose li + li { margin-top: 0.4em; }
+.prose blockquote { border-left: 3px solid var(--copper); padding-left: 1em; color: var(--stone); }
+.prose table { width: 100%; border-collapse: collapse; font-size: 15px; }
+.prose th, .prose td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.prose th { font-weight: 600; color: var(--neem); }
+.prose img { border-radius: var(--radius); }
+.prose a { color: var(--copper-deep); }
+
+details.faq { border-top: 1px solid var(--line); }
+details.faq:last-of-type { border-bottom: 1px solid var(--line); }
+details.faq summary {
+  cursor: pointer; list-style: none; display: flex; justify-content: space-between; gap: 16px;
+  padding: 18px 0; font-weight: 600; font-size: 17px; color: var(--ink);
+}
+details.faq summary::-webkit-details-marker { display: none; }
+details.faq summary::after { content: "+"; color: var(--copper); font-size: 22px; line-height: 1; flex: none; }
+details.faq[open] summary::after { content: "–"; }
+details.faq .faq-a { padding: 0 0 20px; color: var(--ink); max-width: var(--measure); }
+
+.skip-link {
+  position: absolute; left: -9999px; top: 8px; z-index: 100; background: var(--neem-deep); color: #fff;
+  padding: 10px 14px; border-radius: 6px; text-decoration: none;
+}
+.skip-link:focus { left: 8px; }
+
+.sticky-summary { position: sticky; top: 96px; }
+
+.price-table { width: 100%; border-collapse: collapse; }
+.price-table th, .price-table td { padding: 12px 10px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+.price-table th { font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--stone); font-weight: 600; }
+.price-table td.price { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; white-space: nowrap; }
+
+.field { display: block; width: 100%; background: #fff; border: 1.5px solid var(--line); border-radius: var(--radius-sm); padding: 12px 14px; font: inherit; color: var(--ink); }
+.field:focus { border-color: var(--neem); outline: none; box-shadow: 0 0 0 3px var(--neem-soft); }
+.label { display: block; font-weight: 500; font-size: 15px; margin-bottom: 6px; }
+
+.mobile-bar { position: fixed; inset-inline: 0; bottom: 0; z-index: 40; background: #fff; border-top: 1px solid var(--line); padding: 10px 16px calc(10px + env(safe-area-inset-bottom)); display: flex; gap: 10px; }
+@media (min-width: 1024px) { .mobile-bar { display: none; } }
+.has-mobile-bar { padding-bottom: 76px; }
+@media (min-width: 1024px) { .has-mobile-bar { padding-bottom: 0; } }
+
+.rating-star { color: var(--turmeric); }
 }

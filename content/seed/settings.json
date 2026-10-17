@@ -1,0 +1,35 @@
+{
+  "site_name": "Ayurvedachalam",
+  "descriptor": "Ayurveda · Therapies · Spiritual Healing — Calgary",
+  "tagline": "Authentic Ayurveda, in Calgary and online.",
+  "nap": {
+    "name": "Ayurvedachalam",
+    "street": "Address to be announced",
+    "city": "Calgary",
+    "region": "AB",
+    "postal": "",
+    "country": "CA",
+    "phone": "(403) 000-0000",
+    "email": "hello@ayurvedachalam.com",
+    "placeholder": true
+  },
+  "hours": [
+    { "day": "Monday–Friday", "open": "9 a.m.", "close": "6 p.m." },
+    { "day": "Saturday", "open": "10 a.m.", "close": "4 p.m." },
+    { "day": "Sunday", "open": "Closed", "close": "" }
+  ],
+  "booking_url": "https://example.janeapp.com",
+  "booking_embed_url": "",
+  "publish_mode": "review",
+  "hold_hours": 24,
+  "notices": {
+    "complementary": "Ayurveda and spiritual healing are complementary practices. They do not replace medical diagnosis or treatment. Please see your physician for any health concern, and tell them about any herbs or therapies you use.",
+    "spiritual": "Spiritual healing is offered as support for wellbeing. It is not medical or mental health care.",
+    "crisis": "If you are in crisis, call or text 9-8-8 (Suicide Crisis Helpline, Canada) or call 911.",
+    "npn": "We recommend only natural health products licensed by Health Canada (look for the NPN on the label).",
+    "insurance": "Massage therapy provided by our Registered Massage Therapist is receipted for extended health benefits. Ayurvedic consultations and spiritual healing are generally not covered. Check your own plan.",
+    "contact_form": "Please do not include health details here. You will be able to share them securely when you book."
+  },
+  "social": [],
+  "prices_gst_note": "All prices in Canadian dollars, before GST."
+}

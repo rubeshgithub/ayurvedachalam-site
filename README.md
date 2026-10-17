@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ayurvedachalam-site
 
-## Getting Started
+The website for Ayurvedachalam (ayurvedachalam.com): Next.js 16 (App Router), TypeScript,
+Tailwind 4, MongoDB, custom CMS. The six project documents live in `docs/` and are the
+source of truth; read `docs/memory.md` first.
 
-First, run the development server:
+## Run locally
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+cp .env.example .env.local      # leave MONGODB_URI empty to use the JSON seed
+npm install
+npm run seed                    # page map + article drafts → content/seed/*.json (and MongoDB if MONGODB_URI is set)
+npm run dev                     # http://localhost:3000  (drafts are visible in dev)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Production shows only `published` records. To preview drafts on a server, set `PREVIEW_DRAFTS=1`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Checks
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Command | What |
+| --- | --- |
+| `npm run typecheck` | TypeScript |
+| `npm test` | Unit tests (compliance linter, markdown) |
+| `npm run lint:content` | Lints every seeded page and article against `rules.md` R1.3 |
+| `npm run build` | Production build; fails if a page lacks a title or description |
 
-## Learn More
+## Where things are
 
-To learn more about Next.js, take a look at the following resources:
+| Path | Purpose |
+| --- | --- |
+| `docs/` | product, architecture, rules, design, tasks, memory |
+| `app/(site)/` | Public routes: home, `[...slug]` (all CMS pages), `learn/*`, `styleguide` |
+| `app/api/cms/ingest` | Article ingest from the content relay (`x-ingest-key`) |
+| `app/api/cron/publish` | Publishes due articles (`Authorization: Bearer CRON_SECRET`), every 15 min |
+| `app/api/forms/*` | Contact and newsletter (no health fields; CASL consent stored) |
+| `templates/` | One component per template (architecture.md §5) |
+| `lib/content/repo.ts` | Data access: MongoDB, or `content/seed/*.json` when no database |
+| `lib/compliance/` | Linter, banned terms, legal-check slugs |
+| `content/seed/` | `page-map.xlsx` (the 100-page map), generated JSON, prices, settings, authors |
+| `content/learn/` | Article drafts in Markdown with front matter |
+| `scripts/` | `seed-pages.ts`, `lint-content.ts` |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deploy (OVH, same pattern as docu10)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Node 22 and MongoDB on the server; create the database and a user.
+2. `git clone`, `npm ci`, write `.env.local` from `.env.example` with real secrets (never commit it).
+3. `npm run seed` once (upserts the page map; never overwrites non-draft pages), then `npm run build && npm start` under pm2 or systemd behind nginx with TLS.
+4. System cron every 15 minutes: `curl -fsS -H "Authorization: Bearer $CRON_SECRET" https://ayurvedachalam.com/api/cron/publish`.
+5. Deploy on push to `main`: the CI above must be green; the server pulls, `npm ci`, `npm run build`, restarts.
+6. Staging: same app with `STAGING=1` (robots disallow all) and `PREVIEW_DRAFTS=1`, behind basic auth in nginx.
 
-## Deploy on Vercel
+## Not built yet
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+`/cms` admin UI (B-15, B-16), owner notifications (B-25), booking embed configuration (B-21),
+redirects admin, security CSP header (B-24), Lighthouse budget in CI (B-23). See `docs/tasks.md`.

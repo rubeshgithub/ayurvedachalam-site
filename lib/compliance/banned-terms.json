@@ -1,0 +1,31 @@
+{
+  "_source": "rules.md R1.3. Each entry: pattern (regex, case-insensitive), level, message.",
+  "errors": [
+    { "pattern": "\\b(cures?|curing|cured)\\b", "message": "\"cure\" is a prohibited claim word" },
+    { "pattern": "\\btreats?\\b(?!\\s+(every|each|all)\\s+client)", "message": "\"treat/treats\" reads as a medical treatment claim; use \"supports\", \"care for\"" },
+    { "pattern": "\\btreatment for\\b", "message": "\"treatment for [condition]\" is a claim; use \"approach to\", \"support for\"" },
+    { "pattern": "\\bheals?\\b(?!ing (practice|session|arts))", "message": "\"heal/heals\" as an outcome is a claim" },
+    { "pattern": "\\b(reverses?|reversed|reversing)\\b", "message": "\"reverse\" is a prohibited claim word" },
+    { "pattern": "\\b(guaranteed?|proven|clinically proven|100%|permanent(ly)?|miracle)\\b", "message": "Absolute claim words are prohibited" },
+    { "pattern": "\\b(no side effects|completely safe|harmless)\\b", "message": "Use \"generally well tolerated\" and list who should avoid it" },
+    { "pattern": "\\b(removes? toxins|flushes? toxins|detox(es|ify|ification)?)\\b", "message": "\"detox\" as a factual claim; say \"cleansing, as the tradition describes it\"" },
+    { "pattern": "\\b(boosts? (your )?immunity|balances? (your )?hormones)\\b", "message": "Stated as fact; use \"is traditionally used to support…\"" },
+    { "pattern": "\\bpatients?\\b", "message": "Use \"client(s)\"" },
+    { "pattern": "\\b(anti-?ageing|anti-?aging|slows? ageing|slows? aging)\\b", "message": "Prohibited" },
+    { "pattern": "\\b(weight loss|cellulite reduction)\\b", "message": "Not promised as a result; describe the therapy itself" },
+    { "pattern": "\\bDr\\.?\\s+(Maheswari|Vedhachalam|M\\.?\\s*Vedhachalam)\\b", "message": "No \"Dr.\" before the practitioner's name (Alberta HPA s.128)" },
+    { "pattern": "\\b(our|the) (ayurvedic )?doctor\\b", "message": "The practitioner is not described as a doctor" },
+    { "pattern": "\\b(medicine|medication)s?\\b(?=[^.]*\\b(herb|herbal|formula|churna|oil)\\b)", "message": "Herbs are \"herbal preparations\" or \"natural health products\", not medicine" },
+    { "pattern": "\\bdirect billing\\b", "message": "\"Direct billing\" must not appear until insurers are confirmed (R1.6)" },
+    { "pattern": "\\b(bhasma|rasa (preparation|shastra)|kajjali|sindoor)\\b", "message": "Metal- or mineral-based preparations are never mentioned (R1.7)" }
+  ],
+  "diseases": [
+    "cancer", "diabetes", "depression", "anxiety disorder", "asthma", "arthritis", "hypertension", "heart disease",
+    "thyroid", "obesity", "dementia", "alzheimer", "paralysis", "epilepsy", "infertility", "psoriasis", "eczema",
+    "hepatitis", "ulcer", "glaucoma", "infection", "covid", "influenza", "tumour", "tumor", "leukemia", "stroke",
+    "kidney disease", "liver disease", "multiple sclerosis", "parkinson", "sciatica", "fibromyalgia", "pcos", "ibs",
+    "crohn", "colitis", "migraine", "insomnia", "adhd", "autism"
+  ],
+  "disease_claim_verbs": "(treat|treats|treating|cure|cures|curing|prevent|prevents|preventing|reverse|reverses|heal|heals|healing|manage|manages|managing|relieve|relieves|relieving|fix|fixes)",
+  "safety_context": "(if you have|tell us|see (your|a) physician|can be a sign of|diagnosed with|is not a substitute|do not replace|schedule a|food and drugs act|law|advertis)"
+}

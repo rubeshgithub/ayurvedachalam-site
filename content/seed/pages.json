@@ -1,0 +1,1459 @@
+[
+  {
+    "slug": "/",
+    "template": "home",
+    "section": "core",
+    "wave": 1,
+    "title_tag": "Ayurveda in Calgary & Online Across Canada | Ayurvedachalam",
+    "meta_description": "",
+    "h1": "Ayurveda in Calgary, and Online Across Canada",
+    "primary_keyword": "ayurveda calgary",
+    "secondary_keywords": [
+      "ayurvedic clinic calgary",
+      "ayurvedic practitioner calgary",
+      "ayurveda online canada"
+    ],
+    "status": "draft",
+    "map_row": 1,
+    "legal_check": false
+  },
+  {
+    "slug": "/about/",
+    "template": "utility",
+    "section": "core",
+    "wave": 1,
+    "title_tag": "About Ayurvedachalam | Authentic Ayurveda in Calgary",
+    "meta_description": "",
+    "h1": "About Ayurvedachalam",
+    "primary_keyword": "about ayurvedachalam",
+    "secondary_keywords": [
+      "authentic ayurveda calgary",
+      "kerala ayurveda calgary",
+      "ayurveda centre calgary"
+    ],
+    "status": "draft",
+    "map_row": 2,
+    "legal_check": false
+  },
+  {
+    "slug": "/about/practitioner/",
+    "template": "profile",
+    "section": "core",
+    "wave": 1,
+    "title_tag": "Your Ayurvedic Practitioner in Calgary | BAMS, RMT",
+    "meta_description": "",
+    "h1": "Meet Your Practitioner: BAMS, RMT, Certified Herbalist and Spiritual Healer",
+    "primary_keyword": "bams ayurvedic practitioner calgary",
+    "secondary_keywords": [
+      "ayurvedic doctor calgary (search term only)",
+      "certified herbalist alberta",
+      "ayurvedic rmt calgary"
+    ],
+    "status": "draft",
+    "map_row": 3,
+    "legal_check": false
+  },
+  {
+    "slug": "/book/",
+    "template": "booking",
+    "section": "core",
+    "wave": 1,
+    "title_tag": "Book an Ayurvedic Consultation or Therapy | Calgary",
+    "meta_description": "",
+    "h1": "Book Your Appointment",
+    "primary_keyword": "book ayurvedic consultation calgary",
+    "secondary_keywords": [
+      "ayurveda appointment calgary",
+      "book shirodhara calgary",
+      "book online ayurvedic consultation"
+    ],
+    "status": "draft",
+    "map_row": 4,
+    "legal_check": false
+  },
+  {
+    "slug": "/pricing/",
+    "template": "pricing",
+    "section": "core",
+    "wave": 1,
+    "title_tag": "Ayurvedic Consultation & Therapy Prices in Calgary",
+    "meta_description": "",
+    "h1": "Prices and Packages",
+    "primary_keyword": "ayurvedic treatment cost calgary",
+    "secondary_keywords": [
+      "shirodhara price calgary",
+      "ayurvedic consultation fee",
+      "abhyanga massage price"
+    ],
+    "status": "draft",
+    "map_row": 5,
+    "legal_check": false
+  },
+  {
+    "slug": "/insurance-direct-billing/",
+    "template": "utility",
+    "section": "core",
+    "wave": 1,
+    "title_tag": "Insurance & Direct Billing for RMT Massage | Calgary",
+    "meta_description": "",
+    "h1": "Insurance Coverage and Direct Billing",
+    "primary_keyword": "ayurvedic massage insurance calgary",
+    "secondary_keywords": [
+      "rmt direct billing calgary",
+      "massage therapy receipt",
+      "extended health benefits massage"
+    ],
+    "status": "draft",
+    "map_row": 6,
+    "legal_check": false
+  },
+  {
+    "slug": "/contact/",
+    "template": "contact",
+    "section": "core",
+    "wave": 1,
+    "title_tag": "Contact Ayurvedachalam | Calgary Location & Hours",
+    "meta_description": "",
+    "h1": "Contact and Location",
+    "primary_keyword": "ayurvedachalam calgary contact",
+    "secondary_keywords": [
+      "ayurveda clinic calgary address",
+      "hours",
+      "parking",
+      "phone"
+    ],
+    "status": "draft",
+    "map_row": 7,
+    "legal_check": false
+  },
+  {
+    "slug": "/reviews/",
+    "template": "utility",
+    "section": "core",
+    "wave": 1,
+    "title_tag": "Client Reviews | Ayurvedachalam Calgary",
+    "meta_description": "",
+    "h1": "What Clients Say",
+    "primary_keyword": "ayurveda calgary reviews",
+    "secondary_keywords": [
+      "best ayurvedic practitioner calgary",
+      "ayurvedachalam reviews",
+      "testimonials"
+    ],
+    "status": "draft",
+    "map_row": 8,
+    "legal_check": false
+  },
+  {
+    "slug": "/faq/",
+    "template": "utility",
+    "section": "core",
+    "wave": 1,
+    "title_tag": "Ayurveda FAQ: Consultations, Therapies & Booking",
+    "meta_description": "",
+    "h1": "Frequently Asked Questions",
+    "primary_keyword": "ayurveda faq",
+    "secondary_keywords": [
+      "is ayurveda safe",
+      "how many sessions",
+      "what to wear for abhyanga",
+      "is it covered"
+    ],
+    "status": "draft",
+    "map_row": 9,
+    "legal_check": false
+  },
+  {
+    "slug": "/first-visit/",
+    "template": "utility",
+    "section": "core",
+    "wave": 1,
+    "title_tag": "Your First Visit: What to Expect | Ayurvedachalam",
+    "meta_description": "",
+    "h1": "Your First Visit: What to Expect",
+    "primary_keyword": "what to expect ayurvedic consultation",
+    "secondary_keywords": [
+      "first ayurvedic appointment",
+      "how to prepare for shirodhara",
+      "intake form"
+    ],
+    "status": "draft",
+    "map_row": 10,
+    "legal_check": false
+  },
+  {
+    "slug": "/consultations/",
+    "template": "hub",
+    "section": "consultations",
+    "wave": 1,
+    "title_tag": "Ayurvedic Consultations | In Calgary or Online in Canada",
+    "meta_description": "",
+    "h1": "Ayurvedic Consultations",
+    "primary_keyword": "ayurvedic consultation",
+    "secondary_keywords": [
+      "ayurvedic practitioner consultation",
+      "ayurveda assessment",
+      "dosha consultation"
+    ],
+    "status": "draft",
+    "map_row": 11,
+    "legal_check": false
+  },
+  {
+    "slug": "/consultations/online-ayurvedic-consultation-canada/",
+    "template": "service",
+    "section": "consultations",
+    "wave": 1,
+    "title_tag": "Online Ayurvedic Consultation in Canada | BAMS Practitioner",
+    "meta_description": "",
+    "h1": "Online Ayurvedic Consultation, Anywhere in Canada",
+    "primary_keyword": "online ayurvedic consultation canada",
+    "secondary_keywords": [
+      "virtual ayurveda consultation",
+      "ayurvedic practitioner online canada",
+      "ayurvedic doctor online canada (search term only)"
+    ],
+    "status": "draft",
+    "map_row": 12,
+    "legal_check": false
+  },
+  {
+    "slug": "/consultations/ayurvedic-consultation-calgary/",
+    "template": "service",
+    "section": "consultations",
+    "wave": 1,
+    "title_tag": "Ayurvedic Consultation in Calgary | BAMS Practitioner",
+    "meta_description": "",
+    "h1": "In-Person Ayurvedic Consultation in Calgary",
+    "primary_keyword": "ayurvedic consultation calgary",
+    "secondary_keywords": [
+      "ayurvedic doctor calgary (search term only)",
+      "ayurvedic practitioner near me",
+      "ayurveda specialist calgary"
+    ],
+    "status": "draft",
+    "map_row": 13,
+    "legal_check": false
+  },
+  {
+    "slug": "/consultations/nadi-pariksha-pulse-reading/",
+    "template": "service",
+    "section": "consultations",
+    "wave": 1,
+    "title_tag": "Nadi Pariksha in Calgary | Ayurvedic Pulse Reading",
+    "meta_description": "",
+    "h1": "Nadi Pariksha: Ayurvedic Pulse Reading",
+    "primary_keyword": "nadi pariksha calgary",
+    "secondary_keywords": [
+      "ayurvedic pulse reading",
+      "nadi pareeksha",
+      "pulse assessment ayurveda canada"
+    ],
+    "status": "draft",
+    "map_row": 14,
+    "legal_check": false
+  },
+  {
+    "slug": "/consultations/ayurvedic-diet-consultation/",
+    "template": "service",
+    "section": "consultations",
+    "wave": 2,
+    "title_tag": "Ayurvedic Diet Consultation & Dosha Meal Plan | Canada",
+    "meta_description": "",
+    "h1": "Ayurvedic Diet and Nutrition Consultation",
+    "primary_keyword": "ayurvedic diet consultation",
+    "secondary_keywords": [
+      "ayurvedic nutrition canada",
+      "dosha diet plan",
+      "ayurvedic meal plan"
+    ],
+    "status": "draft",
+    "map_row": 15,
+    "legal_check": false
+  },
+  {
+    "slug": "/consultations/ayurvedic-herbal-consultation/",
+    "template": "service",
+    "section": "consultations",
+    "wave": 2,
+    "title_tag": "Ayurvedic Herbal Consultation | Certified Herbalist Calgary",
+    "meta_description": "",
+    "h1": "Ayurvedic Herbal Consultation",
+    "primary_keyword": "ayurvedic herbalist calgary",
+    "secondary_keywords": [
+      "certified herbalist alberta",
+      "ayurvedic herbs consultation",
+      "herbal medicine calgary"
+    ],
+    "status": "draft",
+    "map_row": 16,
+    "legal_check": false
+  },
+  {
+    "slug": "/consultations/womens-wellness/",
+    "template": "service",
+    "section": "consultations",
+    "wave": 2,
+    "title_tag": "Ayurveda for Women's Wellness | Online & in Calgary",
+    "meta_description": "",
+    "h1": "Ayurvedic Consultations for Women's Wellness",
+    "primary_keyword": "ayurveda for womens health",
+    "secondary_keywords": [
+      "ayurveda hormone balance",
+      "ayurveda perimenopause",
+      "ayurvedic postpartum care"
+    ],
+    "status": "draft",
+    "map_row": 17,
+    "legal_check": false
+  },
+  {
+    "slug": "/consultations/digestive-wellness/",
+    "template": "service",
+    "section": "consultations",
+    "wave": 2,
+    "title_tag": "Ayurvedic Consultation for Digestive Wellness | Canada",
+    "meta_description": "",
+    "h1": "Ayurvedic Consultations for Digestive Wellness",
+    "primary_keyword": "ayurvedic consultation for digestion",
+    "secondary_keywords": [
+      "ayurveda gut health",
+      "agni digestion",
+      "ayurvedic practitioner bloating"
+    ],
+    "status": "draft",
+    "map_row": 18,
+    "legal_check": false
+  },
+  {
+    "slug": "/consultations/stress-and-sleep/",
+    "template": "service",
+    "section": "consultations",
+    "wave": 2,
+    "title_tag": "Ayurveda for Stress and Sleep | Consultation in Canada",
+    "meta_description": "",
+    "h1": "Ayurvedic Consultations for Stress and Sleep",
+    "primary_keyword": "ayurvedic consultation for stress",
+    "secondary_keywords": [
+      "ayurvedic consultation sleep",
+      "natural sleep support",
+      "burnout ayurveda"
+    ],
+    "status": "draft",
+    "map_row": 19,
+    "legal_check": false
+  },
+  {
+    "slug": "/consultations/seasonal-cleanse-program/",
+    "template": "service",
+    "section": "consultations",
+    "wave": 2,
+    "title_tag": "Guided Ayurvedic Seasonal Cleanse Program | Canada",
+    "meta_description": "",
+    "h1": "Guided Seasonal Cleanse Program",
+    "primary_keyword": "ayurvedic cleanse canada",
+    "secondary_keywords": [
+      "home panchakarma",
+      "ayurvedic detox program",
+      "guided kitchari cleanse"
+    ],
+    "status": "draft",
+    "map_row": 20,
+    "legal_check": false
+  },
+  {
+    "slug": "/therapies/",
+    "template": "hub",
+    "section": "therapies",
+    "wave": 1,
+    "title_tag": "Ayurvedic Treatments & Therapies in Calgary",
+    "meta_description": "",
+    "h1": "Ayurvedic Therapies in Calgary",
+    "primary_keyword": "ayurvedic treatments calgary",
+    "secondary_keywords": [
+      "ayurvedic therapies calgary",
+      "ayurveda spa calgary",
+      "kerala ayurveda treatments"
+    ],
+    "status": "draft",
+    "map_row": 21,
+    "legal_check": false
+  },
+  {
+    "slug": "/therapies/abhyanga/",
+    "template": "service",
+    "section": "therapies",
+    "wave": 1,
+    "title_tag": "Abhyanga Massage in Calgary | Ayurvedic Warm Oil Massage",
+    "meta_description": "",
+    "h1": "Abhyanga: Ayurvedic Warm Oil Massage in Calgary",
+    "primary_keyword": "abhyanga massage calgary",
+    "secondary_keywords": [
+      "ayurvedic oil massage",
+      "warm oil massage calgary",
+      "abhyanga near me"
+    ],
+    "status": "draft",
+    "map_row": 22,
+    "legal_check": false
+  },
+  {
+    "slug": "/therapies/shirodhara/",
+    "template": "service",
+    "section": "therapies",
+    "wave": 1,
+    "title_tag": "Shirodhara in Calgary | Warm Oil Forehead Therapy",
+    "meta_description": "",
+    "h1": "Shirodhara in Calgary",
+    "primary_keyword": "shirodhara calgary",
+    "secondary_keywords": [
+      "shirodhara treatment",
+      "shirodhara near me",
+      "warm oil forehead therapy"
+    ],
+    "status": "draft",
+    "map_row": 23,
+    "legal_check": false
+  },
+  {
+    "slug": "/therapies/kati-vasti/",
+    "template": "service",
+    "section": "therapies",
+    "wave": 1,
+    "title_tag": "Kati Vasti (Kati Basti) in Calgary | Lower Back Therapy",
+    "meta_description": "",
+    "h1": "Kati Vasti: Warm Oil Therapy for the Lower Back",
+    "primary_keyword": "kati basti calgary",
+    "secondary_keywords": [
+      "kati vasti",
+      "lower back oil therapy",
+      "ayurvedic back therapy"
+    ],
+    "status": "draft",
+    "map_row": 24,
+    "legal_check": false
+  },
+  {
+    "slug": "/therapies/janu-vasti/",
+    "template": "service",
+    "section": "therapies",
+    "wave": 1,
+    "title_tag": "Janu Vasti (Janu Basti) in Calgary | Knee Oil Therapy",
+    "meta_description": "",
+    "h1": "Janu Vasti: Warm Oil Therapy for the Knees",
+    "primary_keyword": "janu basti calgary",
+    "secondary_keywords": [
+      "janu vasti",
+      "knee oil therapy",
+      "ayurvedic knee therapy"
+    ],
+    "status": "draft",
+    "map_row": 25,
+    "legal_check": false
+  },
+  {
+    "slug": "/therapies/greeva-vasti/",
+    "template": "service",
+    "section": "therapies",
+    "wave": 1,
+    "title_tag": "Greeva Vasti (Greeva Basti) in Calgary | Neck Therapy",
+    "meta_description": "",
+    "h1": "Greeva Vasti: Warm Oil Therapy for the Neck",
+    "primary_keyword": "greeva basti calgary",
+    "secondary_keywords": [
+      "griva basti",
+      "neck oil therapy",
+      "ayurvedic neck therapy"
+    ],
+    "status": "draft",
+    "map_row": 26,
+    "legal_check": false
+  },
+  {
+    "slug": "/therapies/nasya/",
+    "template": "service",
+    "section": "therapies",
+    "wave": 1,
+    "title_tag": "Nasya Therapy in Calgary | Ayurvedic Nasal Oil Therapy",
+    "meta_description": "",
+    "h1": "Nasya: Ayurvedic Nasal Oil Therapy",
+    "primary_keyword": "nasya treatment calgary",
+    "secondary_keywords": [
+      "nasya therapy",
+      "ayurvedic sinus therapy",
+      "nasal oil therapy"
+    ],
+    "status": "draft",
+    "map_row": 27,
+    "legal_check": true
+  },
+  {
+    "slug": "/therapies/ayurvedic-massage-calgary/",
+    "template": "service",
+    "section": "therapies",
+    "wave": 1,
+    "title_tag": "Ayurvedic Massage in Calgary | RMT with BAMS Training",
+    "meta_description": "",
+    "h1": "Ayurvedic Massage in Calgary",
+    "primary_keyword": "ayurvedic massage calgary",
+    "secondary_keywords": [
+      "indian massage calgary",
+      "ayurvedic massage therapist",
+      "ayurvedic rmt"
+    ],
+    "status": "draft",
+    "map_row": 28,
+    "legal_check": false
+  },
+  {
+    "slug": "/therapies/ayurvedic-skin-care/",
+    "template": "service",
+    "section": "therapies",
+    "wave": 1,
+    "title_tag": "Ayurvedic Skin Care Treatments in Calgary",
+    "meta_description": "",
+    "h1": "Ayurvedic Skin Care Therapies",
+    "primary_keyword": "ayurvedic skin treatment calgary",
+    "secondary_keywords": [
+      "herbal skin care calgary",
+      "lepam",
+      "natural skin therapy"
+    ],
+    "status": "draft",
+    "map_row": 29,
+    "legal_check": false
+  },
+  {
+    "slug": "/therapies/panchakarma/",
+    "template": "service",
+    "section": "therapies",
+    "wave": 1,
+    "title_tag": "Panchakarma in Calgary | Ayurvedic Cleansing Program",
+    "meta_description": "",
+    "h1": "Panchakarma in Calgary",
+    "primary_keyword": "panchakarma calgary",
+    "secondary_keywords": [
+      "panchakarma canada",
+      "ayurvedic detox calgary",
+      "panchakarma program"
+    ],
+    "status": "draft",
+    "map_row": 30,
+    "legal_check": true
+  },
+  {
+    "slug": "/therapies/indian-head-massage/",
+    "template": "service",
+    "section": "therapies",
+    "wave": 2,
+    "title_tag": "Indian Head Massage in Calgary | Shiro Abhyanga",
+    "meta_description": "",
+    "h1": "Shiro Abhyanga: Indian Head Massage",
+    "primary_keyword": "indian head massage calgary",
+    "secondary_keywords": [
+      "shiro abhyanga",
+      "ayurvedic head massage",
+      "scalp oil massage"
+    ],
+    "status": "draft",
+    "map_row": 31,
+    "legal_check": false
+  },
+  {
+    "slug": "/therapies/ayurvedic-foot-massage/",
+    "template": "service",
+    "section": "therapies",
+    "wave": 2,
+    "title_tag": "Ayurvedic Foot Massage in Calgary | Pada Abhyanga",
+    "meta_description": "",
+    "h1": "Pada Abhyanga: Ayurvedic Foot Massage",
+    "primary_keyword": "ayurvedic foot massage calgary",
+    "secondary_keywords": [
+      "padabhyanga",
+      "foot oil massage",
+      "indian foot massage"
+    ],
+    "status": "draft",
+    "map_row": 32,
+    "legal_check": false
+  },
+  {
+    "slug": "/therapies/udvartana/",
+    "template": "service",
+    "section": "therapies",
+    "wave": 2,
+    "title_tag": "Udvartana in Calgary | Herbal Powder Massage",
+    "meta_description": "",
+    "h1": "Udvartana: Herbal Powder Massage",
+    "primary_keyword": "udvartana massage calgary",
+    "secondary_keywords": [
+      "udwarthanam",
+      "herbal powder massage",
+      "dry powder massage"
+    ],
+    "status": "draft",
+    "map_row": 33,
+    "legal_check": false
+  },
+  {
+    "slug": "/therapies/kizhi-potli-massage/",
+    "template": "service",
+    "section": "therapies",
+    "wave": 2,
+    "title_tag": "Kizhi (Potli) Herbal Poultice Massage in Calgary",
+    "meta_description": "",
+    "h1": "Kizhi: Herbal Poultice Massage",
+    "primary_keyword": "potli massage calgary",
+    "secondary_keywords": [
+      "kizhi",
+      "elakizhi",
+      "herbal poultice massage",
+      "herbal bolus massage"
+    ],
+    "status": "draft",
+    "map_row": 34,
+    "legal_check": false
+  },
+  {
+    "slug": "/therapies/pizhichil/",
+    "template": "service",
+    "section": "therapies",
+    "wave": 2,
+    "title_tag": "Pizhichil in Calgary | Warm Oil Bath Therapy",
+    "meta_description": "",
+    "h1": "Pizhichil: Warm Oil Bath Therapy",
+    "primary_keyword": "pizhichil calgary",
+    "secondary_keywords": [
+      "pizhichil treatment",
+      "warm oil bath therapy",
+      "kerala oil therapy"
+    ],
+    "status": "draft",
+    "map_row": 35,
+    "legal_check": false
+  },
+  {
+    "slug": "/therapies/swedana-herbal-steam/",
+    "template": "service",
+    "section": "therapies",
+    "wave": 2,
+    "title_tag": "Swedana Herbal Steam Therapy in Calgary",
+    "meta_description": "",
+    "h1": "Swedana: Herbal Steam Therapy",
+    "primary_keyword": "herbal steam therapy calgary",
+    "secondary_keywords": [
+      "swedana",
+      "ayurvedic steam bath",
+      "steam after massage"
+    ],
+    "status": "draft",
+    "map_row": 36,
+    "legal_check": false
+  },
+  {
+    "slug": "/therapies/marma-therapy/",
+    "template": "service",
+    "section": "therapies",
+    "wave": 2,
+    "title_tag": "Marma Therapy in Calgary | Ayurvedic Pressure Points",
+    "meta_description": "",
+    "h1": "Marma Therapy",
+    "primary_keyword": "marma therapy calgary",
+    "secondary_keywords": [
+      "marma point massage",
+      "ayurvedic pressure points",
+      "marma chikitsa"
+    ],
+    "status": "draft",
+    "map_row": 37,
+    "legal_check": false
+  },
+  {
+    "slug": "/therapies/ayurvedic-facial/",
+    "template": "service",
+    "section": "therapies",
+    "wave": 2,
+    "title_tag": "Ayurvedic Facial in Calgary | Mukha Lepam",
+    "meta_description": "",
+    "h1": "Mukha Lepam: Ayurvedic Herbal Facial",
+    "primary_keyword": "ayurvedic facial calgary",
+    "secondary_keywords": [
+      "mukha lepam",
+      "herbal facial",
+      "natural facial calgary"
+    ],
+    "status": "draft",
+    "map_row": 38,
+    "legal_check": false
+  },
+  {
+    "slug": "/therapies/ayurvedic-hair-scalp-therapy/",
+    "template": "service",
+    "section": "therapies",
+    "wave": 2,
+    "title_tag": "Ayurvedic Hair & Scalp Therapy in Calgary",
+    "meta_description": "",
+    "h1": "Ayurvedic Hair and Scalp Therapy",
+    "primary_keyword": "ayurvedic hair treatment calgary",
+    "secondary_keywords": [
+      "shiro lepa",
+      "scalp oil therapy",
+      "hair oil massage"
+    ],
+    "status": "draft",
+    "map_row": 39,
+    "legal_check": false
+  },
+  {
+    "slug": "/therapies/postnatal-ayurvedic-massage/",
+    "template": "service",
+    "section": "therapies",
+    "wave": 2,
+    "title_tag": "Postnatal Ayurvedic Massage in Calgary | Postpartum Care",
+    "meta_description": "",
+    "h1": "Postnatal Ayurvedic Massage",
+    "primary_keyword": "postnatal ayurvedic massage calgary",
+    "secondary_keywords": [
+      "postpartum massage calgary",
+      "ayurvedic postpartum care",
+      "indian postnatal massage"
+    ],
+    "status": "draft",
+    "map_row": 40,
+    "legal_check": false
+  },
+  {
+    "slug": "/massage-therapy/",
+    "template": "hub",
+    "section": "massage-therapy",
+    "wave": 2,
+    "title_tag": "Registered Massage Therapy in Calgary | Direct Billing",
+    "meta_description": "",
+    "h1": "Registered Massage Therapy in Calgary",
+    "primary_keyword": "registered massage therapist calgary",
+    "secondary_keywords": [
+      "rmt calgary",
+      "massage therapy direct billing",
+      "therapeutic massage calgary"
+    ],
+    "status": "draft",
+    "map_row": 41,
+    "legal_check": false
+  },
+  {
+    "slug": "/massage-therapy/deep-tissue-massage/",
+    "template": "service",
+    "section": "massage-therapy",
+    "wave": 2,
+    "title_tag": "Deep Tissue Massage in Calgary | RMT",
+    "meta_description": "",
+    "h1": "Deep Tissue Massage",
+    "primary_keyword": "deep tissue massage calgary",
+    "secondary_keywords": [
+      "therapeutic massage calgary",
+      "muscle tension massage",
+      "rmt deep tissue"
+    ],
+    "status": "draft",
+    "map_row": 42,
+    "legal_check": false
+  },
+  {
+    "slug": "/massage-therapy/reflexology/",
+    "template": "service",
+    "section": "massage-therapy",
+    "wave": 2,
+    "title_tag": "Reflexology in Calgary | Ayurvedachalam",
+    "meta_description": "",
+    "h1": "Reflexology",
+    "primary_keyword": "reflexology calgary",
+    "secondary_keywords": [
+      "foot reflexology",
+      "reflexology near me",
+      "reflexology massage"
+    ],
+    "status": "draft",
+    "map_row": 43,
+    "legal_check": false
+  },
+  {
+    "slug": "/massage-therapy/mobile-massage-calgary/",
+    "template": "service",
+    "section": "massage-therapy",
+    "wave": 2,
+    "title_tag": "Mobile Massage in Calgary | In-Home RMT",
+    "meta_description": "",
+    "h1": "Mobile Massage in Calgary",
+    "primary_keyword": "mobile massage calgary",
+    "secondary_keywords": [
+      "in-home massage calgary",
+      "mobile rmt",
+      "mobile ayurvedic massage"
+    ],
+    "status": "draft",
+    "map_row": 44,
+    "legal_check": false
+  },
+  {
+    "slug": "/spiritual-healing/",
+    "template": "hub",
+    "section": "spiritual-healing",
+    "wave": 1,
+    "title_tag": "Spiritual Healing in Calgary & Online | Certified Healer",
+    "meta_description": "",
+    "h1": "Spiritual Healing in Calgary and Online",
+    "primary_keyword": "spiritual healing calgary",
+    "secondary_keywords": [
+      "spiritual healer calgary",
+      "holistic healer calgary",
+      "healing sessions calgary"
+    ],
+    "status": "draft",
+    "map_row": 45,
+    "legal_check": false
+  },
+  {
+    "slug": "/spiritual-healing/energy-healing-session/",
+    "template": "service",
+    "section": "spiritual-healing",
+    "wave": 1,
+    "title_tag": "Energy Healing Sessions in Calgary | Certified Healer",
+    "meta_description": "",
+    "h1": "Energy Healing Sessions",
+    "primary_keyword": "energy healing calgary",
+    "secondary_keywords": [
+      "energy healing session",
+      "hands-on healing",
+      "spiritual energy healing"
+    ],
+    "status": "draft",
+    "map_row": 46,
+    "legal_check": false
+  },
+  {
+    "slug": "/spiritual-healing/distance-healing/",
+    "template": "service",
+    "section": "spiritual-healing",
+    "wave": 2,
+    "title_tag": "Distance Healing Sessions Online | Across Canada",
+    "meta_description": "",
+    "h1": "Distance Healing Sessions",
+    "primary_keyword": "distance healing canada",
+    "secondary_keywords": [
+      "online spiritual healing",
+      "remote energy healing",
+      "virtual healing session"
+    ],
+    "status": "draft",
+    "map_row": 47,
+    "legal_check": false
+  },
+  {
+    "slug": "/spiritual-healing/chakra-balancing/",
+    "template": "service",
+    "section": "spiritual-healing",
+    "wave": 2,
+    "title_tag": "Chakra Balancing in Calgary | Ayurvedachalam",
+    "meta_description": "",
+    "h1": "Chakra Balancing",
+    "primary_keyword": "chakra balancing calgary",
+    "secondary_keywords": [
+      "chakra healing",
+      "chakra alignment session",
+      "chakra therapy"
+    ],
+    "status": "draft",
+    "map_row": 48,
+    "legal_check": false
+  },
+  {
+    "slug": "/spiritual-healing/what-is-spiritual-healing/",
+    "template": "service",
+    "section": "spiritual-healing",
+    "wave": 2,
+    "title_tag": "What Is Spiritual Healing? What Happens in a Session",
+    "meta_description": "",
+    "h1": "What Is Spiritual Healing?",
+    "primary_keyword": "what is spiritual healing",
+    "secondary_keywords": [
+      "how spiritual healing works",
+      "what happens in a healing session",
+      "is spiritual healing safe"
+    ],
+    "status": "draft",
+    "map_row": 49,
+    "legal_check": false
+  },
+  {
+    "slug": "/spiritual-healing/certified-spiritual-healer-alberta/",
+    "template": "service",
+    "section": "spiritual-healing",
+    "wave": 2,
+    "title_tag": "Certified Spiritual Healer in Alberta | ASHA Member",
+    "meta_description": "",
+    "h1": "Certified by the Association of Spiritual Healers of Alberta",
+    "primary_keyword": "certified spiritual healer alberta",
+    "secondary_keywords": [
+      "association of spiritual healers of alberta",
+      "asha healer calgary",
+      "accredited healer"
+    ],
+    "status": "draft",
+    "map_row": 50,
+    "legal_check": false
+  },
+  {
+    "slug": "/spiritual-healing/stress-and-emotional-balance/",
+    "template": "service",
+    "section": "spiritual-healing",
+    "wave": 2,
+    "title_tag": "Spiritual Healing for Stress and Emotional Balance",
+    "meta_description": "",
+    "h1": "Healing for Stress and Emotional Balance",
+    "primary_keyword": "spiritual healing for stress",
+    "secondary_keywords": [
+      "healing for emotional balance",
+      "support through life transitions",
+      "inner calm session"
+    ],
+    "status": "draft",
+    "map_row": 51,
+    "legal_check": false
+  },
+  {
+    "slug": "/spiritual-healing/ayurveda-and-spiritual-healing/",
+    "template": "service",
+    "section": "spiritual-healing",
+    "wave": 2,
+    "title_tag": "Ayurveda & Spiritual Healing | Mind-Body-Spirit Session",
+    "meta_description": "",
+    "h1": "Ayurveda and Spiritual Healing Together",
+    "primary_keyword": "mind body spirit healing calgary",
+    "secondary_keywords": [
+      "ayurveda and energy healing",
+      "integrated wellness session",
+      "holistic healing calgary"
+    ],
+    "status": "draft",
+    "map_row": 52,
+    "legal_check": false
+  },
+  {
+    "slug": "/concerns/",
+    "template": "hub",
+    "section": "concerns",
+    "wave": 2,
+    "title_tag": "Wellness Concerns: How Ayurveda Can Support You",
+    "meta_description": "",
+    "h1": "Wellness Concerns We Support",
+    "primary_keyword": "ayurveda for health concerns",
+    "secondary_keywords": [
+      "what ayurveda helps with",
+      "ayurvedic approach",
+      "natural wellness support"
+    ],
+    "status": "draft",
+    "map_row": 53,
+    "legal_check": false
+  },
+  {
+    "slug": "/concerns/lower-back-pain/",
+    "template": "concern",
+    "section": "concerns",
+    "wave": 2,
+    "title_tag": "Lower Back Pain: The Ayurvedic Approach | Calgary",
+    "meta_description": "",
+    "h1": "Lower Back Pain: An Ayurvedic Approach",
+    "primary_keyword": "ayurvedic treatment for back pain",
+    "secondary_keywords": [
+      "kati basti for back pain",
+      "ayurvedic massage back pain calgary",
+      "natural back pain relief"
+    ],
+    "status": "draft",
+    "map_row": 54,
+    "legal_check": false
+  },
+  {
+    "slug": "/concerns/knee-and-joint-discomfort/",
+    "template": "concern",
+    "section": "concerns",
+    "wave": 2,
+    "title_tag": "Knee and Joint Discomfort: The Ayurvedic Approach",
+    "meta_description": "",
+    "h1": "Knee and Joint Discomfort: An Ayurvedic Approach",
+    "primary_keyword": "ayurvedic treatment for knee pain",
+    "secondary_keywords": [
+      "janu basti for knees",
+      "ayurveda joint pain",
+      "natural knee pain relief"
+    ],
+    "status": "draft",
+    "map_row": 55,
+    "legal_check": false
+  },
+  {
+    "slug": "/concerns/neck-and-shoulder-tension/",
+    "template": "concern",
+    "section": "concerns",
+    "wave": 2,
+    "title_tag": "Neck and Shoulder Tension: The Ayurvedic Approach",
+    "meta_description": "",
+    "h1": "Neck and Shoulder Tension: An Ayurvedic Approach",
+    "primary_keyword": "ayurvedic treatment for neck pain",
+    "secondary_keywords": [
+      "greeva basti for neck",
+      "desk posture tension",
+      "shoulder stiffness massage"
+    ],
+    "status": "draft",
+    "map_row": 56,
+    "legal_check": false
+  },
+  {
+    "slug": "/concerns/sinus-congestion/",
+    "template": "concern",
+    "section": "concerns",
+    "wave": 2,
+    "title_tag": "Sinus Congestion: The Ayurvedic Approach | Calgary",
+    "meta_description": "",
+    "h1": "Sinus Congestion: An Ayurvedic Approach",
+    "primary_keyword": "ayurvedic treatment for sinus",
+    "secondary_keywords": [
+      "nasya for sinus",
+      "natural sinus relief",
+      "sinus congestion dry air calgary"
+    ],
+    "status": "draft",
+    "map_row": 57,
+    "legal_check": false
+  },
+  {
+    "slug": "/concerns/stress-relief/",
+    "template": "concern",
+    "section": "concerns",
+    "wave": 2,
+    "title_tag": "Stress Relief: The Ayurvedic Approach | Calgary",
+    "meta_description": "",
+    "h1": "Stress Relief: An Ayurvedic Approach",
+    "primary_keyword": "ayurveda for stress",
+    "secondary_keywords": [
+      "shirodhara for stress",
+      "natural stress relief calgary",
+      "burnout support"
+    ],
+    "status": "draft",
+    "map_row": 58,
+    "legal_check": false
+  },
+  {
+    "slug": "/concerns/sleep-support/",
+    "template": "concern",
+    "section": "concerns",
+    "wave": 2,
+    "title_tag": "Better Sleep: The Ayurvedic Approach",
+    "meta_description": "",
+    "h1": "Better Sleep: An Ayurvedic Approach",
+    "primary_keyword": "ayurveda for sleep",
+    "secondary_keywords": [
+      "shirodhara for sleep",
+      "natural sleep support",
+      "ayurvedic bedtime routine"
+    ],
+    "status": "draft",
+    "map_row": 59,
+    "legal_check": false
+  },
+  {
+    "slug": "/concerns/digestion-and-bloating/",
+    "template": "concern",
+    "section": "concerns",
+    "wave": 2,
+    "title_tag": "Digestion and Bloating: The Ayurvedic Approach",
+    "meta_description": "",
+    "h1": "Digestion and Bloating: An Ayurvedic Approach",
+    "primary_keyword": "ayurveda for digestion",
+    "secondary_keywords": [
+      "ayurvedic remedies for bloating",
+      "acidity",
+      "constipation",
+      "agni"
+    ],
+    "status": "draft",
+    "map_row": 60,
+    "legal_check": false
+  },
+  {
+    "slug": "/concerns/seasonal-allergies/",
+    "template": "concern",
+    "section": "concerns",
+    "wave": 3,
+    "title_tag": "Seasonal Allergies: The Ayurvedic Approach",
+    "meta_description": "",
+    "h1": "Seasonal Allergies: An Ayurvedic Approach",
+    "primary_keyword": "ayurveda for allergies",
+    "secondary_keywords": [
+      "seasonal allergy natural support",
+      "nasya for allergies",
+      "hay fever calgary"
+    ],
+    "status": "draft",
+    "map_row": 61,
+    "legal_check": false
+  },
+  {
+    "slug": "/concerns/dry-and-sensitive-skin/",
+    "template": "concern",
+    "section": "concerns",
+    "wave": 3,
+    "title_tag": "Dry and Sensitive Skin: The Ayurvedic Approach",
+    "meta_description": "",
+    "h1": "Dry and Sensitive Skin: An Ayurvedic Approach",
+    "primary_keyword": "ayurvedic skin care for dry skin",
+    "secondary_keywords": [
+      "eczema-prone skin ayurveda",
+      "winter dry skin calgary",
+      "abhyanga for dry skin"
+    ],
+    "status": "draft",
+    "map_row": 62,
+    "legal_check": false
+  },
+  {
+    "slug": "/concerns/acne-prone-skin/",
+    "template": "concern",
+    "section": "concerns",
+    "wave": 3,
+    "title_tag": "Acne-Prone Skin: The Ayurvedic Approach",
+    "meta_description": "",
+    "h1": "Acne-Prone Skin: An Ayurvedic Approach",
+    "primary_keyword": "ayurvedic acne care",
+    "secondary_keywords": [
+      "pitta skin care",
+      "herbal skin care for acne",
+      "natural acne support"
+    ],
+    "status": "draft",
+    "map_row": 63,
+    "legal_check": false
+  },
+  {
+    "slug": "/concerns/hair-fall-and-scalp/",
+    "template": "concern",
+    "section": "concerns",
+    "wave": 3,
+    "title_tag": "Hair Fall and Scalp Care: The Ayurvedic Approach",
+    "meta_description": "",
+    "h1": "Hair Fall and Scalp Care: An Ayurvedic Approach",
+    "primary_keyword": "ayurvedic treatment for hair fall",
+    "secondary_keywords": [
+      "hair thinning ayurveda",
+      "scalp oil care",
+      "bhringraj oil"
+    ],
+    "status": "draft",
+    "map_row": 64,
+    "legal_check": false
+  },
+  {
+    "slug": "/concerns/headaches-and-tension/",
+    "template": "concern",
+    "section": "concerns",
+    "wave": 3,
+    "title_tag": "Headaches and Tension: The Ayurvedic Approach",
+    "meta_description": "",
+    "h1": "Headaches and Tension: An Ayurvedic Approach",
+    "primary_keyword": "ayurveda for headaches",
+    "secondary_keywords": [
+      "tension headache natural relief",
+      "shirodhara for headaches",
+      "head massage"
+    ],
+    "status": "draft",
+    "map_row": 65,
+    "legal_check": false
+  },
+  {
+    "slug": "/concerns/menopause-support/",
+    "template": "concern",
+    "section": "concerns",
+    "wave": 3,
+    "title_tag": "Menopause Support: The Ayurvedic Approach",
+    "meta_description": "",
+    "h1": "Menopause Support: An Ayurvedic Approach",
+    "primary_keyword": "ayurveda for menopause",
+    "secondary_keywords": [
+      "perimenopause natural support",
+      "hot flashes ayurveda",
+      "hormonal transition"
+    ],
+    "status": "draft",
+    "map_row": 66,
+    "legal_check": false
+  },
+  {
+    "slug": "/concerns/low-energy-and-fatigue/",
+    "template": "concern",
+    "section": "concerns",
+    "wave": 3,
+    "title_tag": "Low Energy and Fatigue: The Ayurvedic Approach",
+    "meta_description": "",
+    "h1": "Low Energy and Fatigue: An Ayurvedic Approach",
+    "primary_keyword": "ayurveda for fatigue",
+    "secondary_keywords": [
+      "low energy natural support",
+      "rasayana",
+      "burnout recovery"
+    ],
+    "status": "draft",
+    "map_row": 67,
+    "legal_check": false
+  },
+  {
+    "slug": "/calgary/",
+    "template": "location",
+    "section": "calgary",
+    "wave": 1,
+    "title_tag": "Ayurvedic Clinic in Calgary | Location, Hours & Parking",
+    "meta_description": "",
+    "h1": "Ayurvedachalam in Calgary",
+    "primary_keyword": "ayurvedic clinic calgary",
+    "secondary_keywords": [
+      "ayurveda near me",
+      "ayurveda centre calgary",
+      "ayurvedic wellness centre calgary"
+    ],
+    "status": "draft",
+    "map_row": 68,
+    "legal_check": false
+  },
+  {
+    "slug": "/calgary/sw/",
+    "template": "location",
+    "section": "calgary",
+    "wave": 3,
+    "title_tag": "Ayurveda in SW Calgary | Therapies & Consultations",
+    "meta_description": "",
+    "h1": "Ayurveda in Southwest Calgary",
+    "primary_keyword": "ayurveda sw calgary",
+    "secondary_keywords": [
+      "ayurvedic massage sw calgary",
+      "shirodhara sw calgary"
+    ],
+    "status": "draft",
+    "map_row": 69,
+    "legal_check": false
+  },
+  {
+    "slug": "/calgary/nw/",
+    "template": "location",
+    "section": "calgary",
+    "wave": 3,
+    "title_tag": "Ayurveda in NW Calgary | Therapies & Consultations",
+    "meta_description": "",
+    "h1": "Ayurveda in Northwest Calgary",
+    "primary_keyword": "ayurveda nw calgary",
+    "secondary_keywords": [
+      "ayurvedic massage nw calgary",
+      "shirodhara nw calgary"
+    ],
+    "status": "draft",
+    "map_row": 70,
+    "legal_check": false
+  },
+  {
+    "slug": "/calgary/ne/",
+    "template": "location",
+    "section": "calgary",
+    "wave": 3,
+    "title_tag": "Ayurveda in NE Calgary | Therapies & Consultations",
+    "meta_description": "",
+    "h1": "Ayurveda in Northeast Calgary",
+    "primary_keyword": "ayurveda ne calgary",
+    "secondary_keywords": [
+      "ayurvedic clinic ne calgary",
+      "ayurvedic massage ne calgary"
+    ],
+    "status": "draft",
+    "map_row": 71,
+    "legal_check": false
+  },
+  {
+    "slug": "/calgary/se/",
+    "template": "location",
+    "section": "calgary",
+    "wave": 3,
+    "title_tag": "Ayurveda in SE Calgary | Therapies & Consultations",
+    "meta_description": "",
+    "h1": "Ayurveda in Southeast Calgary",
+    "primary_keyword": "ayurveda se calgary",
+    "secondary_keywords": [
+      "ayurvedic massage se calgary",
+      "shirodhara se calgary"
+    ],
+    "status": "draft",
+    "map_row": 72,
+    "legal_check": false
+  },
+  {
+    "slug": "/online/alberta/",
+    "template": "region",
+    "section": "online",
+    "wave": 3,
+    "title_tag": "Online Ayurvedic Consultation in Alberta",
+    "meta_description": "",
+    "h1": "Online Ayurveda Across Alberta",
+    "primary_keyword": "online ayurvedic consultation alberta",
+    "secondary_keywords": [
+      "ayurveda edmonton",
+      "ayurveda red deer",
+      "ayurveda lethbridge",
+      "ayurveda airdrie"
+    ],
+    "status": "draft",
+    "map_row": 73,
+    "legal_check": false
+  },
+  {
+    "slug": "/online/british-columbia/",
+    "template": "region",
+    "section": "online",
+    "wave": 3,
+    "title_tag": "Online Ayurvedic Consultation in British Columbia",
+    "meta_description": "",
+    "h1": "Online Ayurveda Across British Columbia",
+    "primary_keyword": "online ayurvedic consultation bc",
+    "secondary_keywords": [
+      "ayurveda vancouver online",
+      "ayurveda surrey",
+      "ayurveda victoria"
+    ],
+    "status": "draft",
+    "map_row": 74,
+    "legal_check": false
+  },
+  {
+    "slug": "/online/ontario/",
+    "template": "region",
+    "section": "online",
+    "wave": 3,
+    "title_tag": "Online Ayurvedic Consultation in Ontario",
+    "meta_description": "",
+    "h1": "Online Ayurveda Across Ontario",
+    "primary_keyword": "online ayurvedic consultation ontario",
+    "secondary_keywords": [
+      "ayurveda toronto online",
+      "ayurveda brampton",
+      "ayurveda mississauga"
+    ],
+    "status": "draft",
+    "map_row": 75,
+    "legal_check": false
+  },
+  {
+    "slug": "/online/how-it-works/",
+    "template": "region",
+    "section": "online",
+    "wave": 3,
+    "title_tag": "How Online Ayurvedic Consultations Work",
+    "meta_description": "",
+    "h1": "How Online Consultations Work",
+    "primary_keyword": "how online ayurvedic consultation works",
+    "secondary_keywords": [
+      "virtual ayurveda appointment",
+      "video consultation",
+      "time zones",
+      "what you need"
+    ],
+    "status": "draft",
+    "map_row": 76,
+    "legal_check": false
+  },
+  {
+    "slug": "/learn/",
+    "template": "article-index",
+    "section": "learn",
+    "wave": 1,
+    "title_tag": "Learn Ayurveda | Guides from a BAMS Practitioner",
+    "meta_description": "",
+    "h1": "Learn Ayurveda",
+    "primary_keyword": "ayurveda guides",
+    "secondary_keywords": [
+      "learn ayurveda",
+      "ayurveda articles canada"
+    ],
+    "status": "draft",
+    "map_row": 77,
+    "legal_check": false
+  },
+  {
+    "slug": "/learn/dosha-quiz/",
+    "template": "utility",
+    "section": "learn",
+    "wave": 3,
+    "title_tag": "Dosha Quiz: Find Your Ayurvedic Body Type",
+    "meta_description": "",
+    "h1": "Dosha Quiz: Find Your Ayurvedic Body Type",
+    "primary_keyword": "dosha quiz",
+    "secondary_keywords": [
+      "what is my dosha",
+      "ayurveda body type test",
+      "prakriti quiz"
+    ],
+    "status": "draft",
+    "map_row": 83,
+    "legal_check": false
+  },
+  {
+    "slug": "/privacy-policy/",
+    "template": "legal",
+    "section": "policies",
+    "wave": 1,
+    "title_tag": "Privacy Policy | Ayurvedachalam",
+    "meta_description": "",
+    "h1": "Privacy Policy",
+    "secondary_keywords": [],
+    "status": "draft",
+    "map_row": 97,
+    "legal_check": false
+  },
+  {
+    "slug": "/terms/",
+    "template": "legal",
+    "section": "policies",
+    "wave": 1,
+    "title_tag": "Terms of Use | Ayurvedachalam",
+    "meta_description": "",
+    "h1": "Terms of Use",
+    "secondary_keywords": [],
+    "status": "draft",
+    "map_row": 98,
+    "legal_check": false
+  },
+  {
+    "slug": "/health-disclaimer/",
+    "template": "legal",
+    "section": "policies",
+    "wave": 1,
+    "title_tag": "Health Disclaimer | Ayurvedachalam",
+    "meta_description": "",
+    "h1": "Health Disclaimer",
+    "secondary_keywords": [],
+    "status": "draft",
+    "map_row": 99,
+    "legal_check": false
+  },
+  {
+    "slug": "/cancellation-policy/",
+    "template": "legal",
+    "section": "policies",
+    "wave": 2,
+    "title_tag": "Cancellation Policy | Ayurvedachalam",
+    "meta_description": "",
+    "h1": "Cancellation Policy",
+    "secondary_keywords": [],
+    "status": "draft",
+    "map_row": 100,
+    "legal_check": false
+  }
+]
