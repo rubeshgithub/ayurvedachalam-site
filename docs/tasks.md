@@ -137,11 +137,11 @@ Written by hand before launch, to the article rules (R4), and loaded through the
 | --- | --- | --- | --- | --- |
 | W1-31 | Learn hub | 77 | /learn/ | Index for everything that follows |
 | W1-32 | Is Ayurveda Regulated in Canada? | 85 | /learn/is-ayurveda-regulated-in-canada/ | **Drafted 2026-10-15** → `content/learn/`; awaits practitioner review and the F-02 check on the restricted-activities paragraph |
-| W1-33 | Are Ayurvedic Herbs Safe? | 95 | /learn/are-ayurvedic-herbs-safe/ | The main safety objection, answered with Health Canada sources |
-| W1-34 | Ayurveda for Calgary Winters | 91 | /learn/ayurveda-for-calgary-winters/ | Local, seasonal, nobody else has it |
-| W1-35 | Shirodhara: Benefits and What to Expect | 88 | /learn/shirodhara-benefits/ | Feeds the best-known therapy page |
-| W1-36 | What Is Kati Basti? | 89 | /learn/kati-basti-guide/ | No Calgary provider ranks for this term |
-| W1-37 | Is Ayurveda Covered by Insurance in Canada? | 96 | /learn/is-ayurveda-covered-by-insurance/ | Answers the money question before booking |
+| W1-33 | Are Ayurvedic Herbs Safe? | 95 | /learn/are-ayurvedic-herbs-safe/ | **Drafted 2026-10-17** → `content/learn/`; linter pass; awaits practitioner review. The main safety objection, answered with Health Canada sources |
+| W1-34 | Ayurveda for Calgary Winters | 91 | /learn/ayurveda-for-calgary-winters/ | **Drafted 2026-10-17** → `content/learn/`; linter pass; awaits practitioner review. Local, seasonal, nobody else has it |
+| W1-35 | Shirodhara: Benefits and What to Expect | 88 | /learn/shirodhara-benefits/ | **Drafted 2026-10-17** → `content/learn/`; linter pass; awaits practitioner review. Feeds the best-known therapy page |
+| W1-36 | What Is Kati Basti? | 89 | /learn/kati-basti-guide/ | **Drafted 2026-10-17** → `content/learn/`; linter pass; awaits practitioner review. No Calgary provider ranks for this term |
+| W1-37 | Is Ayurveda Covered by Insurance in Canada? | 96 | /learn/is-ayurveda-covered-by-insurance/ | **Drafted 2026-10-17** → `content/learn/`; linter pass; awaits practitioner review. Answers the money question before booking |
 
 ---
 

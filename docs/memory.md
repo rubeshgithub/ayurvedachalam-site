@@ -213,6 +213,7 @@ Healwell publish no prices.
 | 2026-10-13 | Six project docs and `design-preview.html` created; release plan changed to D-10 | Claude |
 | 2026-10-14 | Pricing study delivered (F-16); proposed list awaits owner approval | Claude |
 | 2026-10-15 | Owner approved the price list (D-18); `product.md` §5 updated; cornerstone article W1-32 drafted | RK, Claude |
+| 2026-10-17 | Five more cornerstone articles drafted (W1-33..37); all six pass the linter; seeded as `review`. Open points: ECCC climate link and Health Canada monograph links to open before publish; massage association (Q-06) blocks the insurance article | Claude |
 | 2026-10-17 | Pushed to github.com/rubeshgithub/ayurvedachalam-site (main). CMS built: login with TOTP, page editor, article queue/editor with lint + publish/schedule/reject, settings, redirects, draft preview via Next draft mode. No MongoDB reachable from the session, so CMS end-to-end test happens on the server | Claude |
 | 2026-10-16 | Development started (owner: "start the development"). `ayurvedachalam-site` built: Next.js 16 + Tailwind 4 + MongoDB with JSON-seed fallback; templates, SEO layer, linter, ingest, publish cron, forms; 10 tests; CI workflow. Zip delivered; GitHub push pending (no valid token in session) | Claude |
 | 2026-10-14 | Design approved; practitioner details received; hosting set to OVH; prices deferred to a pricing study; clinic noted as virtual | RK, Claude |
