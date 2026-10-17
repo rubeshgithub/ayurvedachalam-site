@@ -44,12 +44,19 @@ Production shows only `published` records. To preview drafts on a server, set `P
 
 1. Node 22 and MongoDB on the server; create the database and a user.
 2. `git clone`, `npm ci`, write `.env.local` from `.env.example` with real secrets (never commit it).
-3. `npm run seed` once (upserts the page map; never overwrites non-draft pages), then `npm run build && npm start` under pm2 or systemd behind nginx with TLS.
+3. `npm run seed` once (upserts the page map; never overwrites non-draft pages), then create the first CMS user: `npx tsx scripts/create-user.ts owner@example.com "Name" owner` (prints the TOTP secret once), then `npm run build && npm start` under pm2 or systemd behind nginx with TLS.
 4. System cron every 15 minutes: `curl -fsS -H "Authorization: Bearer $CRON_SECRET" https://ayurvedachalam.com/api/cron/publish`.
 5. Deploy on push to `main`: the CI above must be green; the server pulls, `npm ci`, `npm run build`, restarts.
 6. Staging: same app with `STAGING=1` (robots disallow all) and `PREVIEW_DRAFTS=1`, behind basic auth in nginx.
 
 ## Not built yet
 
-`/cms` admin UI (B-15, B-16), owner notifications (B-25), booking embed configuration (B-21),
-redirects admin, security CSP header (B-24), Lighthouse budget in CI (B-23). See `docs/tasks.md`.
+Media library with required alt text (rest of B-15), owner notifications (B-25), CSP header,
+backups and staging host (B-24), template tests, axe and Lighthouse budget in CI (B-23). See `docs/tasks.md`.
+
+## CMS
+
+`/cms` — email + password + authenticator code. Pages: fields, blocks as JSON, FAQ, summary box;
+publishing runs the compliance linter. Articles: queue by status with lint results; publish now,
+schedule, send back, reject. Settings: NAP, hours, booking URL, publish mode and hold, required
+notices, price book. Redirects: 301s, no chains. "Preview" opens drafts through Next draft mode.

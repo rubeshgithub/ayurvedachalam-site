@@ -22,7 +22,7 @@
 | Articles published | 0 |
 | Article pipeline | Not built. `publish_mode` will start as `review` |
 | Legal review | Owner has set the position on all 7 items (2026-10-14); lawyer confirmation still to book (F-02); one open point, Q-16 |
-| Build | Phase B started 2026-10-16: repo `ayurvedachalam-site` scaffolded, builds clean, 17 of 25 B-tasks done; CMS admin (B-15/16) next. Blocking the build: nothing. Content: Q-16 ("stomach wash"), phone/hours, massage association number |
+| Build | Phase B started 2026-10-16: repo `ayurvedachalam-site` scaffolded, builds clean, 20 of 25 B-tasks done (B-15 partial: media library pending); next B-23 tests/Lighthouse, B-24 CSP/backups/staging, B-25 notifications, then W1 content. Blocking the build: nothing. Content: Q-16 ("stomach wash"), phone/hours, massage association number |
 
 **Next three actions**
 
@@ -213,13 +213,14 @@ Healwell publish no prices.
 | 2026-10-13 | Six project docs and `design-preview.html` created; release plan changed to D-10 | Claude |
 | 2026-10-14 | Pricing study delivered (F-16); proposed list awaits owner approval | Claude |
 | 2026-10-15 | Owner approved the price list (D-18); `product.md` §5 updated; cornerstone article W1-32 drafted | RK, Claude |
+| 2026-10-17 | Pushed to github.com/rubeshgithub/ayurvedachalam-site (main). CMS built: login with TOTP, page editor, article queue/editor with lint + publish/schedule/reject, settings, redirects, draft preview via Next draft mode. No MongoDB reachable from the session, so CMS end-to-end test happens on the server | Claude |
 | 2026-10-16 | Development started (owner: "start the development"). `ayurvedachalam-site` built: Next.js 16 + Tailwind 4 + MongoDB with JSON-seed fallback; templates, SEO layer, linter, ingest, publish cron, forms; 10 tests; CI workflow. Zip delivered; GitHub push pending (no valid token in session) | Claude |
 | 2026-10-14 | Design approved; practitioner details received; hosting set to OVH; prices deferred to a pricing study; clinic noted as virtual | RK, Claude |
 | 2026-10-14 | Owner answered the LEGAL CHECK register; R1.1, R1.2, R6 and the register rewritten; Nasya and Panchakarma pages unblocked | RK, Claude |
 
 ---
 
-Site code: `ayurvedachalam-site/` (zip delivered 2026-10-16; to be pushed to GitHub). Article drafts live in `content/learn/<slug>.md` (front matter + body + unpublished editor's notes).
+Site code: github.com/rubeshgithub/ayurvedachalam-site (pushed 2026-10-17). Article drafts live in `content/learn/<slug>.md` (front matter + body + unpublished editor's notes).
 
 ## 9. Publishing log
 

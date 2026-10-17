@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { draftMode } from "next/headers";
 import { getArticle, getAuthor, getSettings, listArticles } from "@/lib/content/repo";
 import { JsonLd, articleLd, breadcrumbLd, buildMetadata, faqLd } from "@/lib/seo";
 import { ARTICLE_CATEGORIES } from "@/lib/types";
@@ -8,7 +9,7 @@ import { Article } from "@/templates/Article";
 export const revalidate = 300;
 export const dynamicParams = true;
 
-const isPreview = () => process.env.NODE_ENV !== "production" || process.env.PREVIEW_DRAFTS === "1";
+const isPreview = async () => process.env.NODE_ENV !== "production" || process.env.PREVIEW_DRAFTS === "1" || (await draftMode()).isEnabled;
 
 export async function generateStaticParams() {
   if (process.env.SKIP_STATIC_PARAMS === "1") return [];
@@ -17,7 +18,7 @@ export async function generateStaticParams() {
 
 async function load(slug: string) {
   const a = await getArticle(slug);
-  if (!a || (a.status !== "published" && !isPreview())) notFound();
+  if (!a || (a.status !== "published" && !(await isPreview()))) notFound();
   return a;
 }
 

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound, permanentRedirect, redirect } from "next/navigation";
+import { draftMode } from "next/headers";
 import { findRedirect, getAuthor, getPage, getPrices, getSettings, listChildren, listPages, priceFor } from "@/lib/content/repo";
 import { JsonLd, breadcrumbLd, buildMetadata, faqLd, personLd, serviceLd } from "@/lib/seo";
 import { Service } from "@/templates/Service";
@@ -11,12 +12,12 @@ export const revalidate = 300;
 export const dynamicParams = true;
 
 const toSlug = (parts: string[]) => `/${parts.join("/")}/`;
-const isPreview = () => process.env.NODE_ENV !== "production" || process.env.PREVIEW_DRAFTS === "1";
+const isPreview = async () => process.env.NODE_ENV !== "production" || process.env.PREVIEW_DRAFTS === "1" || (await draftMode()).isEnabled;
 
 async function load(parts: string[]): Promise<Page> {
   const slug = toSlug(parts);
   const page = await getPage(slug);
-  if (!page || (page.status !== "published" && !isPreview())) {
+  if (!page || (page.status !== "published" && !(await isPreview()))) {
     const r = await findRedirect(slug);
     if (r) (r.code === 301 ? permanentRedirect : redirect)(r.to);
     notFound();
