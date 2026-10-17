@@ -22,7 +22,7 @@
 | Articles published | 0 |
 | Article pipeline | Not built. `publish_mode` will start as `review` |
 | Legal review | Owner has set the position on all 7 items (2026-10-14); lawyer confirmation still to book (F-02); one open point, Q-16 |
-| Blocking the build | Nothing blocks B-01 to B-06. Content: Q-16 ("stomach wash"), phone/hours, massage association number |
+| Build | Phase B started 2026-10-16: repo `ayurvedachalam-site` scaffolded, builds clean, 17 of 25 B-tasks done; CMS admin (B-15/16) next. Blocking the build: nothing. Content: Q-16 ("stomach wash"), phone/hours, massage association number |
 
 **Next three actions**
 
@@ -64,7 +64,7 @@
 | D-03 | 2026-10-13 | All copy is written fresh, even where the owner wrote the text O2 still shows | Accepted | Search engines saw it on O2's site first |
 | D-04 | 2026-10-13 | Wording posture: no "Dr." title; external therapies only; "supports / traditionally used for", never "cures / treats"; concern pages avoid disease names | PROPOSED, pending lawyer | Alberta title and restricted-activity rules; federal advertising rules |
 | D-05 | 2026-10-13 | Design direction "The copper vessel": Sesame background, Neem green, Copper for actions, Fraunces + Figtree | **Accepted 2026-10-14** | Owner: "keep the copper/green proposal" |
-| D-06 | 2026-10-13 | Stack: Next.js (server-rendered) + MongoDB + custom CMS at `/cms` | PROPOSED | SEO needs server-rendered pages; matches the owner's Node/React/MongoDB servers |
+| D-06 | 2026-10-13 | Stack: Next.js (server-rendered) + MongoDB + custom CMS at `/cms` | Accepted 2026-10-16 (build started) | SEO needs server-rendered pages; matches the owner's Node/React/MongoDB servers |
 | D-07 | 2026-10-13 | Booking, intake and receipts in an external practice-management tool; the site stores no health information | PROPOSED | Privacy risk and build cost |
 | D-08 | 2026-10-13 | Article pipeline copies the CRS pattern: scheduled Claude task → GitHub relay repo → CMS ingest. Runs Mon/Wed/Fri. Starts in `review` mode for two weeks, then `timed` with a 24-hour hold | PROPOSED | Owner asked for auto-publishing; a hold keeps a human veto on health content |
 | D-09 | 2026-10-13 | "Articles" = the Learn section, at `/learn/`. One content type for cornerstone and weekly articles | PROPOSED | Avoids two overlapping sections; keeps the mapped slugs |
@@ -74,6 +74,7 @@
 | D-15 | 2026-10-14 | Hosting on the owner's OVH server, as for docu10 | Accepted | Owner decision |
 | D-16 | 2026-10-14 | Prices on the site are placeholders until a pricing study is done (F-16) | Accepted | Owner: "we need to do market research" |
 | D-17 | 2026-10-14 | Pages are written for the physical clinic as planned, with a placeholder address until it opens; launch waits for the real address | Accepted | Owner decision |
+| D-19 | 2026-10-16 | Content repository reads MongoDB in production and `content/seed/*.json` when `MONGODB_URI` is empty, so the site builds in CI with no database; writes always need MongoDB | Accepted | Build decision |
 | D-18 | 2026-10-15 | Price list adopted exactly as recommended in the pricing study; now in `product.md` §5 (initial consult $135, follow-up $75, Abhyanga $120, Shirodhara $130, Vasti $90–95, energy healing $90, Panchakarma $695, packages 10–16%) | Accepted | Owner: "I will go with your recommendation about the pricing" |
 | D-14 | 2026-10-14 | LEGAL CHECK answers from the owner: full degree name may be shown with no "Dr."; Nasya is home-use advice only, not performed; Panchakarma = Kati Vasti, Janu Vasti, Shirodhara plus diet and routine; privacy policy written to Alberta PIPA; lifestyle content (diet, doshas, yoga, meditation) strengthens every page; spiritual healing described in ASHA's terms; O2 parked | Accepted | Owner's review comment on `rules.md` |
 | D-13 | 2026-10-13 | Herb and product content names only products with a Health Canada NPN; no online shop in version 1 | PROPOSED | Health Canada advisories on unlicensed Ayurvedic products |
@@ -212,12 +213,13 @@ Healwell publish no prices.
 | 2026-10-13 | Six project docs and `design-preview.html` created; release plan changed to D-10 | Claude |
 | 2026-10-14 | Pricing study delivered (F-16); proposed list awaits owner approval | Claude |
 | 2026-10-15 | Owner approved the price list (D-18); `product.md` §5 updated; cornerstone article W1-32 drafted | RK, Claude |
+| 2026-10-16 | Development started (owner: "start the development"). `ayurvedachalam-site` built: Next.js 16 + Tailwind 4 + MongoDB with JSON-seed fallback; templates, SEO layer, linter, ingest, publish cron, forms; 10 tests; CI workflow. Zip delivered; GitHub push pending (no valid token in session) | Claude |
 | 2026-10-14 | Design approved; practitioner details received; hosting set to OVH; prices deferred to a pricing study; clinic noted as virtual | RK, Claude |
 | 2026-10-14 | Owner answered the LEGAL CHECK register; R1.1, R1.2, R6 and the register rewritten; Nasya and Panchakarma pages unblocked | RK, Claude |
 
 ---
 
-Article drafts live in `content/learn/<slug>.md` (front matter + body + unpublished editor's notes).
+Site code: `ayurvedachalam-site/` (zip delivered 2026-10-16; to be pushed to GitHub). Article drafts live in `content/learn/<slug>.md` (front matter + body + unpublished editor's notes).
 
 ## 9. Publishing log
 

@@ -1,7 +1,7 @@
 # architecture.md — Ayurvedachalam
 
 > How the site is built, how content gets in, and how it stays healthy.
-> Last updated: 2026-10-13 · Decisions are logged in `memory.md` §3 with IDs (D-xx).
+> Last updated: 2026-10-16 · Decisions are logged in `memory.md` §3 with IDs (D-xx).
 > Items marked **PROPOSED** are defaults chosen so the build can start; change them in
 > `memory.md` and here together.
 
@@ -22,8 +22,8 @@
 
 | Layer | Choice | Why |
 | --- | --- | --- |
-| Framework | Next.js (App Router), React, TypeScript | Server rendering and static regeneration for SEO; same React/Node skills as CRS |
-| Styling | CSS variables from `design.md` + Tailwind CSS | Tokens in one place; fast to build templates |
+| Framework | Next.js 16 (App Router, `cacheComponents` off, ISR `revalidate` 300 s), React 19, TypeScript | Server rendering and static regeneration for SEO; same React/Node skills as CRS |
+| Styling | CSS variables from `design.md` in `app/globals.css` (`@layer base/components`) + Tailwind CSS 4 | Tokens in one place; fast to build templates |
 | Database | MongoDB | Already in use on the owner's servers |
 | CMS | Custom admin at `/cms` inside the same app | Same pattern as CRS; no third-party CMS fee |
 | Auth (CMS only) | Email + password with TOTP, session cookie | Two or three users at most |
@@ -369,15 +369,18 @@ respected. Skip link. Form errors announced.
 | Staging | staging subdomain, password-protected, `noindex` | The relay can target staging for dry runs |
 | Production | ayurvedachalam.com | Deploys from `main` |
 
-Environment variables:
+Environment variables (`.env.example` in the repo):
 
 ```
 MONGODB_URI            SITE_URL               SESSION_SECRET
 INGEST_KEY             CRON_SECRET            INDEXNOW_KEY
 BOOKING_URL            BOOKING_EMBED_URL      GA4_ID
 MAIL_API_KEY           MAIL_FROM              CONTACT_TO
-MAPS_EMBED_KEY (optional)
+MAPS_EMBED_KEY (optional)   PREVIEW_DRAFTS=1 (staging only)   STAGING=1 (robots: disallow all)
 ```
+
+When `MONGODB_URI` is empty the app reads `content/seed/*.json` (D-19). This is for local
+development and CI only; production always has MongoDB.
 
 ## 12. Analytics events (GA4)
 
