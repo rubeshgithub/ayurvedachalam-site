@@ -47,27 +47,27 @@
 | ID | Task | Owner | Status | Notes |
 | --- | --- | --- | --- | --- |
 | B-01 | Create `ayurvedachalam-site` repo; Next.js + TypeScript + Tailwind; add `/docs` with these six files | Dev | [x] 2026-10-16 | `architecture.md` §4 |
-| B-02 | `styles/tokens.css` from `design.md` §12; self-host Fraunces and Figtree | Dev | [ ] | |
+| B-02 | `styles/tokens.css` from `design.md` §12; self-host Fraunces and Figtree | Dev | [x] 2026-10-16 |  |
 | B-03 | Global shell: top bar, header with section panels, mobile sheet, sticky mobile Book/Call bar, footer | Dev | [x] 2026-10-16 | After F-01 |
-| B-04 | Component library per `design.md` §10 with a `/styleguide` page (noindex) | Dev | [ ] | |
-| B-05 | MongoDB models and connection (`architecture.md` §6) | Dev | [ ] | |
+| B-04 | Component library per `design.md` §10 with a `/styleguide` page (noindex) | Dev | [x] 2026-10-16 |  |
+| B-05 | MongoDB models and connection (`architecture.md` §6) | Dev | [x] 2026-10-16 |  |
 | B-06 | `scripts/seed-pages.ts`: import the page map spreadsheet into `pages` (slug, title, meta, H1, keywords, wave, template) | Dev | [x] 2026-10-16 | 100 records, status `draft` |
-| B-07 | Template: `home` | Dev | [ ] | |
-| B-08 | Template: `hub` | Dev | [ ] | |
-| B-09 | Template: `service` with sticky summary box | Dev | [ ] | |
-| B-10 | Template: `concern` | Dev | [ ] | |
-| B-11 | Templates: `article`, `article-index`, category pages, pagination | Dev | [ ] | |
-| B-12 | Templates: `profile`, `pricing`, `booking`, `contact`, `location`, `region`, `legal`, `utility` | Dev | [ ] | |
+| B-07 | Template: `home` | Dev | [x] 2026-10-16 |  |
+| B-08 | Template: `hub` | Dev | [x] 2026-10-16 |  |
+| B-09 | Template: `service` with sticky summary box | Dev | [x] 2026-10-16 |  |
+| B-10 | Template: `concern` | Dev | [x] 2026-10-16 |  |
+| B-11 | Templates: `article`, `article-index`, category pages, pagination | Dev | [x] 2026-10-16 |  |
+| B-12 | Templates: `profile`, `pricing`, `booking`, `contact`, `location`, `region`, `legal`, `utility` | Dev | [x] 2026-10-16 |  |
 | B-13 | SEO layer: metadata builder, canonical, OG image generator, JSON-LD builders, breadcrumbs | Dev | [x] 2026-10-16 | `architecture.md` §9 |
-| B-14 | `sitemap.xml`, `robots.txt`, `feed.xml`, IndexNow key and ping | Dev | [ ] | |
-| B-15 | CMS: login with TOTP, page editor (blocks), article editor (Markdown + preview), media library with required alt text, settings | Dev | [ ] | |
-| B-16 | CMS: article queue view with statuses, lint results, Approve / Reject / Edit, publish time | Dev | [ ] | |
+| B-14 | `sitemap.xml`, `robots.txt`, `feed.xml`, IndexNow key and ping | Dev | [x] 2026-10-16 | IndexNow key file to add once the key exists |
+| B-15 | CMS: login with TOTP, page editor (blocks), article editor (Markdown + preview), media library with required alt text, settings | Dev | [~] 2026-10-17 | Login+TOTP, page editor, article editor, settings, redirects done; media library with alt text still to build |
+| B-16 | CMS: article queue view with statuses, lint results, Approve / Reject / Edit, publish time | Dev | [x] 2026-10-17 |  |
 | B-17 | Compliance linter + `banned-terms.json` + `legal-check-slugs.json`; `npm run lint:content`; wired into CI | Dev | [x] 2026-10-16 | `architecture.md` §7.4, `rules.md` R1.3 |
-| B-18 | Ingest API `/api/cms/ingest` with key auth, validation, idempotency, sanitising, lint, log | Dev | [ ] | |
-| B-19 | Publish cron `/api/cron/publish` with revalidation and IndexNow | Dev | [ ] | |
-| B-20 | Forms: contact (no health fields, notice), newsletter (CASL consent stored); rate limit, honeypot, email notice | Dev | [ ] | |
+| B-18 | Ingest API `/api/cms/ingest` with key auth, validation, idempotency, sanitising, lint, log | Dev | [x] 2026-10-16 |  |
+| B-19 | Publish cron `/api/cron/publish` with revalidation and IndexNow | Dev | [x] 2026-10-16 |  |
+| B-20 | Forms: contact (no health fields, notice), newsletter (CASL consent stored); rate limit, honeypot, email notice | Dev | [x] 2026-10-16 | Email notice stubbed to the server log until MAIL_API_KEY (B-25) |
 | B-21 | Booking: `/book/` embed, Book buttons read `settings.booking_url`, GA4 events | Dev | [~] | `/book/` page and Book buttons read `settings.booking_url`; embed waits for F-08 |
-| B-22 | Redirects middleware; real 404 page | Dev | [ ] | |
+| B-22 | Redirects middleware; real 404 page | Dev | [x] 2026-10-17 |  |
 | B-23 | Tests per template (one H1, title, meta, canonical, JSON-LD parses); axe check; Lighthouse budget in CI | Dev | [~] | 10 unit tests (linter, markdown) + content lint in CI; template tests, axe and Lighthouse still to add |
 | B-24 | Security headers and CSP; backups scheduled; staging environment with password and noindex | Dev | [ ] | |
 | B-25 | Notification to owner on ingest (email or push) with preview link | Dev | [ ] | |
