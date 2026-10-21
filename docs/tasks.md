@@ -38,7 +38,7 @@
 | F-12 | Set up Google Search Console and GA4 for ayurvedachalam.com | Dev | [ ] | Verify by DNS |
 | F-13 | Check what is currently on ayurvedachalam.com; export anything worth keeping; plan redirects | RK, Dev | [ ] | The domain blocked automated reading during research |
 | F-14 | Keyword volumes: check each primary keyword in Google Keyword Planner (Canada and Calgary) and adjust Wave 2/3 order | RK or Content | [ ] | The page map's demand ratings are estimates |
-| F-15 | Decide tagline and whether an existing logo is kept | RK | [ ] | Q-10, Q-11 |
+| F-15 | Decide tagline and whether an existing logo is kept | RK | [~] | Wordmark decided 2026-10-17 (D-20); tagline (Q-10) still open |
 
 ---
 
@@ -87,7 +87,7 @@ practitioner review → publish to staging.
 | W1-02 | About Ayurvedachalam | 2 | Content | [ ] | Fresh copy only (R2) |
 | W1-03 | Practitioner profile | 3 | Content | [ ] | F-03 |
 | W1-04 | Book | 4 | Content | [ ] | F-08 |
-| W1-05 | Prices and packages | 5 | Content | [ ] | Prices approved (D-18); write from `product.md` §5 |
+| W1-05 | Prices and packages | 5 | Content | [~] (page renders from the price book; intro copy pending) | Prices approved (D-18); write from `product.md` §5 |
 | W1-06 | Insurance and direct billing | 6 | Content | [!] | F-06 |
 | W1-07 | Contact (virtual clinic; no street address yet) | 7 | Content | [ ] | Placeholder phone and hours |
 | W1-08 | Reviews | 8 | Content | [ ] | Real reviews with consent |
