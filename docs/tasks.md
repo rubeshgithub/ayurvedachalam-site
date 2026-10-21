@@ -98,32 +98,32 @@ practitioner review → publish to staging.
 
 | ID | Page | Map # | Owner | Status | Needs |
 | --- | --- | --- | --- | --- | --- |
-| W1-11 | Consultations hub | 11 | Content | [ ] | |
-| W1-12 | Online consultation (Canada) | 12 | Content | [ ] | — |
-| W1-13 | In-person consultation (Calgary) | 13 | Content | [ ] | — |
-| W1-14 | Nadi Pariksha | 14 | Content | [ ] | |
+| W1-11 | Consultations hub | 11 | Content | [~] drafted 2026-10-20 (`content/pages/`, status review) | |
+| W1-12 | Online consultation (Canada) | 12 | Content | [~] drafted 2026-10-20 (`content/pages/`, status review) | — |
+| W1-13 | In-person consultation (Calgary) | 13 | Content | [~] drafted 2026-10-20 (`content/pages/`, status review) | — |
+| W1-14 | Nadi Pariksha | 14 | Content | [~] drafted 2026-10-20 (`content/pages/`, status review) | |
 
 ### 3.3 Therapies (10)
 
 | ID | Page | Map # | Owner | Status | Needs |
 | --- | --- | --- | --- | --- | --- |
-| W1-15 | Therapies hub | 21 | Content | [ ] | |
-| W1-16 | Abhyanga | 22 | Content | [ ] | |
-| W1-17 | Shirodhara | 23 | Content | [ ] | |
-| W1-18 | Kati Vasti | 24 | Content | [ ] | |
-| W1-19 | Janu Vasti | 25 | Content | [ ] | |
-| W1-20 | Greeva Vasti | 26 | Content | [ ] | |
-| W1-21 | Nasya (advice page: home use only, not performed) | 27 | Content | [ ] | Review before publish |
-| W1-22 | Ayurvedic massage (overview) | 28 | Content | [ ] | |
-| W1-23 | Skin care therapies | 29 | Content | [ ] | |
-| W1-24 | Panchakarma (external therapies only) | 30 | Content | [ ] | Q-16; review before publish |
+| W1-15 | Therapies hub | 21 | Content | [~] drafted 2026-10-20 (`content/pages/`, status review) | |
+| W1-16 | Abhyanga | 22 | Content | [~] drafted 2026-10-20 (`content/pages/`, status review) | |
+| W1-17 | Shirodhara | 23 | Content | [~] drafted 2026-10-20 (`content/pages/`, status review) | |
+| W1-18 | Kati Vasti | 24 | Content | [~] drafted 2026-10-20 (`content/pages/`, status review) | |
+| W1-19 | Janu Vasti | 25 | Content | [~] drafted 2026-10-20 (`content/pages/`, status review) | |
+| W1-20 | Greeva Vasti | 26 | Content | [~] drafted 2026-10-20 (`content/pages/`, status review) | |
+| W1-21 | Nasya (advice page: home use only, not performed) | 27 | Content | [~] drafted 2026-10-20 (`content/pages/`, status review) | Review before publish |
+| W1-22 | Ayurvedic massage (overview) | 28 | Content | [~] drafted 2026-10-20 (`content/pages/`, status review) | |
+| W1-23 | Skin care therapies | 29 | Content | [~] drafted 2026-10-20 (`content/pages/`, status review) | |
+| W1-24 | Panchakarma (external therapies only) | 30 | Content | [~] drafted 2026-10-20 (`content/pages/`, status review) | Q-16; review before publish |
 
 ### 3.4 Spiritual healing, Calgary, policies (6)
 
 | ID | Page | Map # | Owner | Status | Needs |
 | --- | --- | --- | --- | --- | --- |
-| W1-25 | Spiritual healing hub | 45 | Content | [ ] | LC-6 |
-| W1-26 | Energy healing session | 46 | Content | [ ] | LC-6 |
+| W1-25 | Spiritual healing hub | 45 | Content | [~] drafted 2026-10-20 (`content/pages/`, status review) | LC-6 |
+| W1-26 | Energy healing session | 46 | Content | [~] drafted 2026-10-20 (`content/pages/`, status review) | LC-6 |
 | W1-27 | Calgary clinic | 68 | Content | [ ] | Placeholder address until the clinic opens |
 | W1-28 | Privacy policy (written to Alberta PIPA) | 97 | Content, Law | [ ] | Lawyer confirm |
 | W1-29 | Terms of use | 98 | Content, Law | [ ] | |

@@ -1,0 +1,104 @@
+{
+  "slug": "/consultations/ayurvedic-consultation-calgary/",
+  "status": "review",
+  "updated_at": "2026-10-20",
+  "meta_description": "In-person Ayurvedic consultation in Calgary with a BAMS practitioner: 75 minutes with pulse reading, a written plan and follow-ups. $135; follow-up $75.",
+  "summary": {
+    "duration": "75 min initial · 30 min follow-up",
+    "price_from": "$135",
+    "price_note": "Follow-up $75 · extended follow-up $95",
+    "location": "Calgary clinic (opening soon)",
+    "mode": [
+      "in-person",
+      "online"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "intro",
+      "data": {
+        "lead": "The full Ayurvedic consultation, face to face in Calgary: 75 minutes with a practitioner who trained in Ayurveda for five and a half years in India, including Nadi Pariksha (pulse reading) and the traditional observation of tongue, skin, eyes and build, followed by a written plan. The same conversation as online, with the hands-on part the tradition was built around."
+      }
+    },
+    {
+      "type": "richtext",
+      "data": {
+        "md": "## Why in person\n\nAyurvedic assessment has always been partly hands-on: the pulse at the wrist, the tongue, the quality of the skin and nails, how a person walks in and sits down. These are not diagnostic tests and we do not present them as such; they are the tradition's way of reading constitution and the current state, and they round out what you tell us. In person is also the route to therapies: if Abhyanga, Shirodhara or a course of Vasti fits, we can plan it on the spot and choose the oil.\n\n## What you get\n\n- 75 minutes with the practitioner, in a quiet room.\n- Pulse reading and traditional observation, explained as we go.\n- A written plan within two days: daily routine, seasonal adjustments, food, practices, therapies if they fit, and any licensed herbal product with its cautions.\n- Follow-ups of 30 minutes ($75) or 45 minutes ($95), in person or online.\n\n## While the clinic is being readied\n\nOur Calgary clinic opens soon and the address will be published here. Until then, consultations run online, and in-person bookings open as the date is confirmed. A free 15-minute call is the quickest way to find out where things stand."
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "heading": "Who it suits",
+        "tone": "suits",
+        "items": [
+          "Calgarians who want the full traditional assessment",
+          "Anyone planning therapies: the consultation chooses the oil and the course",
+          "Families familiar with Ayurveda from India who want a practitioner trained there",
+          "People who find a conversation easier in a room than on a screen",
+          "Clients combining the consultation with Abhyanga the same day ($230 together)"
+        ]
+      }
+    },
+    {
+      "type": "steps",
+      "data": {
+        "heading": "What happens",
+        "items": [
+          {
+            "title": "Before",
+            "text": "A short intake through the booking system: contact details, what brings you, current medications and supplements. No health details are collected on this website."
+          },
+          {
+            "title": "The conversation (about 60 minutes)",
+            "text": "Your history, your days: how you sleep, eat and digest, your energy through the day, your work, the season. In person this includes Nadi Pariksha (pulse reading) and a look at the tongue, skin and eyes; online we ask more questions instead."
+          },
+          {
+            "title": "The plan (about 15 minutes)",
+            "text": "What Ayurveda makes of it, in plain words, and a written plan sent within two days: daily routine, food, a few practices, any therapies that fit, and any licensed herbal product worth considering, with its cautions. We say clearly when something is your physician's job."
+          },
+          {
+            "title": "Follow-up",
+            "text": "A 30-minute follow-up ($75) two to four weeks on, to adjust. Most clients need two or three follow-ups over a season, not a standing appointment."
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "heading": "When a consultation is not the right step",
+        "tone": "avoid",
+        "items": [
+          "A medical emergency, or symptoms that are new, severe or getting worse: your physician or 911 first",
+          "Anyone who needs a diagnosis; we do not diagnose, and we will say so",
+          "Children under 16 without a parent present and their physician aware",
+          "People who want to stop a prescribed medication: that is a conversation with the prescriber, not with us"
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is the practitioner a doctor?",
+      "a": "No. Maheswari Vedhachalam holds a Bachelor of Ayurveda Medicine and Surgery from India, where graduates practise as Ayurvedic physicians. In Canada that degree is not a licence to practise medicine, and Ayurveda is not a regulated profession; she practises as an Ayurveda Practitioner and does not use the title \"Dr.\""
+    },
+    {
+      "q": "Can I bring a family member?",
+      "a": "Yes. Many clients bring a partner or parent, and we can interpret between Tamil and English."
+    },
+    {
+      "q": "Is it covered by insurance?",
+      "a": "Consultations are generally not covered. Abhyanga booked with the consultation is massage therapy by our RMT and is receipted."
+    },
+    {
+      "q": "Where is the clinic?",
+      "a": "In Calgary; the address will be published here when the clinic opens. Online consultations are available now."
+    }
+  ],
+  "related": [
+    "/consultations/online-ayurvedic-consultation-canada/",
+    "/consultations/nadi-pariksha-pulse-reading/",
+    "/therapies/abhyanga/"
+  ]
+}

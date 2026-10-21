@@ -1,0 +1,81 @@
+{
+  "slug": "/therapies/ayurvedic-skin-care/",
+  "status": "review",
+  "updated_at": "2026-10-20",
+  "meta_description": "Ayurvedic skin care in Calgary: Mukha Lepam herbal facial, oil and powder therapies for dry winter skin, and a consultation for routine and diet. From $85.",
+  "summary": {
+    "duration": "45 to 60 min",
+    "price_from": "$85",
+    "price_note": "Mukha Lepam facial $85 · Udvartana $125",
+    "location": "Calgary, in person",
+    "mode": [
+      "in-person"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "intro",
+      "data": {
+        "lead": "Calgary is hard on skin: dry air, cold, wind, hot showers and heated rooms. Ayurveda's skin care is mostly oil, warmth and routine, with herbal pastes for the face and a brisk powder massage for the body. These are comfort and care therapies; they are not treatments for skin conditions, and we say so plainly."
+      }
+    },
+    {
+      "type": "richtext",
+      "data": {
+        "md": "## What we offer\n\n- **Mukha Lepam (Ayurvedic facial)**: a cleanse, a warm oil massage of the face and neck, and a herbal paste (lepam) chosen for your skin type, left on while you rest. 45 minutes, $85.\n- **Udvartana (herbal powder massage)**: a brisk full-body massage with a dry or lightly oiled herbal powder that leaves the skin smooth and warm. 60 minutes, $125.\n- **Abhyanga** for dry skin through the winter: the full-body oil massage, 60 minutes $120.\n- **Hair and scalp therapy** for a dry, itchy winter scalp: 45 minutes, $80.\n- **A consultation** when the question is really about routine, diet and what to put on your skin at home: see consultations.\n\n## What Ayurveda says about skin\n\nIn Ayurvedic theory, skin reflects the balance of the three doshas and the state of digestion, and dry, rough, flaky skin is the signature of Vata, the quality this climate has in excess. The response is oil before the shower rather than cream after it, warm rather than hot water, warm cooked food, and a steady routine. The therapies here are the clinic versions of that advice.\n\n## What we do not do\n\nWe do not treat skin conditions. Persistent rashes, patches that change, itching that disturbs sleep, moles that change shape or colour, or a skin problem that is spreading are for your physician or a dermatologist, and we will tell you so at the consultation. If you have a diagnosed skin condition and want Ayurvedic care alongside your physician's care, bring their advice and we will plan around it."
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "heading": "Who it suits",
+        "tone": "suits",
+        "items": [
+          "Dry, tight or flaky skin from November to March",
+          "A dull complexion after a long winter",
+          "A dry, itchy scalp",
+          "Anyone who wants a facial that is warm oil and herbs rather than acids and machines",
+          "Clients who want a home routine they can keep"
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "heading": "Who should avoid this",
+        "tone": "avoid",
+        "items": [
+          "Active infection, open wounds, cold sores or broken skin on the area",
+          "A rash, eczema flare, psoriasis plaque or any diagnosed skin condition on the area without your physician's agreement",
+          "Known allergy to sesame, nuts, chickpea or any herb in the paste (we patch-test on request)",
+          "Sunburn, a recent chemical peel, laser, microneedling or injectables within two weeks",
+          "Fever or acute illness",
+          "Pregnancy: tell us; the facial is fine, Udvartana is adapted"
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is in the lepam paste?",
+      "a": "A blend of herbal powders such as sandalwood, turmeric, chickpea flour and rose, mixed with milk, rose water or aloe depending on your skin. We tell you the ingredients before it goes on."
+    },
+    {
+      "q": "Will turmeric stain my skin?",
+      "a": "A faint yellow tint can remain for a few hours; it washes off. We keep turmeric light for fair skin and skip it on request."
+    },
+    {
+      "q": "Can this help eczema or psoriasis?",
+      "a": "We do not treat skin conditions. If you have one, keep your physician's care and ask them before booking; some gentle care can sit alongside, and some cannot."
+    },
+    {
+      "q": "Is this receipted for insurance?",
+      "a": "The facial and scalp therapy are not massage and are not receipted as massage. Udvartana and Abhyanga are massage therapy by our RMT and are receipted."
+    }
+  ],
+  "related": [
+    "/therapies/ayurvedic-facial/",
+    "/therapies/udvartana/",
+    "/therapies/abhyanga/"
+  ]
+}

@@ -187,7 +187,7 @@
     "section": "consultations",
     "wave": 1,
     "title_tag": "Ayurvedic Consultations | In Calgary or Online in Canada",
-    "meta_description": "",
+    "meta_description": "Ayurvedic consultations with a BAMS-qualified practitioner: 75 minutes online across Canada or in person in Calgary, with a written plan. $135.",
     "h1": "Ayurvedic Consultations",
     "primary_keyword": "ayurvedic consultation",
     "secondary_keywords": [
@@ -195,9 +195,51 @@
       "ayurveda assessment",
       "dosha consultation"
     ],
-    "status": "draft",
+    "status": "review",
     "map_row": 11,
-    "legal_check": false
+    "legal_check": false,
+    "updated_at": "2026-10-20",
+    "summary": {},
+    "blocks": [
+      {
+        "type": "intro",
+        "data": {
+          "lead": "A consultation is where Ayurveda starts: 75 minutes on your history, your days, your digestion and sleep, with a practitioner trained in Ayurveda for five and a half years in India and practising for over 14 years. Online across Canada, or in person in Calgary with pulse reading. You leave with a written plan and a clear sense of what is ours to help with."
+        }
+      },
+      {
+        "type": "richtext",
+        "data": {
+          "md": "## Two ways to consult\n\n- **Online, anywhere in Canada**: a 75-minute video consultation, $135. Everything a consultation is, from home.\n- **In person, in Calgary**: the same conversation plus Nadi Pariksha (pulse reading) and traditional observation, $135. The route to therapies.\n\nFollow-ups are 30 minutes ($75) or 45 minutes ($95), online or in person.\n\n## Focused consultations\n\nSome people come with one question. These pages describe how a consultation runs when the focus is diet and nutrition, herbs, women's wellness, digestion, stress and sleep, or a guided seasonal cleanse. They are the same 75-minute consultation at the same price, with the plan shaped around that question.\n\n## What a consultation is not\n\nWe do not diagnose, do not treat medical conditions, and do not suggest changing prescribed medication. Ayurveda is not a regulated health profession in Canada, and we think you should know that before you book: the practitioner's training and experience are the credential, and they are set out on the practitioner page. When something you describe needs a physician, we say so."
+        }
+      },
+      {
+        "type": "notice",
+        "data": {
+          "tone": "turmeric",
+          "text": "Not sure whether a consultation, a therapy or something else is the right first step? A free 15-minute discovery call answers that with no obligation."
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How much does a consultation cost?",
+        "a": "$135 for the 75-minute initial consultation, online or in person; $75 for a 30-minute follow-up. Prices are in Canadian dollars before GST."
+      },
+      {
+        "q": "Online or in person: which should I choose?",
+        "a": "Online if you are outside Calgary or want the first conversation from home. In person for pulse reading and if you are planning therapies. The plan is the same quality either way."
+      },
+      {
+        "q": "Is it covered by insurance?",
+        "a": "Generally not; consultations are not a paramedical category on most plans. Some wellness accounts reimburse them."
+      },
+      {
+        "q": "Will I be given herbs?",
+        "a": "Only if they fit, only products with a Health Canada NPN, and only with their cautions explained. We do not sell products."
+      }
+    ],
+    "related": []
   },
   {
     "slug": "/consultations/online-ayurvedic-consultation-canada/",
@@ -205,7 +247,7 @@
     "section": "consultations",
     "wave": 1,
     "title_tag": "Online Ayurvedic Consultation in Canada | BAMS Practitioner",
-    "meta_description": "",
+    "meta_description": "Online Ayurvedic consultation anywhere in Canada with a BAMS practitioner: 75-minute video session, written plan, follow-ups. $135; follow-up $75.",
     "h1": "Online Ayurvedic Consultation, Anywhere in Canada",
     "primary_keyword": "online ayurvedic consultation canada",
     "secondary_keywords": [
@@ -213,9 +255,107 @@
       "ayurvedic practitioner online canada",
       "ayurvedic doctor online canada (search term only)"
     ],
-    "status": "draft",
+    "status": "review",
     "map_row": 12,
-    "legal_check": false
+    "legal_check": false,
+    "updated_at": "2026-10-20",
+    "summary": {
+      "duration": "75 min initial · 30 min follow-up",
+      "price_from": "$135",
+      "price_note": "Follow-up $75 · extended follow-up $95",
+      "location": "Video, across Canada",
+      "mode": [
+        "online"
+      ]
+    },
+    "blocks": [
+      {
+        "type": "intro",
+        "data": {
+          "lead": "A 75-minute video consultation with a practitioner who holds a Bachelor of Ayurveda Medicine and Surgery from India and has practised for over 14 years, from wherever you are in Canada. You leave with a written plan for food, routine and rest that fits your life, and a clear line on what is ours to help with and what is your physician's."
+        }
+      },
+      {
+        "type": "richtext",
+        "data": {
+          "md": "## Who this is for\n\nMost of Canada has no Ayurvedic practitioner within driving distance, and many of our clients in Calgary prefer the first conversation from home. Online works well for everything a consultation is: history, routine, food, sleep, digestion, stress, the season, and a plan. What it cannot include is pulse reading and hands-on therapy, which is why we also offer in-person consultations in Calgary.\n\n## What you get\n\n- 75 minutes with the practitioner, on a video call of your choice.\n- A written plan within two days: daily routine (dinacharya), seasonal adjustments, food you can buy in a Canadian grocery store, simple practices, and any licensed herbal product worth considering with its cautions.\n- Plain answers. If what you describe needs a physician, we say so and help you frame the question.\n- Follow-ups of 30 minutes ($75) or 45 minutes ($95) to adjust the plan.\n\n## What we will not do online\n\nWe do not diagnose, we do not treat medical conditions, we do not suggest stopping or changing prescribed medication, and we do not recommend any herbal product without a Health Canada Natural Product Number. Ayurveda is not a regulated profession in Canada; the practitioner's training is the credential, and you can read about it on the practitioner page."
+        }
+      },
+      {
+        "type": "list",
+        "data": {
+          "heading": "Who it suits",
+          "tone": "suits",
+          "items": [
+            "Anyone in Canada without a practitioner nearby",
+            "People who want food, routine and sleep sorted before trying therapies",
+            "Returning clients who moved away from Calgary",
+            "Those who prefer the first conversation from home",
+            "Busy people: evening and weekend slots are available"
+          ]
+        }
+      },
+      {
+        "type": "steps",
+        "data": {
+          "heading": "What happens",
+          "items": [
+            {
+              "title": "Before",
+              "text": "A short intake through the booking system: contact details, what brings you, current medications and supplements. No health details are collected on this website."
+            },
+            {
+              "title": "The conversation (about 60 minutes)",
+              "text": "Your history, your days: how you sleep, eat and digest, your energy through the day, your work, the season. In person this includes Nadi Pariksha (pulse reading) and a look at the tongue, skin and eyes; online we ask more questions instead."
+            },
+            {
+              "title": "The plan (about 15 minutes)",
+              "text": "What Ayurveda makes of it, in plain words, and a written plan sent within two days: daily routine, food, a few practices, any therapies that fit, and any licensed herbal product worth considering, with its cautions. We say clearly when something is your physician's job."
+            },
+            {
+              "title": "Follow-up",
+              "text": "A 30-minute follow-up ($75) two to four weeks on, to adjust. Most clients need two or three follow-ups over a season, not a standing appointment."
+            }
+          ]
+        }
+      },
+      {
+        "type": "list",
+        "data": {
+          "heading": "When a consultation is not the right step",
+          "tone": "avoid",
+          "items": [
+            "A medical emergency, or symptoms that are new, severe or getting worse: your physician or 911 first",
+            "Anyone who needs a diagnosis; we do not diagnose, and we will say so",
+            "Children under 16 without a parent present and their physician aware",
+            "People who want to stop a prescribed medication: that is a conversation with the prescriber, not with us"
+          ]
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which video platform do you use?",
+        "a": "The booking system sends a secure video link; it works in a browser on a phone, tablet or computer. Phone-only is possible if video is difficult."
+      },
+      {
+        "q": "Is an online consultation covered by insurance?",
+        "a": "Generally not. Ayurvedic consultations are not a paramedical category on most plans. Some wellness spending accounts reimburse them; ask your administrator."
+      },
+      {
+        "q": "What time zone?",
+        "a": "We book in Mountain Time and show your local time in the confirmation. Clients from BC to Newfoundland are welcome."
+      },
+      {
+        "q": "Do I need to prepare anything?",
+        "a": "A quiet place, a list of medications and supplements, and, if you like, a note of a typical day's meals and sleep. A glass of water. That is all."
+      }
+    ],
+    "related": [
+      "/consultations/ayurvedic-consultation-calgary/",
+      "/consultations/nadi-pariksha-pulse-reading/",
+      "/learn/is-ayurveda-regulated-in-canada/"
+    ]
   },
   {
     "slug": "/consultations/ayurvedic-consultation-calgary/",
@@ -223,7 +363,7 @@
     "section": "consultations",
     "wave": 1,
     "title_tag": "Ayurvedic Consultation in Calgary | BAMS Practitioner",
-    "meta_description": "",
+    "meta_description": "In-person Ayurvedic consultation in Calgary with a BAMS practitioner: 75 minutes with pulse reading, a written plan and follow-ups. $135; follow-up $75.",
     "h1": "In-Person Ayurvedic Consultation in Calgary",
     "primary_keyword": "ayurvedic consultation calgary",
     "secondary_keywords": [
@@ -231,9 +371,108 @@
       "ayurvedic practitioner near me",
       "ayurveda specialist calgary"
     ],
-    "status": "draft",
+    "status": "review",
     "map_row": 13,
-    "legal_check": false
+    "legal_check": false,
+    "updated_at": "2026-10-20",
+    "summary": {
+      "duration": "75 min initial · 30 min follow-up",
+      "price_from": "$135",
+      "price_note": "Follow-up $75 · extended follow-up $95",
+      "location": "Calgary clinic (opening soon)",
+      "mode": [
+        "in-person",
+        "online"
+      ]
+    },
+    "blocks": [
+      {
+        "type": "intro",
+        "data": {
+          "lead": "The full Ayurvedic consultation, face to face in Calgary: 75 minutes with a practitioner who trained in Ayurveda for five and a half years in India, including Nadi Pariksha (pulse reading) and the traditional observation of tongue, skin, eyes and build, followed by a written plan. The same conversation as online, with the hands-on part the tradition was built around."
+        }
+      },
+      {
+        "type": "richtext",
+        "data": {
+          "md": "## Why in person\n\nAyurvedic assessment has always been partly hands-on: the pulse at the wrist, the tongue, the quality of the skin and nails, how a person walks in and sits down. These are not diagnostic tests and we do not present them as such; they are the tradition's way of reading constitution and the current state, and they round out what you tell us. In person is also the route to therapies: if Abhyanga, Shirodhara or a course of Vasti fits, we can plan it on the spot and choose the oil.\n\n## What you get\n\n- 75 minutes with the practitioner, in a quiet room.\n- Pulse reading and traditional observation, explained as we go.\n- A written plan within two days: daily routine, seasonal adjustments, food, practices, therapies if they fit, and any licensed herbal product with its cautions.\n- Follow-ups of 30 minutes ($75) or 45 minutes ($95), in person or online.\n\n## While the clinic is being readied\n\nOur Calgary clinic opens soon and the address will be published here. Until then, consultations run online, and in-person bookings open as the date is confirmed. A free 15-minute call is the quickest way to find out where things stand."
+        }
+      },
+      {
+        "type": "list",
+        "data": {
+          "heading": "Who it suits",
+          "tone": "suits",
+          "items": [
+            "Calgarians who want the full traditional assessment",
+            "Anyone planning therapies: the consultation chooses the oil and the course",
+            "Families familiar with Ayurveda from India who want a practitioner trained there",
+            "People who find a conversation easier in a room than on a screen",
+            "Clients combining the consultation with Abhyanga the same day ($230 together)"
+          ]
+        }
+      },
+      {
+        "type": "steps",
+        "data": {
+          "heading": "What happens",
+          "items": [
+            {
+              "title": "Before",
+              "text": "A short intake through the booking system: contact details, what brings you, current medications and supplements. No health details are collected on this website."
+            },
+            {
+              "title": "The conversation (about 60 minutes)",
+              "text": "Your history, your days: how you sleep, eat and digest, your energy through the day, your work, the season. In person this includes Nadi Pariksha (pulse reading) and a look at the tongue, skin and eyes; online we ask more questions instead."
+            },
+            {
+              "title": "The plan (about 15 minutes)",
+              "text": "What Ayurveda makes of it, in plain words, and a written plan sent within two days: daily routine, food, a few practices, any therapies that fit, and any licensed herbal product worth considering, with its cautions. We say clearly when something is your physician's job."
+            },
+            {
+              "title": "Follow-up",
+              "text": "A 30-minute follow-up ($75) two to four weeks on, to adjust. Most clients need two or three follow-ups over a season, not a standing appointment."
+            }
+          ]
+        }
+      },
+      {
+        "type": "list",
+        "data": {
+          "heading": "When a consultation is not the right step",
+          "tone": "avoid",
+          "items": [
+            "A medical emergency, or symptoms that are new, severe or getting worse: your physician or 911 first",
+            "Anyone who needs a diagnosis; we do not diagnose, and we will say so",
+            "Children under 16 without a parent present and their physician aware",
+            "People who want to stop a prescribed medication: that is a conversation with the prescriber, not with us"
+          ]
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is the practitioner a doctor?",
+        "a": "No. Maheswari Vedhachalam holds a Bachelor of Ayurveda Medicine and Surgery from India, where graduates practise as Ayurvedic physicians. In Canada that degree is not a licence to practise medicine, and Ayurveda is not a regulated profession; she practises as an Ayurveda Practitioner and does not use the title \"Dr.\""
+      },
+      {
+        "q": "Can I bring a family member?",
+        "a": "Yes. Many clients bring a partner or parent, and we can interpret between Tamil and English."
+      },
+      {
+        "q": "Is it covered by insurance?",
+        "a": "Consultations are generally not covered. Abhyanga booked with the consultation is massage therapy by our RMT and is receipted."
+      },
+      {
+        "q": "Where is the clinic?",
+        "a": "In Calgary; the address will be published here when the clinic opens. Online consultations are available now."
+      }
+    ],
+    "related": [
+      "/consultations/online-ayurvedic-consultation-canada/",
+      "/consultations/nadi-pariksha-pulse-reading/",
+      "/therapies/abhyanga/"
+    ]
   },
   {
     "slug": "/consultations/nadi-pariksha-pulse-reading/",
@@ -241,7 +480,7 @@
     "section": "consultations",
     "wave": 1,
     "title_tag": "Nadi Pariksha in Calgary | Ayurvedic Pulse Reading",
-    "meta_description": "",
+    "meta_description": "Nadi Pariksha, Ayurvedic pulse reading, in Calgary: what it is, what it can and cannot tell you, and how it fits a consultation. Included in the visit.",
     "h1": "Nadi Pariksha: Ayurvedic Pulse Reading",
     "primary_keyword": "nadi pariksha calgary",
     "secondary_keywords": [
@@ -249,9 +488,81 @@
       "nadi pareeksha",
       "pulse assessment ayurveda canada"
     ],
-    "status": "draft",
+    "status": "review",
     "map_row": 14,
-    "legal_check": false
+    "legal_check": false,
+    "updated_at": "2026-10-20",
+    "summary": {
+      "duration": "Part of a 75-min consultation",
+      "price_from": "$135",
+      "price_note": "Included in the in-person consultation",
+      "location": "Calgary, in person",
+      "mode": [
+        "in-person"
+      ]
+    },
+    "blocks": [
+      {
+        "type": "intro",
+        "data": {
+          "lead": "Nadi Pariksha (pulse reading) is the Ayurvedic practice of reading the radial pulse at the wrist with three fingers to assess constitution and current balance. It is part of every in-person consultation here, not a separate service, and this page is honest about what it is: a traditional assessment, not a diagnostic test."
+        }
+      },
+      {
+        "type": "richtext",
+        "data": {
+          "md": "## What happens\n\nYou sit comfortably with your arm relaxed. The practitioner places the index, middle and ring fingers on the radial pulse of one wrist, then the other, for a minute or two each, at different pressures. In the tradition, the three finger positions correspond to Vata, Pitta and Kapha, and the quality of the pulse under each (its rhythm, its feel, how it moves) describes the constitution (prakriti) and the current state (vikriti). It is quiet, quick and painless.\n\n## What it can tell you, and what it cannot\n\nIn Ayurvedic practice, pulse reading is one input among several: what you tell us, how you look, your tongue and skin, the season. It helps the practitioner choose between, say, a warming routine and a cooling one, or between two oils for Abhyanga. That is useful.\n\nWhat it is not: a way to detect disease, a substitute for blood tests or imaging, or something that can tell you what is wrong with you. Some Ayurvedic websites claim far more for pulse reading than that; we do not. If anything in the consultation suggests a medical question, the answer is your physician, and we will say so.\n\n## Preparing for it\n\nCome without caffeine for two hours beforehand if you can, not straight after exercise or a heavy meal, and sit quietly for a few minutes first. None of this is essential; it simply makes the reading clearer."
+        }
+      },
+      {
+        "type": "list",
+        "data": {
+          "heading": "Who it suits",
+          "tone": "suits",
+          "items": [
+            "Anyone booking an in-person consultation; it is included",
+            "Clients curious about their Ayurvedic constitution",
+            "People who want the oil for their therapies chosen with care",
+            "Those returning for a seasonal check-in"
+          ]
+        }
+      },
+      {
+        "type": "list",
+        "data": {
+          "heading": "When it is not the right step",
+          "tone": "avoid",
+          "items": [
+            "Anyone hoping it will detect or rule out a disease; it cannot",
+            "New or worrying symptoms: your physician first",
+            "Online clients: pulse reading needs the practitioner's hands, so online consultations use questions instead"
+          ]
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can pulse reading diagnose illness?",
+        "a": "No. It is a traditional assessment of constitution and balance, used to shape routine, food and therapy choices. Diagnosis is your physician's job."
+      },
+      {
+        "q": "Is it done online?",
+        "a": "No. It needs the practitioner's fingers on your wrist, which is one reason to book in person once the clinic opens."
+      },
+      {
+        "q": "Does it cost extra?",
+        "a": "No. It is part of the in-person consultation ($135)."
+      },
+      {
+        "q": "Can I have a pulse reading on its own?",
+        "a": "We fold it into the consultation rather than offering it alone, because on its own it tells you little you can act on."
+      }
+    ],
+    "related": [
+      "/consultations/ayurvedic-consultation-calgary/",
+      "/consultations/online-ayurvedic-consultation-canada/",
+      "/learn/vata-pitta-kapha/"
+    ]
   },
   {
     "slug": "/consultations/ayurvedic-diet-consultation/",
@@ -367,7 +678,7 @@
     "section": "therapies",
     "wave": 1,
     "title_tag": "Ayurvedic Treatments & Therapies in Calgary",
-    "meta_description": "",
+    "meta_description": "Ayurvedic therapies in Calgary: Abhyanga, Shirodhara, Kati, Janu and Greeva Vasti, head and foot massage, Kizhi, Udvartana, Pizhichil, Panchakarma.",
     "h1": "Ayurvedic Therapies in Calgary",
     "primary_keyword": "ayurvedic treatments calgary",
     "secondary_keywords": [
@@ -375,9 +686,51 @@
       "ayurveda spa calgary",
       "kerala ayurveda treatments"
     ],
-    "status": "draft",
+    "status": "review",
     "map_row": 21,
-    "legal_check": false
+    "legal_check": false,
+    "updated_at": "2026-10-20",
+    "summary": {},
+    "blocks": [
+      {
+        "type": "intro",
+        "data": {
+          "lead": "Classical Ayurvedic therapies, explained plainly and given by a practitioner trained in Ayurveda for five and a half years in India who is also a Registered Massage Therapist. Warm oil, warmth held on a joint, a stream over the forehead, herbal steam. Everything here is external; nothing here is medical treatment, and each page says who should avoid it."
+        }
+      },
+      {
+        "type": "richtext",
+        "data": {
+          "md": "## How to choose\n\n- **New to Ayurveda?** Start with **Abhyanga**, the full-body warm oil massage. It needs no preparation and is receipted as massage therapy.\n- **Stress, sleep, a busy mind?** **Shirodhara**, alone or after Abhyanga.\n- **A stiff lower back, knees or neck?** The **Vasti** therapies hold warm oil on the joint for half an hour: Kati (lower back), Janu (knees), Greeva (neck).\n- **Head, neck and shoulders?** **Shiro Abhyanga**, the Indian head massage. **Tired feet?** Pada Abhyanga.\n- **A full reset?** The five-day **Panchakarma program** of external therapies with diet and routine.\n- **Not sure?** A free 15-minute call sorts it out.\n\n## Before your first therapy\n\nA consultation first is not required for a single Abhyanga or head massage, but it is how we choose the oil and know your history, and it is required before Panchakarma or a course of Vasti. Eat lightly beforehand, wear clothes you do not mind a little oil on, and plan a quiet hour afterwards.\n\n## Prices\n\nEvery therapy's price and length is on its page and on the price list, in Canadian dollars before GST. Packages: Shirodhara x3 $350, Vasti x5 $400, Abhyanga x6 $650, Panchakarma five days $695. First Abhyanga $99 for the first 60 days after launch."
+        }
+      },
+      {
+        "type": "notice",
+        "data": {
+          "tone": "neem",
+          "text": "\"Vasti\" on this site always means the external warm-oil therapies. Internal Vasti (enema therapy), therapeutic vomiting, purgation and clinic-administered Nasya are not offered."
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Are these treatments for medical conditions?",
+        "a": "No. They are traditional therapies for comfort, rest and routine. Each page lists who should avoid it, and we will tell you when something is a physician's job."
+      },
+      {
+        "q": "Which therapies can I claim on my benefits?",
+        "a": "The massage therapies (Abhyanga, head and foot massage, Udvartana, Kizhi, Pizhichil, postnatal massage) are performed by our RMT and receipted as massage. Shirodhara, Vasti and steam are not."
+      },
+      {
+        "q": "Where are the therapies given?",
+        "a": "At our Calgary clinic, opening soon; the address will be published here. Until then, consultations are online and therapies are booked as the clinic date is confirmed."
+      },
+      {
+        "q": "Do I need a consultation first?",
+        "a": "Not for a single massage or Shirodhara. Yes for Panchakarma and for a course of Vasti, so the oil and the plan fit you."
+      }
+    ],
+    "related": []
   },
   {
     "slug": "/therapies/abhyanga/",
@@ -385,7 +738,7 @@
     "section": "therapies",
     "wave": 1,
     "title_tag": "Abhyanga Massage in Calgary | Ayurvedic Warm Oil Massage",
-    "meta_description": "",
+    "meta_description": "Abhyanga is a full-body warm oil massage by a BAMS-trained Registered Massage Therapist in Calgary. 60 min $120, 90 min $165, receipted as massage therapy.",
     "h1": "Abhyanga: Ayurvedic Warm Oil Massage in Calgary",
     "primary_keyword": "abhyanga massage calgary",
     "secondary_keywords": [
@@ -393,9 +746,113 @@
       "warm oil massage calgary",
       "abhyanga near me"
     ],
-    "status": "draft",
+    "status": "review",
     "map_row": 22,
-    "legal_check": false
+    "legal_check": false,
+    "updated_at": "2026-10-20",
+    "summary": {
+      "duration": "60 or 90 min",
+      "price_from": "$120",
+      "price_note": "90 min $165 · receipted as massage therapy",
+      "location": "Calgary, in person",
+      "mode": [
+        "in-person"
+      ]
+    },
+    "blocks": [
+      {
+        "type": "intro",
+        "data": {
+          "lead": "Abhyanga (warm oil massage) is Ayurveda's full-body massage: warm herbal oil, long rhythmic strokes, and an hour in which nothing is asked of you. Given here by a practitioner trained in Ayurveda in India who is also a Registered Massage Therapist, so the session is receipted as massage therapy."
+        }
+      },
+      {
+        "type": "richtext",
+        "data": {
+          "md": "## What Abhyanga is\n\nAbhyanga is the foundation of the therapies on this site. Warm oil, usually sesame-based and chosen for you, is applied over the whole body with strokes that follow the direction of the muscle and circle the joints. The pressure is moderate: enough to work the muscles, light enough that you can drift. Unlike most massage, a great deal of oil is used, and it is left on the skin afterwards rather than wiped away.\n\nIn Ayurvedic terms, Abhyanga is the daily counter to Vata, the quality of dryness, cold and movement. It is the therapy the tradition prescribes for a dry climate, a busy mind and a body that sits too much, which describes a good part of Calgary.\n\n## What people come for\n\nClients commonly book Abhyanga for muscle tension and stiffness, for dry skin through the winter, for sleep that has gone light, and as the monthly hour that keeps them steady. Many pair it with Shirodhara in one visit. It is also the usual first therapy for someone new to Ayurveda, because it needs no preparation and is easy to enjoy."
+        }
+      },
+      {
+        "type": "list",
+        "data": {
+          "heading": "Who it suits",
+          "tone": "suits",
+          "items": [
+            "Anyone carrying tension in the back, shoulders and legs from desk work or driving",
+            "Dry, rough or itchy skin, especially from November to March",
+            "Light or broken sleep, a mind that will not slow down",
+            "People new to Ayurveda who want to start with something simple and pleasant",
+            "Clients with extended health benefits that cover massage therapy by an RMT"
+          ]
+        }
+      },
+      {
+        "type": "steps",
+        "data": {
+          "heading": "What happens in a session",
+          "items": [
+            {
+              "title": "Check-in",
+              "text": "Five minutes: how you are, anything new, any skin sensitivity or allergy. On a first visit this follows a consultation so we already know your history."
+            },
+            {
+              "title": "The massage",
+              "text": "You lie on a warm table, draped as in any massage. Warm oil is worked over the back, legs, arms, abdomen, neck, scalp and feet in sequence; 50 minutes in a 60-minute session, 80 in a 90."
+            },
+            {
+              "title": "Rest and after",
+              "text": "A few minutes of rest, then you sit up slowly. The oil stays on; we give you a towel and a cap, and most clients shower at home an hour or two later. Herbal steam (Swedana) can be added for $25."
+            }
+          ]
+        }
+      },
+      {
+        "type": "list",
+        "data": {
+          "heading": "Who should avoid this",
+          "tone": "avoid",
+          "items": [
+            "Fever, flu or any acute illness; come back when you are well",
+            "Open wounds, rashes, sunburn or a skin infection anywhere oil would go",
+            "Within six weeks of surgery, or sooner than your surgeon advises",
+            "First trimester of pregnancy; after that, with your physician's agreement and a modified session",
+            "A known allergy to sesame, nuts or any ingredient of the oil (tell us when booking; we have alternatives)",
+            "Blood-clotting conditions, blood thinners or unexplained swelling in a leg: ask your physician first",
+            "Straight after a heavy meal; eat lightly beforehand"
+          ]
+        }
+      },
+      {
+        "type": "notice",
+        "data": {
+          "tone": "turmeric",
+          "text": "Insurance: Abhyanga is massage therapy performed by our Registered Massage Therapist and is receipted as such. Check your plan's massage maximum. Shirodhara added to the session is not receipted as massage."
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Abhyanga the same as a regular massage?",
+        "a": "It is massage, but with more oil, warmer oil, lighter pressure and a set sequence that covers the scalp and feet. If you want deep tissue work, say so and we will adjust; the oil still does its job."
+      },
+      {
+        "q": "Should I shower before or after?",
+        "a": "Before is helpful; after is up to you. The tradition leaves the oil on for an hour or more. Bring or wear clothes you do not mind getting a little oil on."
+      },
+      {
+        "q": "How often should I come?",
+        "a": "Once a month suits most clients. In a dry Calgary winter, every two or three weeks. A package of six 60-minute sessions is $650."
+      },
+      {
+        "q": "Can I do this at home?",
+        "a": "Yes, a shorter version before your shower. Our winter routine article explains it. The clinic session reaches your back and uses more oil and warmth than you can manage alone."
+      }
+    ],
+    "related": [
+      "/therapies/shirodhara/",
+      "/therapies/swedana-herbal-steam/",
+      "/therapies/ayurvedic-massage-calgary/"
+    ]
   },
   {
     "slug": "/therapies/shirodhara/",
@@ -403,7 +860,7 @@
     "section": "therapies",
     "wave": 1,
     "title_tag": "Shirodhara in Calgary | Warm Oil Forehead Therapy",
-    "meta_description": "",
+    "meta_description": "Shirodhara in Calgary: warm herbal oil poured in a steady stream over the forehead for deep rest. 60 min $130; 105 min with Abhyanga $230.",
     "h1": "Shirodhara in Calgary",
     "primary_keyword": "shirodhara calgary",
     "secondary_keywords": [
@@ -411,9 +868,113 @@
       "shirodhara near me",
       "warm oil forehead therapy"
     ],
-    "status": "draft",
+    "status": "review",
     "map_row": 23,
-    "legal_check": false
+    "legal_check": false,
+    "updated_at": "2026-10-20",
+    "summary": {
+      "duration": "60 min",
+      "price_from": "$130",
+      "price_note": "With Abhyanga: 105 min $230",
+      "location": "Calgary, in person",
+      "mode": [
+        "in-person"
+      ]
+    },
+    "blocks": [
+      {
+        "type": "intro",
+        "data": {
+          "lead": "Shirodhara (warm oil poured steadily over the forehead) is the Ayurvedic therapy people ask for by name. Thirty-five minutes of a thin, warm stream moving slowly across the brow, in a quiet room, with nothing to do. Most clients fall asleep. Given in Calgary by a practitioner trained in Ayurveda in India."
+        }
+      },
+      {
+        "type": "richtext",
+        "data": {
+          "md": "## What Shirodhara is\n\nYou lie on your back with your eyes covered. A copper vessel with a narrow spout hangs above your forehead. Warm oil, usually a sesame-based herbal oil chosen for you, flows from it in a continuous stream that moves slowly from temple to temple. The vessel is refilled so the stream never breaks. After thirty to thirty-five minutes the oil is worked gently into the scalp and you rest.\n\nIn Ayurvedic terms, Shirodhara calms Vata in the head: the racing mind, the light sleep, the feeling of being wound tight. That is the tradition's description, and it matches who tends to book it.\n\n## What the evidence says\n\nHonestly, less than the internet claims. Small studies from India and Japan describe people relaxing and sleeping better after a course of Shirodhara; none has a proper control group. We offer it as a deeply restful therapy that clients value for stress and sleep, not as a treatment for any diagnosed condition. If you are under a physician's care for sleep or mood, keep that care in place; Shirodhara can sit beside it."
+        }
+      },
+      {
+        "type": "list",
+        "data": {
+          "heading": "Who it suits",
+          "tone": "suits",
+          "items": [
+            "A mind that will not slow down; stress that sits in the head, neck and jaw",
+            "Light, broken or late sleep",
+            "Chinook season, exam season, a hard month",
+            "Anyone who wants the single most restful hour Ayurveda offers",
+            "Clients combining it with Abhyanga for a full reset"
+          ]
+        }
+      },
+      {
+        "type": "steps",
+        "data": {
+          "heading": "What happens in a session",
+          "items": [
+            {
+              "title": "Settling",
+              "text": "A short check-in, then you lie down, clothed from the waist down and covered. Hair is tied back and protected; your eyes are covered with a soft pad."
+            },
+            {
+              "title": "The pour",
+              "text": "Oil warmed to just above body temperature and tested on your wrist. The stream starts at the centre of the forehead and moves slowly side to side for 30 to 35 minutes. You do nothing."
+            },
+            {
+              "title": "Scalp work and rest",
+              "text": "The oil is worked through the scalp for a few minutes. You rest, then sit up slowly. We give you a towel and a cap; leave the oil in until the next morning if you can, and keep your head warm outside."
+            }
+          ]
+        }
+      },
+      {
+        "type": "list",
+        "data": {
+          "heading": "Who should avoid this",
+          "tone": "avoid",
+          "items": [
+            "First trimester of pregnancy; later, only with your physician's agreement",
+            "Fever, a heavy cold with congestion, or a recent head injury",
+            "An open wound, rash or infection on the scalp or forehead",
+            "Recent neck or spinal surgery",
+            "Very low blood pressure or fainting when lying still for long periods",
+            "A sesame or nut allergy, unless we switch the base oil (tell us when booking)",
+            "Any condition for which your physician has advised against lying flat"
+          ]
+        }
+      },
+      {
+        "type": "notice",
+        "data": {
+          "tone": "turmeric",
+          "text": "Insurance: Shirodhara on its own is not massage therapy and is not receipted as massage, even though our practitioner is an RMT. In a combined Abhyanga + Shirodhara session, only the Abhyanga portion is receipted."
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does it feel strange?",
+        "a": "For the first minute, a little, like a slow warm drip. Then most people stop noticing the stream and drift. There is no pressure and nothing cold."
+      },
+      {
+        "q": "How do I get the oil out of my hair?",
+        "a": "Shampoo on dry hair before wetting it, work it through, rinse, and wash a second time. Leaving the oil overnight is traditional and good for a dry Calgary scalp."
+      },
+      {
+        "q": "One session or a course?",
+        "a": "One session is a lovely experience. Clients who describe lasting change in sleep did three sessions within two weeks and changed their evening routine too. The package of three is $350."
+      },
+      {
+        "q": "Can I drive afterwards?",
+        "a": "Yes. You will feel relaxed, not impaired. Sit for ten minutes and have a glass of warm water first."
+      }
+    ],
+    "related": [
+      "/therapies/abhyanga/",
+      "/therapies/indian-head-massage/",
+      "/learn/shirodhara-benefits/"
+    ]
   },
   {
     "slug": "/therapies/kati-vasti/",
@@ -421,7 +982,7 @@
     "section": "therapies",
     "wave": 1,
     "title_tag": "Kati Vasti (Kati Basti) in Calgary | Lower Back Therapy",
-    "meta_description": "",
+    "meta_description": "Kati Vasti (Kati Basti) in Calgary: warm herbal oil held on the lower back in a dough ring for 30 minutes. 45 min $95; five sessions $400.",
     "h1": "Kati Vasti: Warm Oil Therapy for the Lower Back",
     "primary_keyword": "kati basti calgary",
     "secondary_keywords": [
@@ -429,9 +990,124 @@
       "lower back oil therapy",
       "ayurvedic back therapy"
     ],
-    "status": "draft",
+    "status": "review",
     "map_row": 24,
-    "legal_check": false
+    "legal_check": false,
+    "updated_at": "2026-10-20",
+    "summary": {
+      "duration": "45 min",
+      "price_from": "$95",
+      "price_note": "Package of 5 Vasti sessions $400",
+      "location": "Calgary, in person",
+      "mode": [
+        "in-person"
+      ]
+    },
+    "blocks": [
+      {
+        "type": "intro",
+        "data": {
+          "lead": "Kati Vasti (warm oil held on the lower back; also spelled Kati Basti) is Ayurveda's answer to a stiff, tired lower back. A ring of dough on the skin, filled with warm herbal oil and kept warm for half an hour. No pressure, no manipulation; warmth and time."
+        }
+      },
+      {
+        "type": "richtext",
+        "data": {
+          "md": "## What Kati Vasti is\n\nKati means the lower back and hips; Vasti means a container. A ring of black-gram or wheat-flour dough is pressed onto the lower back and filled with warm oil, which is drawn off and replaced as it cools so the area stays at a steady warmth throughout. The oil is chosen for you at your consultation.\n\nIn Ayurvedic terms, Kati Vasti is a warming, nourishing therapy for an area where Vata has settled: stiffness that is worst in the morning or after sitting, a back that tires rather than one that is sharply injured, the wear of desk work, driving and winter.\n\n## What people come for\n\nClients commonly report that the back feels warm and loose straight afterwards, that stiffness on getting out of bed is less for a day or two, and that the effect lasts longer with each session in a course of three to five. Many combine it with Abhyanga, or with the stretches and routine set out in a consultation.\n\nThe published research on Kati Vasti is thin: small studies and case reports, almost always with other therapies given at the same time. We offer it as a thorough, pleasant way to apply sustained warmth to a sore back, not as a treatment for a back condition. Persistent back pain, pain with numbness or weakness in a leg, pain after a fall, or pain with fever needs your physician first."
+        }
+      },
+      {
+        "type": "list",
+        "data": {
+          "heading": "Who it suits",
+          "tone": "suits",
+          "items": [
+            "A lower back that is stiff, tired or achy rather than acutely injured",
+            "Morning stiffness, or stiffness after long sitting or driving",
+            "People who sit for work and want a monthly reset through the winter",
+            "Clients following a consultation plan for back care",
+            "Anyone who wants warmth without pressure"
+          ]
+        }
+      },
+      {
+        "type": "steps",
+        "data": {
+          "heading": "What happens in a session",
+          "items": [
+            {
+              "title": "Check-in",
+              "text": "Five minutes on where the lower back feels stiff or tired, what makes it better or worse, and anything new. On a first visit this follows a consultation."
+            },
+            {
+              "title": "The dough ring",
+              "text": "You lie face down with a bolster under the ankles. A ring of fresh dough is shaped and pressed onto the skin around the lower back, sealed so it will hold oil."
+            },
+            {
+              "title": "The oil",
+              "text": "Warm herbal oil, usually sesame-based, fills the ring and covers the skin. As it cools it is drawn off and replaced with warm oil, so the area stays at a steady, comfortable warmth for 25 to 30 minutes."
+            },
+            {
+              "title": "Finish and rest",
+              "text": "The ring and oil are removed, the oil is worked lightly into the surrounding muscles, and you rest before getting up slowly. Herbal steam to the area can be added for $25. Keep the area warm and covered on the way home."
+            }
+          ]
+        }
+      },
+      {
+        "type": "list",
+        "data": {
+          "heading": "Who should avoid this",
+          "tone": "avoid",
+          "items": [
+            "Pregnancy",
+            "Fever, an acute infection, or an injury to the back within the last 72 hours",
+            "An open wound, rash, burn or skin infection on the lower back",
+            "Spinal surgery within the last six months, or a spinal implant, without your surgeon's agreement",
+            "Numbness, tingling or weakness in a leg, or any change in bladder or bowel control: see a physician the same day",
+            "Reduced skin sensation (for example from diabetes or a nerve condition): tell us, and we lower the oil temperature",
+            "A sesame or nut allergy, unless we switch the base oil"
+          ]
+        }
+      },
+      {
+        "type": "notice",
+        "data": {
+          "tone": "turmeric",
+          "text": "Insurance: Kati Vasti is not massage therapy and is not receipted as massage. Booked with Abhyanga, only the massage portion is receipted."
+        }
+      },
+      {
+        "type": "notice",
+        "data": {
+          "tone": "neem",
+          "text": "\"Vasti\" on this page means the external warm-oil therapy only. Internal Vasti (enema therapy) is not offered at this practice and is not advertised anywhere on this site."
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is it painful?",
+        "a": "No. It is warm oil resting on the skin. The only sensation most people describe is heat spreading through the back and, by the end, drowsiness."
+      },
+      {
+        "q": "Kati Vasti or Abhyanga for a sore back?",
+        "a": "If the back is tired and stiff rather than injured, Kati Vasti is the more targeted choice; if the whole body is tense, Abhyanga. Many clients do both in one visit. A free call sorts it out in five minutes."
+      },
+      {
+        "q": "How many sessions?",
+        "a": "One to try it; three to five over two or three weeks is the usual course; monthly through the winter for people who sit for work. The five-session package is $400 and can mix Kati, Janu and Greeva Vasti."
+      },
+      {
+        "q": "What oil is used?",
+        "a": "A sesame-based herbal oil in most cases, warmed to a comfortable temperature and tested on your wrist first. The choice is made at your consultation and noted in your file."
+      }
+    ],
+    "related": [
+      "/therapies/janu-vasti/",
+      "/therapies/greeva-vasti/",
+      "/learn/kati-basti-guide/"
+    ]
   },
   {
     "slug": "/therapies/janu-vasti/",
@@ -439,7 +1115,7 @@
     "section": "therapies",
     "wave": 1,
     "title_tag": "Janu Vasti (Janu Basti) in Calgary | Knee Oil Therapy",
-    "meta_description": "",
+    "meta_description": "Janu Vasti (Janu Basti) in Calgary: warm herbal oil held around the knee in a dough ring for 30 minutes. 45 min $90; five sessions $400.",
     "h1": "Janu Vasti: Warm Oil Therapy for the Knees",
     "primary_keyword": "janu basti calgary",
     "secondary_keywords": [
@@ -447,9 +1123,124 @@
       "knee oil therapy",
       "ayurvedic knee therapy"
     ],
-    "status": "draft",
+    "status": "review",
     "map_row": 25,
-    "legal_check": false
+    "legal_check": false,
+    "updated_at": "2026-10-20",
+    "summary": {
+      "duration": "45 min",
+      "price_from": "$90",
+      "price_note": "Package of 5 Vasti sessions $400",
+      "location": "Calgary, in person",
+      "mode": [
+        "in-person"
+      ]
+    },
+    "blocks": [
+      {
+        "type": "intro",
+        "data": {
+          "lead": "Janu Vasti (warm oil held on the knee; also spelled Janu Basti) brings sustained, even warmth to a stiff or tired knee. A dough ring around the kneecap, filled with warm herbal oil, kept warm for half an hour. One knee or both."
+        }
+      },
+      {
+        "type": "richtext",
+        "data": {
+          "md": "## What Janu Vasti is\n\nJanu is the knee. The therapy is the same as Kati Vasti, moved to the joint that carries you up Calgary's hills and stairs: a dough ring is shaped around the knee, filled with warm herbal oil, and the oil is kept warm for 25 to 30 minutes. Both knees can be done in one session.\n\nIn Ayurvedic terms the knees are a seat of Vata, which is why they are described as the first joints to feel dry, stiff and noisy with age, cold and overuse. Warm oil, held and not rubbed, is the tradition's response.\n\n## What people come for\n\nClients commonly book Janu Vasti for knees that are stiff in the morning or after sitting, that feel the cold, or that tire on stairs and walks, and as part of recovering their routine after a long time off their feet. The research on Janu Vasti alone is sparse; we offer it as a comfortable, thorough way to warm the knee, not as a treatment for a knee condition. A knee that is swollen, hot, locking, giving way or injured needs your physician or a physiotherapist first."
+        }
+      },
+      {
+        "type": "list",
+        "data": {
+          "heading": "Who it suits",
+          "tone": "suits",
+          "items": [
+            "Knees that are stiff in the morning or after sitting",
+            "Knees that feel the cold or tire on stairs and walks",
+            "Runners, hikers and people on their feet all day who want a warm-down",
+            "Clients following a consultation plan for joint comfort",
+            "Anyone who wants warmth without pressure on the joint"
+          ]
+        }
+      },
+      {
+        "type": "steps",
+        "data": {
+          "heading": "What happens in a session",
+          "items": [
+            {
+              "title": "Check-in",
+              "text": "Five minutes on where the knee feels stiff or tired, what makes it better or worse, and anything new. On a first visit this follows a consultation."
+            },
+            {
+              "title": "The dough ring",
+              "text": "You lie on your back with the knee supported. A ring of fresh dough is shaped and pressed onto the skin around the knee, sealed so it will hold oil."
+            },
+            {
+              "title": "The oil",
+              "text": "Warm herbal oil, usually sesame-based, fills the ring and covers the skin. As it cools it is drawn off and replaced with warm oil, so the area stays at a steady, comfortable warmth for 25 to 30 minutes."
+            },
+            {
+              "title": "Finish and rest",
+              "text": "The ring and oil are removed, the oil is worked lightly into the surrounding muscles, and you rest before getting up slowly. Herbal steam to the area can be added for $25. Keep the area warm and covered on the way home."
+            }
+          ]
+        }
+      },
+      {
+        "type": "list",
+        "data": {
+          "heading": "Who should avoid this",
+          "tone": "avoid",
+          "items": [
+            "Pregnancy",
+            "Fever, an acute infection, or a knee injury within the last 72 hours",
+            "A hot, swollen, red or locking knee: see your physician first",
+            "An open wound, rash or skin infection around the knee",
+            "Knee surgery or a knee replacement within the last six months, or at any time without your surgeon's agreement",
+            "Reduced skin sensation (for example from diabetes or a nerve condition): tell us, and we lower the oil temperature",
+            "A sesame or nut allergy, unless we switch the base oil"
+          ]
+        }
+      },
+      {
+        "type": "notice",
+        "data": {
+          "tone": "turmeric",
+          "text": "Insurance: Janu Vasti is not massage therapy and is not receipted as massage. Booked with Abhyanga, only the massage portion is receipted."
+        }
+      },
+      {
+        "type": "notice",
+        "data": {
+          "tone": "neem",
+          "text": "\"Vasti\" on this page means the external warm-oil therapy only. Internal Vasti (enema therapy) is not offered at this practice and is not advertised anywhere on this site."
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "q": "One knee or both?",
+        "a": "Either. Both knees fit in a 45-minute session; the price is the same."
+      },
+      {
+        "q": "Can I walk afterwards?",
+        "a": "Yes, and we suggest a gentle walk rather than a workout. Keep the knee warm and covered on the way home, especially in winter."
+      },
+      {
+        "q": "How many sessions?",
+        "a": "Three to five over two or three weeks is the usual course. The five-session package is $400 and can mix Kati, Janu and Greeva Vasti."
+      },
+      {
+        "q": "Is this physiotherapy?",
+        "a": "No. It is a warm-oil therapy from Ayurveda, not an exercise or manual-therapy programme. If you are seeing a physiotherapist, it sits comfortably alongside; tell them."
+      }
+    ],
+    "related": [
+      "/therapies/kati-vasti/",
+      "/therapies/greeva-vasti/",
+      "/therapies/abhyanga/"
+    ]
   },
   {
     "slug": "/therapies/greeva-vasti/",
@@ -457,7 +1248,7 @@
     "section": "therapies",
     "wave": 1,
     "title_tag": "Greeva Vasti (Greeva Basti) in Calgary | Neck Therapy",
-    "meta_description": "",
+    "meta_description": "Greeva Vasti (Greeva Basti) in Calgary: warm herbal oil held on the back of the neck for 30 minutes. 45 min $90; five sessions $400.",
     "h1": "Greeva Vasti: Warm Oil Therapy for the Neck",
     "primary_keyword": "greeva basti calgary",
     "secondary_keywords": [
@@ -465,9 +1256,124 @@
       "neck oil therapy",
       "ayurvedic neck therapy"
     ],
-    "status": "draft",
+    "status": "review",
     "map_row": 26,
-    "legal_check": false
+    "legal_check": false,
+    "updated_at": "2026-10-20",
+    "summary": {
+      "duration": "45 min",
+      "price_from": "$90",
+      "price_note": "Package of 5 Vasti sessions $400",
+      "location": "Calgary, in person",
+      "mode": [
+        "in-person"
+      ]
+    },
+    "blocks": [
+      {
+        "type": "intro",
+        "data": {
+          "lead": "Greeva Vasti (warm oil held on the neck; also spelled Griva or Greeva Basti) brings half an hour of steady warmth to the back of the neck and the top of the shoulders, the place a day at a screen ends up. A dough ring, warm herbal oil, and no pressure."
+        }
+      },
+      {
+        "type": "richtext",
+        "data": {
+          "md": "## What Greeva Vasti is\n\nGreeva is the neck. You lie face down with the forehead supported; a dough ring is pressed onto the back of the neck, filled with warm herbal oil, and the oil is kept warm for 25 to 30 minutes while you rest. It is the gentlest of the three Vasti therapies and the one most clients find sends them to sleep.\n\nIn Ayurvedic terms the neck, like the lower back and knees, is a place where Vata collects: dryness, stiffness and the feeling of a head that is heavy to hold up. Warmth held still is the tradition's answer.\n\n## What people come for\n\nClients commonly book Greeva Vasti for a neck and upper back that are stiff from screens, driving and phones, for the tightness that comes with stress, and for the morning stiffness that a Calgary winter adds. We offer it as a thorough, comfortable way to warm the neck, not as a treatment for a neck condition. A neck with pain shooting into an arm, numbness, dizziness, or pain after an accident or fall needs your physician first."
+        }
+      },
+      {
+        "type": "list",
+        "data": {
+          "heading": "Who it suits",
+          "tone": "suits",
+          "items": [
+            "A neck and upper back stiff from desk work, driving and phones",
+            "Tension that collects at the top of the shoulders",
+            "Morning stiffness through the winter",
+            "Clients combining it with Shiro Abhyanga (head massage) or Abhyanga",
+            "Anyone who wants warmth without manipulation of the neck"
+          ]
+        }
+      },
+      {
+        "type": "steps",
+        "data": {
+          "heading": "What happens in a session",
+          "items": [
+            {
+              "title": "Check-in",
+              "text": "Five minutes on where the neck feels stiff or tired, what makes it better or worse, and anything new. On a first visit this follows a consultation."
+            },
+            {
+              "title": "The dough ring",
+              "text": "You lie face down with the forehead supported and the arms relaxed. A ring of fresh dough is shaped and pressed onto the skin around the neck, sealed so it will hold oil."
+            },
+            {
+              "title": "The oil",
+              "text": "Warm herbal oil, usually sesame-based, fills the ring and covers the skin. As it cools it is drawn off and replaced with warm oil, so the area stays at a steady, comfortable warmth for 25 to 30 minutes."
+            },
+            {
+              "title": "Finish and rest",
+              "text": "The ring and oil are removed, the oil is worked lightly into the surrounding muscles, and you rest before getting up slowly. Herbal steam to the area can be added for $25. Keep the area warm and covered on the way home."
+            }
+          ]
+        }
+      },
+      {
+        "type": "list",
+        "data": {
+          "heading": "Who should avoid this",
+          "tone": "avoid",
+          "items": [
+            "Pregnancy",
+            "Fever, an acute infection, or a neck injury within the last 72 hours",
+            "Pain shooting into an arm, numbness, weakness, or dizziness: see your physician first",
+            "An open wound, rash or skin infection on the neck",
+            "Neck or spinal surgery within the last six months, or at any time without your surgeon's agreement",
+            "Difficulty lying face down for 40 minutes (we can adapt the position; tell us)",
+            "Reduced skin sensation, or a sesame or nut allergy: tell us when booking"
+          ]
+        }
+      },
+      {
+        "type": "notice",
+        "data": {
+          "tone": "turmeric",
+          "text": "Insurance: Greeva Vasti is not massage therapy and is not receipted as massage. Booked with Abhyanga, only the massage portion is receipted."
+        }
+      },
+      {
+        "type": "notice",
+        "data": {
+          "tone": "neem",
+          "text": "\"Vasti\" on this page means the external warm-oil therapy only. Internal Vasti (enema therapy) is not offered at this practice and is not advertised anywhere on this site."
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is any pressure or cracking involved?",
+        "a": "None. Greeva Vasti is warmth held on the skin. We do not manipulate or adjust the neck."
+      },
+      {
+        "q": "Can it be combined with a head massage?",
+        "a": "Yes. Greeva Vasti followed by Shiro Abhyanga (Indian head massage) is a common pairing: 45 plus 30 minutes, $90 plus $65."
+      },
+      {
+        "q": "How many sessions?",
+        "a": "Three to five over two or three weeks is the usual course. The five-session package is $400 and can mix Kati, Janu and Greeva Vasti."
+      },
+      {
+        "q": "Will my hair get oily?",
+        "a": "A little at the hairline. Tie long hair up; we protect it with a towel."
+      }
+    ],
+    "related": [
+      "/therapies/kati-vasti/",
+      "/therapies/indian-head-massage/",
+      "/therapies/shirodhara/"
+    ]
   },
   {
     "slug": "/therapies/nasya/",
@@ -475,7 +1381,7 @@
     "section": "therapies",
     "wave": 1,
     "title_tag": "Nasya Therapy in Calgary | Ayurvedic Nasal Oil Therapy",
-    "meta_description": "",
+    "meta_description": "Nasya is Ayurveda's nasal oil practice. We do not perform it at the clinic; this page explains safe home use of nasal oil for a dry Calgary nose.",
     "h1": "Nasya: Ayurvedic Nasal Oil Therapy",
     "primary_keyword": "nasya treatment calgary",
     "secondary_keywords": [
@@ -483,9 +1389,94 @@
       "ayurvedic sinus therapy",
       "nasal oil therapy"
     ],
-    "status": "draft",
+    "status": "review",
     "map_row": 27,
-    "legal_check": true
+    "legal_check": true,
+    "updated_at": "2026-10-20",
+    "summary": {
+      "duration": "Advice only",
+      "price_from": "$0",
+      "price_note": "Covered in a consultation; not a clinic procedure",
+      "location": "Guidance for home use",
+      "mode": [
+        "online",
+        "in-person"
+      ]
+    },
+    "blocks": [
+      {
+        "type": "intro",
+        "data": {
+          "lead": "Nasya (nasal oil therapy) is the Ayurvedic practice of putting a few drops of oil or ghee into the nostrils. This practice does not perform Nasya at the clinic. What we do is explain, in a consultation, how to use nasal oil safely at home, which is the form most Canadians can benefit from in a climate as dry as Calgary's."
+        }
+      },
+      {
+        "type": "notice",
+        "data": {
+          "tone": "copper",
+          "text": "Why we do not perform it: in Alberta, procedures that go beyond the point where the nasal passages narrow are restricted to regulated health professionals, and clinic-administered Nasya can cross that line. Home use of a drop of oil at the opening of the nostril does not. We keep to the side of that line that protects you and us."
+        }
+      },
+      {
+        "type": "richtext",
+        "data": {
+          "md": "## What Nasya is, in the tradition\n\nAyurveda regards the nose as the doorway to the head. Classical Nasya ranges from a single drop of oil at the nostril's edge, done daily as part of the morning routine, to clinic procedures using medicated oils in larger quantities after steam and massage. The daily drop is what we teach; the clinic procedures are not offered here.\n\n## Home nasal oil: the simple version\n\nAfter your morning shower, warm a drop of plain sesame oil or ghee between clean fingertips and rub it just inside each nostril, no further than the fingertip reaches comfortably. That is all. It takes ten seconds and, in heated winter air, is the difference between a nose that cracks and bleeds and one that does not. Some clients prefer a licensed nasal oil product with a Natural Product Number; we can suggest options.\n\nIn a consultation we go through which oil suits you, when in the day to use it, and what to do about the common Calgary complaints of a dry, blocked or stuffy nose and sinus pressure, including steam, hydration, humidity at home, and when it is a physician's job rather than ours.\n\n## Sinus and congestion\n\nPeople search for Nasya because of sinus trouble. Be clear about what oil can and cannot do: it keeps the lining moist and comfortable; it does not treat a sinus infection. Facial pain with fever, thick coloured discharge, symptoms lasting more than ten days, or sinus trouble that keeps coming back are reasons to see your physician. We will say so in the consultation and send you there."
+        }
+      },
+      {
+        "type": "list",
+        "data": {
+          "heading": "Who home nasal oil suits",
+          "tone": "suits",
+          "items": [
+            "A nose that is dry, crusted or bleeds a little in winter",
+            "People who wake with a dry mouth and throat from breathing dry air",
+            "Anyone starting an Ayurvedic morning routine",
+            "Clients who have had the routine explained in a consultation"
+          ]
+        }
+      },
+      {
+        "type": "list",
+        "data": {
+          "heading": "Who should avoid nasal oil",
+          "tone": "avoid",
+          "items": [
+            "Children, without specific advice from their physician",
+            "Pregnancy, unless your physician agrees",
+            "Frequent or heavy nosebleeds, or nasal or sinus surgery in the last year",
+            "A current cold, sinus infection or fever; wait until it has cleared",
+            "Nasal polyps, a deviated septum under treatment, or any nasal condition under a specialist's care: ask them first",
+            "A sesame allergy (use ghee or a licensed alternative)",
+            "Anything beyond a fingertip's reach: never use droppers, syringes or neti-style devices for oil"
+          ]
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Do you perform Nasya at the clinic?",
+        "a": "No. We explain safe home use of nasal oil as part of a consultation. Clinic-administered Nasya is not offered."
+      },
+      {
+        "q": "Which oil should I use?",
+        "a": "Plain cold-pressed sesame oil or ghee from the grocery store, or a licensed nasal oil with an NPN on the label. Avoid anything imported without a Canadian licence."
+      },
+      {
+        "q": "Will it help my sinuses?",
+        "a": "It keeps the nasal lining moist and comfortable, which many people with a dry, stuffy nose find helps. It does not treat a sinus infection; see your physician for facial pain with fever or symptoms that last more than ten days."
+      },
+      {
+        "q": "Is this covered by insurance?",
+        "a": "No. It is advice given within a consultation, and consultations are not generally covered."
+      }
+    ],
+    "related": [
+      "/consultations/online-ayurvedic-consultation-canada/",
+      "/learn/ayurveda-for-calgary-winters/",
+      "/therapies/"
+    ],
+    "legal_check_note": "LC-2: advice page only; confirm wording with the lawyer (F-02) before publish."
   },
   {
     "slug": "/therapies/ayurvedic-massage-calgary/",
@@ -493,7 +1484,7 @@
     "section": "therapies",
     "wave": 1,
     "title_tag": "Ayurvedic Massage in Calgary | RMT with BAMS Training",
-    "meta_description": "",
+    "meta_description": "Ayurvedic massage in Calgary by an RMT trained in Ayurveda in India: Abhyanga, head and foot massage, Kizhi, Udvartana. Receipted as massage.",
     "h1": "Ayurvedic Massage in Calgary",
     "primary_keyword": "ayurvedic massage calgary",
     "secondary_keywords": [
@@ -501,9 +1492,86 @@
       "ayurvedic massage therapist",
       "ayurvedic rmt"
     ],
-    "status": "draft",
+    "status": "review",
     "map_row": 28,
-    "legal_check": false
+    "legal_check": false,
+    "updated_at": "2026-10-20",
+    "summary": {
+      "duration": "30 to 90 min",
+      "price_from": "$65",
+      "price_note": "Receipted as massage therapy by our RMT",
+      "location": "Calgary, in person",
+      "mode": [
+        "in-person"
+      ]
+    },
+    "blocks": [
+      {
+        "type": "intro",
+        "data": {
+          "lead": "Ayurvedic massage is warm-oil massage done the Ayurvedic way: more oil, warmer oil, strokes that follow the muscles and circle the joints, and a sequence that covers the scalp and the feet. At Ayurvedachalam it is given by a Registered Massage Therapist who trained in Ayurveda for five and a half years in India, so you get the real thing and a massage-therapy receipt."
+        }
+      },
+      {
+        "type": "richtext",
+        "data": {
+          "md": "## What makes it Ayurvedic\n\nThree things. The oil: generous, warm, and chosen for you from a small set of herbal sesame-based oils rather than a neutral lotion. The sequence: a set order of body regions, with attention to the head, ears and feet that Western massage often skips. The intent: in Ayurvedic terms, massage is a daily counter to Vata, the quality of dryness, cold and restlessness, which is why it is prescribed for a dry climate and a busy life rather than only for sore muscles.\n\n## The massage therapies we offer\n\n- **Abhyanga**, the full-body warm oil massage: 60 minutes $120, 90 minutes $165.\n- **Shiro Abhyanga (Indian head massage)**, head, neck and shoulders: 30 minutes $65.\n- **Pada Abhyanga (foot massage)**: 30 minutes $65.\n- **Udvartana**, a brisk herbal-powder massage: 60 minutes $125.\n- **Kizhi / Potli**, massage with warm herbal poultices: 60 minutes $125.\n- **Pizhichil**, continuous warm oil poured and massaged over the body: 75 minutes $160.\n- **Postnatal Ayurvedic massage**: 75 minutes $140.\n- **Swedana (herbal steam)** as an add-on to any of the above: $25.\n\nEach has its own page with what happens and who should avoid it. Shirodhara and the Vasti therapies are not massage and are listed separately.\n\n## Massage therapy and your benefits\n\nEverything on the list above is massage therapy performed by our RMT and is receipted as such. Most extended health plans cover massage by an RMT up to a yearly maximum; check yours. We do not describe non-massage services as massage on a receipt."
+        }
+      },
+      {
+        "type": "list",
+        "data": {
+          "heading": "Who it suits",
+          "tone": "suits",
+          "items": [
+            "Muscle tension from desk work, driving, training or parenting",
+            "Dry skin and a dry climate",
+            "People who want their massage benefits used on something with a tradition behind it",
+            "Anyone who found Western massage too firm or too brisk",
+            "New clients: Abhyanga is the place to start"
+          ]
+        }
+      },
+      {
+        "type": "list",
+        "data": {
+          "heading": "Who should avoid massage, or tell us first",
+          "tone": "avoid",
+          "items": [
+            "Fever, flu or any acute illness",
+            "Open wounds, rashes, sunburn or a skin infection",
+            "Within six weeks of surgery, or sooner than your surgeon advises",
+            "First trimester of pregnancy; later with your physician's agreement and a modified session",
+            "Blood-clotting conditions, blood thinners, or unexplained swelling in a leg: ask your physician first",
+            "A known allergy to sesame, nuts or any oil ingredient (we have alternatives; tell us when booking)",
+            "Osteoporosis, recent fractures, or a heart condition: tell us so the pressure and position can be adjusted"
+          ]
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is the therapist a Registered Massage Therapist?",
+        "a": "Yes. Maheswari Vedhachalam is an RMT as well as a BAMS-qualified Ayurveda practitioner. Receipts carry her registration number."
+      },
+      {
+        "q": "Which one should I book first?",
+        "a": "Abhyanga, 60 minutes. It is the foundation; everything else is a variation or an addition. If you are unsure, a free 15-minute call will sort it out."
+      },
+      {
+        "q": "Will I be very oily afterwards?",
+        "a": "Yes, more than after a Western massage; that is the point. We give you a towel and a cap, and most clients shower an hour or two later at home."
+      },
+      {
+        "q": "Do you offer deep tissue or sports massage?",
+        "a": "We can work more firmly on request within an Ayurvedic session. Whether we list separate deep-tissue or reflexology services is being decided."
+      }
+    ],
+    "related": [
+      "/therapies/abhyanga/",
+      "/therapies/indian-head-massage/",
+      "/therapies/kizhi-potli-massage/"
+    ]
   },
   {
     "slug": "/therapies/ayurvedic-skin-care/",
@@ -511,7 +1579,7 @@
     "section": "therapies",
     "wave": 1,
     "title_tag": "Ayurvedic Skin Care Treatments in Calgary",
-    "meta_description": "",
+    "meta_description": "Ayurvedic skin care in Calgary: Mukha Lepam herbal facial, oil and powder therapies for dry winter skin, and a consultation for routine and diet. From $85.",
     "h1": "Ayurvedic Skin Care Therapies",
     "primary_keyword": "ayurvedic skin treatment calgary",
     "secondary_keywords": [
@@ -519,9 +1587,85 @@
       "lepam",
       "natural skin therapy"
     ],
-    "status": "draft",
+    "status": "review",
     "map_row": 29,
-    "legal_check": false
+    "legal_check": false,
+    "updated_at": "2026-10-20",
+    "summary": {
+      "duration": "45 to 60 min",
+      "price_from": "$85",
+      "price_note": "Mukha Lepam facial $85 · Udvartana $125",
+      "location": "Calgary, in person",
+      "mode": [
+        "in-person"
+      ]
+    },
+    "blocks": [
+      {
+        "type": "intro",
+        "data": {
+          "lead": "Calgary is hard on skin: dry air, cold, wind, hot showers and heated rooms. Ayurveda's skin care is mostly oil, warmth and routine, with herbal pastes for the face and a brisk powder massage for the body. These are comfort and care therapies; they are not treatments for skin conditions, and we say so plainly."
+        }
+      },
+      {
+        "type": "richtext",
+        "data": {
+          "md": "## What we offer\n\n- **Mukha Lepam (Ayurvedic facial)**: a cleanse, a warm oil massage of the face and neck, and a herbal paste (lepam) chosen for your skin type, left on while you rest. 45 minutes, $85.\n- **Udvartana (herbal powder massage)**: a brisk full-body massage with a dry or lightly oiled herbal powder that leaves the skin smooth and warm. 60 minutes, $125.\n- **Abhyanga** for dry skin through the winter: the full-body oil massage, 60 minutes $120.\n- **Hair and scalp therapy** for a dry, itchy winter scalp: 45 minutes, $80.\n- **A consultation** when the question is really about routine, diet and what to put on your skin at home: see consultations.\n\n## What Ayurveda says about skin\n\nIn Ayurvedic theory, skin reflects the balance of the three doshas and the state of digestion, and dry, rough, flaky skin is the signature of Vata, the quality this climate has in excess. The response is oil before the shower rather than cream after it, warm rather than hot water, warm cooked food, and a steady routine. The therapies here are the clinic versions of that advice.\n\n## What we do not do\n\nWe do not treat skin conditions. Persistent rashes, patches that change, itching that disturbs sleep, moles that change shape or colour, or a skin problem that is spreading are for your physician or a dermatologist, and we will tell you so at the consultation. If you have a diagnosed skin condition and want Ayurvedic care alongside your physician's care, bring their advice and we will plan around it."
+        }
+      },
+      {
+        "type": "list",
+        "data": {
+          "heading": "Who it suits",
+          "tone": "suits",
+          "items": [
+            "Dry, tight or flaky skin from November to March",
+            "A dull complexion after a long winter",
+            "A dry, itchy scalp",
+            "Anyone who wants a facial that is warm oil and herbs rather than acids and machines",
+            "Clients who want a home routine they can keep"
+          ]
+        }
+      },
+      {
+        "type": "list",
+        "data": {
+          "heading": "Who should avoid this",
+          "tone": "avoid",
+          "items": [
+            "Active infection, open wounds, cold sores or broken skin on the area",
+            "A rash, eczema flare, psoriasis plaque or any diagnosed skin condition on the area without your physician's agreement",
+            "Known allergy to sesame, nuts, chickpea or any herb in the paste (we patch-test on request)",
+            "Sunburn, a recent chemical peel, laser, microneedling or injectables within two weeks",
+            "Fever or acute illness",
+            "Pregnancy: tell us; the facial is fine, Udvartana is adapted"
+          ]
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is in the lepam paste?",
+        "a": "A blend of herbal powders such as sandalwood, turmeric, chickpea flour and rose, mixed with milk, rose water or aloe depending on your skin. We tell you the ingredients before it goes on."
+      },
+      {
+        "q": "Will turmeric stain my skin?",
+        "a": "A faint yellow tint can remain for a few hours; it washes off. We keep turmeric light for fair skin and skip it on request."
+      },
+      {
+        "q": "Can this help eczema or psoriasis?",
+        "a": "We do not treat skin conditions. If you have one, keep your physician's care and ask them before booking; some gentle care can sit alongside, and some cannot."
+      },
+      {
+        "q": "Is this receipted for insurance?",
+        "a": "The facial and scalp therapy are not massage and are not receipted as massage. Udvartana and Abhyanga are massage therapy by our RMT and are receipted."
+      }
+    ],
+    "related": [
+      "/therapies/ayurvedic-facial/",
+      "/therapies/udvartana/",
+      "/therapies/abhyanga/"
+    ]
   },
   {
     "slug": "/therapies/panchakarma/",
@@ -529,7 +1673,7 @@
     "section": "therapies",
     "wave": 1,
     "title_tag": "Panchakarma in Calgary | Ayurvedic Cleansing Program",
-    "meta_description": "",
+    "meta_description": "Panchakarma in Calgary as a five-day external program: Abhyanga, Shirodhara, Vasti and herbal steam with diet and routine. $695.",
     "h1": "Panchakarma in Calgary",
     "primary_keyword": "panchakarma calgary",
     "secondary_keywords": [
@@ -537,9 +1681,99 @@
       "ayurvedic detox calgary",
       "panchakarma program"
     ],
-    "status": "draft",
+    "status": "review",
     "map_row": 30,
-    "legal_check": true
+    "legal_check": true,
+    "updated_at": "2026-10-20",
+    "summary": {
+      "duration": "5 days",
+      "price_from": "$695",
+      "price_note": "vs. $845 booked separately",
+      "location": "Calgary, in person",
+      "mode": [
+        "in-person"
+      ]
+    },
+    "blocks": [
+      {
+        "type": "intro",
+        "data": {
+          "lead": "Panchakarma (Ayurveda's cleansing program) at Ayurvedachalam is a five-day course of external therapies, warm oil massage, Shirodhara, Vasti and herbal steam, with a simple diet and daily routine for the week. It is the most restful week Ayurveda offers. It does not include any internal procedure, and this page explains why."
+        }
+      },
+      {
+        "type": "notice",
+        "data": {
+          "tone": "copper",
+          "text": "What is not included: classical Panchakarma has five internal procedures (therapeutic vomiting, purgation, enema therapies, nasal administration and bloodletting). None is offered here. In Alberta those procedures are restricted to regulated health professionals, and we would not offer them regardless. Our program is the external preparation and care that surrounds them in the tradition, which is what most people in Canada are looking for when they search for Panchakarma."
+        }
+      },
+      {
+        "type": "richtext",
+        "data": {
+          "md": "## The five days\n\nEach day is about 90 minutes at the clinic, at a time that suits you, with the diet and routine carried on at home.\n\n1. **Day 1**: consultation review, Abhyanga (60 min) and herbal steam.\n2. **Day 2**: Abhyanga and Shirodhara.\n3. **Day 3**: Kati Vasti or Janu Vasti (your choice) and steam.\n4. **Day 4**: Abhyanga and Shirodhara.\n5. **Day 5**: Abhyanga, steam, and a closing conversation about the routine to keep.\n\nThe therapies are chosen with you at a consultation beforehand; a day can be swapped (Pizhichil for Abhyanga, for example) at the practitioner's discretion. Booked separately these sessions come to $845; the program is $695.\n\n## The diet and routine for the week\n\nWarm, simple, mostly cooked food: kitchari (rice and split mung beans with ghee and spices), soups, stewed fruit, warm water through the day. No alcohol, no cold or raw food, early nights, and as little screen time in the evening as you can manage. This is the \"cleansing\" of the program, in the tradition's sense of the word: a week of rest for the digestion, not a purge. We send the plan in writing before day one.\n\n## When to do it\n\nThe tradition favours the change of seasons. In Calgary that means late October to early November, before deep winter, and April, as it lifts. Clients also book it after a hard stretch at work or when sleep has gone. Plan a quiet week; the program does not suit a week of travel or heavy training."
+        }
+      },
+      {
+        "type": "list",
+        "data": {
+          "heading": "Who it suits",
+          "tone": "suits",
+          "items": [
+            "Anyone who wants a full reset rather than a single session",
+            "People coming out of a hard month who can give the week some quiet",
+            "Clients new to Ayurveda who want to experience the main therapies in sequence",
+            "Those preparing for winter, or recovering from it"
+          ]
+        }
+      },
+      {
+        "type": "list",
+        "data": {
+          "heading": "Who should avoid this",
+          "tone": "avoid",
+          "items": [
+            "Pregnancy and the first three months after birth (a postnatal program is different; ask)",
+            "Fever, flu or any acute illness; we reschedule",
+            "Within six weeks of surgery, or sooner than your surgeon advises",
+            "A diagnosed eating disorder, diabetes on insulin, or any condition where a week of light eating needs medical supervision: ask your physician first, and tell us",
+            "The exclusions on each therapy's own page (Abhyanga, Shirodhara, Vasti) apply to the whole program",
+            "A week in which you cannot rest; the program does not work around a heavy schedule"
+          ]
+        }
+      },
+      {
+        "type": "notice",
+        "data": {
+          "tone": "turmeric",
+          "text": "Insurance: the Abhyanga sessions within the program are massage therapy by our RMT and are receipted as such; Shirodhara, Vasti and steam are not. We itemise the receipt."
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is this real Panchakarma?",
+        "a": "It is the external half of it: the oil therapies and the diet and routine that surround the classical procedures. The internal procedures are not offered here. Some Canadian clinics advertise them; in Alberta they are restricted activities, and we think the external program is what most people want and can safely do."
+      },
+      {
+        "q": "Will I lose weight or feel ill during the week?",
+        "a": "The program is rest, not deprivation: three warm meals a day. Most people feel calmer and sleep more. Nobody should feel ill; if you do, tell us the same day."
+      },
+      {
+        "q": "Can I do it over two weeks instead?",
+        "a": "Yes, five sessions over ten days works for people who cannot clear a week. The diet runs for the same ten days."
+      },
+      {
+        "q": "Can I work during the week?",
+        "a": "Light work, yes. The sessions are 90 minutes and the evenings should be quiet. Heavy workouts, travel and late nights undo the point."
+      }
+    ],
+    "related": [
+      "/therapies/abhyanga/",
+      "/therapies/shirodhara/",
+      "/therapies/kati-vasti/"
+    ],
+    "legal_check_note": "LC-3 and Q-16: the owner's 'cleansing of stomach wash' item is not included until clarified; lawyer to confirm the internal-procedures paragraph (F-02)."
   },
   {
     "slug": "/therapies/indian-head-massage/",
@@ -800,7 +2034,7 @@
     "section": "spiritual-healing",
     "wave": 1,
     "title_tag": "Spiritual Healing in Calgary & Online | Certified Healer",
-    "meta_description": "",
+    "meta_description": "Spiritual healing in Calgary and online with a certified spiritual healer (ASHA): quiet one-to-one sessions offered as support for wellbeing. From $70.",
     "h1": "Spiritual Healing in Calgary and Online",
     "primary_keyword": "spiritual healing calgary",
     "secondary_keywords": [
@@ -808,9 +2042,71 @@
       "holistic healer calgary",
       "healing sessions calgary"
     ],
-    "status": "draft",
+    "status": "review",
     "map_row": 45,
-    "legal_check": false
+    "legal_check": true,
+    "updated_at": "2026-10-20",
+    "summary": {},
+    "blocks": [
+      {
+        "type": "intro",
+        "data": {
+          "lead": "Spiritual healing at Ayurvedachalam is a quiet, one-to-one session offered as support for wellbeing, given by a healer certified with the Association of Spiritual Healers of Alberta. In person in Calgary, or at a distance. It is not medical or mental health care, and we describe it in the plain terms the Association uses, without promises."
+        }
+      },
+      {
+        "type": "richtext",
+        "data": {
+          "md": "## What a session is\n\nYou sit or lie comfortably, fully clothed. The healer works quietly, with hands held near or lightly on the shoulders, head or back with your permission, for about an hour. There is no doctrine to accept and nothing you need to believe; people of every faith and none come. Most describe the hour as calm, warm and settling, and many sleep well that night.\n\n## What we offer\n\n- **Energy healing session**, in person in Calgary: 60 minutes, $90.\n- **Distance healing**, online or by arrangement: 45 minutes, $70.\n- **Ayurveda and spiritual healing combined**: a 90-minute session with elements of both, $150.\n- A package of three healing sessions is $240.\n\n## How we describe it, and why\n\nWe follow the Association of Spiritual Healers of Alberta in how we talk about this work: as support for wellbeing, complementary to medical and mental health care, never a replacement for either. We do not claim to treat, cure or diagnose anything. If you are in distress, the first call is to a physician, a counsellor, or the crisis line below, and we will help you make it."
+        }
+      },
+      {
+        "type": "list",
+        "data": {
+          "heading": "Who it suits",
+          "tone": "suits",
+          "items": [
+            "Anyone wanting an hour of calm, with another person present, that asks nothing of them",
+            "People going through loss, change or a hard season who want support alongside their other care",
+            "Clients of Ayurvedic consultations or therapies who want the two combined",
+            "Those who have found value in healing traditions before, and those simply curious"
+          ]
+        }
+      },
+      {
+        "type": "list",
+        "data": {
+          "heading": "When this is not the right step",
+          "tone": "avoid",
+          "items": [
+            "A medical emergency, or thoughts of harming yourself: call or text 9-8-8, or 911",
+            "New or worsening physical symptoms: your physician first",
+            "Anyone considering stopping prescribed treatment or therapy: that decision belongs with your prescriber or therapist, and healing sits alongside, not instead",
+            "Children, without a parent present"
+          ]
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is spiritual healing religious?",
+        "a": "No. There is no doctrine, prayer or ritual you take part in. The healer's own practice is her own; the session asks nothing of your beliefs."
+      },
+      {
+        "q": "What does ASHA certification mean?",
+        "a": "The Association of Spiritual Healers of Alberta certifies healers who complete its training and agree to its code of conduct, which includes the limits set out on this page. It is a professional association, not a government regulator; spiritual healing is not a regulated profession."
+      },
+      {
+        "q": "Can healing replace counselling or medication?",
+        "a": "No. It is offered alongside the care you already have, never instead of it."
+      },
+      {
+        "q": "Is it covered by insurance?",
+        "a": "No. Spiritual healing is not a paramedical category and is not massage therapy."
+      }
+    ],
+    "related": [],
+    "legal_check_note": "LC-6: wording follows ASHA; confirm with the lawyer (F-02)."
   },
   {
     "slug": "/spiritual-healing/energy-healing-session/",
@@ -818,7 +2114,7 @@
     "section": "spiritual-healing",
     "wave": 1,
     "title_tag": "Energy Healing Sessions in Calgary | Certified Healer",
-    "meta_description": "",
+    "meta_description": "Energy healing in Calgary with a certified spiritual healer (ASHA): a quiet 60-minute one-to-one session offered as support for wellbeing. $90.",
     "h1": "Energy Healing Sessions",
     "primary_keyword": "energy healing calgary",
     "secondary_keywords": [
@@ -826,9 +2122,84 @@
       "hands-on healing",
       "spiritual energy healing"
     ],
-    "status": "draft",
+    "status": "review",
     "map_row": 46,
-    "legal_check": false
+    "legal_check": true,
+    "updated_at": "2026-10-20",
+    "summary": {
+      "duration": "60 min",
+      "price_from": "$90",
+      "price_note": "Package of 3 sessions $240",
+      "location": "Calgary, in person",
+      "mode": [
+        "in-person"
+      ]
+    },
+    "blocks": [
+      {
+        "type": "intro",
+        "data": {
+          "lead": "A 60-minute energy healing session in Calgary: an hour of quiet with a certified spiritual healer, in a calm room, with nothing asked of you. Offered as support for wellbeing alongside whatever care you already have."
+        }
+      },
+      {
+        "type": "richtext",
+        "data": {
+          "md": "## What happens\n\nWe begin with a few minutes of conversation about how you are and what you would like from the hour; you can also say nothing, and that is fine. You then sit in a chair or lie on the treatment table, fully clothed, with a blanket if you like. The healer works quietly for 40 to 45 minutes, hands held near or resting lightly on the shoulders, head or back, only with your permission; some clients prefer no touch at all, which changes nothing. The room is warm and silent apart from soft sound if you want it. We finish with water and a few minutes to come back to the day.\n\n## What people describe\n\nClients commonly describe warmth, heaviness in the limbs, a slowing of thoughts, and sleep that night. Some feel little during the session and notice the calm later. We make no promises about what you will feel and no claims about what the session does beyond offering rest and attention. That honesty is part of the Association's code and part of ours.\n\n## Combining it with Ayurveda\n\nMany clients book healing after Abhyanga or Shirodhara, when the body is already quiet, or choose the combined 90-minute Ayurveda and spiritual healing session ($150)."
+        }
+      },
+      {
+        "type": "list",
+        "data": {
+          "heading": "Who it suits",
+          "tone": "suits",
+          "items": [
+            "Anyone wanting an hour of calm and attention that asks nothing of them",
+            "People in a hard season who want support alongside their other care",
+            "Clients who found Shirodhara restful and want something quieter still",
+            "Those curious about healing traditions, with or without a faith of their own"
+          ]
+        }
+      },
+      {
+        "type": "list",
+        "data": {
+          "heading": "When this is not the right step",
+          "tone": "avoid",
+          "items": [
+            "A medical emergency, or thoughts of harming yourself: call or text 9-8-8, or 911",
+            "New or worsening physical symptoms, or a mental health crisis: a physician, counsellor or crisis line first",
+            "Anyone considering stopping prescribed treatment or counselling; healing sits alongside, never instead",
+            "Children without a parent present",
+            "Fever or acute illness: come when you are well"
+          ]
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Do I have to believe in it?",
+        "a": "No. Come as you are. Nothing in the session depends on belief, and no one will ask about yours."
+      },
+      {
+        "q": "Is there physical touch?",
+        "a": "Only light touch on the shoulders, head or back, and only with your permission. Say no touch and it is no touch."
+      },
+      {
+        "q": "How often do people come?",
+        "a": "Some once, some monthly, some in a short run of three during a hard stretch (the package of three is $240). There is no schedule you should feel obliged to keep."
+      },
+      {
+        "q": "Is it covered by insurance?",
+        "a": "No. It is not massage therapy and not a paramedical category on benefit plans."
+      }
+    ],
+    "related": [
+      "/spiritual-healing/distance-healing/",
+      "/spiritual-healing/ayurveda-and-spiritual-healing/",
+      "/therapies/shirodhara/"
+    ],
+    "legal_check_note": "LC-6: wording follows ASHA; confirm with the lawyer (F-02)."
   },
   {
     "slug": "/spiritual-healing/distance-healing/",

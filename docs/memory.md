@@ -214,6 +214,7 @@ Healwell publish no prices.
 | 2026-10-13 | Six project docs and `design-preview.html` created; release plan changed to D-10 | Claude |
 | 2026-10-14 | Pricing study delivered (F-16); proposed list awaits owner approval | Claude |
 | 2026-10-15 | Owner approved the price list (D-18); `product.md` §5 updated; cornerstone article W1-32 drafted | RK, Claude |
+| 2026-10-20 | W1 service copy drafted: 16 pages (hubs, 4 consultations, 9 therapies, energy healing) in `content/pages/*.json`, merged by the seed script, all passing the linter; linter page rules refined (prices not research figures; word-boundary sentence lookup) | Claude |
 | 2026-10-17 | Wordmark decided (D-20) and built into header, footer, favicon, OG image, social avatar | RK, Claude |
 | 2026-10-17 | Five more cornerstone articles drafted (W1-33..37); all six pass the linter; seeded as `review`. Open points: ECCC climate link and Health Canada monograph links to open before publish; massage association (Q-06) blocks the insurance article | Claude |
 | 2026-10-17 | Pushed to github.com/rubeshgithub/ayurvedachalam-site (main). CMS built: login with TOTP, page editor, article queue/editor with lint + publish/schedule/reject, settings, redirects, draft preview via Next draft mode. No MongoDB reachable from the session, so CMS end-to-end test happens on the server | Claude |
@@ -223,7 +224,7 @@ Healwell publish no prices.
 
 ---
 
-Site code: github.com/rubeshgithub/ayurvedachalam-site (pushed 2026-10-17). Article drafts live in `content/learn/<slug>.md` (front matter + body + unpublished editor's notes).
+Site code: github.com/rubeshgithub/ayurvedachalam-site (pushed 2026-10-17). Page copy lives in `content/pages/<slug>.json` (merged onto the map row by the seed script). Article drafts live in `content/learn/<slug>.md` (front matter + body + unpublished editor's notes).
 
 ## 9. Publishing log
 

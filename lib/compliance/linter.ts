@@ -73,7 +73,8 @@ export function lint(input: LintInput, ctx: LintContext = {}): LintResult {
       const word = m[0].toLowerCase();
       if (allow.has(word) || [...allow].some((a) => word.includes(a))) continue;
       // Allow a banned word inside a sentence that quotes or warns (e.g. "do not promise to cure")
-      const sent = sentences(text).find((s) => s.toLowerCase().includes(word)) ?? "";
+      const wordRe = new RegExp(`\\b${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i");
+      const sent = sentences(text).find((s) => wordRe.test(s)) ?? "";
       if (/\b(not|never|no|cannot|do not|does not|avoid|instead of|rather than|prohibit|banned|not allowed|is a claim|words? (like|such as)|quote|law)\b/i.test(sent) && /["“”']|\b(not|never|prohibit|banned|law|claim)\b/i.test(sent)) continue;
       if (!seen.has(word)) { errors.push(`${rule.message}: "${m[0]}"`); seen.add(word); }
     }
@@ -116,9 +117,13 @@ export function lint(input: LintInput, ctx: LintContext = {}): LintResult {
   }
 
   // 6. Figures need sources
-  const figureRe = /(\$\s?\d[\d,.]*|\b\d+(\.\d+)?\s?%|\b(19|20)\d{2}\b|\b\d{2,}\b)/;
-  const hasFigure = figureRe.test(strippedForClaims(input.body_md).replace(/\n## Frequently asked questions[\s\S]*$/i, ""));
-  if (hasFigure && (input.sources?.length ?? 0) === 0) errors.push("Body quotes a figure, year or price but has no sources");
+  // Prices and session lengths come from the price book (product.md §5), not from research, so they
+  // are stripped before the check; percentages, years and bare numbers still need a source.
+  const figureRe = ctx.kind === "page" ? /(\b\d+(\.\d+)?\s?%|\b(19|20)\d{2}\b)/ : /(\$\s?\d[\d,.]*|\b\d+(\.\d+)?\s?%|\b(19|20)\d{2}\b|\b\d{2,}\b)/;
+  let bodyForFigures = strippedForClaims(input.body_md).replace(/\n## Frequently asked questions[\s\S]*$/i, "");
+  if (ctx.kind === "page") bodyForFigures = bodyForFigures.replace(/\$\s?\d[\d,.]*/g, " ").replace(/\b\d+\s?(?:min|minutes?|hours?|days?|weeks?|months?|years?|sessions?|x)\b/gi, " ");
+  const hasFigure = figureRe.test(bodyForFigures);
+  if (hasFigure && (input.sources?.length ?? 0) === 0) errors.push("Body quotes a figure, percentage or year but has no sources");
 
   // 7. Internal links resolve
   const links = input.internal_links ?? [];

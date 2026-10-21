@@ -1,0 +1,77 @@
+{
+  "slug": "/consultations/nadi-pariksha-pulse-reading/",
+  "status": "review",
+  "updated_at": "2026-10-20",
+  "meta_description": "Nadi Pariksha, Ayurvedic pulse reading, in Calgary: what it is, what it can and cannot tell you, and how it fits a consultation. Included in the visit.",
+  "summary": {
+    "duration": "Part of a 75-min consultation",
+    "price_from": "$135",
+    "price_note": "Included in the in-person consultation",
+    "location": "Calgary, in person",
+    "mode": [
+      "in-person"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "intro",
+      "data": {
+        "lead": "Nadi Pariksha (pulse reading) is the Ayurvedic practice of reading the radial pulse at the wrist with three fingers to assess constitution and current balance. It is part of every in-person consultation here, not a separate service, and this page is honest about what it is: a traditional assessment, not a diagnostic test."
+      }
+    },
+    {
+      "type": "richtext",
+      "data": {
+        "md": "## What happens\n\nYou sit comfortably with your arm relaxed. The practitioner places the index, middle and ring fingers on the radial pulse of one wrist, then the other, for a minute or two each, at different pressures. In the tradition, the three finger positions correspond to Vata, Pitta and Kapha, and the quality of the pulse under each (its rhythm, its feel, how it moves) describes the constitution (prakriti) and the current state (vikriti). It is quiet, quick and painless.\n\n## What it can tell you, and what it cannot\n\nIn Ayurvedic practice, pulse reading is one input among several: what you tell us, how you look, your tongue and skin, the season. It helps the practitioner choose between, say, a warming routine and a cooling one, or between two oils for Abhyanga. That is useful.\n\nWhat it is not: a way to detect disease, a substitute for blood tests or imaging, or something that can tell you what is wrong with you. Some Ayurvedic websites claim far more for pulse reading than that; we do not. If anything in the consultation suggests a medical question, the answer is your physician, and we will say so.\n\n## Preparing for it\n\nCome without caffeine for two hours beforehand if you can, not straight after exercise or a heavy meal, and sit quietly for a few minutes first. None of this is essential; it simply makes the reading clearer."
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "heading": "Who it suits",
+        "tone": "suits",
+        "items": [
+          "Anyone booking an in-person consultation; it is included",
+          "Clients curious about their Ayurvedic constitution",
+          "People who want the oil for their therapies chosen with care",
+          "Those returning for a seasonal check-in"
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "heading": "When it is not the right step",
+        "tone": "avoid",
+        "items": [
+          "Anyone hoping it will detect or rule out a disease; it cannot",
+          "New or worrying symptoms: your physician first",
+          "Online clients: pulse reading needs the practitioner's hands, so online consultations use questions instead"
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can pulse reading diagnose illness?",
+      "a": "No. It is a traditional assessment of constitution and balance, used to shape routine, food and therapy choices. Diagnosis is your physician's job."
+    },
+    {
+      "q": "Is it done online?",
+      "a": "No. It needs the practitioner's fingers on your wrist, which is one reason to book in person once the clinic opens."
+    },
+    {
+      "q": "Does it cost extra?",
+      "a": "No. It is part of the in-person consultation ($135)."
+    },
+    {
+      "q": "Can I have a pulse reading on its own?",
+      "a": "We fold it into the consultation rather than offering it alone, because on its own it tells you little you can act on."
+    }
+  ],
+  "related": [
+    "/consultations/ayurvedic-consultation-calgary/",
+    "/consultations/online-ayurvedic-consultation-canada/",
+    "/learn/vata-pitta-kapha/"
+  ]
+}

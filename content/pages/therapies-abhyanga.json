@@ -1,0 +1,26 @@
+{
+  "slug": "/therapies/abhyanga/",
+  "status": "review",
+  "updated_at": "2026-10-20",
+  "meta_description": "Abhyanga is a full-body warm oil massage by a BAMS-trained Registered Massage Therapist in Calgary. 60 min $120, 90 min $165, receipted as massage therapy.",
+  "summary": { "duration": "60 or 90 min", "price_from": "$120", "price_note": "90 min $165 · receipted as massage therapy", "location": "Calgary, in person", "mode": ["in-person"] },
+  "blocks": [
+    { "type": "intro", "data": { "lead": "Abhyanga (warm oil massage) is Ayurveda's full-body massage: warm herbal oil, long rhythmic strokes, and an hour in which nothing is asked of you. Given here by a practitioner trained in Ayurveda in India who is also a Registered Massage Therapist, so the session is receipted as massage therapy." } },
+    { "type": "richtext", "data": { "md": "## What Abhyanga is\n\nAbhyanga is the foundation of the therapies on this site. Warm oil, usually sesame-based and chosen for you, is applied over the whole body with strokes that follow the direction of the muscle and circle the joints. The pressure is moderate: enough to work the muscles, light enough that you can drift. Unlike most massage, a great deal of oil is used, and it is left on the skin afterwards rather than wiped away.\n\nIn Ayurvedic terms, Abhyanga is the daily counter to Vata, the quality of dryness, cold and movement. It is the therapy the tradition prescribes for a dry climate, a busy mind and a body that sits too much, which describes a good part of Calgary.\n\n## What people come for\n\nClients commonly book Abhyanga for muscle tension and stiffness, for dry skin through the winter, for sleep that has gone light, and as the monthly hour that keeps them steady. Many pair it with Shirodhara in one visit. It is also the usual first therapy for someone new to Ayurveda, because it needs no preparation and is easy to enjoy." } },
+    { "type": "list", "data": { "heading": "Who it suits", "tone": "suits", "items": ["Anyone carrying tension in the back, shoulders and legs from desk work or driving", "Dry, rough or itchy skin, especially from November to March", "Light or broken sleep, a mind that will not slow down", "People new to Ayurveda who want to start with something simple and pleasant", "Clients with extended health benefits that cover massage therapy by an RMT"] } },
+    { "type": "steps", "data": { "heading": "What happens in a session", "items": [
+      { "title": "Check-in", "text": "Five minutes: how you are, anything new, any skin sensitivity or allergy. On a first visit this follows a consultation so we already know your history." },
+      { "title": "The massage", "text": "You lie on a warm table, draped as in any massage. Warm oil is worked over the back, legs, arms, abdomen, neck, scalp and feet in sequence; 50 minutes in a 60-minute session, 80 in a 90." },
+      { "title": "Rest and after", "text": "A few minutes of rest, then you sit up slowly. The oil stays on; we give you a towel and a cap, and most clients shower at home an hour or two later. Herbal steam (Swedana) can be added for $25." }
+    ] } },
+    { "type": "list", "data": { "heading": "Who should avoid this", "tone": "avoid", "items": ["Fever, flu or any acute illness; come back when you are well", "Open wounds, rashes, sunburn or a skin infection anywhere oil would go", "Within six weeks of surgery, or sooner than your surgeon advises", "First trimester of pregnancy; after that, with your physician's agreement and a modified session", "A known allergy to sesame, nuts or any ingredient of the oil (tell us when booking; we have alternatives)", "Blood-clotting conditions, blood thinners or unexplained swelling in a leg: ask your physician first", "Straight after a heavy meal; eat lightly beforehand"] } },
+    { "type": "notice", "data": { "tone": "turmeric", "text": "Insurance: Abhyanga is massage therapy performed by our Registered Massage Therapist and is receipted as such. Check your plan's massage maximum. Shirodhara added to the session is not receipted as massage." } }
+  ],
+  "faqs": [
+    { "q": "Is Abhyanga the same as a regular massage?", "a": "It is massage, but with more oil, warmer oil, lighter pressure and a set sequence that covers the scalp and feet. If you want deep tissue work, say so and we will adjust; the oil still does its job." },
+    { "q": "Should I shower before or after?", "a": "Before is helpful; after is up to you. The tradition leaves the oil on for an hour or more. Bring or wear clothes you do not mind getting a little oil on." },
+    { "q": "How often should I come?", "a": "Once a month suits most clients. In a dry Calgary winter, every two or three weeks. A package of six 60-minute sessions is $650." },
+    { "q": "Can I do this at home?", "a": "Yes, a shorter version before your shower. Our winter routine article explains it. The clinic session reaches your back and uses more oil and warmth than you can manage alone." }
+  ],
+  "related": ["/therapies/shirodhara/", "/therapies/swedana-herbal-steam/", "/therapies/ayurvedic-massage-calgary/"]
+}

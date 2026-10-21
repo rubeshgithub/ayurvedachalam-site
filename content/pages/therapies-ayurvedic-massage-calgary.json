@@ -1,0 +1,82 @@
+{
+  "slug": "/therapies/ayurvedic-massage-calgary/",
+  "status": "review",
+  "updated_at": "2026-10-20",
+  "meta_description": "Ayurvedic massage in Calgary by an RMT trained in Ayurveda in India: Abhyanga, head and foot massage, Kizhi, Udvartana. Receipted as massage.",
+  "summary": {
+    "duration": "30 to 90 min",
+    "price_from": "$65",
+    "price_note": "Receipted as massage therapy by our RMT",
+    "location": "Calgary, in person",
+    "mode": [
+      "in-person"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "intro",
+      "data": {
+        "lead": "Ayurvedic massage is warm-oil massage done the Ayurvedic way: more oil, warmer oil, strokes that follow the muscles and circle the joints, and a sequence that covers the scalp and the feet. At Ayurvedachalam it is given by a Registered Massage Therapist who trained in Ayurveda for five and a half years in India, so you get the real thing and a massage-therapy receipt."
+      }
+    },
+    {
+      "type": "richtext",
+      "data": {
+        "md": "## What makes it Ayurvedic\n\nThree things. The oil: generous, warm, and chosen for you from a small set of herbal sesame-based oils rather than a neutral lotion. The sequence: a set order of body regions, with attention to the head, ears and feet that Western massage often skips. The intent: in Ayurvedic terms, massage is a daily counter to Vata, the quality of dryness, cold and restlessness, which is why it is prescribed for a dry climate and a busy life rather than only for sore muscles.\n\n## The massage therapies we offer\n\n- **Abhyanga**, the full-body warm oil massage: 60 minutes $120, 90 minutes $165.\n- **Shiro Abhyanga (Indian head massage)**, head, neck and shoulders: 30 minutes $65.\n- **Pada Abhyanga (foot massage)**: 30 minutes $65.\n- **Udvartana**, a brisk herbal-powder massage: 60 minutes $125.\n- **Kizhi / Potli**, massage with warm herbal poultices: 60 minutes $125.\n- **Pizhichil**, continuous warm oil poured and massaged over the body: 75 minutes $160.\n- **Postnatal Ayurvedic massage**: 75 minutes $140.\n- **Swedana (herbal steam)** as an add-on to any of the above: $25.\n\nEach has its own page with what happens and who should avoid it. Shirodhara and the Vasti therapies are not massage and are listed separately.\n\n## Massage therapy and your benefits\n\nEverything on the list above is massage therapy performed by our RMT and is receipted as such. Most extended health plans cover massage by an RMT up to a yearly maximum; check yours. We do not describe non-massage services as massage on a receipt."
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "heading": "Who it suits",
+        "tone": "suits",
+        "items": [
+          "Muscle tension from desk work, driving, training or parenting",
+          "Dry skin and a dry climate",
+          "People who want their massage benefits used on something with a tradition behind it",
+          "Anyone who found Western massage too firm or too brisk",
+          "New clients: Abhyanga is the place to start"
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "heading": "Who should avoid massage, or tell us first",
+        "tone": "avoid",
+        "items": [
+          "Fever, flu or any acute illness",
+          "Open wounds, rashes, sunburn or a skin infection",
+          "Within six weeks of surgery, or sooner than your surgeon advises",
+          "First trimester of pregnancy; later with your physician's agreement and a modified session",
+          "Blood-clotting conditions, blood thinners, or unexplained swelling in a leg: ask your physician first",
+          "A known allergy to sesame, nuts or any oil ingredient (we have alternatives; tell us when booking)",
+          "Osteoporosis, recent fractures, or a heart condition: tell us so the pressure and position can be adjusted"
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is the therapist a Registered Massage Therapist?",
+      "a": "Yes. Maheswari Vedhachalam is an RMT as well as a BAMS-qualified Ayurveda practitioner. Receipts carry her registration number."
+    },
+    {
+      "q": "Which one should I book first?",
+      "a": "Abhyanga, 60 minutes. It is the foundation; everything else is a variation or an addition. If you are unsure, a free 15-minute call will sort it out."
+    },
+    {
+      "q": "Will I be very oily afterwards?",
+      "a": "Yes, more than after a Western massage; that is the point. We give you a towel and a cap, and most clients shower an hour or two later at home."
+    },
+    {
+      "q": "Do you offer deep tissue or sports massage?",
+      "a": "We can work more firmly on request within an Ayurvedic session. Whether we list separate deep-tissue or reflexology services is being decided."
+    }
+  ],
+  "related": [
+    "/therapies/abhyanga/",
+    "/therapies/indian-head-massage/",
+    "/therapies/kizhi-potli-massage/"
+  ]
+}

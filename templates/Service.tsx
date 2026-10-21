@@ -60,7 +60,7 @@ export function Service({ page, settings, price, related }: { page: Page; settin
         </aside>
       </div>
 
-      <CtaBand tone={isSpiritual ? "dusk" : "neem-deep"} heading={`Book ${page.h1.replace(/ in Calgary$/i, "")}`} text="Online booking takes two minutes. Not sure yet? Start with a free call." primary={{ label: "Book now", href: "/book/" }} secondary={{ label: "Free 15-minute call", href: "/book/#discovery" }} />
+      <CtaBand tone={isSpiritual ? "dusk" : "neem-deep"} heading={`Book ${page.h1.split(/[:(]/)[0].replace(/ in Calgary$/i, "").trim()}`} text="Online booking takes two minutes. Not sure yet? Start with a free call." primary={{ label: "Book now", href: "/book/" }} secondary={{ label: "Free 15-minute call", href: "/book/#discovery" }} />
     </div>
   );
 }

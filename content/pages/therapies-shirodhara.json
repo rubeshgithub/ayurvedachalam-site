@@ -1,0 +1,109 @@
+{
+  "slug": "/therapies/shirodhara/",
+  "status": "review",
+  "updated_at": "2026-10-20",
+  "meta_description": "Shirodhara in Calgary: warm herbal oil poured in a steady stream over the forehead for deep rest. 60 min $130; 105 min with Abhyanga $230.",
+  "summary": {
+    "duration": "60 min",
+    "price_from": "$130",
+    "price_note": "With Abhyanga: 105 min $230",
+    "location": "Calgary, in person",
+    "mode": [
+      "in-person"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "intro",
+      "data": {
+        "lead": "Shirodhara (warm oil poured steadily over the forehead) is the Ayurvedic therapy people ask for by name. Thirty-five minutes of a thin, warm stream moving slowly across the brow, in a quiet room, with nothing to do. Most clients fall asleep. Given in Calgary by a practitioner trained in Ayurveda in India."
+      }
+    },
+    {
+      "type": "richtext",
+      "data": {
+        "md": "## What Shirodhara is\n\nYou lie on your back with your eyes covered. A copper vessel with a narrow spout hangs above your forehead. Warm oil, usually a sesame-based herbal oil chosen for you, flows from it in a continuous stream that moves slowly from temple to temple. The vessel is refilled so the stream never breaks. After thirty to thirty-five minutes the oil is worked gently into the scalp and you rest.\n\nIn Ayurvedic terms, Shirodhara calms Vata in the head: the racing mind, the light sleep, the feeling of being wound tight. That is the tradition's description, and it matches who tends to book it.\n\n## What the evidence says\n\nHonestly, less than the internet claims. Small studies from India and Japan describe people relaxing and sleeping better after a course of Shirodhara; none has a proper control group. We offer it as a deeply restful therapy that clients value for stress and sleep, not as a treatment for any diagnosed condition. If you are under a physician's care for sleep or mood, keep that care in place; Shirodhara can sit beside it."
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "heading": "Who it suits",
+        "tone": "suits",
+        "items": [
+          "A mind that will not slow down; stress that sits in the head, neck and jaw",
+          "Light, broken or late sleep",
+          "Chinook season, exam season, a hard month",
+          "Anyone who wants the single most restful hour Ayurveda offers",
+          "Clients combining it with Abhyanga for a full reset"
+        ]
+      }
+    },
+    {
+      "type": "steps",
+      "data": {
+        "heading": "What happens in a session",
+        "items": [
+          {
+            "title": "Settling",
+            "text": "A short check-in, then you lie down, clothed from the waist down and covered. Hair is tied back and protected; your eyes are covered with a soft pad."
+          },
+          {
+            "title": "The pour",
+            "text": "Oil warmed to just above body temperature and tested on your wrist. The stream starts at the centre of the forehead and moves slowly side to side for 30 to 35 minutes. You do nothing."
+          },
+          {
+            "title": "Scalp work and rest",
+            "text": "The oil is worked through the scalp for a few minutes. You rest, then sit up slowly. We give you a towel and a cap; leave the oil in until the next morning if you can, and keep your head warm outside."
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "heading": "Who should avoid this",
+        "tone": "avoid",
+        "items": [
+          "First trimester of pregnancy; later, only with your physician's agreement",
+          "Fever, a heavy cold with congestion, or a recent head injury",
+          "An open wound, rash or infection on the scalp or forehead",
+          "Recent neck or spinal surgery",
+          "Very low blood pressure or fainting when lying still for long periods",
+          "A sesame or nut allergy, unless we switch the base oil (tell us when booking)",
+          "Any condition for which your physician has advised against lying flat"
+        ]
+      }
+    },
+    {
+      "type": "notice",
+      "data": {
+        "tone": "turmeric",
+        "text": "Insurance: Shirodhara on its own is not massage therapy and is not receipted as massage, even though our practitioner is an RMT. In a combined Abhyanga + Shirodhara session, only the Abhyanga portion is receipted."
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does it feel strange?",
+      "a": "For the first minute, a little, like a slow warm drip. Then most people stop noticing the stream and drift. There is no pressure and nothing cold."
+    },
+    {
+      "q": "How do I get the oil out of my hair?",
+      "a": "Shampoo on dry hair before wetting it, work it through, rinse, and wash a second time. Leaving the oil overnight is traditional and good for a dry Calgary scalp."
+    },
+    {
+      "q": "One session or a course?",
+      "a": "One session is a lovely experience. Clients who describe lasting change in sleep did three sessions within two weeks and changed their evening routine too. The package of three is $350."
+    },
+    {
+      "q": "Can I drive afterwards?",
+      "a": "Yes. You will feel relaxed, not impaired. Sit for ten minutes and have a glass of warm water first."
+    }
+  ],
+  "related": [
+    "/therapies/abhyanga/",
+    "/therapies/indian-head-massage/",
+    "/learn/shirodhara-benefits/"
+  ]
+}

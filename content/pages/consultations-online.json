@@ -1,0 +1,103 @@
+{
+  "slug": "/consultations/online-ayurvedic-consultation-canada/",
+  "status": "review",
+  "updated_at": "2026-10-20",
+  "meta_description": "Online Ayurvedic consultation anywhere in Canada with a BAMS practitioner: 75-minute video session, written plan, follow-ups. $135; follow-up $75.",
+  "summary": {
+    "duration": "75 min initial · 30 min follow-up",
+    "price_from": "$135",
+    "price_note": "Follow-up $75 · extended follow-up $95",
+    "location": "Video, across Canada",
+    "mode": [
+      "online"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "intro",
+      "data": {
+        "lead": "A 75-minute video consultation with a practitioner who holds a Bachelor of Ayurveda Medicine and Surgery from India and has practised for over 14 years, from wherever you are in Canada. You leave with a written plan for food, routine and rest that fits your life, and a clear line on what is ours to help with and what is your physician's."
+      }
+    },
+    {
+      "type": "richtext",
+      "data": {
+        "md": "## Who this is for\n\nMost of Canada has no Ayurvedic practitioner within driving distance, and many of our clients in Calgary prefer the first conversation from home. Online works well for everything a consultation is: history, routine, food, sleep, digestion, stress, the season, and a plan. What it cannot include is pulse reading and hands-on therapy, which is why we also offer in-person consultations in Calgary.\n\n## What you get\n\n- 75 minutes with the practitioner, on a video call of your choice.\n- A written plan within two days: daily routine (dinacharya), seasonal adjustments, food you can buy in a Canadian grocery store, simple practices, and any licensed herbal product worth considering with its cautions.\n- Plain answers. If what you describe needs a physician, we say so and help you frame the question.\n- Follow-ups of 30 minutes ($75) or 45 minutes ($95) to adjust the plan.\n\n## What we will not do online\n\nWe do not diagnose, we do not treat medical conditions, we do not suggest stopping or changing prescribed medication, and we do not recommend any herbal product without a Health Canada Natural Product Number. Ayurveda is not a regulated profession in Canada; the practitioner's training is the credential, and you can read about it on the practitioner page."
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "heading": "Who it suits",
+        "tone": "suits",
+        "items": [
+          "Anyone in Canada without a practitioner nearby",
+          "People who want food, routine and sleep sorted before trying therapies",
+          "Returning clients who moved away from Calgary",
+          "Those who prefer the first conversation from home",
+          "Busy people: evening and weekend slots are available"
+        ]
+      }
+    },
+    {
+      "type": "steps",
+      "data": {
+        "heading": "What happens",
+        "items": [
+          {
+            "title": "Before",
+            "text": "A short intake through the booking system: contact details, what brings you, current medications and supplements. No health details are collected on this website."
+          },
+          {
+            "title": "The conversation (about 60 minutes)",
+            "text": "Your history, your days: how you sleep, eat and digest, your energy through the day, your work, the season. In person this includes Nadi Pariksha (pulse reading) and a look at the tongue, skin and eyes; online we ask more questions instead."
+          },
+          {
+            "title": "The plan (about 15 minutes)",
+            "text": "What Ayurveda makes of it, in plain words, and a written plan sent within two days: daily routine, food, a few practices, any therapies that fit, and any licensed herbal product worth considering, with its cautions. We say clearly when something is your physician's job."
+          },
+          {
+            "title": "Follow-up",
+            "text": "A 30-minute follow-up ($75) two to four weeks on, to adjust. Most clients need two or three follow-ups over a season, not a standing appointment."
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "heading": "When a consultation is not the right step",
+        "tone": "avoid",
+        "items": [
+          "A medical emergency, or symptoms that are new, severe or getting worse: your physician or 911 first",
+          "Anyone who needs a diagnosis; we do not diagnose, and we will say so",
+          "Children under 16 without a parent present and their physician aware",
+          "People who want to stop a prescribed medication: that is a conversation with the prescriber, not with us"
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which video platform do you use?",
+      "a": "The booking system sends a secure video link; it works in a browser on a phone, tablet or computer. Phone-only is possible if video is difficult."
+    },
+    {
+      "q": "Is an online consultation covered by insurance?",
+      "a": "Generally not. Ayurvedic consultations are not a paramedical category on most plans. Some wellness spending accounts reimburse them; ask your administrator."
+    },
+    {
+      "q": "What time zone?",
+      "a": "We book in Mountain Time and show your local time in the confirmation. Clients from BC to Newfoundland are welcome."
+    },
+    {
+      "q": "Do I need to prepare anything?",
+      "a": "A quiet place, a list of medications and supplements, and, if you like, a note of a typical day's meals and sleep. A glass of water. That is all."
+    }
+  ],
+  "related": [
+    "/consultations/ayurvedic-consultation-calgary/",
+    "/consultations/nadi-pariksha-pulse-reading/",
+    "/learn/is-ayurveda-regulated-in-canada/"
+  ]
+}

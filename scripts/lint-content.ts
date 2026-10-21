@@ -7,7 +7,9 @@ import type { Article, Page } from "../lib/types";
 const seed = (n: string) => JSON.parse(fs.readFileSync(path.join(process.cwd(), "content", "seed", `${n}.json`), "utf8"));
 const pages: Page[] = seed("pages");
 const articles: Article[] = seed("articles");
-const known = new Set<string>([...pages.filter((p) => p.status === "published").map((p) => p.slug), ...articles.filter((a) => a.status === "published").map((a) => `/learn/${a.slug}/`), "/", "/book/", "/learn/"]);
+// A link resolves when its target is in the page map or the article map: the whole wave publishes together.
+const articleMap: { slug: string }[] = seed("article-map");
+const known = new Set<string>([...pages.map((p) => p.slug), ...articles.map((a) => `/learn/${a.slug}/`), ...articleMap.map((a) => a.slug), "/", "/book/", "/learn/"]);
 const keywords = new Map<string, string>();
 let errors = 0;
 
@@ -20,7 +22,7 @@ for (const p of pages) {
   if (r.warnings.length) console.log(`⚠ ${p.slug}\n  ${r.warnings.join("\n  ")}`);
 }
 for (const a of articles) {
-  const r = lint({ ...a, slug: `/learn/${a.slug}/` }, { kind: "article", existingKeywords: keywords, linkResolves: (h) => known.has(h) || pages.some((p) => p.slug === h) });
+  const r = lint({ ...a, slug: `/learn/${a.slug}/` }, { kind: "article", existingKeywords: keywords, linkResolves: (h) => known.has(h) });
   if (a.primary_keyword) keywords.set(a.primary_keyword.toLowerCase(), `/learn/${a.slug}/`);
   console.log(`${r.passed ? "✓" : "✗"} /learn/${a.slug}/`);
   if (r.errors.length) { errors++; console.log(`  errors:\n  ${r.errors.join("\n  ")}`); }

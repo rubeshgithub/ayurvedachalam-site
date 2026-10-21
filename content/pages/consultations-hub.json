@@ -1,0 +1,47 @@
+{
+  "slug": "/consultations/",
+  "status": "review",
+  "updated_at": "2026-10-20",
+  "meta_description": "Ayurvedic consultations with a BAMS-qualified practitioner: 75 minutes online across Canada or in person in Calgary, with a written plan. $135.",
+  "summary": {},
+  "blocks": [
+    {
+      "type": "intro",
+      "data": {
+        "lead": "A consultation is where Ayurveda starts: 75 minutes on your history, your days, your digestion and sleep, with a practitioner trained in Ayurveda for five and a half years in India and practising for over 14 years. Online across Canada, or in person in Calgary with pulse reading. You leave with a written plan and a clear sense of what is ours to help with."
+      }
+    },
+    {
+      "type": "richtext",
+      "data": {
+        "md": "## Two ways to consult\n\n- **Online, anywhere in Canada**: a 75-minute video consultation, $135. Everything a consultation is, from home.\n- **In person, in Calgary**: the same conversation plus Nadi Pariksha (pulse reading) and traditional observation, $135. The route to therapies.\n\nFollow-ups are 30 minutes ($75) or 45 minutes ($95), online or in person.\n\n## Focused consultations\n\nSome people come with one question. These pages describe how a consultation runs when the focus is diet and nutrition, herbs, women's wellness, digestion, stress and sleep, or a guided seasonal cleanse. They are the same 75-minute consultation at the same price, with the plan shaped around that question.\n\n## What a consultation is not\n\nWe do not diagnose, do not treat medical conditions, and do not suggest changing prescribed medication. Ayurveda is not a regulated health profession in Canada, and we think you should know that before you book: the practitioner's training and experience are the credential, and they are set out on the practitioner page. When something you describe needs a physician, we say so."
+      }
+    },
+    {
+      "type": "notice",
+      "data": {
+        "tone": "turmeric",
+        "text": "Not sure whether a consultation, a therapy or something else is the right first step? A free 15-minute discovery call answers that with no obligation."
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How much does a consultation cost?",
+      "a": "$135 for the 75-minute initial consultation, online or in person; $75 for a 30-minute follow-up. Prices are in Canadian dollars before GST."
+    },
+    {
+      "q": "Online or in person: which should I choose?",
+      "a": "Online if you are outside Calgary or want the first conversation from home. In person for pulse reading and if you are planning therapies. The plan is the same quality either way."
+    },
+    {
+      "q": "Is it covered by insurance?",
+      "a": "Generally not; consultations are not a paramedical category on most plans. Some wellness accounts reimburse them."
+    },
+    {
+      "q": "Will I be given herbs?",
+      "a": "Only if they fit, only products with a Health Canada NPN, and only with their cautions explained. We do not sell products."
+    }
+  ],
+  "related": []
+}

@@ -1,0 +1,96 @@
+{
+  "slug": "/therapies/panchakarma/",
+  "status": "review",
+  "updated_at": "2026-10-20",
+  "meta_description": "Panchakarma in Calgary as a five-day external program: Abhyanga, Shirodhara, Vasti and herbal steam with diet and routine. $695.",
+  "summary": {
+    "duration": "5 days",
+    "price_from": "$695",
+    "price_note": "vs. $845 booked separately",
+    "location": "Calgary, in person",
+    "mode": [
+      "in-person"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "intro",
+      "data": {
+        "lead": "Panchakarma (Ayurveda's cleansing program) at Ayurvedachalam is a five-day course of external therapies, warm oil massage, Shirodhara, Vasti and herbal steam, with a simple diet and daily routine for the week. It is the most restful week Ayurveda offers. It does not include any internal procedure, and this page explains why."
+      }
+    },
+    {
+      "type": "notice",
+      "data": {
+        "tone": "copper",
+        "text": "What is not included: classical Panchakarma has five internal procedures (therapeutic vomiting, purgation, enema therapies, nasal administration and bloodletting). None is offered here. In Alberta those procedures are restricted to regulated health professionals, and we would not offer them regardless. Our program is the external preparation and care that surrounds them in the tradition, which is what most people in Canada are looking for when they search for Panchakarma."
+      }
+    },
+    {
+      "type": "richtext",
+      "data": {
+        "md": "## The five days\n\nEach day is about 90 minutes at the clinic, at a time that suits you, with the diet and routine carried on at home.\n\n1. **Day 1**: consultation review, Abhyanga (60 min) and herbal steam.\n2. **Day 2**: Abhyanga and Shirodhara.\n3. **Day 3**: Kati Vasti or Janu Vasti (your choice) and steam.\n4. **Day 4**: Abhyanga and Shirodhara.\n5. **Day 5**: Abhyanga, steam, and a closing conversation about the routine to keep.\n\nThe therapies are chosen with you at a consultation beforehand; a day can be swapped (Pizhichil for Abhyanga, for example) at the practitioner's discretion. Booked separately these sessions come to $845; the program is $695.\n\n## The diet and routine for the week\n\nWarm, simple, mostly cooked food: kitchari (rice and split mung beans with ghee and spices), soups, stewed fruit, warm water through the day. No alcohol, no cold or raw food, early nights, and as little screen time in the evening as you can manage. This is the \"cleansing\" of the program, in the tradition's sense of the word: a week of rest for the digestion, not a purge. We send the plan in writing before day one.\n\n## When to do it\n\nThe tradition favours the change of seasons. In Calgary that means late October to early November, before deep winter, and April, as it lifts. Clients also book it after a hard stretch at work or when sleep has gone. Plan a quiet week; the program does not suit a week of travel or heavy training."
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "heading": "Who it suits",
+        "tone": "suits",
+        "items": [
+          "Anyone who wants a full reset rather than a single session",
+          "People coming out of a hard month who can give the week some quiet",
+          "Clients new to Ayurveda who want to experience the main therapies in sequence",
+          "Those preparing for winter, or recovering from it"
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "heading": "Who should avoid this",
+        "tone": "avoid",
+        "items": [
+          "Pregnancy and the first three months after birth (a postnatal program is different; ask)",
+          "Fever, flu or any acute illness; we reschedule",
+          "Within six weeks of surgery, or sooner than your surgeon advises",
+          "A diagnosed eating disorder, diabetes on insulin, or any condition where a week of light eating needs medical supervision: ask your physician first, and tell us",
+          "The exclusions on each therapy's own page (Abhyanga, Shirodhara, Vasti) apply to the whole program",
+          "A week in which you cannot rest; the program does not work around a heavy schedule"
+        ]
+      }
+    },
+    {
+      "type": "notice",
+      "data": {
+        "tone": "turmeric",
+        "text": "Insurance: the Abhyanga sessions within the program are massage therapy by our RMT and are receipted as such; Shirodhara, Vasti and steam are not. We itemise the receipt."
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is this real Panchakarma?",
+      "a": "It is the external half of it: the oil therapies and the diet and routine that surround the classical procedures. The internal procedures are not offered here. Some Canadian clinics advertise them; in Alberta they are restricted activities, and we think the external program is what most people want and can safely do."
+    },
+    {
+      "q": "Will I lose weight or feel ill during the week?",
+      "a": "The program is rest, not deprivation: three warm meals a day. Most people feel calmer and sleep more. Nobody should feel ill; if you do, tell us the same day."
+    },
+    {
+      "q": "Can I do it over two weeks instead?",
+      "a": "Yes, five sessions over ten days works for people who cannot clear a week. The diet runs for the same ten days."
+    },
+    {
+      "q": "Can I work during the week?",
+      "a": "Light work, yes. The sessions are 90 minutes and the evenings should be quiet. Heavy workouts, travel and late nights undo the point."
+    }
+  ],
+  "related": [
+    "/therapies/abhyanga/",
+    "/therapies/shirodhara/",
+    "/therapies/kati-vasti/"
+  ],
+  "legal_check": true,
+  "legal_check_note": "LC-3 and Q-16: the owner's 'cleansing of stomach wash' item is not included until clarified; lawyer to confirm the internal-procedures paragraph (F-02)."
+}

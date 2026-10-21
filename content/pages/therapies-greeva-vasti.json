@@ -1,0 +1,120 @@
+{
+  "slug": "/therapies/greeva-vasti/",
+  "status": "review",
+  "updated_at": "2026-10-20",
+  "meta_description": "Greeva Vasti (Greeva Basti) in Calgary: warm herbal oil held on the back of the neck for 30 minutes. 45 min $90; five sessions $400.",
+  "summary": {
+    "duration": "45 min",
+    "price_from": "$90",
+    "price_note": "Package of 5 Vasti sessions $400",
+    "location": "Calgary, in person",
+    "mode": [
+      "in-person"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "intro",
+      "data": {
+        "lead": "Greeva Vasti (warm oil held on the neck; also spelled Griva or Greeva Basti) brings half an hour of steady warmth to the back of the neck and the top of the shoulders, the place a day at a screen ends up. A dough ring, warm herbal oil, and no pressure."
+      }
+    },
+    {
+      "type": "richtext",
+      "data": {
+        "md": "## What Greeva Vasti is\n\nGreeva is the neck. You lie face down with the forehead supported; a dough ring is pressed onto the back of the neck, filled with warm herbal oil, and the oil is kept warm for 25 to 30 minutes while you rest. It is the gentlest of the three Vasti therapies and the one most clients find sends them to sleep.\n\nIn Ayurvedic terms the neck, like the lower back and knees, is a place where Vata collects: dryness, stiffness and the feeling of a head that is heavy to hold up. Warmth held still is the tradition's answer.\n\n## What people come for\n\nClients commonly book Greeva Vasti for a neck and upper back that are stiff from screens, driving and phones, for the tightness that comes with stress, and for the morning stiffness that a Calgary winter adds. We offer it as a thorough, comfortable way to warm the neck, not as a treatment for a neck condition. A neck with pain shooting into an arm, numbness, dizziness, or pain after an accident or fall needs your physician first."
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "heading": "Who it suits",
+        "tone": "suits",
+        "items": [
+          "A neck and upper back stiff from desk work, driving and phones",
+          "Tension that collects at the top of the shoulders",
+          "Morning stiffness through the winter",
+          "Clients combining it with Shiro Abhyanga (head massage) or Abhyanga",
+          "Anyone who wants warmth without manipulation of the neck"
+        ]
+      }
+    },
+    {
+      "type": "steps",
+      "data": {
+        "heading": "What happens in a session",
+        "items": [
+          {
+            "title": "Check-in",
+            "text": "Five minutes on where the neck feels stiff or tired, what makes it better or worse, and anything new. On a first visit this follows a consultation."
+          },
+          {
+            "title": "The dough ring",
+            "text": "You lie face down with the forehead supported and the arms relaxed. A ring of fresh dough is shaped and pressed onto the skin around the neck, sealed so it will hold oil."
+          },
+          {
+            "title": "The oil",
+            "text": "Warm herbal oil, usually sesame-based, fills the ring and covers the skin. As it cools it is drawn off and replaced with warm oil, so the area stays at a steady, comfortable warmth for 25 to 30 minutes."
+          },
+          {
+            "title": "Finish and rest",
+            "text": "The ring and oil are removed, the oil is worked lightly into the surrounding muscles, and you rest before getting up slowly. Herbal steam to the area can be added for $25. Keep the area warm and covered on the way home."
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "heading": "Who should avoid this",
+        "tone": "avoid",
+        "items": [
+          "Pregnancy",
+          "Fever, an acute infection, or a neck injury within the last 72 hours",
+          "Pain shooting into an arm, numbness, weakness, or dizziness: see your physician first",
+          "An open wound, rash or skin infection on the neck",
+          "Neck or spinal surgery within the last six months, or at any time without your surgeon's agreement",
+          "Difficulty lying face down for 40 minutes (we can adapt the position; tell us)",
+          "Reduced skin sensation, or a sesame or nut allergy: tell us when booking"
+        ]
+      }
+    },
+    {
+      "type": "notice",
+      "data": {
+        "tone": "turmeric",
+        "text": "Insurance: Greeva Vasti is not massage therapy and is not receipted as massage. Booked with Abhyanga, only the massage portion is receipted."
+      }
+    },
+    {
+      "type": "notice",
+      "data": {
+        "tone": "neem",
+        "text": "\"Vasti\" on this page means the external warm-oil therapy only. Internal Vasti (enema therapy) is not offered at this practice and is not advertised anywhere on this site."
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is any pressure or cracking involved?",
+      "a": "None. Greeva Vasti is warmth held on the skin. We do not manipulate or adjust the neck."
+    },
+    {
+      "q": "Can it be combined with a head massage?",
+      "a": "Yes. Greeva Vasti followed by Shiro Abhyanga (Indian head massage) is a common pairing: 45 plus 30 minutes, $90 plus $65."
+    },
+    {
+      "q": "How many sessions?",
+      "a": "Three to five over two or three weeks is the usual course. The five-session package is $400 and can mix Kati, Janu and Greeva Vasti."
+    },
+    {
+      "q": "Will my hair get oily?",
+      "a": "A little at the hairline. Tie long hair up; we protect it with a towel."
+    }
+  ],
+  "related": [
+    "/therapies/kati-vasti/",
+    "/therapies/indian-head-massage/",
+    "/therapies/shirodhara/"
+  ]
+}

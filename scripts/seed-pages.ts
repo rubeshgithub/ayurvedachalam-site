@@ -129,13 +129,29 @@ function readArticles(): Article[] {
   return out;
 }
 
+/** Page copy: content/pages/<slug-with-dashes>.json, merged onto the map row by slug (W1 and later). */
+function mergePageCopy(pages: Page[]): number {
+  const dir = path.join(ROOT, "content", "pages");
+  if (!fs.existsSync(dir)) return 0;
+  let n = 0;
+  for (const f of fs.readdirSync(dir).filter((x) => x.endsWith(".json"))) {
+    const copy = JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")) as Partial<Page> & { slug: string };
+    const idx = pages.findIndex((p) => p.slug === copy.slug);
+    if (idx === -1) { console.warn(`content/pages/${f}: slug ${copy.slug} is not in the page map; skipped`); continue; }
+    pages[idx] = { ...pages[idx], ...copy, status: copy.status ?? "review", updated_at: copy.updated_at ?? new Date().toISOString().slice(0, 10) };
+    n++;
+  }
+  return n;
+}
+
 async function main() {
   const pages = readMap();
+  const withCopy = mergePageCopy(pages);
   const articles = readArticles();
   fs.writeFileSync(path.join(SEED, "pages.json"), JSON.stringify(pages, null, 2));
   fs.writeFileSync(path.join(SEED, "articles.json"), JSON.stringify(articles, null, 2));
   fs.writeFileSync(path.join(SEED, "article-map.json"), JSON.stringify(articleMap, null, 2));
-  console.log(`seed: ${pages.length} pages, ${articles.length} articles, ${articleMap.length} mapped article slugs → content/seed/`);
+  console.log(`seed: ${pages.length} pages (${withCopy} with copy), ${articles.length} articles, ${articleMap.length} mapped article slugs → content/seed/`);
 
   if (process.env.MONGODB_URI) {
     const { getDb, ensureIndexes } = await import("../lib/db");
@@ -144,7 +160,7 @@ async function main() {
     let inserted = 0, skipped = 0;
     for (const p of pages) {
       const existing = await db.collection("pages").findOne({ slug: p.slug });
-      if (existing && existing.status !== "draft") { skipped++; continue; }
+      if (existing && !["draft", "review"].includes(existing.status)) { skipped++; continue; }
       await db.collection("pages").updateOne({ slug: p.slug }, { $set: p }, { upsert: true });
       inserted++;
     }

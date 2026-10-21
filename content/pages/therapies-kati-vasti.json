@@ -1,0 +1,120 @@
+{
+  "slug": "/therapies/kati-vasti/",
+  "status": "review",
+  "updated_at": "2026-10-20",
+  "meta_description": "Kati Vasti (Kati Basti) in Calgary: warm herbal oil held on the lower back in a dough ring for 30 minutes. 45 min $95; five sessions $400.",
+  "summary": {
+    "duration": "45 min",
+    "price_from": "$95",
+    "price_note": "Package of 5 Vasti sessions $400",
+    "location": "Calgary, in person",
+    "mode": [
+      "in-person"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "intro",
+      "data": {
+        "lead": "Kati Vasti (warm oil held on the lower back; also spelled Kati Basti) is Ayurveda's answer to a stiff, tired lower back. A ring of dough on the skin, filled with warm herbal oil and kept warm for half an hour. No pressure, no manipulation; warmth and time."
+      }
+    },
+    {
+      "type": "richtext",
+      "data": {
+        "md": "## What Kati Vasti is\n\nKati means the lower back and hips; Vasti means a container. A ring of black-gram or wheat-flour dough is pressed onto the lower back and filled with warm oil, which is drawn off and replaced as it cools so the area stays at a steady warmth throughout. The oil is chosen for you at your consultation.\n\nIn Ayurvedic terms, Kati Vasti is a warming, nourishing therapy for an area where Vata has settled: stiffness that is worst in the morning or after sitting, a back that tires rather than one that is sharply injured, the wear of desk work, driving and winter.\n\n## What people come for\n\nClients commonly report that the back feels warm and loose straight afterwards, that stiffness on getting out of bed is less for a day or two, and that the effect lasts longer with each session in a course of three to five. Many combine it with Abhyanga, or with the stretches and routine set out in a consultation.\n\nThe published research on Kati Vasti is thin: small studies and case reports, almost always with other therapies given at the same time. We offer it as a thorough, pleasant way to apply sustained warmth to a sore back, not as a treatment for a back condition. Persistent back pain, pain with numbness or weakness in a leg, pain after a fall, or pain with fever needs your physician first."
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "heading": "Who it suits",
+        "tone": "suits",
+        "items": [
+          "A lower back that is stiff, tired or achy rather than acutely injured",
+          "Morning stiffness, or stiffness after long sitting or driving",
+          "People who sit for work and want a monthly reset through the winter",
+          "Clients following a consultation plan for back care",
+          "Anyone who wants warmth without pressure"
+        ]
+      }
+    },
+    {
+      "type": "steps",
+      "data": {
+        "heading": "What happens in a session",
+        "items": [
+          {
+            "title": "Check-in",
+            "text": "Five minutes on where the lower back feels stiff or tired, what makes it better or worse, and anything new. On a first visit this follows a consultation."
+          },
+          {
+            "title": "The dough ring",
+            "text": "You lie face down with a bolster under the ankles. A ring of fresh dough is shaped and pressed onto the skin around the lower back, sealed so it will hold oil."
+          },
+          {
+            "title": "The oil",
+            "text": "Warm herbal oil, usually sesame-based, fills the ring and covers the skin. As it cools it is drawn off and replaced with warm oil, so the area stays at a steady, comfortable warmth for 25 to 30 minutes."
+          },
+          {
+            "title": "Finish and rest",
+            "text": "The ring and oil are removed, the oil is worked lightly into the surrounding muscles, and you rest before getting up slowly. Herbal steam to the area can be added for $25. Keep the area warm and covered on the way home."
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "heading": "Who should avoid this",
+        "tone": "avoid",
+        "items": [
+          "Pregnancy",
+          "Fever, an acute infection, or an injury to the back within the last 72 hours",
+          "An open wound, rash, burn or skin infection on the lower back",
+          "Spinal surgery within the last six months, or a spinal implant, without your surgeon's agreement",
+          "Numbness, tingling or weakness in a leg, or any change in bladder or bowel control: see a physician the same day",
+          "Reduced skin sensation (for example from diabetes or a nerve condition): tell us, and we lower the oil temperature",
+          "A sesame or nut allergy, unless we switch the base oil"
+        ]
+      }
+    },
+    {
+      "type": "notice",
+      "data": {
+        "tone": "turmeric",
+        "text": "Insurance: Kati Vasti is not massage therapy and is not receipted as massage. Booked with Abhyanga, only the massage portion is receipted."
+      }
+    },
+    {
+      "type": "notice",
+      "data": {
+        "tone": "neem",
+        "text": "\"Vasti\" on this page means the external warm-oil therapy only. Internal Vasti (enema therapy) is not offered at this practice and is not advertised anywhere on this site."
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is it painful?",
+      "a": "No. It is warm oil resting on the skin. The only sensation most people describe is heat spreading through the back and, by the end, drowsiness."
+    },
+    {
+      "q": "Kati Vasti or Abhyanga for a sore back?",
+      "a": "If the back is tired and stiff rather than injured, Kati Vasti is the more targeted choice; if the whole body is tense, Abhyanga. Many clients do both in one visit. A free call sorts it out in five minutes."
+    },
+    {
+      "q": "How many sessions?",
+      "a": "One to try it; three to five over two or three weeks is the usual course; monthly through the winter for people who sit for work. The five-session package is $400 and can mix Kati, Janu and Greeva Vasti."
+    },
+    {
+      "q": "What oil is used?",
+      "a": "A sesame-based herbal oil in most cases, warmed to a comfortable temperature and tested on your wrist first. The choice is made at your consultation and noted in your file."
+    }
+  ],
+  "related": [
+    "/therapies/janu-vasti/",
+    "/therapies/greeva-vasti/",
+    "/learn/kati-basti-guide/"
+  ]
+}

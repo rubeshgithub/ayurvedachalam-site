@@ -1,0 +1,91 @@
+{
+  "slug": "/therapies/nasya/",
+  "status": "review",
+  "updated_at": "2026-10-20",
+  "meta_description": "Nasya is Ayurveda's nasal oil practice. We do not perform it at the clinic; this page explains safe home use of nasal oil for a dry Calgary nose.",
+  "summary": {
+    "duration": "Advice only",
+    "price_from": "$0",
+    "price_note": "Covered in a consultation; not a clinic procedure",
+    "location": "Guidance for home use",
+    "mode": [
+      "online",
+      "in-person"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "intro",
+      "data": {
+        "lead": "Nasya (nasal oil therapy) is the Ayurvedic practice of putting a few drops of oil or ghee into the nostrils. This practice does not perform Nasya at the clinic. What we do is explain, in a consultation, how to use nasal oil safely at home, which is the form most Canadians can benefit from in a climate as dry as Calgary's."
+      }
+    },
+    {
+      "type": "notice",
+      "data": {
+        "tone": "copper",
+        "text": "Why we do not perform it: in Alberta, procedures that go beyond the point where the nasal passages narrow are restricted to regulated health professionals, and clinic-administered Nasya can cross that line. Home use of a drop of oil at the opening of the nostril does not. We keep to the side of that line that protects you and us."
+      }
+    },
+    {
+      "type": "richtext",
+      "data": {
+        "md": "## What Nasya is, in the tradition\n\nAyurveda regards the nose as the doorway to the head. Classical Nasya ranges from a single drop of oil at the nostril's edge, done daily as part of the morning routine, to clinic procedures using medicated oils in larger quantities after steam and massage. The daily drop is what we teach; the clinic procedures are not offered here.\n\n## Home nasal oil: the simple version\n\nAfter your morning shower, warm a drop of plain sesame oil or ghee between clean fingertips and rub it just inside each nostril, no further than the fingertip reaches comfortably. That is all. It takes ten seconds and, in heated winter air, is the difference between a nose that cracks and bleeds and one that does not. Some clients prefer a licensed nasal oil product with a Natural Product Number; we can suggest options.\n\nIn a consultation we go through which oil suits you, when in the day to use it, and what to do about the common Calgary complaints of a dry, blocked or stuffy nose and sinus pressure, including steam, hydration, humidity at home, and when it is a physician's job rather than ours.\n\n## Sinus and congestion\n\nPeople search for Nasya because of sinus trouble. Be clear about what oil can and cannot do: it keeps the lining moist and comfortable; it does not treat a sinus infection. Facial pain with fever, thick coloured discharge, symptoms lasting more than ten days, or sinus trouble that keeps coming back are reasons to see your physician. We will say so in the consultation and send you there."
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "heading": "Who home nasal oil suits",
+        "tone": "suits",
+        "items": [
+          "A nose that is dry, crusted or bleeds a little in winter",
+          "People who wake with a dry mouth and throat from breathing dry air",
+          "Anyone starting an Ayurvedic morning routine",
+          "Clients who have had the routine explained in a consultation"
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "heading": "Who should avoid nasal oil",
+        "tone": "avoid",
+        "items": [
+          "Children, without specific advice from their physician",
+          "Pregnancy, unless your physician agrees",
+          "Frequent or heavy nosebleeds, or nasal or sinus surgery in the last year",
+          "A current cold, sinus infection or fever; wait until it has cleared",
+          "Nasal polyps, a deviated septum under treatment, or any nasal condition under a specialist's care: ask them first",
+          "A sesame allergy (use ghee or a licensed alternative)",
+          "Anything beyond a fingertip's reach: never use droppers, syringes or neti-style devices for oil"
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you perform Nasya at the clinic?",
+      "a": "No. We explain safe home use of nasal oil as part of a consultation. Clinic-administered Nasya is not offered."
+    },
+    {
+      "q": "Which oil should I use?",
+      "a": "Plain cold-pressed sesame oil or ghee from the grocery store, or a licensed nasal oil with an NPN on the label. Avoid anything imported without a Canadian licence."
+    },
+    {
+      "q": "Will it help my sinuses?",
+      "a": "It keeps the nasal lining moist and comfortable, which many people with a dry, stuffy nose find helps. It does not treat a sinus infection; see your physician for facial pain with fever or symptoms that last more than ten days."
+    },
+    {
+      "q": "Is this covered by insurance?",
+      "a": "No. It is advice given within a consultation, and consultations are not generally covered."
+    }
+  ],
+  "related": [
+    "/consultations/online-ayurvedic-consultation-canada/",
+    "/learn/ayurveda-for-calgary-winters/",
+    "/therapies/"
+  ],
+  "legal_check": true,
+  "legal_check_note": "LC-2: advice page only; confirm wording with the lawyer (F-02) before publish."
+}

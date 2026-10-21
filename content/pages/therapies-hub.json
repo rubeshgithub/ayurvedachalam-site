@@ -1,0 +1,47 @@
+{
+  "slug": "/therapies/",
+  "status": "review",
+  "updated_at": "2026-10-20",
+  "meta_description": "Ayurvedic therapies in Calgary: Abhyanga, Shirodhara, Kati, Janu and Greeva Vasti, head and foot massage, Kizhi, Udvartana, Pizhichil, Panchakarma.",
+  "summary": {},
+  "blocks": [
+    {
+      "type": "intro",
+      "data": {
+        "lead": "Classical Ayurvedic therapies, explained plainly and given by a practitioner trained in Ayurveda for five and a half years in India who is also a Registered Massage Therapist. Warm oil, warmth held on a joint, a stream over the forehead, herbal steam. Everything here is external; nothing here is medical treatment, and each page says who should avoid it."
+      }
+    },
+    {
+      "type": "richtext",
+      "data": {
+        "md": "## How to choose\n\n- **New to Ayurveda?** Start with **Abhyanga**, the full-body warm oil massage. It needs no preparation and is receipted as massage therapy.\n- **Stress, sleep, a busy mind?** **Shirodhara**, alone or after Abhyanga.\n- **A stiff lower back, knees or neck?** The **Vasti** therapies hold warm oil on the joint for half an hour: Kati (lower back), Janu (knees), Greeva (neck).\n- **Head, neck and shoulders?** **Shiro Abhyanga**, the Indian head massage. **Tired feet?** Pada Abhyanga.\n- **A full reset?** The five-day **Panchakarma program** of external therapies with diet and routine.\n- **Not sure?** A free 15-minute call sorts it out.\n\n## Before your first therapy\n\nA consultation first is not required for a single Abhyanga or head massage, but it is how we choose the oil and know your history, and it is required before Panchakarma or a course of Vasti. Eat lightly beforehand, wear clothes you do not mind a little oil on, and plan a quiet hour afterwards.\n\n## Prices\n\nEvery therapy's price and length is on its page and on the price list, in Canadian dollars before GST. Packages: Shirodhara x3 $350, Vasti x5 $400, Abhyanga x6 $650, Panchakarma five days $695. First Abhyanga $99 for the first 60 days after launch."
+      }
+    },
+    {
+      "type": "notice",
+      "data": {
+        "tone": "neem",
+        "text": "\"Vasti\" on this site always means the external warm-oil therapies. Internal Vasti (enema therapy), therapeutic vomiting, purgation and clinic-administered Nasya are not offered."
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Are these treatments for medical conditions?",
+      "a": "No. They are traditional therapies for comfort, rest and routine. Each page lists who should avoid it, and we will tell you when something is a physician's job."
+    },
+    {
+      "q": "Which therapies can I claim on my benefits?",
+      "a": "The massage therapies (Abhyanga, head and foot massage, Udvartana, Kizhi, Pizhichil, postnatal massage) are performed by our RMT and receipted as massage. Shirodhara, Vasti and steam are not."
+    },
+    {
+      "q": "Where are the therapies given?",
+      "a": "At our Calgary clinic, opening soon; the address will be published here. Until then, consultations are online and therapies are booked as the clinic date is confirmed."
+    },
+    {
+      "q": "Do I need a consultation first?",
+      "a": "Not for a single massage or Shirodhara. Yes for Panchakarma and for a course of Vasti, so the oil and the plan fit you."
+    }
+  ],
+  "related": []
+}

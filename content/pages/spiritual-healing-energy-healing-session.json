@@ -1,0 +1,81 @@
+{
+  "slug": "/spiritual-healing/energy-healing-session/",
+  "status": "review",
+  "updated_at": "2026-10-20",
+  "meta_description": "Energy healing in Calgary with a certified spiritual healer (ASHA): a quiet 60-minute one-to-one session offered as support for wellbeing. $90.",
+  "summary": {
+    "duration": "60 min",
+    "price_from": "$90",
+    "price_note": "Package of 3 sessions $240",
+    "location": "Calgary, in person",
+    "mode": [
+      "in-person"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "intro",
+      "data": {
+        "lead": "A 60-minute energy healing session in Calgary: an hour of quiet with a certified spiritual healer, in a calm room, with nothing asked of you. Offered as support for wellbeing alongside whatever care you already have."
+      }
+    },
+    {
+      "type": "richtext",
+      "data": {
+        "md": "## What happens\n\nWe begin with a few minutes of conversation about how you are and what you would like from the hour; you can also say nothing, and that is fine. You then sit in a chair or lie on the treatment table, fully clothed, with a blanket if you like. The healer works quietly for 40 to 45 minutes, hands held near or resting lightly on the shoulders, head or back, only with your permission; some clients prefer no touch at all, which changes nothing. The room is warm and silent apart from soft sound if you want it. We finish with water and a few minutes to come back to the day.\n\n## What people describe\n\nClients commonly describe warmth, heaviness in the limbs, a slowing of thoughts, and sleep that night. Some feel little during the session and notice the calm later. We make no promises about what you will feel and no claims about what the session does beyond offering rest and attention. That honesty is part of the Association's code and part of ours.\n\n## Combining it with Ayurveda\n\nMany clients book healing after Abhyanga or Shirodhara, when the body is already quiet, or choose the combined 90-minute Ayurveda and spiritual healing session ($150)."
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "heading": "Who it suits",
+        "tone": "suits",
+        "items": [
+          "Anyone wanting an hour of calm and attention that asks nothing of them",
+          "People in a hard season who want support alongside their other care",
+          "Clients who found Shirodhara restful and want something quieter still",
+          "Those curious about healing traditions, with or without a faith of their own"
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "heading": "When this is not the right step",
+        "tone": "avoid",
+        "items": [
+          "A medical emergency, or thoughts of harming yourself: call or text 9-8-8, or 911",
+          "New or worsening physical symptoms, or a mental health crisis: a physician, counsellor or crisis line first",
+          "Anyone considering stopping prescribed treatment or counselling; healing sits alongside, never instead",
+          "Children without a parent present",
+          "Fever or acute illness: come when you are well"
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I have to believe in it?",
+      "a": "No. Come as you are. Nothing in the session depends on belief, and no one will ask about yours."
+    },
+    {
+      "q": "Is there physical touch?",
+      "a": "Only light touch on the shoulders, head or back, and only with your permission. Say no touch and it is no touch."
+    },
+    {
+      "q": "How often do people come?",
+      "a": "Some once, some monthly, some in a short run of three during a hard stretch (the package of three is $240). There is no schedule you should feel obliged to keep."
+    },
+    {
+      "q": "Is it covered by insurance?",
+      "a": "No. It is not massage therapy and not a paramedical category on benefit plans."
+    }
+  ],
+  "related": [
+    "/spiritual-healing/distance-healing/",
+    "/spiritual-healing/ayurveda-and-spiritual-healing/",
+    "/therapies/shirodhara/"
+  ],
+  "legal_check": true,
+  "legal_check_note": "LC-6: wording follows ASHA; confirm with the lawyer (F-02)."
+}

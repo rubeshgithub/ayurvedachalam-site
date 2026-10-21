@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound, permanentRedirect, redirect } from "next/navigation";
 import { draftMode } from "next/headers";
-import { findRedirect, getAuthor, getPage, getPrices, getSettings, listChildren, listPages, priceFor } from "@/lib/content/repo";
+import { findRedirect, getArticle, getAuthor, getPage, getPrices, getSettings, listChildren, listPages, priceFor } from "@/lib/content/repo";
 import { JsonLd, breadcrumbLd, buildMetadata, faqLd, personLd, serviceLd } from "@/lib/seo";
 import { Service } from "@/templates/Service";
 import { Booking, Concern, Contact, Hub, Legal, Location, Pricing, Profile, Region, Utility } from "@/templates/Generic";
@@ -46,7 +46,11 @@ export default async function CmsPage({ params }: { params: Promise<{ slug: stri
   if (page.slug === "/learn/") redirect("/learn/");
   const settings = await getSettings();
   const crumbs = breadcrumbLd(crumbsFor(page));
-  const related = await Promise.all((page.related ?? []).map(async (s) => { const r = await getPage(s); return r && r.status === "published" ? { href: s, name: r.h1 } : null; }));
+  const preview = await isPreview();
+  const related = await Promise.all((page.related ?? []).map(async (s) => {
+    if (s.startsWith("/learn/")) { const a = await getArticle(s.replace(/^\/learn\//, "").replace(/\/$/, "")); return a && (a.status === "published" || preview) ? { href: s, name: a.h1 } : null; }
+    const r = await getPage(s); return r && (r.status === "published" || preview) ? { href: s, name: r.h1 } : null;
+  }));
   const relatedClean = related.filter(Boolean) as { href: string; name: string }[];
 
   let body: React.ReactNode;

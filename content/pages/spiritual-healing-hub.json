@@ -1,0 +1,68 @@
+{
+  "slug": "/spiritual-healing/",
+  "status": "review",
+  "updated_at": "2026-10-20",
+  "meta_description": "Spiritual healing in Calgary and online with a certified spiritual healer (ASHA): quiet one-to-one sessions offered as support for wellbeing. From $70.",
+  "summary": {},
+  "blocks": [
+    {
+      "type": "intro",
+      "data": {
+        "lead": "Spiritual healing at Ayurvedachalam is a quiet, one-to-one session offered as support for wellbeing, given by a healer certified with the Association of Spiritual Healers of Alberta. In person in Calgary, or at a distance. It is not medical or mental health care, and we describe it in the plain terms the Association uses, without promises."
+      }
+    },
+    {
+      "type": "richtext",
+      "data": {
+        "md": "## What a session is\n\nYou sit or lie comfortably, fully clothed. The healer works quietly, with hands held near or lightly on the shoulders, head or back with your permission, for about an hour. There is no doctrine to accept and nothing you need to believe; people of every faith and none come. Most describe the hour as calm, warm and settling, and many sleep well that night.\n\n## What we offer\n\n- **Energy healing session**, in person in Calgary: 60 minutes, $90.\n- **Distance healing**, online or by arrangement: 45 minutes, $70.\n- **Ayurveda and spiritual healing combined**: a 90-minute session with elements of both, $150.\n- A package of three healing sessions is $240.\n\n## How we describe it, and why\n\nWe follow the Association of Spiritual Healers of Alberta in how we talk about this work: as support for wellbeing, complementary to medical and mental health care, never a replacement for either. We do not claim to treat, cure or diagnose anything. If you are in distress, the first call is to a physician, a counsellor, or the crisis line below, and we will help you make it."
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "heading": "Who it suits",
+        "tone": "suits",
+        "items": [
+          "Anyone wanting an hour of calm, with another person present, that asks nothing of them",
+          "People going through loss, change or a hard season who want support alongside their other care",
+          "Clients of Ayurvedic consultations or therapies who want the two combined",
+          "Those who have found value in healing traditions before, and those simply curious"
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "heading": "When this is not the right step",
+        "tone": "avoid",
+        "items": [
+          "A medical emergency, or thoughts of harming yourself: call or text 9-8-8, or 911",
+          "New or worsening physical symptoms: your physician first",
+          "Anyone considering stopping prescribed treatment or therapy: that decision belongs with your prescriber or therapist, and healing sits alongside, not instead",
+          "Children, without a parent present"
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is spiritual healing religious?",
+      "a": "No. There is no doctrine, prayer or ritual you take part in. The healer's own practice is her own; the session asks nothing of your beliefs."
+    },
+    {
+      "q": "What does ASHA certification mean?",
+      "a": "The Association of Spiritual Healers of Alberta certifies healers who complete its training and agree to its code of conduct, which includes the limits set out on this page. It is a professional association, not a government regulator; spiritual healing is not a regulated profession."
+    },
+    {
+      "q": "Can healing replace counselling or medication?",
+      "a": "No. It is offered alongside the care you already have, never instead of it."
+    },
+    {
+      "q": "Is it covered by insurance?",
+      "a": "No. Spiritual healing is not a paramedical category and is not massage therapy."
+    }
+  ],
+  "related": [],
+  "legal_check": true,
+  "legal_check_note": "LC-6: wording follows ASHA; confirm with the lawyer (F-02)."
+}
