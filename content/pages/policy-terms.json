@@ -1,0 +1,18 @@
+{
+  "slug": "/terms/",
+  "status": "review",
+  "updated_at": "2026-10-21",
+  "meta_description": "Terms of use for the ayurvedachalam.com website: information only, no medical advice, bookings, intellectual property, limits of liability, Alberta law.",
+  "blocks": [
+    {
+      "type": "richtext",
+      "data": {
+        "md": "*Last reviewed 21 October 2026. Draft for legal review.*\n\nThese terms apply to your use of ayurvedachalam.com (the \"site\"), operated by Ayurvedachalam, Calgary, Alberta. By using the site you accept them.\n\n## Information, not advice\n\nThe site describes Ayurvedic consultations, therapies and spiritual healing and publishes general information about Ayurveda. Nothing on it is medical advice, diagnosis or treatment, and nothing on it creates a practitioner–client relationship. Ayurveda and spiritual healing are complementary practices and not a substitute for medical or mental health care. See the health disclaimer. If you have a medical emergency, call 911.\n\n## Bookings and services\n\nAppointments are booked through our practice-management system, which has its own terms. The services, their prices and their cancellation terms are as published on this site on the day you book; prices are in Canadian dollars and exclude GST unless stated. We may decline or discontinue a service where it would not be safe or appropriate, and we will say why.\n\n## Accuracy\n\nWe take care to keep the site accurate, including the sources cited in our articles, and we review pages with rules, prices or product information at least every six months. We do not warrant that the site is free of errors, and we may change content at any time.\n\n## Your use of the site\n\nYou may read and share links to the site. You may not copy its text or images for commercial use, scrape it, attempt to access its administration, submit false information through its forms, or use it to send unsolicited messages. Forms must not be used to send health details; those belong in the secure intake form.\n\n## Intellectual property\n\nThe text, design, wordmark and images on the site belong to Ayurvedachalam or are used under licence. The wordmark and name may not be used without written permission.\n\n## Third-party links and services\n\nThe site links to other websites and embeds third-party services (booking, maps, analytics). We are not responsible for their content or practices; their own terms and privacy policies apply.\n\n## Limits of liability\n\nTo the extent the law allows, Ayurvedachalam is not liable for any loss arising from use of the site or reliance on its content. Nothing in these terms limits liability that cannot be limited under Alberta law, including for personal injury caused by negligence in the provision of services, which is governed by the terms agreed when you book.\n\n## Privacy\n\nOur privacy policy explains how personal information is handled.\n\n## Governing law\n\nThese terms are governed by the laws of Alberta and the federal laws of Canada applicable there. Disputes are subject to the courts of Alberta.\n\n## Contact\n\nAyurvedachalam, Calgary, Alberta. Email: [hello@ayurvedachalam.com]."
+      }
+    }
+  ],
+  "faqs": [],
+  "related": [],
+  "legal_check": true,
+  "legal_check_note": "W1-29: lawyer to confirm the liability wording and whether booking-system terms need to be referenced by name."
+}

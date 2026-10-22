@@ -1,0 +1,38 @@
+{
+  "slug": "/reviews/",
+  "status": "draft",
+  "updated_at": "2026-10-21",
+  "meta_description": "Reviews of Ayurvedachalam from clients who agreed to be quoted. Honest words, no incentives, nothing we cannot stand behind.",
+  "blocks": [
+    {
+      "type": "intro",
+      "data": {
+        "lead": "Reviews on this page come from real clients who agreed to be quoted, in their own words. We offer no incentives, we do not edit meaning, and we leave out any review that claims a cure or a stopped medication, because that is not what we offer."
+      }
+    },
+    {
+      "type": "richtext",
+      "data": {
+        "md": "## While the clinic opens\n\nThe practice is gathering its first Canadian reviews as the Calgary clinic opens. Reviews from earlier practice in India and Qatar are not shown here, because we could not verify consent for each. Google reviews will appear here once the business profile is live.\n\n## Leaving a review\n\nAfter a visit we may ask whether you would like to leave a Google review. There is no reward for doing so and no consequence for declining. If you would rather tell us something privately, the contact form is better."
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Why so few reviews?",
+      "a": "Because the Calgary clinic is new. We show only reviews with recorded consent, and we would rather have three real ones than thirty we cannot vouch for."
+    },
+    {
+      "q": "Do you remove negative reviews?",
+      "a": "Not for being negative. We would remove a review that contains health claims we cannot stand behind, or that identifies another client."
+    }
+  ],
+  "related": [
+    "/about/practitioner/",
+    "/first-visit/"
+  ],
+  "linter_allow": [
+    "cure",
+    "cured"
+  ]
+}

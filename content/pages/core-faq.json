@@ -1,0 +1,73 @@
+{
+  "slug": "/faq/",
+  "status": "review",
+  "updated_at": "2026-10-21",
+  "meta_description": "Answers to the questions people ask Ayurvedachalam: what Ayurveda is, regulation, consultation cost, what to wear, insurance, herbs, and what we do not do.",
+  "blocks": [
+    {
+      "type": "intro",
+      "data": {
+        "lead": "The questions people ask before they book, answered plainly. If yours is not here, the free 15-minute call is the fastest way to ask it."
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is Ayurveda?",
+      "a": "The traditional medical system of India, several thousand years old, built around routine, food, oil therapies and herbs, and a way of describing constitution through three doshas. In Canada it is practised as a complementary tradition alongside, never instead of, medical care."
+    },
+    {
+      "q": "Is Ayurveda regulated in Canada?",
+      "a": "No province regulates it. There is no licence or register, so the practitioner's training is what you check. Ours is a five-and-a-half-year Indian university degree plus a hospital internship, evaluated by WES Canada; the Learn section has an article on exactly this."
+    },
+    {
+      "q": "Is the practitioner a doctor?",
+      "a": "Not in Canada. BAMS graduates practise as Ayurvedic physicians in India; here the degree is not a medical licence and we do not use the title \"Dr.\""
+    },
+    {
+      "q": "What does a consultation cost, and how long is it?",
+      "a": "$135 for 75 minutes, online or in person. Follow-ups are $75 for 30 minutes or $95 for 45. Prices are in Canadian dollars before GST."
+    },
+    {
+      "q": "Can you diagnose or treat my condition?",
+      "a": "No. We do not diagnose, and we do not treat medical conditions. We help with routine, food, rest and traditional therapies, and we tell you when a question belongs to your physician."
+    },
+    {
+      "q": "Will you give me herbs?",
+      "a": "Only when they fit, only products licensed by Health Canada with a Natural Product Number, and always with their cautions. We never recommend metal- or mineral-based preparations, and we do not sell products."
+    },
+    {
+      "q": "What should I wear to a therapy?",
+      "a": "Whatever is comfortable; you undress as for a massage and are draped. Oil stays on the skin afterwards, so bring or wear clothes you do not mind a little oil on, and a hat in winter."
+    },
+    {
+      "q": "Is any of this covered by insurance?",
+      "a": "Massage therapy by our RMT is receipted and usually covered up to your plan's maximum. Consultations, Shirodhara, Vasti and spiritual healing are not. The insurance page lists every service."
+    },
+    {
+      "q": "Do you do Panchakarma?",
+      "a": "An external five-day program: Abhyanga, Shirodhara, Vasti, steam, diet and routine. No internal procedures; in Alberta those are restricted activities and we do not offer them."
+    },
+    {
+      "q": "Can I come if I am pregnant?",
+      "a": "For a consultation, yes. Most therapies are not offered in the first trimester and are adapted afterwards with your physician's agreement. Each therapy page lists its own cautions."
+    },
+    {
+      "q": "Do you offer sessions in Tamil?",
+      "a": "Yes. Consultations can be held in English or Tamil."
+    },
+    {
+      "q": "Where are you?",
+      "a": "Online now, across Canada. The Calgary clinic opens soon; the address and hours will be published on the contact page."
+    }
+  ],
+  "related": [
+    "/first-visit/",
+    "/pricing/",
+    "/learn/"
+  ],
+  "linter_allow": [
+    "treat",
+    "medications"
+  ]
+}

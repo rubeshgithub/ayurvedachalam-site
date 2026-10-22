@@ -1,0 +1,33 @@
+{
+  "slug": "/about/practitioner/",
+  "status": "review",
+  "updated_at": "2026-10-21",
+  "meta_description": "Maheswari Vedhachalam: Bachelor of Ayurveda Medicine and Surgery (Chennai, 2012), 14+ years in practice, Registered Massage Therapist, herbalist and.",
+  "blocks": [
+    {
+      "type": "richtext",
+      "data": {
+        "md": "## Training and practice\n\nI trained in Ayurveda at Dr. M.G.R. Medical University in Chennai, Tamil Nadu: five and a half years of study for the Bachelor of Ayurveda Medicine and Surgery, followed by an internship at the Government General Hospital in Chennai, qualifying in 2012. In India, BAMS graduates are registered as Ayurvedic physicians and practise in hospitals and clinics; I am registered with AYUSH, India's ministry for traditional systems, and a member of the Indian Medical Association.\n\nSince then I have practised Ayurveda for over 14 years, in India, in Qatar, and now in Canada, where my degree has been evaluated by World Education Services. In Canada the degree is not a licence to practise medicine, Ayurveda is not a regulated profession, and I do not use the title \"Dr.\" here. I practise as an Ayurveda Practitioner, and I think the honest version of that is worth more to you than a title.\n\n## Why four credentials\n\nMuch of Ayurveda's value is in the hands: the oil therapies, the massage. To offer them properly in Alberta, and so that clients could use their health benefits, I qualified as a Registered Massage Therapist. To speak about herbs with the care Canadian rules require, I trained as a herbalist. And because many of the people who come to Ayurveda are carrying more than a stiff back, I trained and certified as a spiritual healer with the Association of Spiritual Healers of Alberta. The four fit together; you see one person, and the plan draws on whichever is right.\n\n## How I work\n\nSlowly, at first. A first consultation is 75 minutes because the questions matter more than the answers: how you sleep, what you eat and when, how your digestion behaves, what your days look like. The plan that follows is written down, is meant to be kept, and is adjusted at follow-ups rather than handed over once. I will tell you when something is your physician's job, and I will not promise you an outcome. What I can promise is attention, training, and plain speech.\n\n## Languages\n\nEnglish and Tamil. [Other languages to be confirmed by the practitioner.]"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Are you a doctor?",
+      "a": "In India, BAMS graduates practise as Ayurvedic physicians. In Canada the degree is not a medical licence and Ayurveda is not regulated, so I practise as an Ayurveda Practitioner and do not use \"Dr.\" here."
+    },
+    {
+      "q": "Which massage association are you registered with?",
+      "a": "[Association and registration number to be published: Q-06.] Receipts carry the registration number for your benefits claim."
+    },
+    {
+      "q": "Can I see your credentials?",
+      "a": "Yes. Bring the question to your first visit and I will show you the degree, the WES evaluation and the registrations."
+    }
+  ],
+  "related": [
+    "/consultations/",
+    "/therapies/",
+    "/learn/what-is-bams/"
+  ]
+}

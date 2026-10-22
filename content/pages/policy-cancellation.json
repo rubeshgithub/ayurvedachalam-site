@@ -1,0 +1,18 @@
+{
+  "slug": "/cancellation-policy/",
+  "status": "review",
+  "updated_at": "2026-10-21",
+  "meta_description": "Ayurvedachalam's cancellation policy: 24 hours' notice to change or cancel, charges for late cancellations and no-shows, and exceptions for illness.",
+  "blocks": [
+    {
+      "type": "richtext",
+      "data": {
+        "md": "*Last reviewed 21 October 2026. Draft for legal review.*\n\n## Changing or cancelling\n\nPlease give at least **24 hours' notice** to change or cancel an appointment. You can do so through the booking system, by email, or by phone during clinic hours. With 24 hours' notice there is no charge.\n\n## Late cancellation and missed appointments\n\nWith less than 24 hours' notice, or if you do not attend, we charge **50 per cent of the service price**, because the time was held for you and cannot be offered to someone else. A second missed appointment without notice is charged in full. Package sessions missed without notice are counted as used.\n\n## Illness and emergencies\n\nDo not come to a therapy with a fever, flu or an infectious illness; tell us and we will rebook without charge, at any notice. We waive the fee for genuine emergencies; just let us know.\n\n## Arriving late\n\nWe will give you the time that remains of your booking at the full price, so that the next client is not kept waiting. If you are more than 20 minutes late for a therapy we may need to rebook it.\n\n## Our cancellations\n\nIf we must cancel, we give you as much notice as we can, rebook you at the earliest time that suits you, and, where we cancel with less than 24 hours' notice for any reason other than the practitioner's illness, take 25 per cent off the rebooked session.\n\n## Packages\n\nPackages are prepaid, valid for six months from purchase and non-transferable. Unused sessions are not refunded after the six months, except where we are unable to provide the service.\n\n## Discovery calls\n\nThe free 15-minute call carries no fee and no charge if missed, but please let us know.\n\n## Contact\n\n[hello@ayurvedachalam.com] · phone during clinic hours [to be published]."
+      }
+    }
+  ],
+  "faqs": [],
+  "related": [],
+  "legal_check": true,
+  "legal_check_note": "W1 policies: owner to confirm the 50% late fee, the 20-minute rule and the package terms; lawyer to confirm enforceability in Alberta."
+}

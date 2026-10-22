@@ -32,6 +32,8 @@ export interface LintContext {
   /** sentences of existing articles, for the overlap warning */
   existingSentences?: Set<string>;
   kind?: "article" | "page";
+  /** policy pages quote dates and percentages that are the policy itself, not research */
+  skipFigures?: boolean;
 }
 
 export const LEGAL_CHECK_SLUGS: string[] = legal.slugs;
@@ -123,7 +125,7 @@ export function lint(input: LintInput, ctx: LintContext = {}): LintResult {
   let bodyForFigures = strippedForClaims(input.body_md).replace(/\n## Frequently asked questions[\s\S]*$/i, "");
   if (ctx.kind === "page") bodyForFigures = bodyForFigures.replace(/\$\s?\d[\d,.]*/g, " ").replace(/\b\d+\s?(?:min|minutes?|hours?|days?|weeks?|months?|years?|sessions?|x)\b/gi, " ");
   const hasFigure = figureRe.test(bodyForFigures);
-  if (hasFigure && (input.sources?.length ?? 0) === 0) errors.push("Body quotes a figure, percentage or year but has no sources");
+  if (!ctx.skipFigures && hasFigure && (input.sources?.length ?? 0) === 0) errors.push("Body quotes a figure, percentage or year but has no sources");
 
   // 7. Internal links resolve
   const links = input.internal_links ?? [];

@@ -1,0 +1,39 @@
+{
+  "slug": "/",
+  "status": "review",
+  "updated_at": "2026-10-21",
+  "meta_description": "Authentic Ayurveda from a BAMS-trained practitioner: consultations online across Canada, warm-oil therapies and spiritual healing in Calgary. Prices.",
+  "blocks": [
+    {
+      "type": "intro",
+      "data": {
+        "lead": "Authentic Ayurveda from a practitioner trained for five and a half years in India and practising for over 14 years: consultations online anywhere in Canada, warm-oil therapies and spiritual healing in Calgary. Published prices, plain answers, and a clear line on what is ours to help with and what is your physician's."
+      }
+    },
+    {
+      "type": "richtext",
+      "data": {
+        "md": "## A practice, not a spa\n\nAyurvedachalam is a small Calgary practice built around one practitioner, Maheswari Vedhachalam: Bachelor of Ayurveda Medicine and Surgery from Chennai, Registered Massage Therapist, certified herbalist, and a certified spiritual healer with the Association of Spiritual Healers of Alberta. Those four credentials rarely sit in one person, and they are why a consultation here can end in a routine, a massage, a herbal suggestion with its cautions, or an hour of quiet, depending on what you need.\n\nWe keep to three promises. Prices are published and the same for everyone. Every page says who should avoid what. And we tell you plainly when something is a physician's job, including on the first free call."
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is Ayurveda regulated in Canada?",
+      "a": "No. It is legal to practise and to receive, but no province licenses Ayurvedic practitioners. The practitioner's training is the credential; read what that means on our Learn page about regulation."
+    },
+    {
+      "q": "Do I need to be in Calgary?",
+      "a": "Not for a consultation: those run online anywhere in Canada. Therapies and spiritual healing in person are in Calgary."
+    },
+    {
+      "q": "What does it cost?",
+      "a": "An initial consultation is $135, a follow-up $75, Abhyanga $120 for 60 minutes, Shirodhara $130, energy healing $90. The full list is on the prices page, in Canadian dollars before GST."
+    },
+    {
+      "q": "Where do I start?",
+      "a": "A free 15-minute call. Say what brings you and we will tell you whether a consultation, a therapy or something else fits, or whether to see your physician first."
+    }
+  ],
+  "related": []
+}

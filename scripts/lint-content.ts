@@ -16,7 +16,7 @@ let errors = 0;
 for (const p of pages) {
   if (p.status === "draft" && !p.blocks?.length) continue; // skeleton rows from the map: nothing to lint yet
   const md = (p.blocks ?? []).map((b) => (b.type === "richtext" ? b.data.md : b.type === "intro" ? b.data.lead : b.type === "list" ? b.data.items.join("\n") : "")).join("\n");
-  const r = lint({ ...p, body_md: md, internal_links: p.related, author_id: "practitioner" }, { kind: "page", existingKeywords: keywords, linkResolves: (h) => known.has(h) });
+  const r = lint({ ...p, body_md: md, internal_links: p.related, author_id: "practitioner" }, { kind: "page", existingKeywords: keywords, linkResolves: (h) => known.has(h), skipFigures: p.template === "legal" || p.template === "profile" });
   if (p.primary_keyword) keywords.set(p.primary_keyword.toLowerCase(), p.slug);
   if (!r.passed) { errors++; console.log(`✗ ${p.slug}\n  ${r.errors.join("\n  ")}`); }
   if (r.warnings.length) console.log(`⚠ ${p.slug}\n  ${r.warnings.join("\n  ")}`);

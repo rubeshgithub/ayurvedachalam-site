@@ -1,0 +1,78 @@
+{
+  "slug": "/first-visit/",
+  "status": "review",
+  "updated_at": "2026-10-21",
+  "meta_description": "What to expect at your first visit to Ayurvedachalam: the free call, the 75-minute consultation, what to bring and wear, and how therapies run.",
+  "blocks": [
+    {
+      "type": "intro",
+      "data": {
+        "lead": "Nothing about a first visit should be a surprise. Here is how it runs, from the free call to the written plan, what to bring, what to wear, and what to expect after an oil therapy."
+      }
+    },
+    {
+      "type": "steps",
+      "data": {
+        "heading": "How a first visit runs",
+        "items": [
+          {
+            "title": "The free call (15 minutes)",
+            "text": "Optional, and the best start if you are unsure. You say what brings you; we say whether a consultation, a therapy or spiritual healing fits, or whether to see your physician first. No charge, no obligation."
+          },
+          {
+            "title": "Booking and intake",
+            "text": "You book online. The booking system sends a short intake form: contact details, what brings you, medications and supplements. Nothing about your health is collected on this website."
+          },
+          {
+            "title": "The consultation (75 minutes)",
+            "text": "Mostly conversation: history, sleep, food, digestion, work, the season. In person, pulse reading and traditional observation. No undressing, no procedures. You may bring someone with you."
+          },
+          {
+            "title": "The plan (within two days)",
+            "text": "A written plan by email: daily routine, seasonal adjustments, food, practices, any therapies that fit, and any licensed herbal product with its cautions. Plus a clear note of anything we think is your physician's job."
+          },
+          {
+            "title": "Therapies, if they fit",
+            "text": "Booked separately, or the same day as an in-person consultation. You undress as for a massage and are draped; oil stays on afterwards. Each therapy page says exactly what happens."
+          },
+          {
+            "title": "Follow-up (30 minutes)",
+            "text": "Two to four weeks later, online or in person, to adjust. Most people need two or three follow-ups across a season rather than a standing appointment."
+          }
+        ]
+      }
+    },
+    {
+      "type": "richtext",
+      "data": {
+        "md": "## What to bring\n\nA list of medications and supplements, including anything herbal, with doses. Any recent test results you want to mention. If you already take an Ayurvedic product, bring the bottle or a photo of its label so we can check for a Natural Product Number.\n\n## What to wear\n\nFor a consultation, anything. For a therapy, comfortable clothes you do not mind a little oil on, and in winter a hat, because the head stays oiled and should stay warm. We provide towels and a cap.\n\n## Before an oil therapy\n\nEat lightly, not a heavy meal, in the two hours before. Skip caffeine if you can. Arrive a few minutes early so the session is not rushed. Afterwards, plan a quiet hour; shower at home when you are ready.\n\n## What we will ask you\n\nWe ask a lot of questions about digestion, sleep and routine, because that is where Ayurveda starts. We do not ask you to accept any belief, and we do not ask you to stop anything your physician has prescribed."
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I need a consultation before a massage?",
+      "a": "Not for a single Abhyanga, head or foot massage, or Shirodhara. Yes before Panchakarma or a course of Vasti."
+    },
+    {
+      "q": "Can I bring a family member?",
+      "a": "Yes, to a consultation. For a therapy, they can wait in reception."
+    },
+    {
+      "q": "Is there parking?",
+      "a": "Details will be published with the clinic address."
+    },
+    {
+      "q": "What if I need to cancel?",
+      "a": "Give 24 hours' notice where you can; the cancellation policy has the detail."
+    }
+  ],
+  "related": [
+    "/book/",
+    "/consultations/",
+    "/faq/"
+  ],
+  "linter_allow": [
+    "medications"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "/insurance-direct-billing/",
+  "status": "draft",
+  "updated_at": "2026-10-21",
+  "meta_description": "Which Ayurvedachalam services your health benefits cover: massage therapy by our RMT is receipted; consultations, Shirodhara, Vasti and healing are not.",
+  "blocks": [
+    {
+      "type": "intro",
+      "data": {
+        "lead": "One rule, applied without exception: what is massage therapy, performed by our Registered Massage Therapist, is receipted as massage therapy. Nothing else is described as massage on a receipt. Here is what that means for your benefits claim."
+      }
+    },
+    {
+      "type": "richtext",
+      "data": {
+        "md": "## Covered as massage therapy\n\nAbhyanga (60 and 90 minutes), Shiro Abhyanga (head massage), Pada Abhyanga (foot massage), Udvartana, Kizhi / Potli, Pizhichil and postnatal Ayurvedic massage. Each is massage therapy by our RMT, [registered with ASSOCIATION, registration number NUMBER], and the receipt shows the date, service, duration, amount and registration number.\n\n## Not covered as massage\n\nAyurvedic consultations (online or in person), Shirodhara on its own, Kati, Janu and Greeva Vasti, herbal steam, the facial and scalp therapy, spiritual healing and distance healing. These are not massage and are not receipted as such, even though the same practitioner gives them.\n\n## Combined sessions\n\nAbhyanga followed by Shirodhara: the Abhyanga portion is receipted. The Panchakarma program: the Abhyanga sessions within it are receipted and itemised; the rest is not.\n\n## Claiming\n\nYou pay at the time of your visit and submit the receipt to your insurer. Whether we can submit claims to insurers on your behalf is being set up; this page will say so when it is. Most plans set a yearly maximum for massage therapy and some require a physician's referral; ask your plan administrator.\n\n## The tax credit\n\nFor Alberta residents, the Canada Revenue Agency's list of authorized medical practitioners does not include massage therapists, so massage here does not qualify for the federal medical expense tax credit as the list stands. Residents of provinces that do list RMTs should check their own province. Our article on insurance has the detail."
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Will you write \"massage\" on a receipt for a Vasti or Shirodhara session?",
+      "a": "No. The receipt states the service you received. Insurers audit, and a false receipt would put your coverage and our registration at risk."
+    },
+    {
+      "q": "Do I need a physician's note?",
+      "a": "Some plans require a referral for massage therapy. Check yours; the note is for massage, which is what you receive."
+    },
+    {
+      "q": "Can I use a health spending account?",
+      "a": "HSAs follow the CRA's eligible-expense rules, so in Alberta massage is generally not eligible; wellness spending accounts set their own rules and often are. Ask your administrator."
+    }
+  ],
+  "related": [
+    "/pricing/",
+    "/learn/is-ayurveda-covered-by-insurance/",
+    "/therapies/abhyanga/"
+  ],
+  "title_tag": "Insurance Coverage for Ayurvedic Massage | Calgary RMT",
+  "h1": "Insurance Coverage for Massage Therapy",
+  "legal_check": true,
+  "legal_check_note": "Blocked on Q-06 (association and registration number) and R1.6 (no 'direct billing' wording until insurers confirmed). Title and H1 changed from the map to drop 'direct billing'."
+}

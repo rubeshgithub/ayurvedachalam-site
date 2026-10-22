@@ -1,0 +1,43 @@
+{
+  "slug": "/book/",
+  "status": "review",
+  "updated_at": "2026-10-21",
+  "meta_description": "Book an Ayurvedic consultation, a therapy or a spiritual healing session, or start with a free 15-minute call. Online across Canada; in person in Calgary.",
+  "blocks": [
+    {
+      "type": "intro",
+      "data": {
+        "lead": "Choose a service and a time in our booking system, which handles your intake form, reminders and receipts securely. Not sure what to book? Start with a free 15-minute call."
+      }
+    },
+    {
+      "type": "richtext",
+      "data": {
+        "md": "## Which to book\n\n- **New to the practice?** A free 15-minute discovery call, or go straight to an initial consultation (75 minutes, $135) online or in Calgary.\n- **Returning for a follow-up?** 30 minutes ($75) or 45 minutes ($95).\n- **A therapy?** Abhyanga, Shirodhara, Vasti and the rest are bookable directly; a consultation first is required for Panchakarma and a course of Vasti.\n- **Spiritual healing?** Energy healing in Calgary, or distance healing online.\n\n## Before you book\n\nEach service page lists who should avoid it. If you are pregnant, within six weeks of surgery, have a fever, or have a condition your physician is managing, read that list first or ask us on the free call. Health details are collected in the booking system's intake form, not on this website.\n\n## Cancellations\n\nPlease give 24 hours' notice to change or cancel; see the cancellation policy for the detail."
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I book by phone?",
+      "a": "Yes, during clinic hours; the number is on the contact page once the clinic opens. Online booking is quickest."
+    },
+    {
+      "q": "Do I pay when I book?",
+      "a": "No. You pay at the time of your visit; packages are prepaid. Prices are in Canadian dollars before GST."
+    },
+    {
+      "q": "Can I book for someone else?",
+      "a": "Yes, with their knowledge. The intake form must be completed by the person attending."
+    },
+    {
+      "q": "What if I am unsure which service fits?",
+      "a": "Book the free 15-minute call. We will tell you in plain terms, including when the right answer is your physician."
+    }
+  ],
+  "related": [
+    "/first-visit/",
+    "/pricing/",
+    "/cancellation-policy/"
+  ]
+}

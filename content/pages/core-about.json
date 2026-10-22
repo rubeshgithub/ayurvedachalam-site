@@ -1,0 +1,39 @@
+{
+  "slug": "/about/",
+  "status": "review",
+  "updated_at": "2026-10-21",
+  "meta_description": "Ayurvedachalam is a Calgary Ayurveda practice: consultations online across Canada, warm-oil therapies and spiritual healing in Calgary, by a BAMS.",
+  "blocks": [
+    {
+      "type": "intro",
+      "data": {
+        "lead": "Ayurvedachalam is a Calgary practice for Ayurvedic consultations, classical warm-oil therapies and spiritual healing, built around one practitioner and a few plain commitments: published prices, honest wording, and a clear line between what we offer and what belongs to your physician."
+      }
+    },
+    {
+      "type": "richtext",
+      "data": {
+        "md": "## The name\n\nAyurvedachalam joins Ayurveda, the traditional medical system of India, with chalam, a Tamil word for a place; our practitioner's family name carries the same root. A place for Ayurveda, in Calgary.\n\n## What we do\n\n- **Consultations**, 75 minutes, online anywhere in Canada or in person in Calgary, ending in a written plan for food, routine and rest.\n- **Therapies** in Calgary: Abhyanga (warm oil massage), Shirodhara, the Vasti therapies for back, knees and neck, head and foot massage, herbal poultice and powder massages, and a five-day Panchakarma program of external therapies.\n- **Spiritual healing**, in person and at a distance, offered as support for wellbeing by a certified healer.\n- **Learn**: articles written and reviewed by the practitioner, with sources, on the questions people in Canada ask about Ayurveda.\n\n## What we do not do\n\nWe do not diagnose or treat medical conditions, offer internal cleansing procedures, use the title \"Dr.\", or recommend any herbal product without a Health Canada licence. Ayurveda is not a regulated health profession in Canada, and we would rather you knew that from us than found out later.\n\n## Where we are\n\nOnline now, for consultations across Canada. Our Calgary clinic for in-person consultations and therapies opens soon; the address and hours will be published here and on the contact page the day they are confirmed."
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Who is the practitioner?",
+      "a": "Maheswari Vedhachalam: BAMS (Chennai, 2012), over 14 years in practice in India, Qatar and Canada, Registered Massage Therapist, certified herbalist and ASHA-certified spiritual healer. Her page has the detail."
+    },
+    {
+      "q": "Is this connected to any other Calgary Ayurveda clinic?",
+      "a": "No. Ayurvedachalam is independent and not affiliated with any other clinic or centre."
+    },
+    {
+      "q": "Do you sell herbs or products?",
+      "a": "No. We may suggest licensed products with a Natural Product Number and explain their cautions; you buy them where you choose."
+    }
+  ],
+  "related": [
+    "/about/practitioner/",
+    "/first-visit/",
+    "/learn/is-ayurveda-regulated-in-canada/"
+  ]
+}

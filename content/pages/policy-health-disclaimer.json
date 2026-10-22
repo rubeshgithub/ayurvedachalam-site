@@ -1,0 +1,25 @@
+{
+  "slug": "/health-disclaimer/",
+  "status": "review",
+  "updated_at": "2026-10-21",
+  "meta_description": "Ayurvedachalam's health disclaimer: Ayurveda and spiritual healing are complementary practices, not medical care; what we do not do; when to see a doctor.",
+  "blocks": [
+    {
+      "type": "richtext",
+      "data": {
+        "md": "*Last reviewed 21 October 2026. Draft for legal review.*\n\n## What we are, and are not\n\nAyurvedachalam offers Ayurvedic consultations, traditional external therapies, massage therapy and spiritual healing. These are complementary practices. They do not replace medical diagnosis or treatment, and they are not a substitute for care from a physician, nurse practitioner, pharmacist, psychologist or any other regulated health professional.\n\nAyurveda is not a regulated health profession in Canada. Our practitioner holds a Bachelor of Ayurveda Medicine and Surgery from India and other credentials described on the practitioner page; that degree is not a licence to practise medicine in Canada, and our practitioner is not a medical doctor here and does not use the title \"Dr.\"\n\n## What we do not do\n\nWe do not diagnose medical conditions. We do not treat, cure or prevent any disease, and nothing on this site should be read as a claim that we do. We do not advise stopping, starting or changing any prescribed medication; that is a decision for you and your prescriber. We do not offer internal cleansing procedures of any kind. We recommend only natural health products licensed by Health Canada, and we do not sell products.\n\n## Information on this site\n\nArticles and pages are general information written and reviewed by our practitioner, with sources cited. They describe what Ayurvedic tradition holds, what clients commonly report, and what research has found, and they try to keep those three apart. They are not advice for your situation. Research on Ayurvedic therapies is limited, and we say so where it applies.\n\n## Your responsibility\n\nPlease tell your physician and pharmacist about any therapy you receive and any herb or supplement you take, including those we suggest, because herbs can interact with medicines. Tell us about your medical conditions, medications, allergies and pregnancy before any therapy; each therapy page lists who should avoid it, and those lists exist for your safety.\n\n## When to see a physician\n\nNew, severe or worsening symptoms; pain with numbness, weakness or loss of bladder or bowel control; chest pain or difficulty breathing; a persistent fever; unexplained weight loss; bleeding; a skin change that spreads or alters; or anything that worries you. In an emergency, call 911. If you are in crisis, call or text 9-8-8, the Suicide Crisis Helpline, at any hour.\n\n## Spiritual healing\n\nSpiritual healing is offered as support for wellbeing. It is not medical or mental health care, and it involves no diagnosis and no claim of effect. If you are receiving counselling or treatment, please continue it.\n\n## Massage therapy\n\nMassage therapy is provided by a Registered Massage Therapist and is the only service we receipt as massage therapy for insurance purposes.\n\n## Questions\n\nAsk us before you book, at the free call, or at any time: [hello@ayurvedachalam.com]."
+      }
+    }
+  ],
+  "faqs": [],
+  "related": [],
+  "legal_check": true,
+  "legal_check_note": "LC-5 / W1-30: lawyer to confirm. The 'When to see a physician' list and the 9-8-8 line are required by rules.md R1.5.",
+  "linter_allow": [
+    "weight loss",
+    "treat",
+    "cure",
+    "medication",
+    "medications"
+  ]
+}

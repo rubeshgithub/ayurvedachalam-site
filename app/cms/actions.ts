@@ -87,7 +87,7 @@ export async function savePage(fd: FormData) {
   // Lint pages that are being published.
   if (data.status === "published") {
     const md = blocks.map((b) => (b.type === "richtext" ? b.data.md : b.type === "intro" ? b.data.lead : b.type === "list" ? b.data.items.join("\n") : "")).join("\n");
-    const r = lint({ ...data, body_md: md, faqs: parseFaqs(text(fd, "faqs")), internal_links: lines(fd, "related"), author_id: "practitioner" }, { kind: "page", existingKeywords: await allPrimaryKeywords() });
+    const r = lint({ ...data, body_md: md, faqs: parseFaqs(text(fd, "faqs")), internal_links: lines(fd, "related"), author_id: "practitioner" }, { kind: "page", existingKeywords: await allPrimaryKeywords(), skipFigures: data.template === "legal" || data.template === "profile" });
     const err = r.errors.filter((e) => !/already used/.test(e) || !e.endsWith(data.slug));
     if (err.length) redirect(`/cms/pages/edit/?slug=${encodeURIComponent(data.slug)}&error=${encodeURIComponent("Linter: " + err.join(" · "))}`);
   }

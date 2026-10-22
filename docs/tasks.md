@@ -83,16 +83,16 @@ practitioner review → publish to staging.
 
 | ID | Page | Map # | Owner | Status | Needs |
 | --- | --- | --- | --- | --- | --- |
-| W1-01 | Home | 1 | Content | [ ] | F-03, F-07 |
-| W1-02 | About Ayurvedachalam | 2 | Content | [ ] | Fresh copy only (R2) |
-| W1-03 | Practitioner profile | 3 | Content | [ ] | F-03 |
-| W1-04 | Book | 4 | Content | [ ] | F-08 |
-| W1-05 | Prices and packages | 5 | Content | [~] (page renders from the price book; intro copy pending) | Prices approved (D-18); write from `product.md` §5 |
-| W1-06 | Insurance and direct billing | 6 | Content | [!] | F-06 |
-| W1-07 | Contact (virtual clinic; no street address yet) | 7 | Content | [ ] | Placeholder phone and hours |
-| W1-08 | Reviews | 8 | Content | [ ] | Real reviews with consent |
-| W1-09 | FAQ | 9 | Content | [ ] | |
-| W1-10 | Your first visit | 10 | Content | [ ] | F-07 |
+| W1-01 | Home | 1 | Content | [~] drafted 2026-10-21 (`content/pages/`, review) | F-03, F-07 |
+| W1-02 | About Ayurvedachalam | 2 | Content | [~] drafted 2026-10-21 (`content/pages/`, review) | Fresh copy only (R2) |
+| W1-03 | Practitioner profile | 3 | Content | [~] drafted 2026-10-21 (`content/pages/`, review) | F-03 |
+| W1-04 | Book | 4 | Content | [~] drafted 2026-10-21 (`content/pages/`, review) | F-08 |
+| W1-05 | Prices and packages | 5 | Content | [~] drafted 2026-10-21 (`content/pages/`, review) (page renders from the price book; intro copy pending) | Prices approved (D-18); write from `product.md` §5 |
+| W1-06 | Insurance and direct billing | 6 | Content | [~] drafted 2026-10-21 as draft; blocked on F-06 for the association number; title/H1 drop "direct billing" (R1.6) | F-06 |
+| W1-07 | Contact (virtual clinic; no street address yet) | 7 | Content | [~] drafted 2026-10-21 (`content/pages/`, review) | Placeholder phone and hours |
+| W1-08 | Reviews | 8 | Content | [~] holding page drafted 2026-10-21; needs real reviews with consent | Real reviews with consent |
+| W1-09 | FAQ | 9 | Content | [~] drafted 2026-10-21 (`content/pages/`, review) | |
+| W1-10 | Your first visit | 10 | Content | [~] drafted 2026-10-21 (`content/pages/`, review) | F-07 |
 
 ### 3.2 Consultations (4)
 
@@ -125,9 +125,9 @@ practitioner review → publish to staging.
 | W1-25 | Spiritual healing hub | 45 | Content | [~] drafted 2026-10-20 (`content/pages/`, status review) | LC-6 |
 | W1-26 | Energy healing session | 46 | Content | [~] drafted 2026-10-20 (`content/pages/`, status review) | LC-6 |
 | W1-27 | Calgary clinic | 68 | Content | [ ] | Placeholder address until the clinic opens |
-| W1-28 | Privacy policy (written to Alberta PIPA) | 97 | Content, Law | [ ] | Lawyer confirm |
-| W1-29 | Terms of use | 98 | Content, Law | [ ] | |
-| W1-30 | Health disclaimer | 99 | Content, Law | [ ] | LC-5 |
+| W1-28 | Privacy policy (written to Alberta PIPA) | 97 | Content, Law | [~] drafted 2026-10-21 (`content/pages/`, review) | Lawyer confirm |
+| W1-29 | Terms of use | 98 | Content, Law | [~] drafted 2026-10-21 (`content/pages/`, review) | |
+| W1-30 | Health disclaimer | 99 | Content, Law | [~] drafted 2026-10-21 (`content/pages/`, review) | LC-5 |
 
 ### 3.5 Learn hub and six cornerstone articles (7)
 

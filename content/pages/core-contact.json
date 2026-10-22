@@ -1,0 +1,33 @@
+{
+  "slug": "/contact/",
+  "status": "review",
+  "updated_at": "2026-10-21",
+  "meta_description": "Contact Ayurvedachalam in Calgary: ask about services or prices, or book a free 15-minute call. Online consultations across Canada; clinic opening soon.",
+  "blocks": [
+    {
+      "type": "intro",
+      "data": {
+        "lead": "Questions about a service, prices or how a session runs: send a note and we reply within one business day. For anything about your health, book a free call or a consultation instead; the form is not the place for it."
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Where is the clinic?",
+      "a": "In Calgary; the address will be published here the day it is confirmed. Online consultations are available now across Canada."
+    },
+    {
+      "q": "How quickly do you reply?",
+      "a": "Within one business day, by email."
+    },
+    {
+      "q": "Can I send health details through the form?",
+      "a": "Please do not. The form is for general questions. Health details go into the secure intake form when you book."
+    }
+  ],
+  "related": [
+    "/book/",
+    "/faq/",
+    "/first-visit/"
+  ]
+}

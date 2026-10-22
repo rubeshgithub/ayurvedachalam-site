@@ -5,7 +5,7 @@
     "section": "core",
     "wave": 1,
     "title_tag": "Ayurveda in Calgary & Online Across Canada | Ayurvedachalam",
-    "meta_description": "",
+    "meta_description": "Authentic Ayurveda from a BAMS-trained practitioner: consultations online across Canada, warm-oil therapies and spiritual healing in Calgary. Prices.",
     "h1": "Ayurveda in Calgary, and Online Across Canada",
     "primary_keyword": "ayurveda calgary",
     "secondary_keywords": [
@@ -13,9 +13,43 @@
       "ayurvedic practitioner calgary",
       "ayurveda online canada"
     ],
-    "status": "draft",
+    "status": "review",
     "map_row": 1,
-    "legal_check": false
+    "legal_check": false,
+    "updated_at": "2026-10-21",
+    "blocks": [
+      {
+        "type": "intro",
+        "data": {
+          "lead": "Authentic Ayurveda from a practitioner trained for five and a half years in India and practising for over 14 years: consultations online anywhere in Canada, warm-oil therapies and spiritual healing in Calgary. Published prices, plain answers, and a clear line on what is ours to help with and what is your physician's."
+        }
+      },
+      {
+        "type": "richtext",
+        "data": {
+          "md": "## A practice, not a spa\n\nAyurvedachalam is a small Calgary practice built around one practitioner, Maheswari Vedhachalam: Bachelor of Ayurveda Medicine and Surgery from Chennai, Registered Massage Therapist, certified herbalist, and a certified spiritual healer with the Association of Spiritual Healers of Alberta. Those four credentials rarely sit in one person, and they are why a consultation here can end in a routine, a massage, a herbal suggestion with its cautions, or an hour of quiet, depending on what you need.\n\nWe keep to three promises. Prices are published and the same for everyone. Every page says who should avoid what. And we tell you plainly when something is a physician's job, including on the first free call."
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Ayurveda regulated in Canada?",
+        "a": "No. It is legal to practise and to receive, but no province licenses Ayurvedic practitioners. The practitioner's training is the credential; read what that means on our Learn page about regulation."
+      },
+      {
+        "q": "Do I need to be in Calgary?",
+        "a": "Not for a consultation: those run online anywhere in Canada. Therapies and spiritual healing in person are in Calgary."
+      },
+      {
+        "q": "What does it cost?",
+        "a": "An initial consultation is $135, a follow-up $75, Abhyanga $120 for 60 minutes, Shirodhara $130, energy healing $90. The full list is on the prices page, in Canadian dollars before GST."
+      },
+      {
+        "q": "Where do I start?",
+        "a": "A free 15-minute call. Say what brings you and we will tell you whether a consultation, a therapy or something else fits, or whether to see your physician first."
+      }
+    ],
+    "related": []
   },
   {
     "slug": "/about/",
@@ -23,7 +57,7 @@
     "section": "core",
     "wave": 1,
     "title_tag": "About Ayurvedachalam | Authentic Ayurveda in Calgary",
-    "meta_description": "",
+    "meta_description": "Ayurvedachalam is a Calgary Ayurveda practice: consultations online across Canada, warm-oil therapies and spiritual healing in Calgary, by a BAMS.",
     "h1": "About Ayurvedachalam",
     "primary_keyword": "about ayurvedachalam",
     "secondary_keywords": [
@@ -31,9 +65,43 @@
       "kerala ayurveda calgary",
       "ayurveda centre calgary"
     ],
-    "status": "draft",
+    "status": "review",
     "map_row": 2,
-    "legal_check": false
+    "legal_check": false,
+    "updated_at": "2026-10-21",
+    "blocks": [
+      {
+        "type": "intro",
+        "data": {
+          "lead": "Ayurvedachalam is a Calgary practice for Ayurvedic consultations, classical warm-oil therapies and spiritual healing, built around one practitioner and a few plain commitments: published prices, honest wording, and a clear line between what we offer and what belongs to your physician."
+        }
+      },
+      {
+        "type": "richtext",
+        "data": {
+          "md": "## The name\n\nAyurvedachalam joins Ayurveda, the traditional medical system of India, with chalam, a Tamil word for a place; our practitioner's family name carries the same root. A place for Ayurveda, in Calgary.\n\n## What we do\n\n- **Consultations**, 75 minutes, online anywhere in Canada or in person in Calgary, ending in a written plan for food, routine and rest.\n- **Therapies** in Calgary: Abhyanga (warm oil massage), Shirodhara, the Vasti therapies for back, knees and neck, head and foot massage, herbal poultice and powder massages, and a five-day Panchakarma program of external therapies.\n- **Spiritual healing**, in person and at a distance, offered as support for wellbeing by a certified healer.\n- **Learn**: articles written and reviewed by the practitioner, with sources, on the questions people in Canada ask about Ayurveda.\n\n## What we do not do\n\nWe do not diagnose or treat medical conditions, offer internal cleansing procedures, use the title \"Dr.\", or recommend any herbal product without a Health Canada licence. Ayurveda is not a regulated health profession in Canada, and we would rather you knew that from us than found out later.\n\n## Where we are\n\nOnline now, for consultations across Canada. Our Calgary clinic for in-person consultations and therapies opens soon; the address and hours will be published here and on the contact page the day they are confirmed."
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Who is the practitioner?",
+        "a": "Maheswari Vedhachalam: BAMS (Chennai, 2012), over 14 years in practice in India, Qatar and Canada, Registered Massage Therapist, certified herbalist and ASHA-certified spiritual healer. Her page has the detail."
+      },
+      {
+        "q": "Is this connected to any other Calgary Ayurveda clinic?",
+        "a": "No. Ayurvedachalam is independent and not affiliated with any other clinic or centre."
+      },
+      {
+        "q": "Do you sell herbs or products?",
+        "a": "No. We may suggest licensed products with a Natural Product Number and explain their cautions; you buy them where you choose."
+      }
+    ],
+    "related": [
+      "/about/practitioner/",
+      "/first-visit/",
+      "/learn/is-ayurveda-regulated-in-canada/"
+    ]
   },
   {
     "slug": "/about/practitioner/",
@@ -41,7 +109,7 @@
     "section": "core",
     "wave": 1,
     "title_tag": "Your Ayurvedic Practitioner in Calgary | BAMS, RMT",
-    "meta_description": "",
+    "meta_description": "Maheswari Vedhachalam: Bachelor of Ayurveda Medicine and Surgery (Chennai, 2012), 14+ years in practice, Registered Massage Therapist, herbalist and.",
     "h1": "Meet Your Practitioner: BAMS, RMT, Certified Herbalist and Spiritual Healer",
     "primary_keyword": "bams ayurvedic practitioner calgary",
     "secondary_keywords": [
@@ -49,9 +117,37 @@
       "certified herbalist alberta",
       "ayurvedic rmt calgary"
     ],
-    "status": "draft",
+    "status": "review",
     "map_row": 3,
-    "legal_check": false
+    "legal_check": false,
+    "updated_at": "2026-10-21",
+    "blocks": [
+      {
+        "type": "richtext",
+        "data": {
+          "md": "## Training and practice\n\nI trained in Ayurveda at Dr. M.G.R. Medical University in Chennai, Tamil Nadu: five and a half years of study for the Bachelor of Ayurveda Medicine and Surgery, followed by an internship at the Government General Hospital in Chennai, qualifying in 2012. In India, BAMS graduates are registered as Ayurvedic physicians and practise in hospitals and clinics; I am registered with AYUSH, India's ministry for traditional systems, and a member of the Indian Medical Association.\n\nSince then I have practised Ayurveda for over 14 years, in India, in Qatar, and now in Canada, where my degree has been evaluated by World Education Services. In Canada the degree is not a licence to practise medicine, Ayurveda is not a regulated profession, and I do not use the title \"Dr.\" here. I practise as an Ayurveda Practitioner, and I think the honest version of that is worth more to you than a title.\n\n## Why four credentials\n\nMuch of Ayurveda's value is in the hands: the oil therapies, the massage. To offer them properly in Alberta, and so that clients could use their health benefits, I qualified as a Registered Massage Therapist. To speak about herbs with the care Canadian rules require, I trained as a herbalist. And because many of the people who come to Ayurveda are carrying more than a stiff back, I trained and certified as a spiritual healer with the Association of Spiritual Healers of Alberta. The four fit together; you see one person, and the plan draws on whichever is right.\n\n## How I work\n\nSlowly, at first. A first consultation is 75 minutes because the questions matter more than the answers: how you sleep, what you eat and when, how your digestion behaves, what your days look like. The plan that follows is written down, is meant to be kept, and is adjusted at follow-ups rather than handed over once. I will tell you when something is your physician's job, and I will not promise you an outcome. What I can promise is attention, training, and plain speech.\n\n## Languages\n\nEnglish and Tamil. [Other languages to be confirmed by the practitioner.]"
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Are you a doctor?",
+        "a": "In India, BAMS graduates practise as Ayurvedic physicians. In Canada the degree is not a medical licence and Ayurveda is not regulated, so I practise as an Ayurveda Practitioner and do not use \"Dr.\" here."
+      },
+      {
+        "q": "Which massage association are you registered with?",
+        "a": "[Association and registration number to be published: Q-06.] Receipts carry the registration number for your benefits claim."
+      },
+      {
+        "q": "Can I see your credentials?",
+        "a": "Yes. Bring the question to your first visit and I will show you the degree, the WES evaluation and the registrations."
+      }
+    ],
+    "related": [
+      "/consultations/",
+      "/therapies/",
+      "/learn/what-is-bams/"
+    ]
   },
   {
     "slug": "/book/",
@@ -59,7 +155,7 @@
     "section": "core",
     "wave": 1,
     "title_tag": "Book an Ayurvedic Consultation or Therapy | Calgary",
-    "meta_description": "",
+    "meta_description": "Book an Ayurvedic consultation, a therapy or a spiritual healing session, or start with a free 15-minute call. Online across Canada; in person in Calgary.",
     "h1": "Book Your Appointment",
     "primary_keyword": "book ayurvedic consultation calgary",
     "secondary_keywords": [
@@ -67,9 +163,47 @@
       "book shirodhara calgary",
       "book online ayurvedic consultation"
     ],
-    "status": "draft",
+    "status": "review",
     "map_row": 4,
-    "legal_check": false
+    "legal_check": false,
+    "updated_at": "2026-10-21",
+    "blocks": [
+      {
+        "type": "intro",
+        "data": {
+          "lead": "Choose a service and a time in our booking system, which handles your intake form, reminders and receipts securely. Not sure what to book? Start with a free 15-minute call."
+        }
+      },
+      {
+        "type": "richtext",
+        "data": {
+          "md": "## Which to book\n\n- **New to the practice?** A free 15-minute discovery call, or go straight to an initial consultation (75 minutes, $135) online or in Calgary.\n- **Returning for a follow-up?** 30 minutes ($75) or 45 minutes ($95).\n- **A therapy?** Abhyanga, Shirodhara, Vasti and the rest are bookable directly; a consultation first is required for Panchakarma and a course of Vasti.\n- **Spiritual healing?** Energy healing in Calgary, or distance healing online.\n\n## Before you book\n\nEach service page lists who should avoid it. If you are pregnant, within six weeks of surgery, have a fever, or have a condition your physician is managing, read that list first or ask us on the free call. Health details are collected in the booking system's intake form, not on this website.\n\n## Cancellations\n\nPlease give 24 hours' notice to change or cancel; see the cancellation policy for the detail."
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can I book by phone?",
+        "a": "Yes, during clinic hours; the number is on the contact page once the clinic opens. Online booking is quickest."
+      },
+      {
+        "q": "Do I pay when I book?",
+        "a": "No. You pay at the time of your visit; packages are prepaid. Prices are in Canadian dollars before GST."
+      },
+      {
+        "q": "Can I book for someone else?",
+        "a": "Yes, with their knowledge. The intake form must be completed by the person attending."
+      },
+      {
+        "q": "What if I am unsure which service fits?",
+        "a": "Book the free 15-minute call. We will tell you in plain terms, including when the right answer is your physician."
+      }
+    ],
+    "related": [
+      "/first-visit/",
+      "/pricing/",
+      "/cancellation-policy/"
+    ]
   },
   {
     "slug": "/pricing/",
@@ -77,7 +211,7 @@
     "section": "core",
     "wave": 1,
     "title_tag": "Ayurvedic Consultation & Therapy Prices in Calgary",
-    "meta_description": "",
+    "meta_description": "Ayurvedachalam prices: consultation $135, follow-up $75, Abhyanga $120, Shirodhara $130, Vasti from $90, energy healing $90, Panchakarma $695. Packages.",
     "h1": "Prices and Packages",
     "primary_keyword": "ayurvedic treatment cost calgary",
     "secondary_keywords": [
@@ -85,18 +219,50 @@
       "ayurvedic consultation fee",
       "abhyanga massage price"
     ],
-    "status": "draft",
+    "status": "review",
     "map_row": 5,
-    "legal_check": false
+    "legal_check": false,
+    "updated_at": "2026-10-21",
+    "blocks": [
+      {
+        "type": "intro",
+        "data": {
+          "lead": "Every price we charge, in one place, in Canadian dollars before GST. The same for everyone, no quotes on request. Packages save 10 to 15 per cent and are prepaid, valid for six months."
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Are prices the same online and in person?",
+        "a": "Yes. A consultation is $135 whether on video or in Calgary; follow-ups $75 or $95 either way."
+      },
+      {
+        "q": "How do I pay?",
+        "a": "At the time of your visit, by card, debit or e-transfer. Packages are paid in full at the first session."
+      },
+      {
+        "q": "Which services can I claim on my benefits?",
+        "a": "The massage therapies performed by our RMT (Abhyanga, head and foot massage, Udvartana, Kizhi, Pizhichil, postnatal massage) are receipted as massage therapy. Consultations, Shirodhara, Vasti, steam and spiritual healing are not."
+      },
+      {
+        "q": "Is GST charged on everything?",
+        "a": "GST applies to our services as the law requires; the amount is shown on your receipt. [Accountant to confirm the treatment of RMT massage.]"
+      }
+    ],
+    "related": [
+      "/insurance-direct-billing/",
+      "/book/",
+      "/therapies/"
+    ]
   },
   {
     "slug": "/insurance-direct-billing/",
     "template": "utility",
     "section": "core",
     "wave": 1,
-    "title_tag": "Insurance & Direct Billing for RMT Massage | Calgary",
-    "meta_description": "",
-    "h1": "Insurance Coverage and Direct Billing",
+    "title_tag": "Insurance Coverage for Ayurvedic Massage | Calgary RMT",
+    "meta_description": "Which Ayurvedachalam services your health benefits cover: massage therapy by our RMT is receipted; consultations, Shirodhara, Vasti and healing are not.",
+    "h1": "Insurance Coverage for Massage Therapy",
     "primary_keyword": "ayurvedic massage insurance calgary",
     "secondary_keywords": [
       "rmt direct billing calgary",
@@ -105,7 +271,42 @@
     ],
     "status": "draft",
     "map_row": 6,
-    "legal_check": false
+    "legal_check": true,
+    "updated_at": "2026-10-21",
+    "blocks": [
+      {
+        "type": "intro",
+        "data": {
+          "lead": "One rule, applied without exception: what is massage therapy, performed by our Registered Massage Therapist, is receipted as massage therapy. Nothing else is described as massage on a receipt. Here is what that means for your benefits claim."
+        }
+      },
+      {
+        "type": "richtext",
+        "data": {
+          "md": "## Covered as massage therapy\n\nAbhyanga (60 and 90 minutes), Shiro Abhyanga (head massage), Pada Abhyanga (foot massage), Udvartana, Kizhi / Potli, Pizhichil and postnatal Ayurvedic massage. Each is massage therapy by our RMT, [registered with ASSOCIATION, registration number NUMBER], and the receipt shows the date, service, duration, amount and registration number.\n\n## Not covered as massage\n\nAyurvedic consultations (online or in person), Shirodhara on its own, Kati, Janu and Greeva Vasti, herbal steam, the facial and scalp therapy, spiritual healing and distance healing. These are not massage and are not receipted as such, even though the same practitioner gives them.\n\n## Combined sessions\n\nAbhyanga followed by Shirodhara: the Abhyanga portion is receipted. The Panchakarma program: the Abhyanga sessions within it are receipted and itemised; the rest is not.\n\n## Claiming\n\nYou pay at the time of your visit and submit the receipt to your insurer. Whether we can submit claims to insurers on your behalf is being set up; this page will say so when it is. Most plans set a yearly maximum for massage therapy and some require a physician's referral; ask your plan administrator.\n\n## The tax credit\n\nFor Alberta residents, the Canada Revenue Agency's list of authorized medical practitioners does not include massage therapists, so massage here does not qualify for the federal medical expense tax credit as the list stands. Residents of provinces that do list RMTs should check their own province. Our article on insurance has the detail."
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Will you write \"massage\" on a receipt for a Vasti or Shirodhara session?",
+        "a": "No. The receipt states the service you received. Insurers audit, and a false receipt would put your coverage and our registration at risk."
+      },
+      {
+        "q": "Do I need a physician's note?",
+        "a": "Some plans require a referral for massage therapy. Check yours; the note is for massage, which is what you receive."
+      },
+      {
+        "q": "Can I use a health spending account?",
+        "a": "HSAs follow the CRA's eligible-expense rules, so in Alberta massage is generally not eligible; wellness spending accounts set their own rules and often are. Ask your administrator."
+      }
+    ],
+    "related": [
+      "/pricing/",
+      "/learn/is-ayurveda-covered-by-insurance/",
+      "/therapies/abhyanga/"
+    ],
+    "legal_check_note": "Blocked on Q-06 (association and registration number) and R1.6 (no 'direct billing' wording until insurers confirmed). Title and H1 changed from the map to drop 'direct billing'."
   },
   {
     "slug": "/contact/",
@@ -113,7 +314,7 @@
     "section": "core",
     "wave": 1,
     "title_tag": "Contact Ayurvedachalam | Calgary Location & Hours",
-    "meta_description": "",
+    "meta_description": "Contact Ayurvedachalam in Calgary: ask about services or prices, or book a free 15-minute call. Online consultations across Canada; clinic opening soon.",
     "h1": "Contact and Location",
     "primary_keyword": "ayurvedachalam calgary contact",
     "secondary_keywords": [
@@ -122,9 +323,37 @@
       "parking",
       "phone"
     ],
-    "status": "draft",
+    "status": "review",
     "map_row": 7,
-    "legal_check": false
+    "legal_check": false,
+    "updated_at": "2026-10-21",
+    "blocks": [
+      {
+        "type": "intro",
+        "data": {
+          "lead": "Questions about a service, prices or how a session runs: send a note and we reply within one business day. For anything about your health, book a free call or a consultation instead; the form is not the place for it."
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Where is the clinic?",
+        "a": "In Calgary; the address will be published here the day it is confirmed. Online consultations are available now across Canada."
+      },
+      {
+        "q": "How quickly do you reply?",
+        "a": "Within one business day, by email."
+      },
+      {
+        "q": "Can I send health details through the form?",
+        "a": "Please do not. The form is for general questions. Health details go into the secure intake form when you book."
+      }
+    ],
+    "related": [
+      "/book/",
+      "/faq/",
+      "/first-visit/"
+    ]
   },
   {
     "slug": "/reviews/",
@@ -132,7 +361,7 @@
     "section": "core",
     "wave": 1,
     "title_tag": "Client Reviews | Ayurvedachalam Calgary",
-    "meta_description": "",
+    "meta_description": "Reviews of Ayurvedachalam from clients who agreed to be quoted. Honest words, no incentives, nothing we cannot stand behind.",
     "h1": "What Clients Say",
     "primary_keyword": "ayurveda calgary reviews",
     "secondary_keywords": [
@@ -142,7 +371,40 @@
     ],
     "status": "draft",
     "map_row": 8,
-    "legal_check": false
+    "legal_check": false,
+    "updated_at": "2026-10-21",
+    "blocks": [
+      {
+        "type": "intro",
+        "data": {
+          "lead": "Reviews on this page come from real clients who agreed to be quoted, in their own words. We offer no incentives, we do not edit meaning, and we leave out any review that claims a cure or a stopped medication, because that is not what we offer."
+        }
+      },
+      {
+        "type": "richtext",
+        "data": {
+          "md": "## While the clinic opens\n\nThe practice is gathering its first Canadian reviews as the Calgary clinic opens. Reviews from earlier practice in India and Qatar are not shown here, because we could not verify consent for each. Google reviews will appear here once the business profile is live.\n\n## Leaving a review\n\nAfter a visit we may ask whether you would like to leave a Google review. There is no reward for doing so and no consequence for declining. If you would rather tell us something privately, the contact form is better."
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Why so few reviews?",
+        "a": "Because the Calgary clinic is new. We show only reviews with recorded consent, and we would rather have three real ones than thirty we cannot vouch for."
+      },
+      {
+        "q": "Do you remove negative reviews?",
+        "a": "Not for being negative. We would remove a review that contains health claims we cannot stand behind, or that identifies another client."
+      }
+    ],
+    "related": [
+      "/about/practitioner/",
+      "/first-visit/"
+    ],
+    "linter_allow": [
+      "cure",
+      "cured"
+    ]
   },
   {
     "slug": "/faq/",
@@ -150,7 +412,7 @@
     "section": "core",
     "wave": 1,
     "title_tag": "Ayurveda FAQ: Consultations, Therapies & Booking",
-    "meta_description": "",
+    "meta_description": "Answers to the questions people ask Ayurvedachalam: what Ayurveda is, regulation, consultation cost, what to wear, insurance, herbs, and what we do not do.",
     "h1": "Frequently Asked Questions",
     "primary_keyword": "ayurveda faq",
     "secondary_keywords": [
@@ -159,9 +421,77 @@
       "what to wear for abhyanga",
       "is it covered"
     ],
-    "status": "draft",
+    "status": "review",
     "map_row": 9,
-    "legal_check": false
+    "legal_check": false,
+    "updated_at": "2026-10-21",
+    "blocks": [
+      {
+        "type": "intro",
+        "data": {
+          "lead": "The questions people ask before they book, answered plainly. If yours is not here, the free 15-minute call is the fastest way to ask it."
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is Ayurveda?",
+        "a": "The traditional medical system of India, several thousand years old, built around routine, food, oil therapies and herbs, and a way of describing constitution through three doshas. In Canada it is practised as a complementary tradition alongside, never instead of, medical care."
+      },
+      {
+        "q": "Is Ayurveda regulated in Canada?",
+        "a": "No province regulates it. There is no licence or register, so the practitioner's training is what you check. Ours is a five-and-a-half-year Indian university degree plus a hospital internship, evaluated by WES Canada; the Learn section has an article on exactly this."
+      },
+      {
+        "q": "Is the practitioner a doctor?",
+        "a": "Not in Canada. BAMS graduates practise as Ayurvedic physicians in India; here the degree is not a medical licence and we do not use the title \"Dr.\""
+      },
+      {
+        "q": "What does a consultation cost, and how long is it?",
+        "a": "$135 for 75 minutes, online or in person. Follow-ups are $75 for 30 minutes or $95 for 45. Prices are in Canadian dollars before GST."
+      },
+      {
+        "q": "Can you diagnose or treat my condition?",
+        "a": "No. We do not diagnose, and we do not treat medical conditions. We help with routine, food, rest and traditional therapies, and we tell you when a question belongs to your physician."
+      },
+      {
+        "q": "Will you give me herbs?",
+        "a": "Only when they fit, only products licensed by Health Canada with a Natural Product Number, and always with their cautions. We never recommend metal- or mineral-based preparations, and we do not sell products."
+      },
+      {
+        "q": "What should I wear to a therapy?",
+        "a": "Whatever is comfortable; you undress as for a massage and are draped. Oil stays on the skin afterwards, so bring or wear clothes you do not mind a little oil on, and a hat in winter."
+      },
+      {
+        "q": "Is any of this covered by insurance?",
+        "a": "Massage therapy by our RMT is receipted and usually covered up to your plan's maximum. Consultations, Shirodhara, Vasti and spiritual healing are not. The insurance page lists every service."
+      },
+      {
+        "q": "Do you do Panchakarma?",
+        "a": "An external five-day program: Abhyanga, Shirodhara, Vasti, steam, diet and routine. No internal procedures; in Alberta those are restricted activities and we do not offer them."
+      },
+      {
+        "q": "Can I come if I am pregnant?",
+        "a": "For a consultation, yes. Most therapies are not offered in the first trimester and are adapted afterwards with your physician's agreement. Each therapy page lists its own cautions."
+      },
+      {
+        "q": "Do you offer sessions in Tamil?",
+        "a": "Yes. Consultations can be held in English or Tamil."
+      },
+      {
+        "q": "Where are you?",
+        "a": "Online now, across Canada. The Calgary clinic opens soon; the address and hours will be published on the contact page."
+      }
+    ],
+    "related": [
+      "/first-visit/",
+      "/pricing/",
+      "/learn/"
+    ],
+    "linter_allow": [
+      "treat",
+      "medications"
+    ]
   },
   {
     "slug": "/first-visit/",
@@ -169,7 +499,7 @@
     "section": "core",
     "wave": 1,
     "title_tag": "Your First Visit: What to Expect | Ayurvedachalam",
-    "meta_description": "",
+    "meta_description": "What to expect at your first visit to Ayurvedachalam: the free call, the 75-minute consultation, what to bring and wear, and how therapies run.",
     "h1": "Your First Visit: What to Expect",
     "primary_keyword": "what to expect ayurvedic consultation",
     "secondary_keywords": [
@@ -177,9 +507,82 @@
       "how to prepare for shirodhara",
       "intake form"
     ],
-    "status": "draft",
+    "status": "review",
     "map_row": 10,
-    "legal_check": false
+    "legal_check": false,
+    "updated_at": "2026-10-21",
+    "blocks": [
+      {
+        "type": "intro",
+        "data": {
+          "lead": "Nothing about a first visit should be a surprise. Here is how it runs, from the free call to the written plan, what to bring, what to wear, and what to expect after an oil therapy."
+        }
+      },
+      {
+        "type": "steps",
+        "data": {
+          "heading": "How a first visit runs",
+          "items": [
+            {
+              "title": "The free call (15 minutes)",
+              "text": "Optional, and the best start if you are unsure. You say what brings you; we say whether a consultation, a therapy or spiritual healing fits, or whether to see your physician first. No charge, no obligation."
+            },
+            {
+              "title": "Booking and intake",
+              "text": "You book online. The booking system sends a short intake form: contact details, what brings you, medications and supplements. Nothing about your health is collected on this website."
+            },
+            {
+              "title": "The consultation (75 minutes)",
+              "text": "Mostly conversation: history, sleep, food, digestion, work, the season. In person, pulse reading and traditional observation. No undressing, no procedures. You may bring someone with you."
+            },
+            {
+              "title": "The plan (within two days)",
+              "text": "A written plan by email: daily routine, seasonal adjustments, food, practices, any therapies that fit, and any licensed herbal product with its cautions. Plus a clear note of anything we think is your physician's job."
+            },
+            {
+              "title": "Therapies, if they fit",
+              "text": "Booked separately, or the same day as an in-person consultation. You undress as for a massage and are draped; oil stays on afterwards. Each therapy page says exactly what happens."
+            },
+            {
+              "title": "Follow-up (30 minutes)",
+              "text": "Two to four weeks later, online or in person, to adjust. Most people need two or three follow-ups across a season rather than a standing appointment."
+            }
+          ]
+        }
+      },
+      {
+        "type": "richtext",
+        "data": {
+          "md": "## What to bring\n\nA list of medications and supplements, including anything herbal, with doses. Any recent test results you want to mention. If you already take an Ayurvedic product, bring the bottle or a photo of its label so we can check for a Natural Product Number.\n\n## What to wear\n\nFor a consultation, anything. For a therapy, comfortable clothes you do not mind a little oil on, and in winter a hat, because the head stays oiled and should stay warm. We provide towels and a cap.\n\n## Before an oil therapy\n\nEat lightly, not a heavy meal, in the two hours before. Skip caffeine if you can. Arrive a few minutes early so the session is not rushed. Afterwards, plan a quiet hour; shower at home when you are ready.\n\n## What we will ask you\n\nWe ask a lot of questions about digestion, sleep and routine, because that is where Ayurveda starts. We do not ask you to accept any belief, and we do not ask you to stop anything your physician has prescribed."
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Do I need a consultation before a massage?",
+        "a": "Not for a single Abhyanga, head or foot massage, or Shirodhara. Yes before Panchakarma or a course of Vasti."
+      },
+      {
+        "q": "Can I bring a family member?",
+        "a": "Yes, to a consultation. For a therapy, they can wait in reception."
+      },
+      {
+        "q": "Is there parking?",
+        "a": "Details will be published with the clinic address."
+      },
+      {
+        "q": "What if I need to cancel?",
+        "a": "Give 24 hours' notice where you can; the cancellation policy has the detail."
+      }
+    ],
+    "related": [
+      "/book/",
+      "/consultations/",
+      "/faq/"
+    ],
+    "linter_allow": [
+      "medications"
+    ]
   },
   {
     "slug": "/consultations/",
@@ -2781,12 +3184,27 @@
     "section": "policies",
     "wave": 1,
     "title_tag": "Privacy Policy | Ayurvedachalam",
-    "meta_description": "",
+    "meta_description": "How Ayurvedachalam collects, uses, stores and protects personal information, under Alberta's Personal Information Protection Act. Contact and complaints.",
     "h1": "Privacy Policy",
     "secondary_keywords": [],
-    "status": "draft",
+    "status": "review",
     "map_row": 97,
-    "legal_check": false
+    "legal_check": true,
+    "updated_at": "2026-10-21",
+    "blocks": [
+      {
+        "type": "richtext",
+        "data": {
+          "md": "*Last reviewed 21 October 2026. Draft for legal review.*\n\nAyurvedachalam (\"we\", \"us\") is a private Ayurveda, massage therapy and spiritual healing practice in Calgary, Alberta. This policy explains what personal information we collect, why, how we protect it, and your rights, in line with Alberta's *Personal Information Protection Act* (PIPA) and, for email marketing, Canada's Anti-Spam Legislation (CASL).\n\n## What we collect, and why\n\n**On this website.** The contact form collects your name, email, phone number if you give it, and your message, so that we can reply. We ask you not to include health details. The newsletter form collects your email address, the exact consent wording you agreed to, the date, and the page you signed up from. Our web server keeps standard access logs (IP address, pages requested, browser type) for security and to keep the site working.\n\n**When you book.** Booking, intake forms, appointment reminders and receipts are handled in our practice-management system, a separate service with its own security and privacy terms, which we will name here when it is confirmed. The intake form collects contact details and the health information a practitioner needs to see you safely: medications, allergies, relevant conditions and history. We collect only what is needed for that purpose.\n\n**During care.** We keep clinical notes of consultations and therapies: what you told us, what we observed, the plan, and what was done. Massage therapy records are kept to the standard required by the practitioner's professional association.\n\n**Analytics.** We use Google Analytics to understand how the site is used in aggregate. It sets cookies; you can block them in your browser without affecting the site.\n\n## How we use it\n\nTo provide and record your care, to contact you about appointments, to answer your questions, to issue receipts, to send the monthly email you asked for, and to meet legal and professional obligations. We do not sell personal information and we do not share it with anyone for marketing.\n\n## Who we share it with\n\nService providers that process information on our behalf: the practice-management and booking system, our email provider, our web host, and Google Analytics. Each is bound to use the information only to provide its service. Where a provider stores data outside Canada, we say so here: [to be completed once providers are confirmed]. We disclose personal information otherwise only when the law requires it, or with your consent, for example to send a receipt to your insurer at your request.\n\n## Consent\n\nBy submitting a form, booking, or attending a session you consent to the collection and use described here. You may withdraw consent at any time, subject to legal and contractual limits; withdrawing consent for clinical records does not require us to delete records we must keep. Newsletter emails carry an unsubscribe link, and we act on it within ten business days as CASL requires.\n\n## How long we keep it\n\nContact-form messages: up to 24 months. Newsletter consent records: for as long as you are subscribed, and two years after. Clinical and massage therapy records: [period required by the professional association, typically ten years from the last visit, and for minors until age 18 plus that period]. Web logs: 90 days.\n\n## Security\n\nInformation on this site is sent over an encrypted connection. Clinical records are held in the practice-management system behind individual logins; website administration requires a password and a second factor. Paper notes, if any, are kept locked. We review access at least yearly.\n\n## Your rights\n\nYou may ask to see the personal information we hold about you, ask us to correct it, and ask how it has been used and to whom it has been disclosed. Write to the contact below; we respond within 45 days as PIPA provides and may charge a reasonable fee for copies. If you believe we have not handled your information properly, tell us first; you may also complain to the Office of the Information and Privacy Commissioner of Alberta.\n\n## Children\n\nWe provide services to people under 18 only with a parent or guardian present and consenting.\n\n## Changes\n\nWe will post changes here with a new review date. Material changes will be announced on the site.\n\n## Contact\n\nPrivacy contact: Maheswari Vedhachalam, Ayurvedachalam, Calgary, Alberta. Email: [privacy@ayurvedachalam.com]. Mail: [clinic address when confirmed]."
+        }
+      }
+    ],
+    "faqs": [],
+    "related": [],
+    "legal_check_note": "LC-4 / W1-28: written to Alberta PIPA and CASL. Lawyer to confirm: retention periods, provider list and data location, the complaint wording, and whether a separate massage-therapy records clause is required by the association. Bracketed items to be filled.",
+    "linter_allow": [
+      "medications"
+    ]
   },
   {
     "slug": "/terms/",
@@ -2794,12 +3212,24 @@
     "section": "policies",
     "wave": 1,
     "title_tag": "Terms of Use | Ayurvedachalam",
-    "meta_description": "",
+    "meta_description": "Terms of use for the ayurvedachalam.com website: information only, no medical advice, bookings, intellectual property, limits of liability, Alberta law.",
     "h1": "Terms of Use",
     "secondary_keywords": [],
-    "status": "draft",
+    "status": "review",
     "map_row": 98,
-    "legal_check": false
+    "legal_check": true,
+    "updated_at": "2026-10-21",
+    "blocks": [
+      {
+        "type": "richtext",
+        "data": {
+          "md": "*Last reviewed 21 October 2026. Draft for legal review.*\n\nThese terms apply to your use of ayurvedachalam.com (the \"site\"), operated by Ayurvedachalam, Calgary, Alberta. By using the site you accept them.\n\n## Information, not advice\n\nThe site describes Ayurvedic consultations, therapies and spiritual healing and publishes general information about Ayurveda. Nothing on it is medical advice, diagnosis or treatment, and nothing on it creates a practitioner–client relationship. Ayurveda and spiritual healing are complementary practices and not a substitute for medical or mental health care. See the health disclaimer. If you have a medical emergency, call 911.\n\n## Bookings and services\n\nAppointments are booked through our practice-management system, which has its own terms. The services, their prices and their cancellation terms are as published on this site on the day you book; prices are in Canadian dollars and exclude GST unless stated. We may decline or discontinue a service where it would not be safe or appropriate, and we will say why.\n\n## Accuracy\n\nWe take care to keep the site accurate, including the sources cited in our articles, and we review pages with rules, prices or product information at least every six months. We do not warrant that the site is free of errors, and we may change content at any time.\n\n## Your use of the site\n\nYou may read and share links to the site. You may not copy its text or images for commercial use, scrape it, attempt to access its administration, submit false information through its forms, or use it to send unsolicited messages. Forms must not be used to send health details; those belong in the secure intake form.\n\n## Intellectual property\n\nThe text, design, wordmark and images on the site belong to Ayurvedachalam or are used under licence. The wordmark and name may not be used without written permission.\n\n## Third-party links and services\n\nThe site links to other websites and embeds third-party services (booking, maps, analytics). We are not responsible for their content or practices; their own terms and privacy policies apply.\n\n## Limits of liability\n\nTo the extent the law allows, Ayurvedachalam is not liable for any loss arising from use of the site or reliance on its content. Nothing in these terms limits liability that cannot be limited under Alberta law, including for personal injury caused by negligence in the provision of services, which is governed by the terms agreed when you book.\n\n## Privacy\n\nOur privacy policy explains how personal information is handled.\n\n## Governing law\n\nThese terms are governed by the laws of Alberta and the federal laws of Canada applicable there. Disputes are subject to the courts of Alberta.\n\n## Contact\n\nAyurvedachalam, Calgary, Alberta. Email: [hello@ayurvedachalam.com]."
+        }
+      }
+    ],
+    "faqs": [],
+    "related": [],
+    "legal_check_note": "W1-29: lawyer to confirm the liability wording and whether booking-system terms need to be referenced by name."
   },
   {
     "slug": "/health-disclaimer/",
@@ -2807,12 +3237,31 @@
     "section": "policies",
     "wave": 1,
     "title_tag": "Health Disclaimer | Ayurvedachalam",
-    "meta_description": "",
+    "meta_description": "Ayurvedachalam's health disclaimer: Ayurveda and spiritual healing are complementary practices, not medical care; what we do not do; when to see a doctor.",
     "h1": "Health Disclaimer",
     "secondary_keywords": [],
-    "status": "draft",
+    "status": "review",
     "map_row": 99,
-    "legal_check": false
+    "legal_check": true,
+    "updated_at": "2026-10-21",
+    "blocks": [
+      {
+        "type": "richtext",
+        "data": {
+          "md": "*Last reviewed 21 October 2026. Draft for legal review.*\n\n## What we are, and are not\n\nAyurvedachalam offers Ayurvedic consultations, traditional external therapies, massage therapy and spiritual healing. These are complementary practices. They do not replace medical diagnosis or treatment, and they are not a substitute for care from a physician, nurse practitioner, pharmacist, psychologist or any other regulated health professional.\n\nAyurveda is not a regulated health profession in Canada. Our practitioner holds a Bachelor of Ayurveda Medicine and Surgery from India and other credentials described on the practitioner page; that degree is not a licence to practise medicine in Canada, and our practitioner is not a medical doctor here and does not use the title \"Dr.\"\n\n## What we do not do\n\nWe do not diagnose medical conditions. We do not treat, cure or prevent any disease, and nothing on this site should be read as a claim that we do. We do not advise stopping, starting or changing any prescribed medication; that is a decision for you and your prescriber. We do not offer internal cleansing procedures of any kind. We recommend only natural health products licensed by Health Canada, and we do not sell products.\n\n## Information on this site\n\nArticles and pages are general information written and reviewed by our practitioner, with sources cited. They describe what Ayurvedic tradition holds, what clients commonly report, and what research has found, and they try to keep those three apart. They are not advice for your situation. Research on Ayurvedic therapies is limited, and we say so where it applies.\n\n## Your responsibility\n\nPlease tell your physician and pharmacist about any therapy you receive and any herb or supplement you take, including those we suggest, because herbs can interact with medicines. Tell us about your medical conditions, medications, allergies and pregnancy before any therapy; each therapy page lists who should avoid it, and those lists exist for your safety.\n\n## When to see a physician\n\nNew, severe or worsening symptoms; pain with numbness, weakness or loss of bladder or bowel control; chest pain or difficulty breathing; a persistent fever; unexplained weight loss; bleeding; a skin change that spreads or alters; or anything that worries you. In an emergency, call 911. If you are in crisis, call or text 9-8-8, the Suicide Crisis Helpline, at any hour.\n\n## Spiritual healing\n\nSpiritual healing is offered as support for wellbeing. It is not medical or mental health care, and it involves no diagnosis and no claim of effect. If you are receiving counselling or treatment, please continue it.\n\n## Massage therapy\n\nMassage therapy is provided by a Registered Massage Therapist and is the only service we receipt as massage therapy for insurance purposes.\n\n## Questions\n\nAsk us before you book, at the free call, or at any time: [hello@ayurvedachalam.com]."
+        }
+      }
+    ],
+    "faqs": [],
+    "related": [],
+    "legal_check_note": "LC-5 / W1-30: lawyer to confirm. The 'When to see a physician' list and the 9-8-8 line are required by rules.md R1.5.",
+    "linter_allow": [
+      "weight loss",
+      "treat",
+      "cure",
+      "medication",
+      "medications"
+    ]
   },
   {
     "slug": "/cancellation-policy/",
@@ -2820,11 +3269,23 @@
     "section": "policies",
     "wave": 2,
     "title_tag": "Cancellation Policy | Ayurvedachalam",
-    "meta_description": "",
+    "meta_description": "Ayurvedachalam's cancellation policy: 24 hours' notice to change or cancel, charges for late cancellations and no-shows, and exceptions for illness.",
     "h1": "Cancellation Policy",
     "secondary_keywords": [],
-    "status": "draft",
+    "status": "review",
     "map_row": 100,
-    "legal_check": false
+    "legal_check": true,
+    "updated_at": "2026-10-21",
+    "blocks": [
+      {
+        "type": "richtext",
+        "data": {
+          "md": "*Last reviewed 21 October 2026. Draft for legal review.*\n\n## Changing or cancelling\n\nPlease give at least **24 hours' notice** to change or cancel an appointment. You can do so through the booking system, by email, or by phone during clinic hours. With 24 hours' notice there is no charge.\n\n## Late cancellation and missed appointments\n\nWith less than 24 hours' notice, or if you do not attend, we charge **50 per cent of the service price**, because the time was held for you and cannot be offered to someone else. A second missed appointment without notice is charged in full. Package sessions missed without notice are counted as used.\n\n## Illness and emergencies\n\nDo not come to a therapy with a fever, flu or an infectious illness; tell us and we will rebook without charge, at any notice. We waive the fee for genuine emergencies; just let us know.\n\n## Arriving late\n\nWe will give you the time that remains of your booking at the full price, so that the next client is not kept waiting. If you are more than 20 minutes late for a therapy we may need to rebook it.\n\n## Our cancellations\n\nIf we must cancel, we give you as much notice as we can, rebook you at the earliest time that suits you, and, where we cancel with less than 24 hours' notice for any reason other than the practitioner's illness, take 25 per cent off the rebooked session.\n\n## Packages\n\nPackages are prepaid, valid for six months from purchase and non-transferable. Unused sessions are not refunded after the six months, except where we are unable to provide the service.\n\n## Discovery calls\n\nThe free 15-minute call carries no fee and no charge if missed, but please let us know.\n\n## Contact\n\n[hello@ayurvedachalam.com] · phone during clinic hours [to be published]."
+        }
+      }
+    ],
+    "faqs": [],
+    "related": [],
+    "legal_check_note": "W1 policies: owner to confirm the 50% late fee, the 20-minute rule and the package terms; lawyer to confirm enforceability in Alberta."
   }
 ]

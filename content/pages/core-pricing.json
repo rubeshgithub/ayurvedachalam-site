@@ -1,0 +1,37 @@
+{
+  "slug": "/pricing/",
+  "status": "review",
+  "updated_at": "2026-10-21",
+  "meta_description": "Ayurvedachalam prices: consultation $135, follow-up $75, Abhyanga $120, Shirodhara $130, Vasti from $90, energy healing $90, Panchakarma $695. Packages.",
+  "blocks": [
+    {
+      "type": "intro",
+      "data": {
+        "lead": "Every price we charge, in one place, in Canadian dollars before GST. The same for everyone, no quotes on request. Packages save 10 to 15 per cent and are prepaid, valid for six months."
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Are prices the same online and in person?",
+      "a": "Yes. A consultation is $135 whether on video or in Calgary; follow-ups $75 or $95 either way."
+    },
+    {
+      "q": "How do I pay?",
+      "a": "At the time of your visit, by card, debit or e-transfer. Packages are paid in full at the first session."
+    },
+    {
+      "q": "Which services can I claim on my benefits?",
+      "a": "The massage therapies performed by our RMT (Abhyanga, head and foot massage, Udvartana, Kizhi, Pizhichil, postnatal massage) are receipted as massage therapy. Consultations, Shirodhara, Vasti, steam and spiritual healing are not."
+    },
+    {
+      "q": "Is GST charged on everything?",
+      "a": "GST applies to our services as the law requires; the amount is shown on your receipt. [Accountant to confirm the treatment of RMT massage.]"
+    }
+  ],
+  "related": [
+    "/insurance-direct-billing/",
+    "/book/",
+    "/therapies/"
+  ]
+}

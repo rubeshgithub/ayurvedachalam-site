@@ -5,7 +5,7 @@ import { Breadcrumbs, Eyebrow } from "@/components/ui";
 export const SECTION_LABELS: Record<string, string> = {
   consultations: "Consultations", therapies: "Therapies", "massage-therapy": "Massage therapy",
   "spiritual-healing": "Spiritual healing", concerns: "Wellness concerns", calgary: "Calgary",
-  online: "Online across Canada", learn: "Learn", core: "", policies: "",
+  online: "Online across Canada", learn: "Learn", about: "About", core: "", policies: "",
 };
 
 export function crumbsFor(page: Page): { name: string; href: string }[] {
