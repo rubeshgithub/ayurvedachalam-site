@@ -167,9 +167,9 @@ Written by hand before launch, to the article rules (R4), and loaded through the
 
 | ID | Task | Owner | Status | Notes |
 | --- | --- | --- | --- | --- |
-| P-01 | Create private repo `ayurvedachalam-content-relay` with `inbox/`, `queue.md`, `delivered.log`, `runbook/` | Dev | [ ] | `architecture.md` §4 |
-| P-02 | Relay Action `relay.yml`; add secrets `SITE_URL`, `INGEST_KEY` | Dev | [ ] | `architecture.md` §7.5 |
-| P-03 | Copy `rules.md`, `product.md` and the article structure (R4) into `runbook/`; move the queue in §8 below into `queue.md` | Dev | [ ] | From then on `queue.md` is the only queue |
+| P-01 | Create private repo `ayurvedachalam-content-relay` with `inbox/`, `queue.md`, `delivered.log`, `runbook/` | Dev | [~] built locally 2026-10-22; awaiting the GitHub repo to push to | `architecture.md` §4 |
+| P-02 | Relay Action `relay.yml`; add secrets `SITE_URL`, `INGEST_KEY` | Dev | [~] `relay.yml` written; secrets to add once the repo and server exist | `architecture.md` §7.5 |
+| P-03 | Copy `rules.md`, `product.md` and the article structure (R4) into `runbook/`; move the queue in §8 below into `queue.md` | Dev | [x] 2026-10-22 | From then on `queue.md` is the only queue |
 | P-04 | Fine-grained GitHub token limited to the relay repo (contents: read and write); store it in the Claude project's secure notes | RK | [ ] | Never in a doc or a chat |
 | P-05 | Dry run against staging: one test payload → ingest → `review` → cleanup commit seen | Dev | [ ] | |
 | P-06 | Negative tests: banned word, long title, broken internal link, duplicate keyword, LEGAL CHECK link | Dev | [ ] | Each must land in `review` with the right error |

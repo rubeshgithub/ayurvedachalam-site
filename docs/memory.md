@@ -214,6 +214,7 @@ Healwell publish no prices.
 | 2026-10-13 | Six project docs and `design-preview.html` created; release plan changed to D-10 | Claude |
 | 2026-10-14 | Pricing study delivered (F-16); proposed list awaits owner approval | Claude |
 | 2026-10-15 | Owner approved the price list (D-18); `product.md` §5 updated; cornerstone article W1-32 drafted | RK, Claude |
+| 2026-10-22 | Content relay built locally at `ayurvedachalam-content-relay/` (queue.md with the 24 seeded rows, runbook, delivery Action, example payload); ingest schema shared as `lib/ingest-schema.ts` with a fixture test. Needs the GitHub repo created to push | Claude |
 | 2026-10-22 | Build phase complete bar B-21 (booking embed waits on F-08): media library, SMTP notifications, CSP, staging gate, backup/deploy/systemd files in `ops/`, page checks and Lighthouse in CI. Next: Phase P article pipeline | Claude |
 | 2026-10-21 | W1 core pages (home intro, about, practitioner, book, prices, insurance, contact, reviews holding page, FAQ, first visit) and four policies drafted for the lawyer; 30 of 37 launch pages now have copy; linter: `skipFigures` for legal and profile templates | Claude |
 | 2026-10-20 | W1 service copy drafted: 16 pages (hubs, 4 consultations, 9 therapies, energy healing) in `content/pages/*.json`, merged by the seed script, all passing the linter; linter page rules refined (prices not research figures; word-boundary sentence lookup) | Claude |
