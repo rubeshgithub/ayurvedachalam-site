@@ -16,8 +16,4 @@ export function back(path: string, status: "ok" | "error", req: Request) {
   return NextResponse.redirect(url, 303);
 }
 
-/** Transactional email is wired later (MAIL_API_KEY). Until then, notices go to the server log. */
-export async function notifyOwner(subject: string, body: string) {
-  if (!process.env.MAIL_API_KEY) { console.log(`[notify] ${subject}\n${body}`); return; }
-  // TODO B-25: provider call (Resend/Postmark/SES) using MAIL_FROM and CONTACT_TO.
-}
+export { notifyOwner } from "@/lib/notify";

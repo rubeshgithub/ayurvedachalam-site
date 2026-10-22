@@ -1,0 +1,16 @@
+# /etc/systemd/system/ayurvedachalam.service — production app on the OVH box (README "Deploy")
+[Unit]
+Description=Ayurvedachalam site (Next.js)
+After=network.target mongod.service
+
+[Service]
+WorkingDirectory=/srv/ayurvedachalam-site
+EnvironmentFile=/srv/ayurvedachalam-site/.env.local
+Environment=NODE_ENV=production PORT=3000
+ExecStart=/usr/bin/npm start
+Restart=always
+User=ayur
+Group=ayur
+
+[Install]
+WantedBy=multi-user.target

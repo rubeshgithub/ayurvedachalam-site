@@ -60,7 +60,7 @@
 | B-12 | Templates: `profile`, `pricing`, `booking`, `contact`, `location`, `region`, `legal`, `utility` | Dev | [x] 2026-10-16 |  |
 | B-13 | SEO layer: metadata builder, canonical, OG image generator, JSON-LD builders, breadcrumbs | Dev | [x] 2026-10-16 | `architecture.md` §9 |
 | B-14 | `sitemap.xml`, `robots.txt`, `feed.xml`, IndexNow key and ping | Dev | [x] 2026-10-16 | IndexNow key file to add once the key exists |
-| B-15 | CMS: login with TOTP, page editor (blocks), article editor (Markdown + preview), media library with required alt text, settings | Dev | [~] 2026-10-17 | Login+TOTP, page editor, article editor, settings, redirects done; media library with alt text still to build |
+| B-15 | CMS: login with TOTP, page editor (blocks), article editor (Markdown + preview), media library with required alt text, settings | Dev | [x] 2026-10-22 | Media library added: upload with required alt text, WebP conversion, served from MEDIA_DIR |
 | B-16 | CMS: article queue view with statuses, lint results, Approve / Reject / Edit, publish time | Dev | [x] 2026-10-17 |  |
 | B-17 | Compliance linter + `banned-terms.json` + `legal-check-slugs.json`; `npm run lint:content`; wired into CI | Dev | [x] 2026-10-16 | `architecture.md` §7.4, `rules.md` R1.3 |
 | B-18 | Ingest API `/api/cms/ingest` with key auth, validation, idempotency, sanitising, lint, log | Dev | [x] 2026-10-16 |  |
@@ -68,7 +68,7 @@
 | B-20 | Forms: contact (no health fields, notice), newsletter (CASL consent stored); rate limit, honeypot, email notice | Dev | [x] 2026-10-16 | Email notice stubbed to the server log until MAIL_API_KEY (B-25) |
 | B-21 | Booking: `/book/` embed, Book buttons read `settings.booking_url`, GA4 events | Dev | [~] | `/book/` page and Book buttons read `settings.booking_url`; embed waits for F-08 |
 | B-22 | Redirects middleware; real 404 page | Dev | [x] 2026-10-17 |  |
-| B-23 | Tests per template (one H1, title, meta, canonical, JSON-LD parses); axe check; Lighthouse budget in CI | Dev | [~] | 10 unit tests (linter, markdown) + content lint in CI; template tests, axe and Lighthouse still to add |
+| B-23 | Tests per template (one H1, title, meta, canonical, JSON-LD parses); axe check; Lighthouse budget in CI | Dev | [x] 2026-10-22 | `npm run check:pages` (H1, title, meta, canonical, JSON-LD, disclaimer, no "Dr.") + Lighthouse CI budget on three URLs; axe pass still manual (L-03) |
 | B-24 | Security headers and CSP; backups scheduled; staging environment with password and noindex | Dev | [ ] | |
 | B-25 | Notification to owner on ingest (email or push) with preview link | Dev | [ ] | |
 

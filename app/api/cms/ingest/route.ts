@@ -6,6 +6,7 @@ import { allPrimaryKeywords, articleExists, getSettings, listArticles, pageExist
 import { lint, touchesLegalCheck } from "@/lib/compliance/linter";
 import { renderMarkdown, wordCount } from "@/lib/markdown";
 import { abs } from "@/lib/seo";
+import { notifyOwner, previewLink } from "@/lib/notify";
 import type { Article } from "@/lib/types";
 
 export const runtime = "nodejs";
@@ -119,6 +120,11 @@ export async function POST(req: NextRequest) {
   };
   await articles.insertOne(doc);
   await log(status, { lint: result, forced_review: forceReview });
+  const cms = abs(`/cms/articles/edit/?slug=${parsed.slug}`);
+  await notifyOwner(
+    `New article ${status === "review" ? "needs review" : status}: ${parsed.h1}`,
+    `"${parsed.h1}" arrived from the pipeline (run ${parsed.run_id}).\nStatus: ${status}${publish_at ? `, publishes ${publish_at}` : ""}.\nLint: ${result.passed ? "passed" : result.errors.length + " error(s)"}${result.warnings.length ? `, ${result.warnings.length} warning(s)` : ""}.\n\nPreview: ${previewLink(`/learn/${parsed.slug}/`)}\nEdit: ${cms}`,
+  );
 
   // 7. Respond
   return NextResponse.json({ id: parsed.slug, status, preview_url: abs(`/learn/${parsed.slug}/`), publish_at, lint: result }, { status: 201 });

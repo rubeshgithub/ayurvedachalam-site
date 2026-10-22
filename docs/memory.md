@@ -22,7 +22,7 @@
 | Articles published | 0 |
 | Article pipeline | Not built. `publish_mode` will start as `review` |
 | Legal review | Owner has set the position on all 7 items (2026-10-14); lawyer confirmation still to book (F-02); one open point, Q-16 |
-| Build | Phase B started 2026-10-16: repo `ayurvedachalam-site` scaffolded, builds clean, 20 of 25 B-tasks done (B-15 partial: media library pending); next B-23 tests/Lighthouse, B-24 CSP/backups/staging, B-25 notifications, then W1 content. Blocking the build: nothing. Content: Q-16 ("stomach wash"), phone/hours, massage association number |
+| Build | Phase B started 2026-10-16: repo `ayurvedachalam-site` scaffolded, builds clean, 24 of 25 B-tasks done (B-21 waits on the booking tool); 30 of 37 W1 pages have copy; next Phase P (pipeline). Blocking the build: nothing. Content: Q-16 ("stomach wash"), phone/hours, massage association number |
 
 **Next three actions**
 
@@ -214,6 +214,7 @@ Healwell publish no prices.
 | 2026-10-13 | Six project docs and `design-preview.html` created; release plan changed to D-10 | Claude |
 | 2026-10-14 | Pricing study delivered (F-16); proposed list awaits owner approval | Claude |
 | 2026-10-15 | Owner approved the price list (D-18); `product.md` §5 updated; cornerstone article W1-32 drafted | RK, Claude |
+| 2026-10-22 | Build phase complete bar B-21 (booking embed waits on F-08): media library, SMTP notifications, CSP, staging gate, backup/deploy/systemd files in `ops/`, page checks and Lighthouse in CI. Next: Phase P article pipeline | Claude |
 | 2026-10-21 | W1 core pages (home intro, about, practitioner, book, prices, insurance, contact, reviews holding page, FAQ, first visit) and four policies drafted for the lawyer; 30 of 37 launch pages now have copy; linter: `skipFigures` for legal and profile templates | Claude |
 | 2026-10-20 | W1 service copy drafted: 16 pages (hubs, 4 consultations, 9 therapies, energy healing) in `content/pages/*.json`, merged by the seed script, all passing the linter; linter page rules refined (prices not research figures; word-boundary sentence lookup) | Claude |
 | 2026-10-17 | Wordmark decided (D-20) and built into header, footer, favicon, OG image, social avatar | RK, Claude |

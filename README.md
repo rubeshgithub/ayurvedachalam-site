@@ -23,6 +23,8 @@ Production shows only `published` records. To preview drafts on a server, set `P
 | `npm test` | Unit tests (compliance linter, markdown) |
 | `npm run lint:content` | Lints every seeded page and article against `rules.md` R1.3 |
 | `npm run build` | Production build; fails if a page lacks a title or description |
+| `npm run check:pages` | Against a running server: one H1, title, meta, canonical, JSON-LD, disclaimer, no "Dr." |
+| Lighthouse | CI runs `@lhci/cli` on three URLs with the budget in `lighthouserc.json` |
 
 ## Where things are
 
@@ -49,14 +51,17 @@ Production shows only `published` records. To preview drafts on a server, set `P
 5. Deploy on push to `main`: the CI above must be green; the server pulls, `npm ci`, `npm run build`, restarts.
 6. Staging: same app with `STAGING=1` (robots disallow all) and `PREVIEW_DRAFTS=1`, behind basic auth in nginx.
 
+## Server files
+
+`ops/` holds the systemd unit, the crontab lines (publish cron every 15 minutes, nightly backup), `backup.sh` (mongodump + media, 30-day rotation) and `deploy.sh`. Uploaded media lives in `MEDIA_DIR` (default `data/media`, git-ignored); set `STAGING_PASSWORD` on staging to gate the whole site behind basic auth; set `SMTP_URL` and `CONTACT_TO` for owner notifications.
+
 ## Not built yet
 
-Media library with required alt text (rest of B-15), owner notifications (B-25), CSP header,
-backups and staging host (B-24), template tests, axe and Lighthouse budget in CI (B-23). See `docs/tasks.md`.
+Booking embed configuration (B-21, waits on the booking tool). See `docs/tasks.md`.
 
 ## CMS
 
 `/cms` — email + password + authenticator code. Pages: fields, blocks as JSON, FAQ, summary box;
 publishing runs the compliance linter. Articles: queue by status with lint results; publish now,
 schedule, send back, reject. Settings: NAP, hours, booking URL, publish mode and hold, required
-notices, price book. Redirects: 301s, no chains. "Preview" opens drafts through Next draft mode.
+notices, price book. Media: uploads with required alt text. Redirects: 301s, no chains. "Preview" opens drafts through Next draft mode.

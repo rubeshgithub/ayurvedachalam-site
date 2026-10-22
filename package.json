@@ -10,7 +10,8 @@
     "typecheck": "tsc --noEmit",
     "seed": "tsx scripts/seed-pages.ts",
     "lint:content": "tsx scripts/lint-content.ts",
-    "test": "tsx --test tests/*.test.ts"
+    "test": "tsx --test tests/*.test.ts",
+    "check:pages": "tsx scripts/check-pages.ts"
   },
   "dependencies": {
     "@fontsource-variable/figtree": "^5.3.0",
@@ -18,15 +19,18 @@
     "marked": "^18.1.1",
     "mongodb": "^7.7.0",
     "next": "16.4.2",
+    "nodemailer": "^10.2.0",
     "react": "19.3.0",
     "react-dom": "19.3.0",
     "sanitize-html": "^2.18.1",
     "server-only": "^0.0.1",
+    "sharp": "^0.35.5",
     "zod": "^4.6.7"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "^4",
     "@types/node": "^20",
+    "@types/nodemailer": "^8.0.2",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@types/sanitize-html": "^2.16.2",
@@ -35,6 +39,7 @@
     "tailwindcss": "^4",
     "tsx": "^4.23.15",
     "typescript": "^5",
+    "wait-on": "^9.5.1",
     "xlsx": "^0.18.5"
   }
 }

@@ -1,0 +1,3 @@
+# crontab for the app user on the server
+*/15 * * * *  curl -fsS -H "Authorization: Bearer $CRON_SECRET" https://ayurvedachalam.com/api/cron/publish > /dev/null
+15 3 * * *    /srv/ayurvedachalam-site/ops/backup.sh >> /var/log/ayurvedachalam-backup.log 2>&1

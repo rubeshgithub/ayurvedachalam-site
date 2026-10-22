@@ -4,6 +4,7 @@ import { NextResponse, type NextRequest } from "next/server";
 import { getDb, hasDb } from "@/lib/db";
 import { lint } from "@/lib/compliance/linter";
 import { abs } from "@/lib/seo";
+import { notifyOwner } from "@/lib/notify";
 import type { Article } from "@/lib/types";
 
 export const runtime = "nodejs";
@@ -48,6 +49,12 @@ export async function GET(req: NextRequest) {
   }
   if (published.length) { revalidatePath("/learn/"); revalidatePath("/"); revalidatePath("/sitemap.xml"); revalidatePath("/feed.xml"); }
   await pingIndexNow(published.map((s) => abs(`/learn/${s}/`)));
+  if (published.length || sentBack.length) {
+    await notifyOwner(`Publish run: ${published.length} live, ${sentBack.length} sent back`, [
+      ...published.map((s) => `Published: ${abs(`/learn/${s}/`)}`),
+      ...sentBack.map((s) => `Sent back to review (linter failed): ${abs(`/cms/articles/edit/?slug=${s}`)}`),
+    ].join("\n"));
+  }
   await db.collection("ingest_log").insertOne({ run_id: "cron", result: "publish", published, sent_back: sentBack, created_at: new Date() });
   return NextResponse.json({ published, sent_back: sentBack, checked: due.length });
 }

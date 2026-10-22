@@ -3,6 +3,7 @@ on: { push: { branches: [main] }, pull_request: {} }
 jobs:
   build:
     runs-on: ubuntu-latest
+    env: { SITE_URL: http://localhost:3000, PREVIEW_DRAFTS: "1" }
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -12,4 +13,9 @@ jobs:
       - run: npm test
       - run: npm run lint:content
       - run: npm run build
-        env: { SITE_URL: https://ayurvedachalam.com }
+      - name: Start server
+        run: (npm start &) && npx wait-on http://localhost:3000 --timeout 60000
+      - name: Page checks (one H1, title, meta, canonical, JSON-LD, disclaimer)
+        run: npm run check:pages
+      - name: Lighthouse budget
+        run: npx @lhci/cli@0.14.x autorun --config=lighthouserc.json

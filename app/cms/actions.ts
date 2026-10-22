@@ -203,3 +203,33 @@ export async function deleteRedirect(fd: FormData) {
   await (await getDb()).collection("redirects").deleteOne({ from: text(fd, "from") });
   redirect("/cms/redirects/?saved=1");
 }
+
+/* --------------------------------------------------------------- media */
+
+export async function uploadMedia(fd: FormData) {
+  const user = await requireUser();
+  const file = fd.get("file");
+  if (!(file instanceof File) || file.size === 0) redirect("/cms/media/?error=Choose+an+image");
+  try {
+    const { saveUpload } = await import("@/lib/media");
+    await saveUpload(file, text(fd, "alt"), text(fd, "credit"), user.email);
+  } catch (e) {
+    redirect(`/cms/media/?error=${encodeURIComponent(e instanceof Error ? e.message : "Upload failed")}`);
+  }
+  redirect("/cms/media/?saved=1");
+}
+
+export async function updateMediaAction(fd: FormData) {
+  await requireUser();
+  const { updateMedia } = await import("@/lib/media");
+  try { await updateMedia(text(fd, "file"), text(fd, "alt"), text(fd, "credit")); } catch (e) { redirect(`/cms/media/?error=${encodeURIComponent(e instanceof Error ? e.message : "Failed")}`); }
+  redirect("/cms/media/?saved=1");
+}
+
+export async function deleteMediaAction(fd: FormData) {
+  const user = await requireUser();
+  if (user.role !== "owner") redirect("/cms/media/?error=Owner+only");
+  const { deleteMedia } = await import("@/lib/media");
+  await deleteMedia(text(fd, "file"));
+  redirect("/cms/media/?saved=1");
+}
