@@ -99,7 +99,9 @@ export function Home({ page, settings, featured, articles, reviews }: { page: Pa
         </Section>
       )}
 
-      <Blocks blocks={page.blocks?.filter((b) => b.type !== "intro")} />
+      {page.blocks?.some((b) => b.type !== "intro") && (
+        <Section tone="sesame"><div className="max-w-3xl"><Blocks blocks={page.blocks?.filter((b) => b.type !== "intro")} /></div></Section>
+      )}
 
       {articles.length > 0 && (
         <Section tone="sesame">
