@@ -231,7 +231,7 @@ Healwell publish no prices.
 
 ---
 
-Site code: github.com/rubeshgithub/ayurvedachalam-site (pushed 2026-10-17). Page copy lives in `content/pages/<slug>.json` (merged onto the map row by the seed script). Article drafts live in `content/learn/<slug>.md` (front matter + body + unpublished editor's notes).
+Relay: github.com/rubeshgithub/ayurvedachalam-content-relay (private, pushed 2026-11-16). Site code: github.com/rubeshgithub/ayurvedachalam-site (pushed 2026-10-17). Page copy lives in `content/pages/<slug>.json` (merged onto the map row by the seed script). Article drafts live in `content/learn/<slug>.md` (front matter + body + unpublished editor's notes).
 
 ## 9. Publishing log
 
