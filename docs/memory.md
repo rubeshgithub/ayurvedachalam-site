@@ -74,6 +74,7 @@
 | D-15 | 2026-10-14 | Hosting on the owner's OVH server, as for docu10 | Accepted | Owner decision |
 | D-16 | 2026-10-14 | Prices on the site are placeholders until a pricing study is done (F-16) | Accepted | Owner: "we need to do market research" |
 | D-17 | 2026-10-14 | Pages are written for the physical clinic as planned, with a placeholder address until it opens; launch waits for the real address | Accepted | Owner decision |
+| D-21 | 2026-11-16 | The content relay lives in the site repo as `content-relay/` with its own Action, not in a separate repo. Trade-off: the task's token can reach the code; mitigated by the prompt rule, CI on every push and owner review | Accepted | Owner: "push it directly to rubeshgithub/ayurvedachalam-site" |
 | D-20 | 2026-10-17 | Wordmark B (Ayurveda 600 Neem + chalam light italic Copper), mark 1 as favicon/app icon, mark 4 as social avatar | Accepted | Owner choice from the wordmark canvas |
 | D-19 | 2026-10-16 | Content repository reads MongoDB in production and `content/seed/*.json` when `MONGODB_URI` is empty, so the site builds in CI with no database; writes always need MongoDB | Accepted | Build decision |
 | D-18 | 2026-10-15 | Price list adopted exactly as recommended in the pricing study; now in `product.md` §5 (initial consult $135, follow-up $75, Abhyanga $120, Shirodhara $130, Vasti $90–95, energy healing $90, Panchakarma $695, packages 10–16%) | Accepted | Owner: "I will go with your recommendation about the pricing" |
@@ -214,6 +215,7 @@ Healwell publish no prices.
 | 2026-10-13 | Six project docs and `design-preview.html` created; release plan changed to D-10 | Claude |
 | 2026-10-14 | Pricing study delivered (F-16); proposed list awaits owner approval | Claude |
 | 2026-10-15 | Owner approved the price list (D-18); `product.md` §5 updated; cornerstone article W1-32 drafted | RK, Claude |
+| 2026-11-16 | Relay rebuilt inside the site repo (`content-relay/`, `relay.yml`); the earlier local copy was lost with the session container | Claude |
 | 2026-10-22 | Content relay built locally at `ayurvedachalam-content-relay/` (queue.md with the 24 seeded rows, runbook, delivery Action, example payload); ingest schema shared as `lib/ingest-schema.ts` with a fixture test. Needs the GitHub repo created to push | Claude |
 | 2026-10-22 | Build phase complete bar B-21 (booking embed waits on F-08): media library, SMTP notifications, CSP, staging gate, backup/deploy/systemd files in `ops/`, page checks and Lighthouse in CI. Next: Phase P article pipeline | Claude |
 | 2026-10-21 | W1 core pages (home intro, about, practitioner, book, prices, insurance, contact, reviews holding page, FAQ, first visit) and four policies drafted for the lawyer; 30 of 37 launch pages now have copy; linter: `skipFigures` for legal and profile templates | Claude |

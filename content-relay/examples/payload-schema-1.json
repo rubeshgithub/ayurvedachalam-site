@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "run_id": "2026-11-02-mon",
+  "kind": "feed",
+  "slug": "shirodhara-vs-abhyanga",
+  "category": "therapies",
+  "tags": ["shirodhara", "abhyanga"],
+  "title_tag": "Shirodhara vs Abhyanga: Which to Book First?",
+  "meta_description": "Both are warm-oil therapies; one is a massage, one is a stream over the forehead. Which to book first in Calgary, how they combine, and what each costs.",
+  "h1": "Shirodhara vs Abhyanga: Which Should You Book First?",
+  "excerpt": "Both are warm-oil therapies; one is a massage, one is a stream over the forehead. Which to book first, and how they combine.",
+  "primary_keyword": "shirodhara vs abhyanga",
+  "secondary_keywords": ["difference between shirodhara and abhyanga"],
+  "body_md": "## Two therapies, one tradition\n\n…1,000–1,800 words of Markdown. H2/H3 only, no H1. No FAQ or Sources sections here; they go in the fields below.…",
+  "faqs": [
+    { "q": "Can I have both in one visit?", "a": "Yes. Abhyanga followed by Shirodhara is 105 minutes for $230." },
+    { "q": "Which is better for sleep?", "a": "Clients commonly choose Shirodhara for sleep; the evidence is small studies, not trials." },
+    { "q": "Is either covered by insurance?", "a": "Abhyanga is massage therapy by our RMT and is receipted; Shirodhara is not." }
+  ],
+  "sources": [
+    { "title": "Prices and packages", "url": "https://ayurvedachalam.com/pricing/", "publisher": "Ayurvedachalam", "accessed": "2026-11-02" }
+  ],
+  "internal_links": ["/therapies/shirodhara/", "/therapies/abhyanga/", "/book/"],
+  "hero_image": { "brief": "Copper Shirodhara vessel above a treatment table, warm light, no face visible", "alt": "" },
+  "author": "practitioner",
+  "needs_human": false,
+  "linter_allow": []
+}
