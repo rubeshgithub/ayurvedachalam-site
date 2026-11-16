@@ -14,13 +14,25 @@
     "placeholder": true
   },
   "hours": [
-    { "day": "Monday–Friday", "open": "9 a.m.", "close": "6 p.m." },
-    { "day": "Saturday", "open": "10 a.m.", "close": "4 p.m." },
-    { "day": "Sunday", "open": "Closed", "close": "" }
+    {
+      "day": "Monday–Friday",
+      "open": "9 a.m.",
+      "close": "6 p.m."
+    },
+    {
+      "day": "Saturday",
+      "open": "10 a.m.",
+      "close": "4 p.m."
+    },
+    {
+      "day": "Sunday",
+      "open": "Closed",
+      "close": ""
+    }
   ],
   "booking_url": "https://example.janeapp.com",
   "booking_embed_url": "",
-  "publish_mode": "review",
+  "publish_mode": "timed",
   "hold_hours": 24,
   "notices": {
     "complementary": "Ayurveda and spiritual healing are complementary practices. They do not replace medical diagnosis or treatment. Please see your physician for any health concern, and tell them about any herbs or therapies you use.",

@@ -1,7 +1,5 @@
 name: CI
-on:
-  push: { branches: [main], paths-ignore: ["content-relay/**"] }
-  pull_request: {}
+on: { push: { branches: [main] }, pull_request: {} }
 jobs:
   build:
     runs-on: ubuntu-latest
