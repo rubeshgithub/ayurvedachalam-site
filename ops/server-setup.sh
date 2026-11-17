@@ -130,7 +130,7 @@ Group=$APP_USER
 [Install]
 WantedBy=multi-user.target
 EOF
-systemctl daemon-reload && systemctl enable --now ayurvedachalam && sleep 3 && systemctl --no-pager --lines=0 status ayurvedachalam | head -3
+systemctl daemon-reload && systemctl enable ayurvedachalam >/dev/null 2>&1; systemctl restart ayurvedachalam && sleep 3 && systemctl --no-pager --lines=0 status ayurvedachalam | head -3
 
 a2enmod -q proxy proxy_http headers rewrite ssl >/dev/null
 CERT_DIR="/etc/ssl/$DOMAIN"; mkdir -p "$CERT_DIR"
@@ -168,11 +168,10 @@ else
   echo "      then: sudo a2ensite $DOMAIN.conf && sudo apache2ctl configtest && sudo systemctl reload apache2"
 fi
 
-( crontab -u "$APP_USER" -l 2>/dev/null | grep -v 'ayurvedachalam' ; cat <<EOF
-*/15 * * * * . $ENV; curl -fsS -H "Authorization: Bearer \$CRON_SECRET" http://127.0.0.1:$PORT/api/cron/publish > /dev/null   # ayurvedachalam publish
-15 3 * * *   . $ENV; MEDIA_DIR=$MEDIA_DIR BACKUP_DIR=$BACKUP_DIR $APP_DIR/ops/backup.sh >> /var/log/ayurvedachalam-backup.log 2>&1   # ayurvedachalam backup
-EOF
-) | crontab -u "$APP_USER" -
+EXISTING_CRON="$(crontab -u "$APP_USER" -l 2>/dev/null | grep -v 'ayurvedachalam' || true)"
+printf '%s\n' "$EXISTING_CRON" "*/15 * * * * . $ENV; curl -fsS -H \"Authorization: Bearer \$CRON_SECRET\" http://127.0.0.1:$PORT/api/cron/publish > /dev/null   # ayurvedachalam publish" \
+  "15 3 * * *   . $ENV; MEDIA_DIR=$MEDIA_DIR BACKUP_DIR=$BACKUP_DIR MONGO_CONTAINER=$MONGO_CONTAINER $APP_DIR/ops/backup.sh >> /var/log/ayurvedachalam-backup.log 2>&1   # ayurvedachalam backup" \
+  | sed '/^$/d' | crontab -u "$APP_USER" -
 touch /var/log/ayurvedachalam-backup.log && chown "$APP_USER" /var/log/ayurvedachalam-backup.log
 # deploy.sh needs to restart the service without a password
 echo "$APP_USER ALL=(root) NOPASSWD: /bin/systemctl restart ayurvedachalam, /bin/systemctl status ayurvedachalam" > /etc/sudoers.d/ayurvedachalam && chmod 440 /etc/sudoers.d/ayurvedachalam
