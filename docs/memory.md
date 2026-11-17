@@ -17,7 +17,7 @@
 | As of | 2026-10-14 |
 | Phase | **F — Foundations** (nothing built yet) |
 | Launch date | Not set. The article schedule (weeks 1–8) counts from it |
-| Site status | ayurvedachalam.com exists; current content not yet reviewed (it blocked automated reading) |
+| Site status | ayurvedachalam.ca exists; current content not yet reviewed (it blocked automated reading) |
 | Pages live from this plan | 0 of 100 |
 | Articles published | 0 |
 | Article pipeline | Not built. `publish_mode` will start as `review` |
@@ -34,7 +34,7 @@
 
 ## 2. Fixed facts (as stated by the owner)
 
-- Brand: **Ayurvedachalam**. Domain: **ayurvedachalam.com**. Base: Calgary, Alberta.
+- Brand: **Ayurvedachalam**. Domain: **ayurvedachalam.ca**. Base: Calgary, Alberta.
 - Practitioner: Maheswari Vedhachalam. BAMS from Dr. M.G.R. Medical University, Chennai, 2012; 5½ years of study plus a 1½-year internship at the Government General Hospital, Chennai; over 14 years of practice in India, Qatar and Canada; registered with AYUSH (India); member, Indian Medical Association; WES Canada evaluated. Also: Registered Massage Therapist; Certified Spiritual Healer
   of the Association of Spiritual Healers of Alberta (ASHA); Certified Herbalist (Alberta).
 - Already practising in Canada: virtual sessions, in-person Ayurveda consultations,
@@ -74,6 +74,7 @@
 | D-15 | 2026-10-14 | Hosting on the owner's OVH server, as for docu10 | Accepted | Owner decision |
 | D-16 | 2026-10-14 | Prices on the site are placeholders until a pricing study is done (F-16) | Accepted | Owner: "we need to do market research" |
 | D-17 | 2026-10-14 | Pages are written for the physical clinic as planned, with a placeholder address until it opens; launch waits for the real address | Accepted | Owner decision |
+| D-23 | 2026-11-16 | Domain is **ayurvedachalam.ca** (GoDaddy, DNS on Cloudflare), not .com; all defaults and docs switched. If .com is also owned it redirects to .ca | Accepted | Owner |
 | D-22 | 2026-11-16 | Reversed D-21 the same day: the relay is a separate private repo again, so the writing task's token cannot reach the site code. Publish mode defaults to `timed` (24-hour hold, no manual step); queue rows marked `review` still need a human (R8.8) | Accepted | Owner: safety over convenience; "no need for manual intervention to publish" |
 | D-21 | 2026-11-16 | The content relay lives in the site repo as `content-relay/` with its own Action, not in a separate repo. Trade-off: the task's token can reach the code; mitigated by the prompt rule, CI on every push and owner review | Accepted | Owner: "push it directly to rubeshgithub/ayurvedachalam-site" |
 | D-20 | 2026-10-17 | Wordmark B (Ayurveda 600 Neem + chalam light italic Copper), mark 1 as favicon/app icon, mark 4 as social avatar | Accepted | Owner choice from the wordmark canvas |
@@ -116,7 +117,7 @@
 | Q-10 | Tagline choice | Header, home |
 | Q-11 | Existing logo to keep, or new wordmark? | Header, favicon |
 | Q-12 | Photo shoot: when, and is a portrait on the home page acceptable? | F-07 |
-| Q-13 | What is on ayurvedachalam.com today, and does any of it need to be kept or redirected? | F-13 |
+| Q-13 | What is on ayurvedachalam.ca today, and does any of it need to be kept or redirected? | F-13 |
 | Q-14 | Target launch date | Schedule |
 | Q-15 | Who reviews articles during the hold: the practitioner, RK, or both? | O-01 |
 | Q-16 | What is "cleansing of stomach wash" in the Panchakarma offer: a home routine, or a clinic procedure that induces vomiting or purging? The second cannot be offered | W1-24 |

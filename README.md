@@ -1,6 +1,6 @@
 # ayurvedachalam-site
 
-The website for Ayurvedachalam (ayurvedachalam.com): Next.js 16 (App Router), TypeScript,
+The website for Ayurvedachalam (ayurvedachalam.ca): Next.js 16 (App Router), TypeScript,
 Tailwind 4, MongoDB, custom CMS. The six project documents live in `docs/` and are the
 source of truth; read `docs/memory.md` first.
 
@@ -42,18 +42,32 @@ Production shows only `published` records. To preview drafts on a server, set `P
 | `content/learn/` | Article drafts in Markdown with front matter |
 | `scripts/` | `seed-pages.ts`, `lint-content.ts` |
 
-## Deploy (OVH, same pattern as docu10)
+## Deploy (OVH, shared server, nginx in front, Cloudflare DNS)
 
-1. Node 22 and MongoDB on the server; create the database and a user.
-2. `git clone`, `npm ci`, write `.env.local` from `.env.example` with real secrets (never commit it).
-3. `npm run seed` once (upserts the page map; never overwrites non-draft pages), then create the first CMS user: `npx tsx scripts/create-user.ts owner@example.com "Name" owner` (prints the TOTP secret once), then `npm run build && npm start` under pm2 or systemd behind nginx with TLS.
-4. System cron every 15 minutes: `curl -fsS -H "Authorization: Bearer $CRON_SECRET" https://ayurvedachalam.com/api/cron/publish`.
-5. Deploy on push to `main`: the CI above must be green; the server pulls, `npm ci`, `npm run build`, restarts.
-6. Staging: same app with `STAGING=1` (robots disallow all) and `PREVIEW_DRAFTS=1`, behind basic auth in nginx.
+**Once**, as a sudo user on the server:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/rubeshgithub/ayurvedachalam-site/main/ops/server-setup.sh -o server-setup.sh
+sudo PORT=3010 bash server-setup.sh
+```
+
+It installs Node 22 and MongoDB if missing, creates the `ayur` user, clones to `/srv/ayurvedachalam-site`,
+writes `.env.local` with generated secrets, builds, installs the systemd service, the nginx vhost for
+`ayurvedachalam.ca`, the publish and backup cron lines, and a deploy key restricted to `ops/deploy.sh`.
+At the end it prints the GitHub secrets to copy (once). Then add the Cloudflare Origin Certificate to
+`/etc/ssl/ayurvedachalam.ca/` and `nginx -t && systemctl reload nginx`, and create the first CMS user.
+
+**Every push to `main`**: the `CI` workflow runs; if green, the `Deploy` workflow SSHes in with the deploy
+key and the server runs `ops/deploy.sh` (pull, install, seed, build, restart, health check). Secrets on the
+site repo: `DEPLOY_SSH_HOST`, `DEPLOY_SSH_USER`, `DEPLOY_SSH_KEY`.
+
+The site starts **private**: `STAGING=1` (robots disallow) and `STAGING_PASSWORD` (basic auth) in
+`.env.local`. When the real address is in and the owner says go, remove those two lines and
+`PREVIEW_DRAFTS=1`, restart, and the site is public.
 
 ## Server files
 
-`ops/` holds the systemd unit, the crontab lines (publish cron every 15 minutes, nightly backup), `backup.sh` (mongodump + media, 30-day rotation) and `deploy.sh`. Uploaded media lives in `MEDIA_DIR` (default `data/media`, git-ignored); set `STAGING_PASSWORD` on staging to gate the whole site behind basic auth; set `SMTP_URL` and `CONTACT_TO` for owner notifications.
+`ops/` holds `server-setup.sh` (one-time), `deploy.sh` (every push), and `backup.sh` (mongodump + media, 30-day rotation; cron is installed by setup). Uploaded media lives in `MEDIA_DIR` (default `data/media`, git-ignored); set `STAGING_PASSWORD` on staging to gate the whole site behind basic auth; set `SMTP_URL` and `CONTACT_TO` for owner notifications.
 
 ## Not built yet
 

@@ -35,8 +35,8 @@
 | F-16 | Pricing study: compile competitor prices (Calgary and online Canada) and propose a final price list for each service | Content | [x] 2026-10-14 | Owner asked for market research before setting prices. Starting point: the benchmarks in the market report |
 | F-10 | Google Business Profile: create or claim under the final NAP; categories, services, photos | RK | [ ] | Biggest single lever for "near me" searches |
 | F-11 | Listings clean-up: find who controls the Alignable listings in the Ayurvedachalam name; claim, correct or request removal | RK | [ ] | Q-07. They currently carry O2's description |
-| F-12 | Set up Google Search Console and GA4 for ayurvedachalam.com | Dev | [ ] | Verify by DNS |
-| F-13 | Check what is currently on ayurvedachalam.com; export anything worth keeping; plan redirects | RK, Dev | [ ] | The domain blocked automated reading during research |
+| F-12 | Set up Google Search Console and GA4 for ayurvedachalam.ca | Dev | [ ] | Verify by DNS |
+| F-13 | Check what is currently on ayurvedachalam.ca; export anything worth keeping; plan redirects | RK, Dev | [ ] | The domain blocked automated reading during research |
 | F-14 | Keyword volumes: check each primary keyword in Google Keyword Planner (Canada and Calgary) and adjust Wave 2/3 order | RK or Content | [ ] | The page map's demand ratings are estimates |
 | F-15 | Decide tagline and whether an existing logo is kept | RK | [~] | Wordmark decided 2026-10-17 (D-20); tagline (Q-10) still open |
 
@@ -256,7 +256,7 @@ Paste as the task's instruction. It assumes the Claude project holds the runbook
 GitHub token note.
 
 ```
-Article run for ayurvedachalam.com. One article per run.
+Article run for ayurvedachalam.ca. One article per run.
 
 Read first, in this order, from this project's docs:
 1. runbook/rules.md      — wording, legal and article rules. R1, R2, R3, R4 and R8 are binding.
@@ -287,9 +287,9 @@ Do exactly this:
 7. On success: set the row's Status to "Delivered <date>" in queue.md, commit, push.
    Report: title, slug, status returned by the relay, and what the practitioner should
    look at during the hold. Remind the owner the article can be edited or rejected at
-   https://ayurvedachalam.com/cms before it goes live.
+   https://ayurvedachalam.ca/cms before it goes live.
 8. On failure: save the article and payload as files, send them to the owner, explain what
-   failed, stop. Never call ayurvedachalam.com directly. Never touch the site repo.
+   failed, stop. Never call ayurvedachalam.ca directly. Never touch the site repo.
 ```
 
 ---

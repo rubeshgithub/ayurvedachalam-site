@@ -18,7 +18,7 @@
     { "q": "Is either covered by insurance?", "a": "Abhyanga is massage therapy by our RMT and is receipted; Shirodhara is not." }
   ],
   "sources": [
-    { "title": "Prices and packages", "url": "https://ayurvedachalam.com/pricing/", "publisher": "Ayurvedachalam", "accessed": "2026-11-02" }
+    { "title": "Prices and packages", "url": "https://ayurvedachalam.ca/pricing/", "publisher": "Ayurvedachalam", "accessed": "2026-11-02" }
   ],
   "internal_links": ["/therapies/shirodhara/", "/therapies/abhyanga/", "/book/"],
   "hero_image": { "brief": "Copper Shirodhara vessel above a treatment table, warm light, no face visible", "alt": "" },

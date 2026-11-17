@@ -8,7 +8,7 @@ import nodemailer from "nodemailer";
  */
 export async function notifyOwner(subject: string, text: string, html?: string): Promise<void> {
   const to = process.env.CONTACT_TO;
-  const from = process.env.MAIL_FROM || "Ayurvedachalam <no-reply@ayurvedachalam.com>";
+  const from = process.env.MAIL_FROM || "Ayurvedachalam <no-reply@ayurvedachalam.ca>";
   const url = process.env.SMTP_URL;
   if (!url || !to) { console.log(`[notify] ${subject}\n${text}`); return; }
   try {
@@ -20,6 +20,6 @@ export async function notifyOwner(subject: string, text: string, html?: string):
 }
 
 export function previewLink(path: string): string {
-  const base = (process.env.SITE_URL || "https://ayurvedachalam.com").replace(/\/$/, "");
+  const base = (process.env.SITE_URL || "https://ayurvedachalam.ca").replace(/\/$/, "");
   return `${base}/api/cms/preview?to=${encodeURIComponent(path)}`;
 }

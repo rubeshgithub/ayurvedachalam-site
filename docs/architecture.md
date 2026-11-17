@@ -41,7 +41,7 @@ would render in the browser instead of on the server.
 
 ```
                          ┌───────────────────────────────────────────┐
-  Visitors / Googlebot ─►│  Next.js app (ayurvedachalam.com)         │
+  Visitors / Googlebot ─►│  Next.js app (ayurvedachalam.ca)         │
                          │  ├─ public pages (SSR / ISR)              │
                          │  ├─ /cms            admin UI              │
                          │  ├─ /api/cms/*      CMS API (session)     │
@@ -367,7 +367,7 @@ respected. Skip link. Form errors announced.
 | --- | --- | --- |
 | Local | localhost | Seeded from `scripts/seed-pages.ts` |
 | Staging | staging subdomain, password-protected, `noindex` | The relay can target staging for dry runs |
-| Production | ayurvedachalam.com | Deploys from `main` |
+| Production | ayurvedachalam.ca | Deploys from `main` |
 
 Environment variables (`.env.example` in the repo):
 

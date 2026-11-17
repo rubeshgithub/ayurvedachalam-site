@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import type { Article, Author, Faq, Page, Settings } from "@/lib/types";
 
-export const SITE_URL = (process.env.SITE_URL || "https://ayurvedachalam.com").replace(/\/$/, "");
+export const SITE_URL = (process.env.SITE_URL || "https://ayurvedachalam.ca").replace(/\/$/, "");
 export const abs = (path: string) => `${SITE_URL}${path}`;
 
 /** architecture.md §9 — every page: title, description, canonical, OG/Twitter. */

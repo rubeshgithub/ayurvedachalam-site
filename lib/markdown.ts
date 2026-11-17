@@ -19,7 +19,7 @@ export function renderMarkdown(md: string): string {
     transformTags: {
       a: (tagName, attribs) => {
         const href = attribs.href || "";
-        const external = /^https?:\/\//i.test(href) && !href.includes("ayurvedachalam.com");
+        const external = /^https?:\/\//i.test(href) && !href.includes("ayurvedachalam.ca");
         return { tagName, attribs: external ? { ...attribs, rel: "noopener", target: "_blank" } : attribs };
       },
       img: (tagName, attribs) => ({ tagName, attribs: { ...attribs, loading: "lazy" } }),

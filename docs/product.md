@@ -5,7 +5,7 @@
 
 ## 1. Summary
 
-Ayurvedachalam (ayurvedachalam.com) is the website for a Calgary Ayurveda practice that offers
+Ayurvedachalam (ayurvedachalam.ca) is the website for a Calgary Ayurveda practice that offers
 three things: Ayurvedic consultations (in person in Calgary and online across Canada),
 hands-on Ayurvedic therapies in Calgary, and spiritual healing (in person and at a distance).
 
@@ -23,7 +23,7 @@ three new articles a week delivered by an automated pipeline (see `architecture.
 | Item | Value |
 | --- | --- |
 | Brand | Ayurvedachalam |
-| Domain | ayurvedachalam.com |
+| Domain | ayurvedachalam.ca (DNS on Cloudflare; .com, if owned, redirects here) |
 | Base | Calgary, Alberta |
 | Practitioner | **Maheswari Vedhachalam**, Ayurveda Practitioner |
 | Degree (as stated by owner) | Bachelor of Ayurveda Medicine and Surgery (BAMS), Dr. M.G.R. Medical University, Chennai, Tamil Nadu, India; 5½ years of study plus a 1½-year internship at the Government General Hospital, Chennai; qualified 2012. Over 14 years of Ayurvedic practice in India, Qatar and Canada. Registered with AYUSH (India); member, Indian Medical Association. Evaluated by WES Canada. |
