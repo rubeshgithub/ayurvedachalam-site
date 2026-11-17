@@ -1,14 +1,15 @@
 #!/usr/bin/env bash
-# One-time server setup for ayurvedachalam.ca on a shared OVH box (Ubuntu/Debian, nginx front door).
+# One-time server setup for ayurvedachalam.ca on the shared OVH box: Ubuntu 26.04, Apache in front,
+# Docker present. MongoDB runs in its own container (ayur-mongo) on 127.0.0.1:27018 with a named volume.
 # Run once as a sudo-capable user:   sudo bash server-setup.sh
 # Idempotent: safe to re-run. Nothing here prints or stores a secret you did not create yourself.
 #
 # What it does
-#  1. Node 22 (NodeSource) if missing; MongoDB 7 if missing (local, bound to 127.0.0.1)
+#  1. Node 22+ (NodeSource) if missing; MongoDB 7 as a Docker container bound to 127.0.0.1:27018
 #  2. System user `ayur`, app at /srv/ayurvedachalam-site, media at /srv/ayurvedachalam-media, backups at /srv/backups/ayurvedachalam
 #  3. Mongo database + user with a generated password, written only to .env.local (chmod 600)
 #  4. .env.local with generated SESSION_SECRET, INGEST_KEY, CRON_SECRET (printed ONCE for you to copy into GitHub secrets)
-#  5. Clone, install, seed, build; systemd service on PORT (default 3010); nginx vhost for the domain; cron for publish + backup
+#  5. Clone, install, seed, build; systemd service on PORT (default 3010); Apache vhost for the domain; cron for publish + backup
 #  6. A dedicated deploy key for GitHub Actions (private key printed ONCE; add as repo secret DEPLOY_SSH_KEY)
 set -euo pipefail
 
@@ -20,30 +21,31 @@ BACKUP_DIR="${BACKUP_DIR:-/srv/backups/ayurvedachalam}"
 APP_USER="${APP_USER:-ayur}"
 PORT="${PORT:-3010}"
 DB_NAME="${DB_NAME:-ayurvedachalam}"
+MONGO_PORT="${MONGO_PORT:-27018}"
+MONGO_CONTAINER="${MONGO_CONTAINER:-ayur-mongo}"
 
 say() { printf '\n\033[1;32m==> %s\033[0m\n' "$*"; }
 need_root() { [ "$(id -u)" -eq 0 ] || { echo "run with sudo"; exit 1; }; }
 need_root
 
-say "1/6 Runtime: Node 22 and MongoDB"
+say "1/6 Runtime: Node and MongoDB (Docker)"
 if ! command -v node >/dev/null || [ "$(node -v | cut -c2-3)" -lt 22 ]; then
   curl -fsSL https://deb.nodesource.com/setup_22.x | bash -
   apt-get install -y nodejs
 fi
 node -v
-if ! command -v mongod >/dev/null; then
-  . /etc/os-release
-  curl -fsSL https://www.mongodb.org/static/pgp/server-7.0.asc | gpg --dearmor -o /usr/share/keyrings/mongodb-server-7.0.gpg
-  if [ "$ID" = "ubuntu" ]; then
-    echo "deb [signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg] https://repo.mongodb.org/apt/ubuntu ${VERSION_CODENAME}/mongodb-org/7.0 multiverse" > /etc/apt/sources.list.d/mongodb-org-7.0.list
-  else
-    echo "deb [signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg] https://repo.mongodb.org/apt/debian ${VERSION_CODENAME}/mongodb-org/7.0 main" > /etc/apt/sources.list.d/mongodb-org-7.0.list
-  fi
-  apt-get update && apt-get install -y mongodb-org
-  systemctl enable --now mongod
+command -v docker >/dev/null || { echo "docker is required (the other apps on this box use it)"; exit 1; }
+if ! docker ps -a --format '{{.Names}}' | grep -qx "$MONGO_CONTAINER"; then
+  docker volume create ayur-mongo-data >/dev/null
+  docker run -d --name "$MONGO_CONTAINER" --restart unless-stopped \
+    -p 127.0.0.1:$MONGO_PORT:27017 -v ayur-mongo-data:/data/db \
+    mongo:7.0 --bind_ip_all --auth >/dev/null
+  echo "started $MONGO_CONTAINER on 127.0.0.1:$MONGO_PORT"
+else
+  docker start "$MONGO_CONTAINER" >/dev/null 2>&1 || true
 fi
-mongod --version | head -1
-apt-get install -y nginx git curl >/dev/null
+for i in $(seq 1 30); do docker exec "$MONGO_CONTAINER" mongosh --quiet --eval 'db.runCommand({ping:1}).ok' >/dev/null 2>&1 && break; sleep 1; done
+apt-get install -y git curl >/dev/null
 
 say "2/6 User and folders"
 id -u "$APP_USER" >/dev/null 2>&1 || useradd --system --create-home --shell /bin/bash "$APP_USER"
@@ -52,16 +54,11 @@ chown -R "$APP_USER:$APP_USER" "$APP_DIR" "$MEDIA_DIR" "$BACKUP_DIR"
 
 say "3/6 Database user"
 DB_PASS="$(openssl rand -hex 24)"
-mongosh --quiet --eval "
-  const db = db.getSiblingDB('$DB_NAME');
+# With --auth and no users yet, Mongo's localhost exception lets the first createUser through from inside the container.
+docker exec "$MONGO_CONTAINER" mongosh --quiet "$DB_NAME" --eval "
   if (!db.getUser('$APP_USER')) { db.createUser({ user: '$APP_USER', pwd: '$DB_PASS', roles: [{ role: 'readWrite', db: '$DB_NAME' }] }); print('db user created'); }
   else { db.updateUser('$APP_USER', { pwd: '$DB_PASS' }); print('db user password rotated'); }
-"
-# Enable auth once a user exists (bind stays 127.0.0.1)
-if ! grep -q "authorization: enabled" /etc/mongod.conf; then
-  printf '\nsecurity:\n  authorization: enabled\n' >> /etc/mongod.conf
-  systemctl restart mongod
-fi
+" 2>/dev/null || { echo "could not create/rotate the db user (is the container healthy? docker logs $MONGO_CONTAINER)"; exit 1; }
 
 say "4/6 Code and environment"
 if [ ! -d "$APP_DIR/.git" ]; then
@@ -73,7 +70,7 @@ ENV="$APP_DIR/.env.local"
 if [ ! -f "$ENV" ]; then
   SESSION_SECRET="$(openssl rand -hex 32)"; INGEST_KEY="$(openssl rand -hex 24)"; CRON_SECRET="$(openssl rand -hex 24)"
   cat > "$ENV" <<EOF
-MONGODB_URI=mongodb://$APP_USER:$DB_PASS@127.0.0.1:27017/$DB_NAME?authSource=$DB_NAME
+MONGODB_URI=mongodb://$APP_USER:$DB_PASS@127.0.0.1:$MONGO_PORT/$DB_NAME?authSource=$DB_NAME
 SITE_URL=https://$DOMAIN
 PORT=$PORT
 SESSION_SECRET=$SESSION_SECRET
@@ -81,6 +78,7 @@ INGEST_KEY=$INGEST_KEY
 CRON_SECRET=$CRON_SECRET
 MEDIA_DIR=$MEDIA_DIR
 BACKUP_DIR=$BACKUP_DIR
+MONGO_CONTAINER=$MONGO_CONTAINER
 BOOKING_URL=https://example.janeapp.com
 BOOKING_EMBED_URL=
 GA4_ID=
@@ -96,12 +94,12 @@ EOF
   chown "$APP_USER:$APP_USER" "$ENV"; chmod 600 "$ENV"
   echo "wrote $ENV"
 else
-  sed -i "s#^MONGODB_URI=.*#MONGODB_URI=mongodb://$APP_USER:$DB_PASS@127.0.0.1:27017/$DB_NAME?authSource=$DB_NAME#" "$ENV"
+  sed -i "s#^MONGODB_URI=.*#MONGODB_URI=mongodb://$APP_USER:$DB_PASS@127.0.0.1:$MONGO_PORT/$DB_NAME?authSource=$DB_NAME#" "$ENV"
   echo "kept existing $ENV (database password updated)"
 fi
 sudo -u "$APP_USER" bash -c "cd '$APP_DIR' && npm ci --no-audit --no-fund && set -a && . ./.env.local && set +a && npm run seed && npm run build"
 
-say "5/6 systemd, nginx, cron"
+say "5/6 systemd, Apache, cron"
 cat > /etc/systemd/system/ayurvedachalam.service <<EOF
 [Unit]
 Description=Ayurvedachalam site (Next.js)
@@ -119,38 +117,40 @@ WantedBy=multi-user.target
 EOF
 systemctl daemon-reload && systemctl enable --now ayurvedachalam && sleep 3 && systemctl --no-pager --lines=0 status ayurvedachalam | head -3
 
-cat > /etc/nginx/sites-available/$DOMAIN <<EOF
-# Cloudflare sits in front (proxied). SSL mode on Cloudflare: "Full (strict)" with an Origin Certificate
-# placed at the two paths below, or run certbot for Let's Encrypt and point these at its files.
-server {
-  listen 80; listen [::]:80;
-  server_name $DOMAIN www.$DOMAIN;
-  return 301 https://$DOMAIN\$request_uri;
-}
-server {
-  listen 443 ssl http2; listen [::]:443 ssl http2;
-  server_name $DOMAIN www.$DOMAIN;
-  ssl_certificate     /etc/ssl/$DOMAIN/origin.pem;
-  ssl_certificate_key /etc/ssl/$DOMAIN/origin.key;
-  if (\$host = www.$DOMAIN) { return 301 https://$DOMAIN\$request_uri; }
-  client_max_body_size 15m;
-  location / {
-    proxy_pass http://127.0.0.1:$PORT;
-    proxy_http_version 1.1;
-    proxy_set_header Host \$host;
-    proxy_set_header X-Forwarded-For \$proxy_add_x_forwarded_for;
-    proxy_set_header X-Forwarded-Proto https;
-    proxy_set_header CF-Connecting-IP \$http_cf_connecting_ip;
-    proxy_read_timeout 60s;
-  }
-}
+a2enmod -q proxy proxy_http headers rewrite ssl >/dev/null
+CERT_DIR="/etc/ssl/$DOMAIN"; mkdir -p "$CERT_DIR"
+cat > /etc/apache2/sites-available/$DOMAIN.conf <<EOF
+# Cloudflare proxies this host. Cloudflare SSL mode "Full (strict)" + an Origin Certificate at the paths below
+# (Cloudflare → SSL/TLS → Origin Server → Create Certificate). Or: certbot --apache -d $DOMAIN -d www.$DOMAIN
+<VirtualHost *:80>
+  ServerName $DOMAIN
+  ServerAlias www.$DOMAIN
+  RewriteEngine On
+  RewriteRule ^ https://$DOMAIN%{REQUEST_URI} [R=301,L]
+</VirtualHost>
+<VirtualHost *:443>
+  ServerName $DOMAIN
+  ServerAlias www.$DOMAIN
+  SSLEngine on
+  SSLCertificateFile    $CERT_DIR/origin.pem
+  SSLCertificateKeyFile $CERT_DIR/origin.key
+  RewriteEngine On
+  RewriteCond %{HTTP_HOST} ^www\. [NC]
+  RewriteRule ^ https://$DOMAIN%{REQUEST_URI} [R=301,L]
+  ProxyPreserveHost On
+  RequestHeader set X-Forwarded-Proto "https"
+  ProxyPass        / http://127.0.0.1:$PORT/
+  ProxyPassReverse / http://127.0.0.1:$PORT/
+  LimitRequestBody 15728640
+  ErrorLog \${APACHE_LOG_DIR}/$DOMAIN-error.log
+  CustomLog \${APACHE_LOG_DIR}/$DOMAIN-access.log combined
+</VirtualHost>
 EOF
-ln -sf /etc/nginx/sites-available/$DOMAIN /etc/nginx/sites-enabled/$DOMAIN
-mkdir -p /etc/ssl/$DOMAIN
-if [ ! -f /etc/ssl/$DOMAIN/origin.pem ]; then
-  echo "NOTE: no origin certificate yet at /etc/ssl/$DOMAIN/origin.pem — nginx will not reload until you add it (Cloudflare → SSL/TLS → Origin Server → Create Certificate; paste cert to origin.pem, key to origin.key, chmod 600 origin.key), then: nginx -t && systemctl reload nginx"
+if [ -f "$CERT_DIR/origin.pem" ]; then
+  a2ensite -q $DOMAIN.conf && apache2ctl configtest && systemctl reload apache2
 else
-  nginx -t && systemctl reload nginx
+  echo "NOTE: add the Cloudflare Origin Certificate to $CERT_DIR/origin.pem and origin.key (chmod 600 origin.key),"
+  echo "      then: sudo a2ensite $DOMAIN.conf && sudo apache2ctl configtest && sudo systemctl reload apache2"
 fi
 
 ( crontab -u "$APP_USER" -l 2>/dev/null | grep -v 'ayurvedachalam' ; cat <<EOF

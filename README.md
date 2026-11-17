@@ -42,7 +42,7 @@ Production shows only `published` records. To preview drafts on a server, set `P
 | `content/learn/` | Article drafts in Markdown with front matter |
 | `scripts/` | `seed-pages.ts`, `lint-content.ts` |
 
-## Deploy (OVH, shared server, nginx in front, Cloudflare DNS)
+## Deploy (OVH shared server: Ubuntu 26.04, Apache in front, Docker, Cloudflare DNS)
 
 **Once**, as a sudo user on the server:
 
@@ -51,11 +51,11 @@ curl -fsSL https://raw.githubusercontent.com/rubeshgithub/ayurvedachalam-site/ma
 sudo PORT=3010 bash server-setup.sh
 ```
 
-It installs Node 22 and MongoDB if missing, creates the `ayur` user, clones to `/srv/ayurvedachalam-site`,
-writes `.env.local` with generated secrets, builds, installs the systemd service, the nginx vhost for
-`ayurvedachalam.ca`, the publish and backup cron lines, and a deploy key restricted to `ops/deploy.sh`.
+It starts MongoDB 7 in its own Docker container (`ayur-mongo`, 127.0.0.1:27018, named volume), creates the `ayur` user, clones to `/srv/ayurvedachalam-site`,
+writes `.env.local` with generated secrets, builds, installs the systemd service, the Apache vhost for
+`ayurvedachalam.ca` (mod_proxy to port 3010), the publish and backup cron lines, and a deploy key restricted to `ops/deploy.sh`.
 At the end it prints the GitHub secrets to copy (once). Then add the Cloudflare Origin Certificate to
-`/etc/ssl/ayurvedachalam.ca/` and `nginx -t && systemctl reload nginx`, and create the first CMS user.
+`/etc/ssl/ayurvedachalam.ca/`, enable the site (`a2ensite`, `apache2ctl configtest`, reload Apache), and create the first CMS user.
 
 **Every push to `main`**: the `CI` workflow runs; if green, the `Deploy` workflow SSHes in with the deploy
 key and the server runs `ops/deploy.sh` (pull, install, seed, build, restart, health check). Secrets on the
