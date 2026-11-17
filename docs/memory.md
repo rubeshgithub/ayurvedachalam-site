@@ -217,6 +217,7 @@ Healwell publish no prices.
 | 2026-10-13 | Six project docs and `design-preview.html` created; release plan changed to D-10 | Claude |
 | 2026-10-14 | Pricing study delivered (F-16); proposed list awaits owner approval | Claude |
 | 2026-10-15 | Owner approved the price list (D-18); `product.md` §5 updated; cornerstone article W1-32 drafted | RK, Claude |
+| 2026-11-16 | Deployment prepared: `ops/server-setup.sh` (one-time, run by the owner over PuTTY; generates secrets and a command-restricted deploy key), `ops/deploy.sh`, `Deploy` workflow chained after CI over SSH. Site starts private (STAGING + basic auth). Domain switched to .ca (D-23). Owner's PPK key is never shared with Claude | Claude |
 | 2026-11-16 | Relay moved back out of the site repo (D-22); local copy ready to push to `rubeshgithub/ayurvedachalam-content-relay` once it exists | Claude |
 | 2026-11-16 | Relay rebuilt inside the site repo (`content-relay/`, `relay.yml`); the earlier local copy was lost with the session container | Claude |
 | 2026-10-22 | Content relay built locally at `ayurvedachalam-content-relay/` (queue.md with the 24 seeded rows, runbook, delivery Action, example payload); ingest schema shared as `lib/ingest-schema.ts` with a fixture test. Needs the GitHub repo created to push | Claude |
