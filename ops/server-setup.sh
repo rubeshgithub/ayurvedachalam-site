@@ -97,7 +97,7 @@ BOOKING_EMBED_URL=
 GA4_ID=
 INDEXNOW_KEY=
 SMTP_URL=
-MAIL_FROM=Ayurvedachalam <no-reply@$DOMAIN>
+MAIL_FROM="Ayurvedachalam <no-reply@$DOMAIN>"
 CONTACT_TO=
 # Until the real address exists the site stays private: basic-auth gate + robots disallow (rules.md R3.8)
 STAGING=1
@@ -108,6 +108,8 @@ EOF
   echo "wrote $ENV"
 else
   sed -i "s#^MONGODB_URI=.*#MONGODB_URI=mongodb://$APP_USER:$DB_PASS@127.0.0.1:$MONGO_PORT/$DB_NAME?authSource=$DB_NAME#" "$ENV"
+  # repair an unquoted MAIL_FROM written by an earlier version (breaks `. .env.local`)
+  sed -i -E 's#^MAIL_FROM=([^"].*<.*>)$#MAIL_FROM="\1"#' "$ENV"
   echo "kept existing $ENV (database password updated)"
 fi
 sudo -u "$APP_USER" bash -c "cd '$APP_DIR' && npm ci --no-audit --no-fund && set -a && . ./.env.local && set +a && npm run seed && npm run build"
