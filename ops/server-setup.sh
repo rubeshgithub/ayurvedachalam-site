@@ -35,16 +35,30 @@ if ! command -v node >/dev/null || [ "$(node -v | cut -c2-3)" -lt 22 ]; then
 fi
 node -v
 command -v docker >/dev/null || { echo "docker is required (the other apps on this box use it)"; exit 1; }
+ROOT_FILE="/root/.ayur-mongo-root"   # Mongo root password; root only, never in .env.local
+if [ ! -f "$ROOT_FILE" ]; then
+  # First run (or the earlier attempt without a root user): start clean. The volume is empty at this point.
+  docker rm -f "$MONGO_CONTAINER" >/dev/null 2>&1 || true
+  docker volume rm ayur-mongo-data >/dev/null 2>&1 || true
+  openssl rand -hex 24 > "$ROOT_FILE"; chmod 600 "$ROOT_FILE"
+fi
+MONGO_ROOT_PASS="$(cat "$ROOT_FILE")"
 if ! docker ps -a --format '{{.Names}}' | grep -qx "$MONGO_CONTAINER"; then
   docker volume create ayur-mongo-data >/dev/null
   docker run -d --name "$MONGO_CONTAINER" --restart unless-stopped \
     -p 127.0.0.1:$MONGO_PORT:27017 -v ayur-mongo-data:/data/db \
-    mongo:7.0 --bind_ip_all --auth >/dev/null
+    -e MONGO_INITDB_ROOT_USERNAME=root -e MONGO_INITDB_ROOT_PASSWORD="$MONGO_ROOT_PASS" \
+    mongo:7.0 >/dev/null
   echo "started $MONGO_CONTAINER on 127.0.0.1:$MONGO_PORT"
 else
   docker start "$MONGO_CONTAINER" >/dev/null 2>&1 || true
 fi
-for i in $(seq 1 30); do docker exec "$MONGO_CONTAINER" mongosh --quiet --eval 'db.runCommand({ping:1}).ok' >/dev/null 2>&1 && break; sleep 1; done
+echo -n "waiting for mongo"
+for i in $(seq 1 60); do
+  docker exec "$MONGO_CONTAINER" mongosh --quiet -u root -p "$MONGO_ROOT_PASS" --authenticationDatabase admin --eval 'db.runCommand({ping:1}).ok' >/dev/null 2>&1 && { echo " ok"; break; }
+  echo -n "."; sleep 1
+  [ "$i" -eq 60 ] && { echo; echo "mongo did not become ready; docker logs $MONGO_CONTAINER"; exit 1; }
+done
 apt-get install -y git curl >/dev/null
 
 say "2/6 User and folders"
@@ -54,11 +68,10 @@ chown -R "$APP_USER:$APP_USER" "$APP_DIR" "$MEDIA_DIR" "$BACKUP_DIR"
 
 say "3/6 Database user"
 DB_PASS="$(openssl rand -hex 24)"
-# With --auth and no users yet, Mongo's localhost exception lets the first createUser through from inside the container.
-docker exec "$MONGO_CONTAINER" mongosh --quiet "$DB_NAME" --eval "
+docker exec "$MONGO_CONTAINER" mongosh --quiet -u root -p "$MONGO_ROOT_PASS" --authenticationDatabase admin "$DB_NAME" --eval "
   if (!db.getUser('$APP_USER')) { db.createUser({ user: '$APP_USER', pwd: '$DB_PASS', roles: [{ role: 'readWrite', db: '$DB_NAME' }] }); print('db user created'); }
   else { db.updateUser('$APP_USER', { pwd: '$DB_PASS' }); print('db user password rotated'); }
-" 2>/dev/null || { echo "could not create/rotate the db user (is the container healthy? docker logs $MONGO_CONTAINER)"; exit 1; }
+"
 
 say "4/6 Code and environment"
 if [ ! -d "$APP_DIR/.git" ]; then
